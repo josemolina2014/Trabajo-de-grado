@@ -1,0 +1,2920 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ociamthesis-lyx
+\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Capitulo IV: Caso de estudio
+\end_layout
+
+\begin_layout Standard
+Acorde al alcance definido este documento, el caso de estudio se llevó a
+ cabo únicamente en la compañía Alianza Bioversity – CIAT, donde se realizó
+ el diagnóstico del estado actual de los procesos de entrega de software
+ usando el modelo de capacidades propuesto y detallado en el capítulo anterior.
+ Con esta evaluación se buscó determinar la conveniencia de adoptar DevOps
+ como estrategia para la entrega continua de productos de software en la
+ organización.
+ 
+\end_layout
+
+\begin_layout Standard
+Durante el proceso de medición y captura de datos se contó con el apoyo
+ y disposición de los equipos de desarrollo e infraestructura de la organización
+ especialmente con los coordinadores de cada área, por lo que el acceso
+ a la información de la compañía fue ágil y oportuno.
+ 
+\end_layout
+
+\begin_layout Section
+Ejecución del caso de estudio
+\end_layout
+
+\begin_layout Subsection
+Configuración del caso de estudio y objetivos del análisis 
+\end_layout
+
+\begin_layout Standard
+La medición de capacidades DevOps en la compañía Alianza Bioversity – CIAT
+ a través del modelo propuesto, buscó ir más allá de solo medir que tan
+ evolucionados y automatizados están procesos de entrega de software, el
+ principal objetivo fue brindar una herramienta ligera que minimice la complejid
+ad conceptual al momento de medir aspectos que impulsan la entrega de software
+ en.
+ la organización, a su vez identificar y clasificar estos aspectos en puntos
+ débiles y fuertes para que sean abordados a través de un plan de recomendacione
+s por cada capacidad evaluada en forma de plan de acción.
+\end_layout
+
+\begin_layout Subsection
+Ejecución del caso de estudio 
+\end_layout
+
+\begin_layout Standard
+El proceso de medición de las capacidades DevOps en la compañía Alianza
+ Bioversity – CIAT, implementó las etapas de uso del modelo de capacidades
+ descrito en la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Proceso-de-medicion-de-capacidades"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 3 6 y la transformación de datos en unidades de análisis se realizó
+ acorde a lo detallado en la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Transformacion-de-resultados-en-unidades-de-analisis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 3 4.
+\begin_inset Newline linebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Preparación:
+\series default
+\emph default
+ Este paso se ejecutó en acuerdo y coordinación directa con los directores
+ de las áreas de integración de sistemas y redes e infraestructura, participante
+s directos en la ejecución del ciclo de vida del desarrollo de software
+ para las áreas administrativas y operativas de la organización.
+ 
+\end_layout
+
+\begin_layout Standard
+En la reunión inicial con los directores del área de integración de sistemas
+ se presentó el objetivo y alcance de la medición que se llevó a cabo y
+ se recibió el aval para la medición de capacidades DevOps en el área.
+ Al momento de definir el grupo de encuestados se involucró al área de infraestr
+uctura, ya que la compañía no cuenta con área de calidad de software.
+ El criterio de selección de los participantes en el sondeo se basó en que
+ la persona elegida debía estar directamente involucradas en el proceso
+ de desarrollo y entrega de software.
+ Al final se definió un total de 8 encuestados, 4 representantes por área,
+ que incluyó a los dos coordinadores técnicos de las áreas.
+ 
+\end_layout
+
+\begin_layout Standard
+Para este caso práctico, aprovechando la cuenta académica de la universidad
+ y propósito académico de este trabajo se eligió la herramienta Forms de
+ Office 365 para implementar la encuesta de medición de capacidades, adicionalme
+nte y con el fin de brindar un espacio libre de presión para que los encuestados
+ pudieran responder con total franqueza el cuestionario de medición de capacidad
+es DevOps, se configuró la herramienta de encuesta para que los encuestados
+ pudieran registrar sus respuestas de forma anónima.
+ La comunicación hacia el equipo de evaluación se hizo a través de un correo
+ electrónico indicándoles el propósito y alcance de la medición y la característ
+ica de anonimato a la hora de responder el cuestionario junto con el enlace
+ de acceso a la herramienta.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Ejecución:
+\series default
+\emph default
+ En este paso se configuró el cuestionario del modelo de capacidades y se
+ cargaron las preguntas con sus opciones de respuestas al formulario de
+ encuestas de office 365.
+ Con el fin de brindar una alternativa de respuesta cuando el encuestado
+ no tiene el suficiente conocimiento o experticia sobre el tema preguntado,
+ se agregaron dos opciones de respuesta (No aplica y No sabe /No responde)
+ a cada pregunta del modelo de capacidades en el formulario de encuesta.
+\end_layout
+
+\begin_layout Standard
+Para identificar el perfil del encuestado, se agregó una pregunta adicional
+ a la encuesta preguntando el área de la organización (Desarrollo (System
+ Integration) o Infraestructura Redes y seguridad) a la que pertenece el
+ encuestado.
+ 
+\end_layout
+
+\begin_layout Standard
+Una vez finalizada la encuesta, desde Microsoft Forms se exportó el resultado
+ consolidado de las respuestas del cuestionario de medición de capacidades
+ a un archivo Excel para su posterior análisis.
+ La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:resultado-encuentas-respuestas-caso-de-estudio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 4 1 presenta el consolidado que la herramienta generó indicando el
+ número de respuestas por parte de los participantes definidos en la etapa
+ de preparación y el tiempo promedio para responder el cuestionario.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resultados encuesta CIAT - número de respuestas.png
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Número de respuestas de la encuesta de capacidades en CIAT
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:resultado-encuentas-respuestas-caso-de-estudio"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Modelo-de-capacidades-distribucion-encuestados"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 4 2 confirma la distribución equitativa de los presentantes de cada
+ área en la medición, acorde a lo definido.
+ para la ejecución, un total de 8 personas distribuidas en 4 del área de
+ redes e infraestructura y 4 del área de desarrollo.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resultados encuesta CIAT - distribución de encuestados.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo de capacidades, distribución de encuestados 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Modelo-de-capacidades-distribucion-encuestados"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Resultados:
+\series default
+\emph default
+ En este paso, se creó un segundo archivo Excel que contine el modelo de
+ capacidades completo, es decir, el modelo de referencia, el cuestionario
+ de preguntas, la relación entre el cuestionario y el modelo de referencia,
+ las opciones de respuestas a cada pregunta, los planes de acción, la escala
+ de medición y el rango de notas.
+ 
+\end_layout
+
+\begin_layout Standard
+Estas dos fuentes de datos fueron cargadas en un reporte analítico desarrollado
+ en la herramienta Power BI, que se encargó de realizar todo el proceso
+ de transformación de resultados en unidades de análisis.
+ 
+\end_layout
+
+\begin_layout Standard
+La limpieza de los resultados de la encuesta consistió en depurar las opciones
+ de respuestas No aplica y No sabe /No responde de cada pregunta que no
+ están dentro del modelo de capacidades y omitir del análisis la pregunta
+ del perfil del encuestado agregadas en el paso anterior.
+\end_layout
+
+\begin_layout Standard
+Al finalizar la fase de limpieza de datos, se ejecutaron las diferentes
+ fases de la transformación de los resultados en unidades de análisis, iniciando
+ por el cálculo de la moda por cada pregunta, obteniendo la nota que representa
+ la opción de respuesta más elegida por los encuestados en cada pregunta
+ del cuestionario.
+\end_layout
+
+\begin_layout Standard
+Acorde con la definición del modelo de capacidades cada opción de respuesta
+ tiene asociado un único plan de acción, a partir de la nota de cada respuesta
+ se obtuvo el plan de acción para cada una de las preguntas del modelo de
+ evaluación.
+ El anexo Plan de acción presenta el detalle el plan de acción obtenido
+ para el caso de estudio.
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Nota-final-del-caso-de-estudio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 4 3 muestra la nota general de la medición del caso práctico con
+ un valor de 3.0 en una escala de 1 a 5, esa cifra se obtuvo promediando
+ la nota de cada pregunta del cuestionario de medición.
+ Esta cifra representa un alcance del 60% de los conceptos básicos DevOps
+ para la organización.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resultados encuesta CIAT - nota final.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Nota final del caso práctico 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Nota-final-del-caso-de-estudio"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+¿Cómo iniciar la adopción DevOps?
+\end_layout
+
+\begin_layout Standard
+Basado en lo propuesto por (Sharma 2017 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+[13]), la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Pasos-para-iniciar-transformacion-DevOps"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 4 4 presenta un conjunto de pasos recomendados para iniciar la adopción
+ DevOps en una organización.
+ Para el caso particular de CIAT y acorde al alcance del presente trabajo
+ se define el siguiente plan de adopción: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/paos para iniciar transformación digital devops.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pasos claves para iniciar una transformación DevOps
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pasos-para-iniciar-transformacion-DevOps"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Identificar el Estado objetivo
+\end_layout
+
+\begin_layout Standard
+Acorde al enfoque del presente documento y apoyado en una revisión interna
+ del CIAT, donde se midió la frecuencia y tiempos de despliegue de área
+ de integración de sistemas en el 2021, se determinó encaminar las recomendacion
+es de adopción para los indicadores de negocio:
+\end_layout
+
+\begin_layout Itemize
+Velocidad en la frecuencia de despliegues 
+\end_layout
+
+\begin_layout Itemize
+Reducción de tiempo en el despliegue 
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Tiempos-de-despliegue"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 4 5 presenta el tiempo (medido en días calendario) de despliegue
+ en producción para el año 2021 en el CIAT, en este caso la unidad de medida
+ fue horas con un promedio 2021 de 15.45 horas.
+ El segundo aspecto que determino el enfoque es la frecuencia de entrega
+ de productos, la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Frecuencia-de-entrega"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 4 6 presenta un promedio de entrega de productos de 1.41 meses (43
+ días) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Frecuencia de despliegues CIAT - 2021.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tiempos de despliegue 2021 de aplicaciones del área de integración de sistemas
+ – CIAT 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tiempos-de-despliegue"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Frecuencia de entrega CIAT - 2021.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Frecuencia de entrega a producción 2021 de aplicaciones del área de integración
+ de sistemas – CIAT
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Frecuencia-de-entrega"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Entender el estado actual
+\end_layout
+
+\begin_layout Subsubsection
+Visualización de datos
+\end_layout
+
+\begin_layout Standard
+Se creó un reporte consolidado con el resultado de la encuesta, el modelo
+ de capacidades, con el que se generaron gráficos analíticos que permitieron
+ brindar las recomendaciones de adopción de prácticas DevOps para que la
+ compañía CIAT pueda mejorar los tiempos de entrega
+\end_layout
+
+\begin_layout Standard
+El reporte puede ser accedido a través del siguiente enlace 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://tinyurl.com/4vp9s22c
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Resultados
+\end_layout
+
+\begin_layout Standard
+Para identificar el estado de madurez de los procesos de desarrollo de software
+ en una organización se utilizó el modelo de capacidades propuesto y detallado
+ en el capítulo anterior.
+ Para el caso particular CIAT, en este capítulo se implementó el modelo
+ evaluación propuesto y se obtuvo un grupo de resultados que fueron analizados
+ para determinar la conveniencia de adoptar DevOps como estrategia para
+ la entrega continua de productos de software en la organización.
+\end_layout
+
+\begin_layout Standard
+El objetivo de la evaluación con el modelo de capacidades, es poder determinar
+ qué tan robustas están las prácticas de desarrollo de software en la organizaci
+ón frente las recomendaciones DevOps.
+ El modelo se centró en evaluar las dimensiones y capacidades con el fin
+ de poder dar respuestas a las siguientes preguntas:
+\end_layout
+
+\begin_layout Enumerate
+¿Qué tan capaz está la organización para ofrecer rápidamente aplicaciones
+ nuevas e innovadoras y de aprovechar las arquitecturas modernas? 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué tan capaz es la organización para modernizar las aplicaciones existentes
+ y permitir una entrega más rápida y la innovación? 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué tan capaz es la organización para adaptar prácticas en aspectos como
+ la cultura, las herramientas y los procesos? 
+\end_layout
+
+\begin_layout Subsubsection
+Análisis de los resultados
+\end_layout
+
+\begin_layout Standard
+Basados en la escala de categorías de calificación de la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Resultado-Oportunidades de mejora"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Tabla 3 2, las capacidades y dimensiones del modelo propuesto se agruparon
+ con el objetivo obtener 3 grupos focales acorde a la nota promedio de cada
+ pregunta en la encuesta, logrando clasificar los diferentes elementos del
+ modelo en grupos de mayor a menor priorización, obteniendo un orden recomendado
+ para el tratamiento y adopción de planes de mejora para cada una de las
+ capacidades del modelo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Oportunidades de mejora:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Dimensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Capacidad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Automatizar el proceso de despliegue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar integración continua
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar pruebas automáticas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar gestión de los datos de prueba
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arquitectura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utilizar arquitecturas de bajo acoplamiento
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Producto y Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recolectar e implementar las recomendaciones (feedback) de los clientes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tener un proceso liviano para la aprobación de cambios
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apoyar y facilitar la colaboración entre los equipos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proporcionar recursos y herramientas para que el trabajo sea significativo
+ para los individuos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resultado escala de clasificación - Oportunidades de mejora
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Resultado-Oportunidades de mejora"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+La entrega continua es la dimensión que presenta mayor debilidad, representa
+ el 44.4% de las capacidades categorizadas como oportunidades de mejora,
+ a nivel general el 50% de las capacidades que componen esta dimensión están
+ en esta categoría y su calificación promedio la sitúa en la como debilidad,
+ posicionándola como la dimensión a priorizar al momento de iniciar la adopción
+ de prácticas DevOps en la organización.
+ 
+\end_layout
+
+\begin_layout Itemize
+La cultura es la segunda dimensión con mayor número de capacidades clasificadas
+ en esta categoría con un 22%, a nivel general el 40% de sus capacidades
+ se clasificaron en oportunidades de mejora y el promedio de la dimensión
+ la clasifica en la siguiente categoría.
+ 
+\end_layout
+
+\begin_layout Itemize
+En un triple empate con el 11% de las capacidades clasificadas como oportunidad
+ de mejora se posicionan las dimensiones: 
+\end_layout
+
+\begin_layout Itemize
+Arquitectura con el 50% de sus capacidades clasificadas como oportunidades
+ de mejora, donde su nota promedio la sitúa en la siguiente categoría, se
+ resalta la adopción incremental de arquitecturas físicas como lógicas de
+ bajo acoplamiento permitan gestionar ambientes de software a dinámicamente.
+ 
+\end_layout
+
+\begin_layout Itemize
+Gestión LEAN con el 20% de sus capacidades clasificadas como oportunidad
+ de mejora y una nota promedio Aceptable.
+ En este nivel, la prioridad es redefinir y adoptar mecanismos que permitan
+ reducir los cuellos de botella en la gestión y aprobación de procesos,
+ depurando procesos que no generen valor y solo produzca retrasos en la
+ cadena de valor de la entrega de software.
+ 
+\end_layout
+
+\begin_layout Itemize
+Producto y procesos con el 25% de sus capacidades clasificadas dentro de
+ esta categoría y su promedio general se clasifica en la categoría aceptable,
+ en este nivel la priorización está enmarcada en adoptar los mecanismos
+ necesarios para recolectar eficientemente las retroalimentaciones de los
+ usuarios finales (clientes) en todo el ciclo de vida del desarrollo del
+ producto de software.
+ 
+\end_layout
+
+\begin_layout Standard
+En resumen, los aspectos más importantes clasificados como oportunidad de
+ mejora y que se deben priorizar son:
+\end_layout
+
+\begin_layout Itemize
+Procesos de integración y automatización 
+\end_layout
+
+\begin_layout Itemize
+Gestión de cambios y metodología de desarrollo 
+\end_layout
+
+\begin_layout Itemize
+Silos y falta de comunicación entre las áreas 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Aceptables
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Resultado-Aceptable"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Tabla 4 2 presenta el grupo de capacidades clasificadas como Aceptables,
+ estos representan los elementos clasificados como intermedio, donde se
+ cuenta con procesos estandarizados que apoyan la toma de decisiones compartidas
+, procesos centrales automatizados y parcialmente integrados a lo largo
+ del ciclo de vida del desarrollo de software.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Dimensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Capacidad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Incorporar los aspectos de seguridad en las fases de diseño y pruebas (shift
+ left de la seguridad)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Producto y Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hacer visible el flujo de trabajo durante todo el ciclo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Producto y Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fomentar y habilitar al equipo para realizar experimentos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monitorizar las aplicaciones y la infraestructura para tomar decisiones
+ de negocio
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visualizar el trabajo para monitorizar la calidad y comunicarlo al equipo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apoyar el liderazgo transformacional
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resultado escala de clasificación Aceptable
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Resultado-Aceptable"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con un doble empate con el 33% de las capacidades categorizadas como aceptables
+ están las dimensiones:
+\end_layout
+
+\begin_layout Itemize
+Producto y proceso, con el 50% del total de las capacidades de la dimensión
+ clasificadas en esta categoría, en este nivel se busca pulir y potenciar
+ los procesos clave como visibilizar el flujo de valor del trabajo realizado
+ durante el ciclo de vida del desarrollo de software mejorando la transparencia
+ y la comunicación entre todos los miembros del equipo de trabajo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Gestión LEAN y monitorización, el 40 % de todas las capacidades de esta
+ dimensión se clasifican en esta categoría, a nivel general toda dimensión
+ se clasifica como aceptable.
+ Para esta dimensión se debe potenciar todos los aspectos de monitoreo tanto
+ de infraestructura como de operación.
+ 
+\end_layout
+
+\begin_layout Standard
+Con un doble empate en el 16% de las capacidades se encuentran las dimensiones:
+\end_layout
+
+\begin_layout Itemize
+Cultura, con el 20% del total de sus capacidades clasificadas en la categoría
+ aceptable, en este nivel se busca fortalecer el trabajo en equipo especialmente
+ entre desarrollo, operaciones buscando la toma de decisiones compartidas
+ y el trabajo colaborativo en equipos multifuncionales que incluyan calidad
+ y seguridad de software.
+ 
+\end_layout
+
+\begin_layout Itemize
+Entrega continua, el 12.5% del total de las capacidades de esta dimensión
+ están clasificadas en esta categoría, donde se destaca el fortalecimiento
+ técnico y preventivo de los aspectos de seguridad desde el inicio del ciclo
+ de vida del desarrollo.
+ 
+\end_layout
+
+\begin_layout Standard
+En resumen, los aspectos más importantes clasificados como aceptables que
+ se deben priorizar son:
+\end_layout
+
+\begin_layout Itemize
+Metodologías de trabajo 
+\end_layout
+
+\begin_layout Itemize
+Gestión de proyectos y visibilizar el trabajo 
+\end_layout
+
+\begin_layout Itemize
+Motivación del equipo de trabajo 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Fortalezas
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Resultado-Fortalezas"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Tabla 4 3 presenta las capacidades clasificadas como Fortalezas, estas presentan
+ los niveles de calificación destacado y avanzado.
+ A este nivel se usan procesos estandarizados y avanzados que apoyan la
+ toma de decisiones compartidas, los procesos de automatización y pruebas
+ ya están integrados a lo largo del ciclo de vida del desarrollo de software.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Dimensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Capacidad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utilizar control de versiones para todos los artefactos de producción
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utilizar métodos de desarrollo 
+\begin_inset Quotes eld
+\end_inset
+
+Trunk-Based
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar entrega continua de software
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arquitectura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permitir a los equipos definir sus propias arquitecturas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Producto y Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trabajar con lotes o cantidades pequeñas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monitorizar la salud de los servicios y aplicaciones proactivamente
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Administrar y establecer límites para el trabajo en progreso (Work-In-Progress)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar una cultura tipo generativa
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Animar y apoyar al equipo a aprender
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resultado escala de clasificación Fortalezas
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Resultado-Fortalezas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+La entrega continua con el 33% de las capacidades clasificadas en esta categoría
+ de fortalezas, se posiciona como la dimensión con más representativa, a
+ nivel global representa el 37% todas las capacidades de la dimensión.
+ 
+\end_layout
+
+\begin_layout Standard
+Con un doble empate en el 22.2% de las capacidades clasificadas como fortalezas
+ se encuentran las dimensiones
+\end_layout
+
+\begin_layout Itemize
+Cultura que a nivel global representa el 40% de todas sus capacidades, aunque
+ su promedio general la clasifique en la categoría Aceptable.
+ En este nivel el enfoque se debe dar en términos de la gestión de los equipos
+ y la toma de decisiones de la organización u área de implementación.
+ 
+\end_layout
+
+\begin_layout Itemize
+Gestión Lean y monitorización, con el 40% de todas sus capacidades clasificadas
+ como Fortalezas, esta dimensión se debe enfocar en potenciar y alcanzar
+ niveles de predicción proactiva de la salud de los componentes de la aplicación
+ tanto a nivel de físico y lógico, el objetivo es anticipar fallos por alta
+ demanda o picos de trabajo y procesamiento.
+ 
+\end_layout
+
+\begin_layout Standard
+Con un doble empate al 11.1% de las capacidades clasificadas es esta categoría
+ que encuentran las capacidades:
+\end_layout
+
+\begin_layout Itemize
+Producto y proceso con el 25% de todas sus capacidades aquí clasificadas,
+ se debe abordar con un enfoque de gestión de trabajo ágil donde las tareas
+ se distribuyan en lotes pequeños, que puedan entregarse en periodos de
+ tiempo cortos (horas, minutos e inclusive segundos).
+ 
+\end_layout
+
+\begin_layout Itemize
+Arquitectura con el 50% de sus capacidades clasificadas en esta categoría,
+ se debe abordar con un enfoque y visión de alcanzar niveles de madurez,
+ experiencia y empoderamiento de los equipos que permitan dar la liberta
+ de que ellos mismos puedan definir la arquitectura (física, lógica) que
+ mejor solucione los problemas particulares propios de los proyectos de
+ software.
+ 
+\end_layout
+
+\begin_layout Standard
+En resumen, los aspectos más importantes clasificados como aceptables que
+ se deben priorizar son:
+\end_layout
+
+\begin_layout Itemize
+Cultura de trabajo orientada al rendimiento (Generativa) 
+\end_layout
+
+\begin_layout Itemize
+Despliegue continuo 
+\end_layout
+
+\begin_layout Itemize
+Gestión de lotes y tamaño de trabajo 
+\end_layout
+
+\begin_layout Itemize
+Liderazgo y potenciar las capacidades técnicas y culturales de los miembros
+ del equipo 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Analisis final
+\end_layout
+
+\begin_layout Standard
+Por último, se da respuesta a las preguntas planteadas al inicio de la medición
+ del estado actual.
+\end_layout
+
+\begin_layout Enumerate
+¿Qué tan capaz está la organización para ofrecer rápidamente aplicaciones
+ nuevas e innovadoras y de aprovechar las arquitecturas modernas?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+A nivel general CIAT obtuvo un resultado general Aceptable con una nota
+ promedio de 3.0, lo que indica que la empresa no debe iniciar el camino
+ de transformación DevOps desde cero.
+ La mayor parte de sus prácticas técnicas y gestión de procesos están entre
+ niveles novato e intermedio, lo que conlleva a que la compañía debe categorizar
+ que capacidades se deben abordar con mayor prioridad.
+\end_layout
+
+\begin_layout Standard
+Los principales aspectos claves a tratar son:
+\end_layout
+
+\begin_layout Itemize
+Gestión:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Adoptar metodologías de trabajo agiles 
+\end_layout
+
+\begin_layout Itemize
+Formar equipos multidisciplinarios para los proyectos 
+\end_layout
+
+\begin_layout Itemize
+Definir políticas de calidad 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Técnico:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Integración de herramientas 
+\end_layout
+
+\begin_layout Itemize
+Automatización de procesos 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+La organización debe potenciar sus procesos en términos de depurar pasos
+ innecesarios, esperas, retrabajos y actividades manuales, apoyar el bienestar
+ del equipo, entre otros, así poder alcanzar niveles altos y avanzados de
+ madurez en la entrega de productos de software.
+ Las áreas se deben ajustar y en algunos casos redefinir su forma de trabajo
+ (configurarse para el éxito) para lograr encaminarse con la transformación
+ y buenas prácticas que ofrece DevOps.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Qué tan capaz es la organización para modernizar las aplicaciones existentes
+ y permitir una entrega más rápida y la innovación? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Este es uno de los aspectos que la organización debe poner mucha atención
+ ya que la gran mayoría de sus productos están desarrollados en tecnologías
+ y herramientas de más de 5 años.
+ La recomendación es iniciar la adopción hacia nuevos desarrollos y proyectos
+ recientes de máximo 3 años de vida con el fin de ganar experiencia en los
+ procesos técnicos particulares.
+\end_layout
+
+\begin_layout Standard
+Un factor a destacar es que la compañía tiene claramente definido su stack
+ tecnológico y el 88% de todo su portafolio de aplicaciones esta categorizado
+ en dos paquetes tecnológicos, por lo que la modernización no será un proceso
+ en extremo complejo, pero si requerirá muchas horas de trabajo para cada
+ proyecto.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Qué tan capaz es la organización para adaptar prácticas en aspectos como
+ la cultura, las herramientas y los procesos
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+CIAT y particularmente las áreas de desarrollo e infraestructura desde su
+ dirección media y operacional tienen el propósito mejorar sus procesos,
+ por lo que la adopción de prácticas DevOps no se estima que sea una tarea
+ que genere mucha resistencia, debido a que hace un par de años las áreas
+ ya tuvieron un intento de adopción DevOps que no se completó porque solo
+ se le dio un enfoque técnico y no se contemplaron aspectos de cultura y
+ procesos para la gestión del ciclo de vida del desarrollo de software.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Determinar el mejor camino a seguir
+\end_layout
+
+\begin_layout Standard
+En este punto surgen las preguntas: ¿Por dónde iniciar?, ¿Cuál es el paso
+ a seguir?
+\end_layout
+
+\begin_layout Standard
+La adopción de una transformación digital como DevOps no ocurre de la noche
+ a la mañana, este deber ser un proceso estructurado y definido que necesita
+ ser fluido y comprendido por todos los involucrados.
+\end_layout
+
+\begin_layout Standard
+Para el caso de estudio CIAT se presenta la propuesta de orden de adopción
+ de las recomendaciones DevOps para la organización, acorde con la escala
+ de clasificación de la Tabla 3 2 que propone tres fases, cada una se analiza
+ con una estrategia top-down desde la dimensión hacia la capacidad, puntualizand
+o recomendaciones y estrategias para abordar el nivel que complementan el
+ plan de acción descrito para cada capacidad (para mayor detalle consultar
+ el Anexo Plan de acción que contiene todos los planes de acción acorde
+ a los resultados de la medición en el CIAT ).
+\end_layout
+
+\begin_layout Standard
+Las tres fases de adopción modelo son:
+\end_layout
+
+\begin_layout Enumerate
+Reevaluar, adoptar e implementar los planes de acción de las capacidades
+ clasificadas en oportunidades de mejora 
+\end_layout
+
+\begin_layout Enumerate
+Ajustar y potenciar las capacidades clasificadas como aceptable 
+\end_layout
+
+\begin_layout Enumerate
+Pulir, robustecer y direccionar las capacidades categorizadas como fortalezas
+ hacia una filosofía de mejora continua 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Abordar las oportunidades de mejora:
+\series default
+\emph default
+ La primera fase se fundamenta en priorizar la adopción e implementación
+ de las recomendaciones generales por dimensión y del plan de acción sobre
+ cada capacidad clasificada como oportunidades de mejora, la Tabla 4 1 detalla
+ las dimensiones y capacidades clasificadas en esta categoría, a las que
+ se le realizó un análisis Top-down de dimensión a capacidad.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Entrega continua
+\series default
+, es la dimensión que presenta mayor debilidad, esta se debe abordar en
+ enfocarse en factores clave como:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Definir y adoptar una política de calidad de software.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Implementar procesos técnicos y herramientas para la automatización de pruebas.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Adoptar e implementar mecanismos técnicos que permitan la integración de
+ herramientas que intervienen en el ciclo de desarrollo de software.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Adoptar procesos de automatización de despliegue permiten alcanzar una mejora
+ en el nivel.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Cultura
+\series default
+, potenciar el trabajo colaborativo entre los integrantes del equipo de
+ trabajo (equipos multidisciplinarios que cubren representantes de desarrollador
+es, infraestructura, calidad, seguridad, entre otros)
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Arquitectura
+\series default
+, adopción incremental de arquitecturas físicas como lógicas de bajo acoplamient
+o permitan gestionar ambientes de software a dinámicamente.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Gestión LEAN
+\series default
+, redefinir y adoptar mecanismos que permitan reducir los cuellos de botella
+ en la gestión y aprobación de procesos, depurando procesos que no generen
+ valor y solo produzca retrasos en la cadena de valor de la entrega de software.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Producto y procesos
+\series default
+, adoptar los mecanismos necesarios para recolectar eficientemente las retroalim
+entaciones de los usuarios finales (clientes) en todo el ciclo de vida del
+ desarrollo del producto de software.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\emph on
+Ajustar y potenciar las capacidades aceptables:
+\emph default
+ 
+\series default
+ En esta fase el propósito es potenciar las capacidades que están clasificadas
+ en esta categoría intermedia, , la Tabla 4 2 presenta el grupo de capacidades
+ clasificadas como Aceptables, y que representan la segunda fase del plan
+ de adopción de recomendaciones y plan de acción.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Producto y proceso
+\series default
+, pulir y potenciar los procesos clave como visibilizar el flujo de valor
+ del trabajo realizado durante el ciclo de vida del desarrollo de software
+ mejorando la transparencia y la comunicación entre todos los miembros del
+ equipo de trabajo, otro punto importante en esta categoría es propiciar
+ y apoyar la investigación y la cultura de aprendizaje para que los equipos
+ realicen experimentos de nuevos componentes tecnológicos con el fin de
+ ampliar el portafolio de herramientas y procesos para resolver futuros
+ retos tecnológicos.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Gestión LEAN y monitorización
+\series default
+, potenciar todos los aspectos de monitoreo tanto de infraestructura como
+ de operación con el fin de prever y anticiparse a situaciones adversas
+ que puedan generar indisponibilidad con los usuarios finales y no que el
+ usuario final la identifique a través de interrupciones del servicio u
+ operación del producto de software.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Cultura
+\series default
+, fortalecer el trabajo colaborativo, inicialmente entre desarrollo y operacione
+s, el objetivo es llegar a la toma de decisiones compartidas, integrar al
+ trabajo colaborativo en equipos multifuncionales como calidad y seguridad
+ de software.
+ Este trabajo debe acompañarse con el fortalecimiento de habilidades blandas
+ como liderazgo de los lideres de áreas y empoderar a todos los colaboradores
+ a potenciar sus habilidades técnicas y de trabajo en equipo.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Entrega continua
+\series default
+, fortalecimiento técnico y preventivo de los aspectos de seguridad desde
+ el inicio del ciclo de vida del desarrollo para que sea una actividad altamente
+ relevante antes, durante y en especial después de la entrega de un producto
+ de software hacia los clientes finales.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\noindent
+
+\emph on
+Pulir 
+\series bold
+y robustecer las fortalezas: 
+\series default
+\emph default
+Esta fase se debe abordar con la filosofía de que todo proceso u actividad
+ no se puede quedar estática y debe ser tratada como un proceso de mejora
+ constante.
+ La Tabla 4 3 presenta las capacidades clasificadas como Fortalezas que
+ se deben potenciar, se recomiendan ser tratadas en una tercera etapa después
+ de reforzar las capacidades clasificadas como aceptables.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+La entrega continua
+\series default
+, en este punto se analiza el grado de madurez para determinar los ajustes
+ puntuales de cada capacidad en un enfoque de mejor constante, factores
+ como:
+\end_layout
+
+\begin_layout Itemize
+Manejo eficiente de sistemas de control de versiones 
+\end_layout
+
+\begin_layout Itemize
+Estrategias que optimicen el uso de ramas o líneas de tiempo 
+\end_layout
+
+\begin_layout Itemize
+Entrega y despliegue de lotes de cambios pequeños 
+\end_layout
+
+\begin_layout Standard
+Por último, reevaluar y potenciar todos los procesos denominados automáticos
+ que intervengan durante el proceso de llevar un cambio desde el desarrollador
+ al cliente final asegurando aspectos de calidad, seguridad y confiabilidad.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Cultura
+\series default
+, enfocarse en términos de la gestión de los equipos y la toma de decisiones
+ de la organización u área de implementación, aquí se busca que los equipos
+ tengan iniciativas e inicien su transformación a equipos autogestionados.
+ Los primeros pasos de este hito se logran a través del apoyo liderazgo
+ de los directivos de la organización, donde fomenten la creación de equipos
+ multidisciplinarios con propósitos de aprendizaje y trabajo colaborativo.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Gestión Lean y monitorización
+\series default
+, enfocar en alcanzar niveles de predicción proactiva de la salud de los
+ componentes de la aplicación tanto a nivel de físico y lógico, el objetivo
+ es anticipar fallos por alta demanda o picos de trabajo y procesamiento.
+ Por último y no menos importante son los mecanismos que permiten controlar
+ la carga de trabajo paralelo para los equipos de trabajo, donde la definición
+ de limites es clave para evitar el desgaste del equipo y no llegar a niveles
+ de sobre carga de trabajo que desborden la capacidad del equipo generando,
+ retrasos prolongados y el incumplimiento de entregas.
+ El punto clave es asegurar que el trabajo esté priorizado y equilibrado.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Producto y proceso
+\series default
+, abordar con un enfoque de gestión de trabajo ágil donde las tareas se
+ distribuyan en lotes pequeños y puedan entregarse en periodos de tiempo
+ cortos.
+ A nivel de frecuencia de despliegues este nivel el termino corto se debe
+ ir acotando progresivamente para llegar a niveles de industria altos en
+ donde se mide en términos de horas e incluso en niveles más avanzados del
+ mercado actual habla de entregar y desplegar funcionalidades en minutos
+ e inclusive segundos.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Arquitectura
+\series default
+, abordar con un enfoque y visión de alcanzar niveles de madurez, experiencia
+ y empoderamiento de los equipos que permitan dar la libertad de que ellos
+ mismos puedan definir la arquitectura (física, lógica) que mejor solucione
+ los problemas particulares propios de los proyectos de software.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Aspectos a tener en cuenta
+\end_layout
+
+\begin_layout Standard
+Acorde al análisis de los resultados obtenidos, la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Capacidades representativas por etapa"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Tabla 4 4 presenta un resumen de los elementos más representativos que se
+ deben abordar en CIAT para alcanzar los objetivos de adopción DevOps (Velocidad
+ de despliegues, Reducción de tiempo para el despliegue).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Velocidad en la frecuencia de despliegues:
+\series default
+ la primera etapa del proceso es mejorar la frecuencia de despliegues de
+ meses a semanas y progresivamente llevar la unidad de medida a días 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reducción de tiempo en el despliegue
+\series default
+: la meta de la primera etapa de adopción es reducir el tiempo de horas
+ a minutos, progresivamente reducir la intervención externa, con el objetivo
+ de llevar el proceso a un nivel de automatización completa.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="10col%">
+<column alignment="left" valignment="middle" width="22col%">
+<column alignment="left" valignment="middle" width="22col%">
+<column alignment="left" valignment="middle" width="22col%">
+<column alignment="left" valignment="middle" width="22col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Etapa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Mejora de los procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Herramientas para la automatización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Plataforma y entornos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Iniciar la adopción de un marco de trabajo ágil
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Adoptar Value Stream Mapping
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Definir producto mínimo viable
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Simplificar la gestión de cambios
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Integrar herramientas.
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Automatizar las manualidades.
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Iniciar la adopción de pruebas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Primeros pasos de gestión de la configuración
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Potenciar el trabajo colaborativo en el equipo
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Ciclos de entrega completos
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Bienestar del equipo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Adoptar y fortalecer el uso de un marco de trabajo ágil
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Visibilizar el trabajo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Definir y adoptar una política de calidad de software
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Integración continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Infraestructura como código
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Motivación del equipo de trabajo
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Equipos multidisciplinarios
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Gestión de lotes y tamaño de trabajo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Despliegue continuo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Arquitectura flexible y por demanda
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size footnotesize
+Cultura de trabajo orientada al rendimiento.
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Liderazgo y potenciar las capacidades técnicas y culturales de los miembros
+ del equipo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Capacidades representativas por etapa
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Capacidades representativas por etapa"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+¿CIAT si necesita DevOps?
+\end_layout
+
+\begin_layout Standard
+Al evaluar los resultados de la medición con las métricas de la frecuencia
+ de despliegue y el tiempo de despliegue de la organización, se evidencia
+ el abanico oportunidades para mejorar los procesos de entrega de productos
+ de software.
+ La adopción de las recomendaciones DevOps en el manejo de procesos a nivel
+ técnico, gestión de procesos y cultura, le traería la oportunidad de ser
+ eficiente y oportuno para bridar soluciones a los usuarios finales.
+\end_layout
+
+\begin_layout Standard
+La adopción progresiva de prácticas DevOps en las fases propuestas ayudarán
+ a la organización a mejorar aspectos como su eficiencia operativa, gestión
+ de cambios, colaboración, entrega de productos de forma rápida, oportuna
+ y confiable a los usuarios finales.
+ Abordar prácticas de agilismo, apoyado de un trabajo cultural donde se
+ propicie el trabajo colaborativo son los factores claves para alcanzar
+ el éxito en la adopción DevOps, esto no se trata de solo implementar herramient
+as y automatizarlas
+\end_layout
+
+\begin_layout Standard
+Se entiende que CIAT no es una empresa dedicada al desarrollo de software
+ al estilo de casa de software lo que no la exime del uso de buenas prácticas
+ para el manejo de procesos acordes a las limitaciones de personal que pueda
+ tener el área y la poca comunicación de los logros a toda la compañía.
+\end_layout
+
+\begin_layout Standard
+A pesar de las limitaciones el área de desarrollo cuenta con altos niveles
+ de aceptación de parte de sus principales usuarios funcionales, la encuesta
+ NPS realizada a este publico especifico y que se detalla en el anexo Medición
+ de la percepción de los productos y los servicios prestados por la unidad
+ de Integración de sistemas del departamento de Tecnología de Información.
+ arrojó puntajes positivos por encima de 30 puntos NPS que son considerados
+ de alto valor y muy buena aceptación de los servicios prestados.
+ 
+\end_layout
+
+\begin_layout Section
+Calidad de la evaluación
+\end_layout
+
+\begin_layout Standard
+Una vez obtenidos los resultados de la medición de capacidades DevOps del
+ caso de estudio, el siguiente paso fue presentar los a la organización
+ con el fin de evaluar la percepción y pertinencia de los resultados obtenidos.
+\end_layout
+
+\begin_layout Standard
+Al ser un único caso de estudio la medición la pertinencia y calidad de
+ la evaluación de los resultados queda sesgada a la percepción del CIAT
+ como caso de estudio.
+\end_layout
+
+\begin_layout Description
+\begin_inset Preview
+
+\begin_layout Standard
+Preguntas de evaluación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El cuestionario fue estructurado para medir la opinión frente al modelo
+ y los resultados de la medición de capacidades DevOps en el CIAT.
+\end_layout
+
+\begin_layout Itemize
+¿Cuál es la percepción de complejidad de términos y conceptos presentados
+ en el cuestionario de evaluación? 
+\end_layout
+
+\begin_layout Itemize
+¿En qué medida percibe la utilidad del modelo de evaluación y por qué? 
+\end_layout
+
+\begin_layout Itemize
+¿Considera que los resultados de la medición reflejan el estado actual de
+ los procesos de entrega de software en la organización y por qué? 
+\end_layout
+
+\begin_layout Itemize
+¿Considera que los resultados presentados son adecuados para dar el primer
+ paso en una adopción DevOps en la organización? 
+\end_layout
+
+\begin_layout Itemize
+¿Qué se le podría mejorar al modelo de evaluación propuesto? 
+\end_layout
+
+\begin_layout Subsection
+Riesgo de la validez
+\end_layout
+
+\begin_layout Standard
+Al evaluar el modelo en un único caso de estudio, este puede presentar sesgos
+ o elementos que requieran ajustarse para alcanzar un nivel de robustez
+ que solo se obtiene probando el modelo en diferentes escenarios.
+\end_layout
+
+\begin_layout Standard
+Al ser esta la primera versión de un modelo de evaluación de capacidades
+ aplicado a una compañía real, pero conservando el enfoque académico, el
+ modelo propuesto en este documento está abierto a futuros ajustes y mejoras
+ para ámbitos académicos de la universidad o sus autores.
+\end_layout
+
+\begin_layout Standard
+Con este trabajo se buscó medir la conveniencia de adoptar practicas DevOps
+ en una organización, para esto se propuso un modelo de evaluación DevOps
+ genérico para compañías y personas poco familiarizadas con los conceptos
+ y terminologías de estas prácticas.
+\end_layout
+
+\begin_layout Section
+Resumen del capitulo
+\end_layout
+
+\begin_layout Standard
+Como caso de estudio de este documento, se realizó el diagnóstico de los
+ procesos de entrega de software en la compañía Alianza Bioversity – CIAT
+ por medio de la implementación del modelo de capacidades propuesto.
+ La ejecución del modelo se realizó con un grupo representativo de las áreas
+ de desarrollo e infraestructura de la organización logrando una visión
+ general de los procesos desde dos puntos de vista diferente.
+ Con los resultados del modelo de capacidades, se identificaron y clasificaron
+ los aspectos débiles y fuertes acorde a las dimensiones y capacidades evaluador
+es para que sean abordados a través de un plan de recomendaciones.
+ 
+\end_layout
+
+\begin_layout Standard
+Una vez obtenido el resultado de evaluación y evaluando las oportunidades
+ de mejora en cultura, procesos y herramientas, se llegó a conclusión que
+ una transformación DevOps se puede aplicar a cualquier compañía, independiente
+ de su línea de negocio por lo que CIAT como organización se verá beneficiado
+ en mejoras en tiempos y frecuencias de entrega de productos.
+ 
+\end_layout
+
+\begin_layout Standard
+La adopción DevOps se planteó basado en lo propuesto por (Sharma 2017 [13]),
+ donde se definen 3 etapas de adopción: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Identificar el Estado objetivo:
+\series default
+ A partir de una medición interna con la información disponible en CIAT
+ para el año 2021, se determinó encaminar las recomendaciones de adopción
+ para los indicadores de negocio: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Velocidad en la frecuencia de despliegues 
+\end_layout
+
+\begin_layout Itemize
+Reducción de tiempo en el despliegue
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Entender el estado actual:
+\series default
+ Para identificar el estado de madurez de los procesos de desarrollo de
+ software en una organización se utilizó el modelo de capacidades propuesto
+ para el caso particular CIAT.
+ Utilizando la escala de clasificación se presentan los resultados más important
+es de cada categoría: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Oportunidades de mejora
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Procesos de integración y automatización 
+\end_layout
+
+\begin_layout Itemize
+Gestión de cambios y metodología de desarrollo 
+\end_layout
+
+\begin_layout Itemize
+Silos y falta de comunicación entre las áreas 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Aceptables 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Metodologías de trabajo 
+\end_layout
+
+\begin_layout Itemize
+Gestión de proyectos y visibilizar el trabajo 
+\end_layout
+
+\begin_layout Itemize
+Motivación del equipo de trabajo 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Fortalezas
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cultura de trabajo orientada al rendimiento (Generativa) 
+\end_layout
+
+\begin_layout Itemize
+Despliegue continuo 
+\end_layout
+
+\begin_layout Itemize
+Gestión de lotes y tamaño de trabajo 
+\end_layout
+
+\begin_layout Itemize
+Liderazgo 
+\end_layout
+
+\begin_layout Itemize
+Potenciar las capacidades técnicas y culturales de los miembros del equipo
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Determinar el mejor camino a seguir: 
+\end_layout
+
+\begin_layout Standard
+Acorde a los resultados se definió abordar la adopción DevOps en un modelo
+ de tres fases: 
+\end_layout
+
+\begin_layout Enumerate
+Reevaluar, adoptar e implementar los planes de acción de las capacidades
+ clasificadas en oportunidades de mejora 
+\end_layout
+
+\begin_layout Enumerate
+Ajustar y potenciar las capacidades clasificadas como aceptable 
+\end_layout
+
+\begin_layout Enumerate
+Pulir, robustecer y direccionar las capacidades categorizadas como fortalezas
+ hacia una filosofía de mejora continua 
+\end_layout
+
+\begin_layout Standard
+Actividades para mejorar las métricas de los Indicadores de negocio: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Velocidad en la frecuencia de despliegues:
+\series default
+ la primera etapa del proceso es mejorar la frecuencia de despliegues de
+ meses a semanas y progresivamente llevar la unidad de medida a días 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reducción de tiempo en el despliegue:
+\series default
+ la meta de la primera etapa de adopción es reducir el tiempo de horas a
+ minutos, progresivamente reducir la intervención externa, con el objetivo
+ de llevar el proceso a un nivel de automatización completa.
+\end_layout
+
+\begin_layout Standard
+La adopción progresiva de prácticas DevOps en las fases propuestas ayudarán
+ a la organización a mejorar aspectos como su eficiencia operativa, gestión
+ de cambios, colaboración, entrega de productos de forma rápida, oportuna
+ y confiable a los usuarios finales.
+ 
+\end_layout
+
+\end_body
+\end_document
