@@ -97,7 +97,6 @@ La Alianza Bioversity y el Centro internacional de agricultura tropical
  La compañía tiene presencia a nivel mundial en cuatro sedes regionales,
  Américas, Europa, África y Asía, para el caso colombiano, la sede regional
  para las Américas está ubicada en la ciudad de Palmira, Colombia.
- 
 \end_layout
 
 \begin_layout Standard
@@ -108,7 +107,7 @@ n y no investigación es marcada por lo que muchas actividades presentan
  diferentes grados relevancia de ejecución y priorización.
  La informática, tiene un papel representativo transversal enfocado a soporte
  de procesos científicos y administrativos acorde con las divisiones estructural
-es de la de la organización.
+es de la organización.
  Del lado de investigación, el alcance informático se centra en el desarrollo
  de soluciones a tareas particulares de cada área, en donde salvo contadas
  excepciones solo se entrega la aplicación con poca documentación de su
@@ -121,7 +120,6 @@ s unidades de soporte, desarrollo de software, operaciones e infraestructura,
  estas últimas fueron desarrolladas para uso interno principalmente dentro
  de la sede las Américas y algunas para todas las oficinas regionales con
  la que cuenta la organización.
- 
 \end_layout
 
 \begin_layout Standard
@@ -131,7 +129,6 @@ Debido al tipo de organización, los proyectos de software son internos con
  en el inicio de los proyectos como en una empresa comercial, por el contrario,
  la responsabilidad de inicio o no de un proyecto recae en la alta gerencia
  del departamento de acuerdo a la disponibilidad del recurso humano.
- 
 \end_layout
 
 \begin_layout Standard
@@ -150,7 +147,6 @@ ación.
  Por último, el despliegue de soluciones en los ambientes de pruebas y producció
 n también se hace de forma manual, incrementando los tiempos de entrega
  de las soluciones a los usuarios finales.
- 
 \end_layout
 
 \begin_layout Standard
@@ -165,7 +161,6 @@ Desde inicios del 2020 el área de desarrollo y soporte administrativo se
  en prácticas y herramientas DevOps para la instalación y configuración
  de herramientas particulares, como, por ejemplo, un orquestador de tareas,
  un gestor de dependencias y un analizador de código estático.
- 
 \end_layout
 
 \begin_layout Standard
@@ -179,7 +174,6 @@ En consecuencia, la iniciativa anterior no se acompañó de un plan de adopción
  en las áreas de integración de sistemas y redes (operaciones) del CIAT,
  oficina regional Colombia a partir de un diagnóstico de las capacidades
  técnicas y operativas de las áreas.
- 
 \end_layout
 
 \begin_layout Standard
@@ -187,17 +181,17 @@ Adoptar la filosofía DevOps implica una transformación a nivel de procesos,
  cultura y tecnología de las organizaciones.
  Una transformación de este tipo implica de una parte conocer cuál es el
  estado de la organización para asumir el cambio y por otra parte conocer
- cuáles son los elementos a considerar para llevar a cabo la transformación.
+ cuáles son los elementos que se deben considerar para llevar a cabo la
+ transformación digital en DevOps.
  Sin embargo, el CIAT no es experto en estas temáticas ni tiene las capacidades
- técnicas y culturares para ejecutar un cambio de este tipo, por lo tanto,
+ técnicas y culturales para ejecutar un cambio de este tipo, por lo tanto,
  este trabajo permitirá evaluar el estado de los procesos de desarrollo
  de software las áreas frente a las recomendaciones DevOps y brindará los
  criterios y orden de priorización de los elementos requeridos para la adopción
  de la filosofía acorde al estado de madurez de los procesos de la compañía.
  El propósito es que las áreas de integración de sistemas y redes y seguridad
  adopten un piloto DevOps definido y estructurado y progresivamente acordes
- a los resultados obtenidos escalarlo a otros niveles de la organización.
- 
+ a los resultados obtenidos escalar a otros niveles de la organización.
 \end_layout
 
 \begin_layout Subsection
@@ -216,11 +210,11 @@ A partir de identificar las prácticas de desarrollo software que implementan
 \begin_layout Standard
 ¿Cómo evaluar la conveniencia de adoptar DevOps como estrategia para la
  entrega continúa de productos de software de la Alianza Bioversity CIAT
- - Sede Regional para las Américas - Palmira, Colombia? 
+ - Sede Regional para las Américas - Palmira, Colombia?
 \end_layout
 
 \begin_layout Standard
-En particular se espera responder las siguientes preguntas: 
+En particular se espera responder las siguientes preguntas:
 \end_layout
 
 \begin_layout Itemize
@@ -230,9 +224,9 @@ En particular se espera responder las siguientes preguntas:
 \end_layout
 
 \begin_layout Itemize
-¿Cómo definir un marco de evaluación para determinar estado actual de los
- procesos de entrega continua de productos de software del CIAT frente a
- las recomendaciones DevOps? 
+¿Cómo definir un marco de evaluación para determinar el estado actual de
+ los procesos de entrega continua de productos de software del CIAT frente
+ a las recomendaciones DevOps? 
 \end_layout
 
 \begin_layout Itemize
@@ -302,9 +296,19 @@ Artefacto para diagnosticar el nivel de madurez de las prácticas actuales
 \end_layout
 
 \begin_layout Itemize
-Resultado de la evaluación de las necesidades de CIAT versus DevOps • Plan
- de acción a partir de los resultados del análisis de las necesidades particular
-es en la entrega de productos de software en el CIAT 
+Un artefacto que permita evaluar el estado de las practicas DevOps en una
+ organización con la capacidad de relacionar las opciones de respuesta de
+ cada pregunta a un plan de acción.
+ 
+\end_layout
+
+\begin_layout Itemize
+Resultado de la evaluación de las necesidades de CIAT versus DevOps 
+\end_layout
+
+\begin_layout Itemize
+Plan de acción a partir de los resultados del análisis de las necesidades
+ particulares en la entrega de productos de software en el CIAT 
 \end_layout
 
 \begin_layout Itemize
@@ -326,18 +330,22 @@ Este trabajo define criterios de evaluación para construir un artefacto
 \end_layout
 
 \begin_layout Standard
-A partir del resultado del diagnóstico se determina si las recomendaciones
- y buenas prácticas DevOps son convenientes para atender las necesidades
+A partir del resultado del diagnóstico se determinó que las recomendaciones
+ y buenas prácticas DevOps se pueden aplicar a cualquier tipo de organización
+ por lo que son convenientes y pertinentes para atender las necesidades
  de CIAT dado sus particularidades y tipo de compañía.
- Por último, se espera generar un plan de acción a partir de los hallazgos
- encontrados para que la empresa pueda iniciar una adopción progresiva.
 \end_layout
 
 \begin_layout Standard
-En el caso de que el resultado del análisis diagnóstico concluya que DevOps
- no es lo que realmente necesita la compañía, se generará una guía de recomendac
-iones para potenciar el proceso actual de entrega de productos de software.
- 
+Por último, se propone una estrategia de adopción DevOps enfocada en mejorar
+ el rendimiento en los tiempos de entrega de software en la organización.
+ Este plan se genera acorde a los hallazgos encontrados al evaluar un conjunto
+ de prácticas DevOps del artefacto de evaluación en la organización y que
+ se expresan con una calificación del nivel de madurez y con un plan de
+ acción por cada elemento evaluado.
+ A partir de estos resultados la CIAT tiene los elementos necesarios para
+ iniciar y estructurar una adopción progresiva de una transformación digital
+ DevOps.
 \end_layout
 
 \begin_layout Section
@@ -349,7 +357,6 @@ El CIAT es un centro de investigación científica en agricultura, por esta
  razón el rol informático no es el eje central de su funcionamiento.
  Sin embargo, como en toda organización la computación juega un papel clave
  para ayudar a la organización a cumplir sus objetivos misionales.
- 
 \end_layout
 
 \begin_layout Standard
@@ -359,13 +366,12 @@ Este proyecto busca evaluar en qué medida DevOps, entendido como un conjunto
  sino usar el desarrollo de sistemas de información para dar soporte operacional
  y estratégico que garantice la operación administrativa, donde la mayoría
  de los nuevos proyectos son cortos y no sobrepasan los 6 meses de desarrollo.
- 
 \end_layout
 
 \begin_layout Standard
 El principal reto de este documento es definir factores claves para determinar
  el nivel de conveniencia de adoptar DevOps como estrategia para la entrega
- continua de productos de software y como la empresa puede hacer un proceso
+ continua de productos de software y cómo la empresa puede hacer un proceso
  de adopción progresivo de acuerdo a sus particularidades operacionales.
  Por otro lado, es importante aprovechar y potenciar un grupo de herramientas
  DevOps que la compañía ya tiene disponibles para su uso, las cuales no
@@ -378,7 +384,6 @@ Con el ánimo de retomar la iniciativa para mejorar y potencializar la operació
  de adoptar prácticas DevOps en las áreas de integración de sistemas y redes
  (operaciones) del CIAT, oficina regional Colombia a partir de un diagnóstico
  de las capacidades técnicas y operativas de las áreas.
- 
 \end_layout
 
 \begin_layout Standard
@@ -387,7 +392,7 @@ Para ello se propone usar un marco de evaluación que ayudará a determinar
 les que ofrece DevOps en las diferentes fases del ciclo de vida del desarrollo
  de software.
  Una vez se obtengan los resultados del análisis se determinará la conveniencia
- de adoptar practicas DevOps o precisar el camino que debe tomar la compañía
+ de adoptar prácticas DevOps o precisar el camino que debe tomar la compañía
  dado su tipo, propósito y particularidades para que pueda mejorar el rendimient
 o organizacional y los tiempos de entrega de soluciones de software a sus
  usuarios finales
