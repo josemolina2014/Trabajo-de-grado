@@ -93,7 +93,6 @@ Adoptar una transformación digital en DevOps, es un proceso que no se puede
  de decisión y análisis para definir la estrategia de adopción que más le
  convenga a la organización para lograr el objetivo de mejorar el rendimiento
  la entrega de software.
- 
 \end_layout
 
 \begin_layout Standard
@@ -108,7 +107,6 @@ Para facilitar la evaluación del estado de los procesos de la organización,
 s de las características que en su mayoría no son fáciles de medir, por
  lo que son abordados de forma abstracta, logrando una aproximación de la
  a partir de unidades definidas o recomendaciones de industria.
- 
 \end_layout
 
 \begin_layout Standard
@@ -118,11 +116,17 @@ El marco de evaluación diseñado se basa en un modelo de referencia en donde
  se diseñó un cuestionario de preguntas cerradas que utiliza una escala
  de respuestas predefinida al que se asoció un plan de acción con el propósito
  de escalar el nivel de adopción de la capacidad.
- 
 \end_layout
 
 \begin_layout Section
 Modelo conceptual de capacidades 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Modelo-conceptual-de-capacidades"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -136,13 +140,12 @@ Durante el proceso de búsqueda de información y de artefactos de evaluación
  problemas como: confusión, malas interpretaciones y desgaste a la hora
  de medir sus procesos frente a las buenas prácticas recomendadas propuestas
  por la cultura DevOps.
- 
 \end_layout
 
 \begin_layout Standard
 Se diseñó un artefacto de medición de competencias DevOps, denominado modelo
  de capacidades, que se fundamenta en el resultado de la investigación del
- libro (Accelerate Forsgren 2018 
+ libro (Accelerate
 \begin_inset CommandInset citation
 LatexCommand cite
 key "10.5555/3235404"
@@ -150,7 +153,7 @@ literal "false"
 
 \end_inset
 
-[11]), donde identificaron 24 capacidades y 5 dimensiones que abarcan ámbitos
+), donde identificaron 24 capacidades y 5 dimensiones que abarcan ámbitos
  técnicos, gestión de procesos y cultura que a nivel estadístico impulsan
  mejoras en el rendimiento en la entrega de software en una compañía.
  
@@ -183,7 +186,7 @@ es y el marco de referencia, donde se destaca que el modelo de referencia
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -235,12 +238,11 @@ El artefacto de medición diseñado está compuesto por un cuestionario de
  el uso avanzado de la capacidad evaluada y un plan de acción asociado a
  cada opción de respuesta diseñado para fortalecer el estado actual de la
  capacidad evaluada a través de recomendaciones acorde a la escala.
- 
 \end_layout
 
 \begin_layout Standard
 En cifras totales, el modelo de capacidades propuesto está compuesto por
- los siguientes elementos: 
+ los siguientes elementos:
 \end_layout
 
 \begin_layout Itemize
@@ -272,7 +274,6 @@ El objetivo de diseñar el modelo de capacidades propuesto, fue de construir
  simple y concisa cómo gestionan el ciclo de vida del desarrollo de software
  en sus organizaciones frente a las recomendaciones y buenas prácticas que
  propone la cultura DevOps.
- 
 \end_layout
 
 \begin_layout Standard
@@ -300,14 +301,14 @@ noprefix "false"
 
 \end_inset
 
- 2 Modelo de capacidades para la evaluación DevOps) 
+) 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -354,7 +355,7 @@ Fuente: Elaboración propia
 Las preguntas del cuestionario, las opciones de respuestas y el plan de
  acción fueron diseñadas en base a un análisis e investigación en fuentes
  confiables del propósito y capacidad referenciada, donde se evitó caer
- en sesgos, flexibilidad, positivismo y opiniones personales 
+ en sesgos, flexibilidad, positivismo y puntos de vista personales.
 \end_layout
 
 \begin_layout Subsection
@@ -366,7 +367,6 @@ El modelo de referencia propone un conjunto de categorías desde los puntos
  de vista técnico, procesos, gestión de software y cultura que agrupan un
  conjunto de características clave que impulsan las mejoras en el rendimiento
  en la entrega de software en las organizaciones.
- 
 \end_layout
 
 \begin_layout Standard
@@ -384,8 +384,8 @@ Entrega continua:
 
  Agrupa las capacidades técnicas para medir los componentes de integración
  de procesos que permiten alcanzar la entrega frecuente y confiable de software.
- Estas capacidades que permiten pasar cambios a producción o uso de los
- usuarios finales de manera segura, rápida y sostenible.
+ Estas capacidades permiten pasar cambios a producción o uso de los usuarios
+ finales de manera segura, rápida y sostenible.
  
 \end_layout
 
@@ -407,7 +407,7 @@ Producto y Procesos:
 
  Agrupa las capacidades de desarrollo de productos Lean, mediante el enfoque
  y análisis hacia el cliente, gestión de prototipos tempranos y la división
- del trabajo 
+ del trabajo
 \end_layout
 
 \begin_layout Description
@@ -429,6 +429,7 @@ Gestión Lean y Monitorización:
 Cultura: Agrupa las capacidades del manejo de personas desde el punto de
  vista de satisfacción, identidad y compromiso de los empleados.
  Además de la influencia de la cultura al implementar prácticas de DevOps.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -446,7 +447,6 @@ noprefix "false"
  dimensiones en dos categorías que representan su enfoque particular: aspectos
  técnicos y componentes de gestión que apalancan la entrega de software
  en las organizaciones.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -455,8 +455,7 @@ Capacidad
 
 \begin_layout Standard
 Las capacidades son los elementos claves para mejorar la entrega de software
- en una organización, identificados en el modelo de referencia (Accelerate
- Forsgren 2018 
+ en una organización, identificados en el modelo de referencia 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "10.5555/3235404"
@@ -464,9 +463,9 @@ literal "false"
 
 \end_inset
 
-) como el resultado del análisis estadístico de una investigación donde
- determinaron los elementos claves que impulsan mejoras el rendimiento en
- la entrega de software en las organizaciones.
+ como el resultado del análisis estadístico de una investigación donde determina
+ron los elementos claves que impulsan mejoras el rendimiento en la entrega
+ de software en las organizaciones.
  Estas capacidades cubren ámbitos desde el punto de vista de gestión de
  procesos, técnicos, culturales, entre otras con la finalidad de escalar
  su rendimiento en la entrega de software en aspectos particulares.
@@ -480,16 +479,15 @@ noprefix "false"
 
 \end_inset
 
- Figura 3 3 representa el modelo general planteado los autores, donde se
- refleja la relación entre capacidades y las dimensiones que los agrupa.
- 
+ representa el modelo general planteado por los autores, donde se refleja
+ la relación entre capacidades y las dimensiones que los agrupa.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -552,25 +550,46 @@ Cada pregunta del cuestionario propuesto está definida en un modelo de pregunta
  de evaluación, facilitando la medición de las capacidades especialmente
  para el público encuestado que es nuevo en el tema o no domina los diferentes
  términos y definiciones propios de DevOps.
- 
 \end_layout
 
 \begin_layout Standard
 El diseño de cada pregunta del marco propuesto fue producto de una revisión
- bibliográfica de diferentes modelos de madurez DevOps como DevOpsHealthRadarAss
-essment , Dora reseach program, Owaps, DevOps Institute Team SKILup Assessment,
- entre otros (para mayor detalle consultar la sección (ver Modelos de medición
- de DevOps), los cuales presentan modelos de evaluación completos, con la
- particularidad que en su gran mayoría son presentados al usuario final
- con conceptos muy técnicos, complejos, extensos o en ocasiones demasiado
- cortos, causando confusión y malas interpretaciones para el encuestado
- no familiarizado con los conceptos propios de DevOps.
+ bibliográfica de diferentes modelos de madurez DevOps como 
+\series bold
+DevOpsHealthRadarAssessment
+\series default
+ , 
+\series bold
+Dora reseach program
+\series default
+, 
+\series bold
+Owaps
+\series default
+, 
+\series bold
+DevOps Institute Team SKILup Assessment
+\series default
+, entre otros (para mayor detalle consultar la sección (ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Modelos-de-medicion-devops"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), los cuales presentan modelos de evaluación completos, con la particularidad
+ que en su gran mayoría son presentados al usuario final con conceptos muy
+ técnicos, complejos, extensos o en ocasiones demasiado cortos, causando
+ confusión y malas interpretaciones para el encuestado no familiarizado
+ con los conceptos propios de DevOps.
  El propósito al diseñar cada pregunta fue reducir estos aspectos de uso
  de lenguaje técnico avanzado de la terminología DevOps, con el fin de reducir
  la complejidad de lo que se está preguntando, enfocando el cuestionario
  para el segmento con poco o ningún conocimiento previo de las prácticas
  DevOps.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -585,7 +604,6 @@ Las opciones de respuesta para cada pregunta del modelo fueron diseñadas
  un valor intermedio equivalente a los extremos, por último, para los puntos
  2 y 4 se usó la estrategia de analizar cada opción como estado de transición
  de las dos opciones de respuesta vecinas.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -601,7 +619,6 @@ El plan de acción presenta un conjunto de acciones concretas propuestas
  bajo una estrategia de resaltar los elementos claves a considerar acorde
  al nivel de desarrollo de la capacidad representado por la escala de las
  opciones de respuesta.
- 
 \end_layout
 
 \begin_layout Standard
@@ -613,9 +630,8 @@ La construcción del plan de acción fue la tarea más desafiante del marco
  es la cúspide del proceso y no haya nada más por mejorar, por el contrario,
  DevOps es un proceso de mejora y aprendizaje continuo que la organización
  debe adoptar como cultura del día a día, aquí se recomiendan los puntos
- claves a considerar para revaluar y optimizar las practicas existentes
+ claves a considerar para revaluar y optimizar las prácticas existentes
  además de estar abierto a la adopción de nuevos conceptos.
- 
 \end_layout
 
 \begin_layout Section
@@ -624,15 +640,34 @@ Formato de respuestas y sistema de puntaje
 
 \begin_layout Subsection
 Captura de información de entrada 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Captura-de-informacion-de-entrada"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 El modelo de capacidades propuesto está compuesto por un cuestionario de
- preguntas cerradas descrito en el punto Modelo conceptual de capacidades
+ preguntas cerradas descrito en el punto 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Modelo-conceptual-de-capacidades"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
  donde se busca medir el nivel de adopción o uso de un grupo de capacidades
  que representan prácticas DevOps para fortalecer el rendimiento en la entrega
  de software.
- Para poder analizar las respuestas del cuestionario de preguntas, se planeó
+\end_layout
+
+\begin_layout Standard
+Para poder analizar las respuestas del cuestionario de preguntas, se planeó
  una estrategia para definir las opciones de respuesta en una escala de
  1 a 5.
  La 
@@ -645,11 +680,11 @@ noprefix "false"
 
 \end_inset
 
-Tabla 3 1 representa un ejemplo de la unidad de análisis que representa
- cada opción de respuesta clasificada en 5 niveles de progreso y adopción
- de la capacidad, donde la nota 1 es la ausencia o no manejo de la capacidad
- y la nota 5 equivale a un nivel de uso avanzado de la capacidad Fuentes
- de información 
+ representa un ejemplo de la unidad de análisis que representa cada opción
+ de respuesta clasificada en 5 niveles de progreso y adopción de la capacidad,
+ donde la nota 1 es la ausencia o no manejo de la capacidad y la nota 5
+ equivale a un nivel de uso avanzado de la capacidad Fuentes de información
+ 
 \end_layout
 
 \begin_layout Standard
@@ -909,13 +944,13 @@ noprefix "false"
 
 \end_inset
 
- Figura 3 4 presenta las diferentes fases implementadas para obtener unidades
- de análisis definidas para representar los resultados de la encuesta, los
- cuales se detallan a continuación: 
+ presenta las diferentes fases implementadas para obtener unidades de análisis
+ definidas para representar los resultados de la encuesta, los cuales se
+ detallan a continuación:
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -971,13 +1006,15 @@ Recolección de datos:
 io, por ejemplo, Forms de Office 365 o Google Forms.
  El principal requisito para la herramienta es que permita crear preguntas
  cerradas, elegir una única respuesta por pregunta y que al final del proceso
- permita exportar las respuestas capturadas en una hoja electrónica como
- un documento Excel.
- Con el fin de brindar una alternativa de respuesta cuando el encuestado
+ poder exportar las respuestas capturadas en una hoja electrónica como un
+ documento Excel.
+\end_layout
+
+\begin_layout Standard
+Con el fin de brindar una alternativa de respuesta cuando el encuestado
  no tiene el suficiente conocimiento o experticia sobre el tema preguntado,
  se incluyeron en el formulario de encuesta dos opciones de respuesta: No
  aplica y No sabe /No responde por cada pregunta.
- 
 \end_layout
 
 \begin_layout Description
@@ -997,7 +1034,6 @@ Consolidación de datos:
  de la encuesta y el segundo es un archivo fijo de referencia que contiene
  el modelo de referencia completo, las escalas de evaluación, los rangos
  de notas.
- 
 \end_layout
 
 \begin_layout Description
@@ -1012,7 +1048,6 @@ Limpieza de datos:
  Este proceso se encarga de limpiar y depurar los datos obtenidos de la
  encuesta con el propósito de excluir del análisis las opciones de respuesta
  que no estén contempladas dentro del modelo de capacidades.
- 
 \end_layout
 
 \begin_layout Description
@@ -1028,9 +1063,11 @@ Cálculo de la moda:
  la moda como medida de tendencia central que no se ve afectada por valores
  extremos y para el caso de una única respuesta, la moda representa la opción
  elegida por el encuestado.
- Con el cálculo de la moda se obtuvo la nota que representa cada de la pregunta
+\end_layout
+
+\begin_layout Standard
+Con el cálculo de la moda se obtuvo la nota que representa cada pregunta
  del modelo de capacidades.
- 
 \end_layout
 
 \begin_layout Description
@@ -1046,7 +1083,6 @@ Identificación de plan de acción:
  y dado que el modelo diseñado relaciona un plan de acción por cada opción
  de respuesta de una pregunta, se puede asociar un plan de acción por cada
  pregunta a partir de la nota calculada.
- 
 \end_layout
 
 \begin_layout Description
@@ -1059,7 +1095,8 @@ Síntesis de resultados:
 \end_inset
 
  Consiste en realizar un análisis descriptivo de la nota calculada por cada
- pregunta, usando una escala categorías de calificación definida en la 
+ pregunta, usando una escala de categorías de calificación definida en la
+ 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Escala-de-categorías"
@@ -1069,9 +1106,12 @@ noprefix "false"
 
 \end_inset
 
-Tabla 3 2, en donde se definen 3 categorías de evaluación que permiten crear
- niveles de agrupación a partir de la nota de cada pregunta.
- Utilizando la estructura que compone el modelo de capacidades presentado
+ en donde se definen 3 categorías de evaluación que permiten crear niveles
+ de agrupación a partir de la nota de cada pregunta.
+\end_layout
+
+\begin_layout Standard
+Utilizando la estructura que compone el modelo de capacidades presentado
  en la 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -1082,11 +1122,10 @@ noprefix "false"
 
 \end_inset
 
-Figura 3 1 donde existe una relación directa entre preguntas del cuestionario
- y las capacidades del modelo de referencia, se extendió el análisis descriptivo
+ donde existe una relación directa entre preguntas del cuestionario y las
+ capacidades del modelo de referencia, se extendió el análisis descriptivo
  de las categorías a las capacidades y las dimensiones, donde la nota del
  nivel se obtuvo promediando la nota de cada pregunta que lo integra.
- 
 \end_layout
 
 \begin_layout Standard
@@ -1296,7 +1335,7 @@ Para el caso académico se utilizó la cuenta de office 365 de la Universidad
 \begin_layout Standard
 El cuestionario del modelo de capacidades diseñado se implementó en un Formulari
 o de Encuestas de office 365, que permite al encuestado responder cada pregunta
- eligiendo una única opción de respuesta y final del proceso la herramienta
+ eligiendo una única opción de respuesta y al final del proceso la herramienta
  permite descargar los resultados de la encuesta en un archivo Excel.
  El formulario puede ser visualizado y copiado a través del siguiente link:
  
@@ -1335,13 +1374,13 @@ Presentación de resultados
 \end_layout
 
 \begin_layout Standard
-Para la presentación de los datos, se creó un reporte grafico estilo dashboard
- a través del cual se construyeron diferentes graficas que resume y presenta
+Para la presentación de los datos, se creó un reporte gráfico estilo dashboard
+ a través del cual se construyeron diferentes gráficas que resume y presenta
  las unidades de análisis obtenidas de los resultados de la encuesta y el
  modelo de capacidades.
  El informe de resultados fue diseñado basado en una estrategia de buenas
  prácticas para el diseño de gráficos con el objetivo de presentar la informació
-n que vaya de lo general a lo especifico, donde los elementos generales
+n que vaya de lo general a lo específico, donde los elementos generales
  como la nota final, las calificaciones por dimensión se ubican en la parte
  superior y los elementos más específicos del modelo como detalle de nota
  por capacidad, agrupación de categorías se ubican en las zonas de mitad
@@ -1357,7 +1396,7 @@ El principio de diseño implementado buscó mostrar diferentes perspectivas
 \end_layout
 
 \begin_layout Standard
-La escala de calificación presentadas en la 
+La escala de calificación presentada en la
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Escala-de-categorías"
@@ -1367,10 +1406,10 @@ noprefix "false"
 
 \end_inset
 
-Tabla 3 2 se complementaron en la presentación de los resultados a través
- de una escala de colores inspirado en un semáforo para representar sus
- 3 categorías, rojo para las oportunidades de mejora, amarillo para los
- aceptables y verde para las fortalezas.
+ se complementó con la presentación de los resultados a través de una escala
+ de colores inspirado en un semáforo para representar sus 3 categorías,
+ rojo para las oportunidades de mejora, amarillo para los aceptables y verde
+ para las fortalezas.
 \end_layout
 
 \begin_layout Standard
@@ -1391,17 +1430,16 @@ noprefix "false"
 
 \end_inset
 
-Figura 3 5, muestra un ejemplo de algunos gráficos y los colores usados
- en el dashboard para presentar los resultados de la evaluación y la escala
- de calificación del caso práctico que será descrito en el siguiente capítulo
- 
+ muestra un ejemplo de algunos gráficos y los colores usados en el dashboard
+ para presentar los resultados de la evaluación y la escala de calificación
+ del caso práctico que será descrito en el siguiente capítulo
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1460,8 +1498,8 @@ noprefix "false"
 
 \end_inset
 
-Figura 3 6 muestra una representación gráfica de las etapas y los elementos
- que componen cada fase.
+ muestra una representación gráfica de las etapas y los elementos que componen
+ cada fase.
 \end_layout
 
 \begin_layout Standard
@@ -1518,11 +1556,11 @@ Preparación:
 \series default
  Esta fase definió quién, cómo y cuándo se va a realizar la encuesta de
  medición de capacidades en la organización, inicia con una reunión inicial
- con los representes directivos de la organización donde se definen los
- participantes en la medición, la plataforma a utilizar y el tiempo para
- que el grupo definido diligencie la medición de capacidades.
+ con los representantes de los directivos de la organización donde se definen
+ los participantes en la medición, la plataforma a utilizar y el tiempo
+ para que el grupo definido diligencie la medición de capacidades.
  Se recomienda que el grupo de encuestados este compuesto por representantes
- de los equipos de desarrollo, infraestructura incluyendo lideres técnicos
+ de los equipos de desarrollo, infraestructura incluyendo líderes técnicos
  y demás personas que participen directamente el proceso de desarrollo de
  software.
 \end_layout
@@ -1541,23 +1579,30 @@ Ejecución:
 \end_layout
 
 \begin_layout Description
-Resultados: Esta fase se encargó de transformar los datos obtenidos en la
+Resultados: sta fase se encargó de transformar los datos obtenidos en la
  medición de capacidades en unidades de análisis, así sintetizar los resultados
  en gráficos expresado en un reporte estilo dashboard y obtener el plan
  de acción de cada pregunta Esta fase toma como entrada el resultado de
  la encuesta exportado de la herramienta utilizada, donde se ejecutó un
  proceso de depuración y limpieza de datos que permitió realizar los cálculos
- analíticos descritos en el punto 3.2.2, obteniendo un reporte dinámico con
- el diagnostico de los factores de evaluación claves para determinar el
- estado de las capacidades DevOps de la organización.
- 
+ analíticos descritos en el punto 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Transformación-resultados-unidades-de-análisis "
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, obteniendo un reporte dinámico con el diagnóstico de los factores de evaluació
+n claves para determinar el estado de las capacidades DevOps de la organización.
 \end_layout
 
 \begin_layout Standard
 El caso de estudio donde se aplicó el modelo de capacidades propuesto a
  través de la implementación de las diferentes fases de implementación y
- análisis será explicado en detalle en el siguiente capitulo.
- 
+ análisis será explicado en detalle en el siguiente capítulo.
 \end_layout
 
 \begin_layout Subsection
@@ -1565,7 +1610,6 @@ Limitaciones
 \end_layout
 
 \begin_layout Standard
-\noindent
 El modelo de evaluación de capacidades diseñado y propuesto fue una creación
  propia orientada para evitar ambigüedades y sesgos conceptuales a la hora
  de medir el uso de prácticas DevOps en una organización.
@@ -1578,18 +1622,18 @@ a, por lo que en algunos casos el modelo planteado puede quedarse corto
 Al igual que las preguntas del cuestionario, las opciones de respuestas
  y el plan de acción fueron creación propia, inspiradas en el modelo de
  referencia, por lo que pueden existir conceptos DevOps no contemplados
- y cubiertos en el modelo evaluación propuesto.
+ y cubiertos en el modelo de evaluación propuesto.
 \end_layout
 
 \begin_layout Standard
 A partir del alcance y limitación de este documento, el modelo de capacidades
  propuesto y solo fue probado en un único caso particular, en este caso
- la compañía Alianza Bioversity CIAT como se detallará en el siguiente capítulo.
+ la compañía Alianza Bioversity CIAT como se detalla en el siguiente capítulo.
 \end_layout
 
 \begin_layout Standard
 Por último, este documento se enfocó en definir un marco de evaluación DevOps
- general y se particularizó para una única compañía, por lo que la captura
+ general y se particularizó en una única compañía, por lo que la captura
  de datos y su posterior análisis no están integrados en un único proceso
  o aplicación que automatice todas las propuestas.
 \end_layout
@@ -1605,11 +1649,10 @@ La adopción DevOps en una compañía no se puede llevar a cabo siguiendo una
  vida de las aplicaciones, identificando debilidades, cuellos de botella
  y demás elementos afecten la entrega de productos de software.
  Para facilitar este tipo de evaluaciones, se diseñó un artefacto de medición
- de capacidades enfocado en al segmento de profesionales TI con nuevos o
+ de capacidades enfocado en el segmento de profesionales TI con nuevos o
  con pocos conocimientos de las prácticas DevOps.
  El artefacto de medición denominado modelo de capacidades, que se fundamenta
- en el resultado de la investigación del libro (Accelerate Forsgren 2018
- 
+ en el resultado de la investigación del libro Accelerate 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "10.5555/3235404"
@@ -1617,10 +1660,9 @@ literal "false"
 
 \end_inset
 
-[11]), donde identificaron 24 capacidades que abarcan ámbitos técnicos,
- gestión de procesos y cultura que a nivel estadístico impulsan mejoras
- en el rendimiento en la entrega de software en una compañía.
- 
+, donde identificaron 24 capacidades que abarcan ámbitos técnicos, gestión
+ de procesos y cultura que a nivel estadístico impulsan mejoras en el rendimient
+o en la entrega de software en una compañía.
 \end_layout
 
 \begin_layout Standard
@@ -1628,7 +1670,7 @@ El modelo de capacidades está compuesto por un cuestionario de 25 preguntas
  cerradas que representa cada una de las 24 capacidades del modelo de referencia
 , una justificación del porqué de la pregunta, 5 opciones de respuesta por
  cada pregunta expresadas en una escala de 1 a 5 y un plan de acción asociado
- a cada opción de respuesta, en la 
+ a cada opción de respuesta, la 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Ejemplo-Estructura-preguntas-modelo"
@@ -1638,13 +1680,12 @@ noprefix "false"
 
 \end_inset
 
-Figura 3 2 se muestra un ejemplo cómo esta compuesta una pregunta en modelo
- propuesto.
+ muestra un ejemplo de la composición de una pregunta del modelo de capacidades.
 \end_layout
 
 \begin_layout Standard
 En cifras totales, el modelo de capacidades propuesto está compuesto por
- los siguientes elementos: 
+ los siguientes elementos:
 \end_layout
 
 \begin_layout Itemize
@@ -1686,23 +1727,22 @@ noprefix "false"
 
 \end_inset
 
-Tabla 3 2 con los que se obtuvo unidades de análisis representables en gráficos
- analíticos.
+ con los que se obtuvo unidades de análisis representables en gráficos analítico
+s.
 \end_layout
 
 \begin_layout Standard
 El informe de resultados se basó en una estrategia de buenas prácticas para
  el diseño de gráficos con el objetivo de presentar la información con una
- estrategia que va de lo general a lo especifico, donde los elementos generales
- se ubicaron en la parte superior y los elementos más específicos del modelo
+ estrategia que va de lo general a lo específico, donde los elementos generales
+ se ubicaron en la parte superior y los elementos más particulares del modelo
  se ubicaron en las zonas de mitad de página hacia a abajo.
- 
 \end_layout
 
 \begin_layout Standard
-En el siguiente capitulo se describirá como se aplicaron las diferentes
+En el siguiente capítulo se describirá cómo se aplicaron las diferentes
  fases del modelo de capacidades propuesto en un caso estudio particular
- para la compañía CIAT 
+ para la compañía CIAT.
 \end_layout
 
 \end_body
