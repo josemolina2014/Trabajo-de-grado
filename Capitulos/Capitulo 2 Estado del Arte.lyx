@@ -82,8 +82,27 @@
 Revisión de literatura 
 \end_layout
 
+\begin_layout Standard
+En este capítulo se presenta el marco teórico y los trabajos previos que
+ apalancan la realización del presente proyecto.
+ Se abordarán temas de transformación digital DevOps y como este se involucra
+ en el ciclo de vida de los proyectos de software, sus prácticas, sus pilares
+ y los diferentes modelos de madurez y medición en las organizaciones.
+\end_layout
+
 \begin_layout Section
 Marco teórico 
+\end_layout
+
+\begin_layout Subsection
+Ciclo de vida del desarrollo de software 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:ciclo-de-vida-del-desarrollo-de-software"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -93,92 +112,156 @@ El Desarrollo de software se compone de un grupo de procesos, actividades
  de software en inglés por sus siglas Software Development Life Cycle (SDLC).
  Dentro del mercado existe una gran variedad de modelos, entre los más destacado
 s de la industria están Cascada, Espiral y Ágil.
- 
-\end_layout
-
-\begin_layout Subsection
-Ciclo de vida del desarrollo de software 
 \end_layout
 
 \begin_layout Standard
-El Desarrollo de software es una serie de actividades relacionadas que conlleva
- a la elaboración de un producto de software, comúnmente denominados ciclo
- de vida del desarrollo de software (SDLC) (Sommerville 2011 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "IanSommerville2011"
 literal "false"
 
 \end_inset
 
-).
+ define cuatro actividades fundamentales que son comunes a todos los procesos
+ de desarrollo de software.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Especificación del software
+\series default
+, donde clientes e ingenieros definen el software que se producirá y las
+ restricciones en su operación.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Desarrollo del software
+\series default
+, donde se diseña y programa el software.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Validación del software
+\series default
+, donde se verifica el software para asegurar que sea lo que el cliente
+ requiere.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Evolución del software
+\series default
+, donde se modifica el software para reflejar los requerimientos cambiantes
+ del cliente y del mercado.
  
 \end_layout
 
 \begin_layout Standard
-El proceso de desarrollo involucra con conjunto de diversas tareas, que
- van desde lo administrativo, pasando por lo técnico, hasta la gestión y
- gerencia del proyecto.
- Recientemente el proceso de desarrollo de software se consolido en la norma
- ISO ISO/IEC 12207 define las etapas básicas del proceso de desarrollo de
- software.
+A nivel de estándares y normatividades, existe la norma ISO ISO/IEC 12207
+ que define las etapas básicas del proceso de desarrollo de software.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Análisis:
+\series default
+ Se identifican los requisitos que debe cumplir el software y se construye
+ un modelo de dichos requisitos.
  
 \end_layout
 
 \begin_layout Itemize
-Análisis: Se identifican los requisitos que debe cumplir el software y se
- construye un modelo de dichos requisitos.
+
+\series bold
+Diseño:
+\series default
+ A partir del modelo de análisis se identifican los procesos y las estructuras
+ de datos en las que se descompone el sistema y además se construye un modelo
+ del sistema a desarrollar.
  
 \end_layout
 
 \begin_layout Itemize
-Diseño: A partir del modelo de análisis se identifican los procesos y las
- estructuras de datos en las que se descompone el sistema y además se construye
- un modelo del sistema a desarrollar.
- 
+
+\series bold
+Codificación:
+\series default
+ Se construye el sistema en sí mismo 
 \end_layout
 
 \begin_layout Itemize
-Codificación: Se construye el sistema en sí mismo 
+
+\series bold
+Pruebas:
+\series default
+ Se comprueba que el sistema construido es correcto y cumple con el modelo
+ de requisitos 
 \end_layout
 
 \begin_layout Itemize
-Pruebas: Se comprueba que el sistema construido es correcto y cumple con
- el modelo de requisitos 
-\end_layout
 
-\begin_layout Itemize
-Mantenimiento: Esta fase tiene lugar tras la entrega del producto acabado
- y en ella se trata de asegurar que el sistema siga funcionando y adaptándose
- a los nuevos requisitos.
+\series bold
+Mantenimiento:
+\series default
+ Esta fase tiene lugar tras la entrega del producto acabado y en ella se
+ trata de asegurar que el sistema siga funcionando y adaptándose a los nuevos
+ requisitos.
  
 \end_layout
 
 \begin_layout Subsection
 Modelos de proceso de software 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:modelos-de-proceso-de-software"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 El modelo en cascada (waterfall) 
-\end_layout
-
-\begin_layout Standard
-El primer modelo publicado sobre el proceso de desarrollo de software se
- derivó a partir de procesos más generales de ingeniería de sistemas, este
- modelo de desarrollo se considera como la forma más tradicional de gestionar
- el desarrollo de software.
- (Sommerville 2011 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "IanSommerville2011"
-literal "false"
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:el-modelo-en-cascada"
 
 \end_inset
 
-)
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "true"
+
+\end_inset
+
+ define el modelo de cascada como un mecanismo de entrega de proyectos en
+ el que las tareas se completan en un orden secuencial para lograr un objetivo
+ específico, cada fase solo inicia si la fase anterior esta completa
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "IanSommerville2011"
+literal "true"
+
+\end_inset
+
 La 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -189,11 +272,10 @@ noprefix "false"
 
 \end_inset
 
- presenta un modelo grafico de las diferentes etapas secuencias que componen
- el modelo donde se implementan las actividades fundamentales del proceso
- de especificación, desarrollo, validación y evolución y, luego, los representa
- como fases separadas del proceso, tal como especificación de requerimientos,
- diseño de software, implementación, pruebas, etcétera.
+ presenta las diferentes etapas que componen el modelo en cascada, donde
+ se implementan las actividades fundamentales del proceso como son: Análisis
+ y definición de requerimientos, el diseño, la implementación, la integración,
+ las pruebas, la operación y el mantenimiento.
 \end_layout
 
 \begin_layout Standard
@@ -232,6 +314,20 @@ name "fig:Modelo-en-cascada"
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "IanSommerville2011"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -239,35 +335,52 @@ name "fig:Modelo-en-cascada"
 
 \begin_layout Subsubsection
 Agile
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Agile"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-En la década de 1990 el descontento con estos enfoques engorrosos de la
- ingeniería de software condujo a algunos desarrolladores de software a
- proponer nuevos “métodos ágiles” los cuales permitieron que el equipo de
- desarrollo se enfocara en el software en lugar del diseño y la documentación.
- (Sommerville 2011 [1]).
- 
+Agile es el nombre dado a un grupo de marcos de trabajo de desarrollo de
+ software que están diseñadas para ser más ligeras y flexibles que los métodos
+ considerados tradicionales como la cascada 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-El término "Ágil" es relativamente nuevo, acuñado oficialmente en 2001 cuando
- un grupo de profesionales del software publicó un documento llamado Manifiesto
- Ágil.
- La forma más fácil de entender Agile es como el extremo opuesto al desarrollo
- de software secuencial tradicional.
- El proceso ágil valora la colaboración constante, las entregas frecuentes
- y la evolución continua de los requisitos.
- Hay una comunicación constante; los cambios se hacen en tiempo real; y
- las sorpresas son menos frecuentes.
- (Murray 2016 [2]) 
+El término 
+\begin_inset Quotes eld
+\end_inset
+
+Ágil
+\begin_inset Quotes erd
+\end_inset
+
+ es un término relativamente nuevo, acuñado oficialmente en 2001 cuando
+ se publicó un documento llamado Manifiesto Ágil que define el siguiente
+ conjunto de valores:
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beck"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Manifiesto Agil (Manifiesto 2001[3]) 
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 Individuos e interacciones sobre procesos y herramientas 
 \end_layout
 
@@ -284,15 +397,7 @@ Respuesta ante el cambio sobre seguir un plan
 \end_layout
 
 \begin_layout Standard
-Esto es, aunque valoramos los elementos de la derecha, valoramos más los
- de la izquierda.
- En Agile las tareas se dividen en bloques de tiempo, con el fin de entregar
- características específicas para un lanzamiento.
- Se adopta un enfoque iterativo y después de cada iteración se entrega una
- versión del software funcional.
- Cada versión es incremental en términos de características; la versión
- final contiene todas las características requeridas por el cliente (ver
- 
+La 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Características-generales-marcos-agile"
@@ -302,76 +407,29 @@ noprefix "false"
 
 \end_inset
 
- ).
- Los marcos de trabajo ágiles más populares en la industria son Rational
- Unified Process (1994), Scrum (1995), Crystal Clear, Extreme Programming
- (1996), Adaptive Software Development, Feature Driven Development y Dynamic
- Systems Development Method (DSDM) (1995).
- En la 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "fig:Valores-agile-en-marcos-populares"
-plural "false"
-caps "false"
-noprefix "false"
+ representa algunos de los elementos que componen los marcos de trabajo
+ agiles.
+ Las tareas se dividen en bloques de tiempo, con el fin de entregar característi
+cas específicas para un lanzamiento.
+ Se adopta un enfoque iterativo y después de cada iteración se entrega una
+ versión del software funcional y cada versión es incremental en términos
+ de características, por último, la versión final contiene todas las característ
+icas requeridas por el cliente 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ProjectmanagementInstitute2017"
+literal "false"
 
 \end_inset
 
- se muestran los valores agile en 3 marcos de trabajo más populares.
- En la actualidad se denominan colectivamente marcos de trabajo ágiles,
- tras la publicación del Manifiesto Ágil en 2001 (Murray 2016 [2]).
- 
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/valores agile.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Valores agile en marcos de trabajo más populares del mercado
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Valores-agile-en-marcos-populares"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\size tiny
-Imagen tomada del libro Learning Agile
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -403,8 +461,121 @@ name "fig:Características-generales-marcos-agile"
 \begin_layout Plain Layout
 
 \size tiny
-Imagen tomada del libro Agile practice Guide, Project Management Institute
- 2017
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ProjectmanagementInstitute2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los marcos de trabajo ágiles más populares en la industria son Extreme Programmi
+ng, Scrum, Rational Unified Process, Crystal Clear, Adaptive Software Developmen
+t, entre otras En la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Enfoques-y-marcos-de-trabajo-agiles"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ muestra la relación de composición entre los marcos de trabajo agile y
+ los enfoques agile, donde la agilidad y el método Kanban se presentan como
+ subconjuntos de Lean porque comparten conceptos particulares, como: 
+\begin_inset Quotes eld
+\end_inset
+
+centrarse en el valor
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+lotes de pequeño tamaño
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+eliminación de residuos
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ProjectmanagementInstitute2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/enfoques y metodos agile.png
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Enfoques-y-marcos-de-trabajo-agiles"
+
+\end_inset
+
+Enfoques y marcos de trabajo agiles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada del libro 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ProjectmanagementInstitute2017"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -414,6 +585,13 @@ Imagen tomada del libro Agile practice Guide, Project Management Institute
 
 \begin_layout Subsection
 DevOps 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:DevOps"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -426,38 +604,123 @@ El termino DevOps, como cualquier nuevo concepto tecnológico que se adopta
 
 \begin_layout Subsubsection
 Conceptos y definiciones: 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:DevOps-Conceptos-y-definiciones:"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-DevOps es un término tecnológico reciente en el que muchos autores no tienen
- un conceso definitivo de su definición, a continuación, se presentan las
- definiciones de diferentes autores.
- 
+Por definición DevOps es la unión de las palabras 
+\begin_inset Quotes eld
+\end_inset
+
+Desarrollo
+\begin_inset Quotes erd
+\end_inset
+
+ (development) and 
+\begin_inset Quotes eld
+\end_inset
+
+Operaciones
+\begin_inset Quotes erd
+\end_inset
+
+ (operation), es una práctica que fomenta el trabajo colaborativo y la comunicac
+ión entre las personas involucradas en desarrollo de software.
 \end_layout
 
 \begin_layout Standard
-R.
- Davis, Jennifer and Daniels, Effective DevOps, [4]: “DevOps es una forma
- de pensar y de trabajar.
+El termino DevOps, es un concepto tecnológico relativamente nuevo que la
+ industria del software ha adoptado y se ha convertido en una palabra de
+ moda en la industria del software.
+ Muchos autores no tienen un conceso definitivo de una definición universal,
+ a continuación, se presentan la versión de diferentes autores referentes
+ de la industria:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+: 
+\begin_inset Quotes eld
+\end_inset
+
+DevOps es una forma de pensar y de trabajar.
  Es un marco para compartir historias y desarrollar la empatía, permitiendo
  a las personas y a los equipos aplicar sus conocimientos de manera eficaz
  y duradera.
  Es parte del tejido cultural que da forma a cómo trabajamos y por qué.
  Mucha gente piensa en DevOps como herramientas específicas como Chef o
  Docker, pero herramientas por sí solas no son DevOps.
- Lo que hace que las herramientas sean "DevOps" es la forma de su uso, no
- características fundamentales de las propias herramientas.” Gonzalez, Implementi
-ng Modern DevOps [5]: “DevOps es una filosofía más que un conjunto de herramient
-as o un procedimiento: tener a tus ingenieros expuestos a todo el ciclo
- de vida de tu producto requiere mucha disciplina, pero te da un enorme
- control sobre lo que se está construyendo.
+ Lo que hace que las herramientas sean 
+\begin_inset Quotes eld
+\end_inset
+
+DevOps
+\begin_inset Quotes erd
+\end_inset
+
+ es la forma de su uso, no características fundamentales de las propias
+ herramientas.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gonzalez2017"
+literal "false"
+
+\end_inset
+
+: 
+\begin_inset Quotes eld
+\end_inset
+
+DevOps es una filosofía más que un conjunto de herramientas o un procedimiento:
+ tener a tus ingenieros expuestos a todo el ciclo de vida de tu producto
+ requiere mucha disciplina, pero te da un enorme control sobre lo que se
+ está construyendo.
  Si los ingenieros entienden el problema, lo resolverán; es lo que saben
- hacer.” J.
- Smith, Operations Anti-Patterns, [6]: “DevOps es un conjunto de prácticas
- de desarrollo de software que combina una mentalidad de desarrollo de software
- con otras funciones de la organización.
- DevOps pone un gran énfasis en las responsabilidades compartidas entre
- todos los equipos a lo largo del ciclo de vida del desarrollo de software.
+ hacer.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith2020"
+literal "false"
+
+\end_inset
+
+: 
+\begin_inset Quotes eld
+\end_inset
+
+DevOps es un conjunto de prácticas de desarrollo de software que combina
+ una mentalidad de desarrollo de software con otras funciones de la organización.
+\end_layout
+
+\begin_layout Standard
+DevOps pone un gran énfasis en las responsabilidades compartidas entre todos
+ los equipos a lo largo del ciclo de vida del desarrollo de software.
  Los bordes de las funciones de trabajo de trabajo se suavizan, ya que los
  miembros del equipo de operaciones asumen tareas que tradicionalmente estaban
  más tradicionalmente más centradas en los desarrolladores, y los miembros
@@ -465,24 +728,110 @@ as o un procedimiento: tener a tus ingenieros expuestos a todo el ciclo
  El término DevOps se asocia más comúnmente con el desarrollo (Dev) y las
  operaciones de TI (Ops), pero el enfoque puede extenderse también a otros
  grupos, incluyendo, entre otros, la seguridad (DevSecOps), el control de
- calidad, las operaciones de bases de datos y redes.” 
+ calidad, las operaciones de bases de datos y redes.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Jennifer Davis & Katherine Daniels, Efective DevOps [7] “Devops es un movimiento
- cultural que cambia la forma en que los individuos piensan sobre su trabajo,
- valora la diversidad del trabajo realizado, apoya los procesos intencionales
- que aceleran el ritmo de realización del valor por parte de las empresas
- y mide el efecto del cambio social y técnico.
- Es una forma de pensar y de trabajar que permite a los individuos y a las
- organizaciones desarrollar y mantener prácticas de trabajo sostenibles.
- Es un marco cultural para compartir historias y desarrollar la empatía,
- lo que permite a las personas y a los equipos practicar sus oficios de
- forma eficaz y duradera.” En resumen, DevOps se puede definir como una filosofía
- que está en constate evolución que agrupa buenas prácticas de industria
- para mejorar la entrega de productos de software a través de un cambio
- cultural que abarca personas, procesos y herramientas tecnológicas.
- 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gartner"
+literal "false"
+
+\end_inset
+
+: “DevOps representa un cambio en la cultura de TI, centrándose en la rápida
+ prestación de servicios de TI mediante la adopción de prácticas ágiles
+ y ajustadas en el contexto de un enfoque orientado al sistema.
+ DevOps hace hincapié en las personas (y la cultura), y busca mejorar la
+ colaboración entre los equipos de operaciones y de desarrollo.
+ Las implementaciones de DevOps utilizan la tecnología, especialmente las
+ herramientas de automatización que pueden aprovechar una infraestructura
+ cada vez más programable y dinámica desde la perspectiva del ciclo de vida.”
+\end_layout
+
+\begin_layout Standard
+En resumen, DevOps se puede definir como una filosofía que está en constante
+ evolución que agrupa buenas prácticas de industria para mejorar la entrega
+ de productos de software a través de un cambio cultural que abarca personas,
+ procesos y herramientas tecnológicas.
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Cultura-DevOps"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta los pilares de la cultura DevOps en una organización, colaboración,
+ procesos y herramientas.
+ Y la conjunción de ellas permite alcanzar una transformación digital en
+ DevOps en pro de mejorar el rendimiento en la entrega de productos de software
+ en las organizaciones.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/cultura devops.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cultura-DevOps"
+
+\end_inset
+
+Cultura DevOps
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+\emph on
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Verona2016"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -492,9 +841,16 @@ Mitos
 \begin_layout Standard
 
 \emph on
-The DevOps Handbook:
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \emph default
- [8] detalla un conjunto de mitos sobre DevOps
+ detalla un conjunto de mitos sobre DevOps
 \end_layout
 
 \begin_layout Standard
@@ -503,50 +859,22 @@ The DevOps Handbook:
 DevOps es sólo para las startups:
 \series default
  Aunque las prácticas de DevOps han sido pioneras en las empresas 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 unicornio
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  de Internet a escala web, como Google, Amazon, Netflix y Etsy, cada una
  de estas organizaciones ha corrido, en algún momento de su historia, el
  riesgo de quebrar debido a los problemas asociados con las organizaciones
  
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 caballo
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  más tradicionales: lanzamientos de código altamente peligrosos que eran
@@ -559,7 +887,17 @@ status collapsed
 \begin_layout Standard
 Sin embargo, cada una de estas organizaciones fue capaz de transformar su
  arquitectura, sus prácticas técnicas y su cultura para crear los sorprendentes
- resultados que asociamos con DevOps [8]
+ resultados que asociamos con DevOps 
+\emph on
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -578,31 +916,27 @@ DevOps sustituye a Agile
 \begin_layout Standard
 Muchas prácticas de DevOps surgen si continuamos gestionando nuestro trabajo
  más allá del objetivo de 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 código potencialmente entregable
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  al final de cada iteración, extendiéndolo a tener nuestro código siempre
  en un estado desplegable, con los desarrolladores comprobando en el tronco
  diariamente, y que demostramos nuestras características en entornos similares
- a la producción.[8]
+ a la producción 
+\emph on
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -616,7 +950,18 @@ DevOps es incompatible con ITIL
  operaciones, incluido uno de los coautores, y es una biblioteca de prácticas
  en constante evolución destinada a codificar los procesos y las prácticas
  que sustentan las operaciones de TI de clase mundial, que abarcan la estrategia
-, el diseño y el soporte del servicio.[8]
+, el diseño y el soporte del servicio.
+ 
+\emph on
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -641,31 +986,28 @@ NoOps
  de vida del software con el departamento de desarrollo, que sigue trabajando
  con las operaciones de TI mucho después de que el código se haya desplegado
  en la producción.
+ 
+\emph on
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 DevOps es sólo 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 infraestructura como código
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
  o automatización
@@ -675,29 +1017,25 @@ status collapsed
  Esto va mucho más allá de la automatización.
  Como escribió Christopher Little, un ejecutivo de tecnología y uno de los
  primeros cronistas de DevOps, 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes eld
 \end_inset
 
 DevOps no es sobre la automatización, al igual que la astronomía no es sobre
  los telescopios
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
+\begin_inset Quotes erd
 \end_inset
 
 .
+\emph on
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -711,6 +1049,17 @@ DevOps es sólo para el software de código abierto:
  Se han logrado éxitos con aplicaciones escritas en Microsoft.NET, COBOL
  y código ensamblador de mainframe, así como con SAP e incluso con sistemas
  integrados (por ejemplo, el firmware de HP LaserJet).
+ 
+\emph on
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -718,42 +1067,15 @@ Historia
 \end_layout
 
 \begin_layout Standard
-DevOps y sus prácticas técnicas, arquitectónicas y culturales resultantes
- representan una convergencia de muchos movimientos filosóficos y de gestión.
- Aunque muchas organizaciones han desarrollado estos principios de forma
- independiente, entender que DevOps es el resultado de un amplio trazo de
- movimientos.
+El origen de la palabra DevOps y los primeros días del movimiento se centran
+ en una persona que lideró la popularización de la idea inicial del concepto
+ DevOps: Patrick Debois, un desarrollador de software y consultor con experienci
+a en muchos campos dentro de las TI que se sentía frustrado por la división
+ entre los desarrolladores y el personal de operaciones.
 \end_layout
 
 \begin_layout Standard
-DevOps es el resultado de aplicar los principios más fiables del ámbito
- de la fabricación física y el liderazgo al flujo de valor de las TI.
- DevOps se basa en cuerpos de conocimiento de Lean, la Teoría de las Restriccion
-es, el Sistema de Producción Toyota, la ingeniería de resiliencia, las organizac
-iones de aprendizaje, la cultura de la seguridad, los factores humanos y
- muchos otros.
- Otros contextos valiosos de los que se nutre DevOps son las culturas de
- gestión de alta confianza, el liderazgo de servicio y la gestión del cambio
- organizativo.
-\end_layout
-
-\begin_layout Standard
-Aunque los fundamentos de DevOps pueden considerarse derivados de Lean,
- la teoría de las restricciones y el movimiento Toyota Kata, muchos también
- ven a DevOps como la continuación lógica del viaje del software ágil que
- comenzó en 2001.
-\end_layout
-
-\begin_layout Standard
-Una de las primeras aproximaciones a las bases conceptuales se dio en la
- conferencia Agile de 2008 celebrada en Toronto (Canadá), donde Patrick
- Debois y Andrew Shafer celebraron una sesión sobre la aplicación de los
- principios Agile a la infraestructura en lugar de al código de la aplicación.
-\end_layout
-
-\begin_layout Standard
-En la conferencia Velocity de 2009, John Allspaw y Paul Hammond dieron una
- charla seminal 
+Inspirado en la charla 
 \begin_inset Quotes eld
 \end_inset
 
@@ -761,116 +1083,26 @@ En la conferencia Velocity de 2009, John Allspaw y Paul Hammond dieron una
 \begin_inset Quotes erd
 \end_inset
 
- en la que describieron cómo crearon objetivos compartidos entre el departamento
- de desarrollo y el de operaciones y utilizaron prácticas de integración
- continua para que el despliegue formara parte del trabajo diario de todos.
+ dictada por John Allspaw y Paul Hammond en la conferencia Velocity de 2009,
+ en la que describieron que la única manera de construir software viable
+ era integrar operaciones y desarrollo a través de objetivos compartidos.
+ Ese mismo año Patrick decidió entonces organizar un evento en Gante, Bélgica,
+ llamado DevOpsDays y posteriormente el nombre se abrevió a DevOps
 \end_layout
 
 \begin_layout Standard
-Patrick decidió entonces organizar un evento en Gante, Bélgica, llamado
- DevOpsDays.
- Esta vez, hubo mucho interés y la conferencia fue un éxito.
- El nombre de "DevOpsDays" caló hondo, y la conferencia se ha convertido
- en un evento recurrente.
- DevOpsDays se abrevió como "DevOps".
- [9] 
-\end_layout
-
-\begin_layout Subsubsection
-Ciclo de vida 
-\end_layout
-
-\begin_layout Standard
-El ciclo de vida iterativo en DevOps consta de los siguientes etapas o fases
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Plan
-\series default
-: Sin importar la metodología que a utilizar como Waterfall o Agile, en
- esta primera etapa se definen las labores del equipo, los requerimientos
- necesarios a implementar en la plataforma o producto 
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Code
-\series default
-: En esta fase se empieza a escribir el código necesario para resolver los
- problemas que plantearon en el paso de plan.
- Todo este código deber estar almacenado en un repositorio de código fuente
- centralizado 
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Build
-\series default
-: En esta fase, el desarrollo de software se lleva a cabo constantemente.
- dividiendo, todo el proceso de desarrollo en pequeños ciclos.
- Esto beneficia al equipo de DevOps para acelerar el desarrollo de software
- y el proceso de entrega.
+En años siguientes el evento DevOpsDays se popularizó en el resto del mundo
+ convirtiéndose en eventos muy concurridos popularizando el término DevOps
+ como un movimiento cultural.
  
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
 
-\begin_layout Enumerate
+\end_inset
 
-\series bold
-Test
-\series default
-: El equipo de QA usa herramientas para identificar y corregir errores en
- el nuevo código de manera continua.
- 
-\end_layout
 
-\begin_layout Enumerate
-
-\series bold
-Release
-\series default
-: En esta fase, la nueva funcionalidad se integra con el código existente
- y se llevan a cabo las pruebas.
- El desarrollo continuo sólo es posible debido a la integración y las pruebas
- continuas.
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Deploy
-\series default
-: En esta etapa, el proceso de implementación tiene lugar continuamente.
- Se realiza de tal manera que cualquier cambio realizado en cualquier momento
- en el código, no debe afectar el funcionamiento del sitio web de alto tráfico.
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Operate
-\series default
-: En esta fase, el equipo de operación se encargará del comportamiento inadecuad
-o del sistema o de los errores que se encuentran en la producción trabajando
- siempre sobre un sistema sólido y estable.
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Monitor
-\series default
-: Esta última etapa de un proceso DevOps, es una fase permanente y que se
- aplica a todo el ciclo completo.
- Aquí el equipo de operación se encargará de definir las medidas para monitoriza
-r y controlar el estado de salud de las aplicaciones y su infraestructura.
- 
 \end_layout
 
 \begin_layout Subsubsection
@@ -878,146 +1110,587 @@ Practicas DevOps
 \end_layout
 
 \begin_layout Standard
-Las fases DevOps, son solo la clasificación de una o más etapas de ciclo
- de vida en bloques con un propósito definido.
- En las figuras Figura 2 6 y Figura 2 7 se muestran las diferentes fases
- que involucran el ciclo de vida DevOps.
+DevOps está compuesto por un conjunto de prácticas que implementan las etapas
+ del ciclo de vida del desarrollo de software agile y son los elementos
+ que permiten alcanzar las mejoras en el rendimiento en la entrega de productos
+ de software en las organizaciones
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:DevOps-en-el-ciclo-de-vida-desarrollo-software"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ muestra las diferentes fases del ciclo de vida del desarrollo de software
+ y como estas están relacionadas con las prácticas DevOps.
+ Adicionalmente, la gráfica muestra la complementariedad que existe entre
+ el desarrollo agile y DevOps, donde Agile se encarga de las etapas iniciales
+ como planeación, desarrollo y pruebas y DevOps se ocupa de las fases de
+ integración y entrega del producto hacia los usuarios finales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/DevOps en el ciclo de vida del desarrollo de software.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:DevOps-en-el-ciclo-de-vida-desarrollo-software"
+
+\end_inset
+
+DevOps en el ciclo de vida del desarrollo de software
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+\emph on
+Imagen tomada del curso de DevOps - Introducción y Fundamentos no técnicos
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.udemy.com/course/devops-en-espanol
+\end_layout
+
+\end_inset
+
+ )
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Continuous Development:
+CI (Continuous Integration):
 \series default
  
 \end_layout
 
 \begin_layout Standard
-En esta fase, se planifica el ciclo de vida del desarrollo de software,
- se codifica la solución con buenas prácticas de código fuente y se almacena
- en un repositorio de control de versiones.
- El código se extrae para realizar una integración continua para crear una
- compilación y probarla en el servidor de pruebas y, finalmente, desplegarla
- en la producción.
+Es la práctica de desarrollo de software que permite integrar rápidamente
+ el código recién desarrollado con el resto del código de la aplicación
+ (al menos una vez al día) y con otros componentes, tras lo cual se ejecutan
+ versiones y pruebas automáticas.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Integración-continua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ se muestra un ejemplo de integración continua entre varios equipos y componente
+s.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Integración continua.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Integración-continua"
+
+\end_inset
+
+Integración continua
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-CT (Continuos Testing): 
+CD (Continuous delivery):
 \series default
  
 \end_layout
 
 \begin_layout Standard
-Esta fase se encarga de probar todos los cambios a través de pruebas automatizad
-as para evaluar la calidad del software en cada paso del proceso de entrega
- continua mediante pruebas tempranas y frecuentes.
+Esta fase permite obtener productos listos para ser desplegados, está estrechame
+nte relacionada con la IC, va más allá de simplemente asegurarse de que
+ los nuevos cambios pueden integrarse sin causar regresiones a las pruebas
+ automatizadas, la entrega continua significa que estos cambios pueden ser
+ desplegados de forma manual o parcialmente automatizada al entorno de producció
+n.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Coupland2021"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Entrega-continua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta como la entrega continua es la fase final del ciclo de vida DevOps
+ para entregar un producto o un cambio al cliente final de forma rápida
+ y confiable.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/entrega continua.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Entrega-continua"
+
+\end_inset
+
+Entrega continua
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-CI (Continuous Integration): 
+Continuous Deployment:
 \series default
  
 \end_layout
 
 \begin_layout Standard
-Es una práctica de desarrollo de software mediante la cual los desarrolladores
- combinan los cambios en el código en un repositorio central de forma periódica,
- tras lo cual se ejecutan versiones y pruebas automáticas.
- Los objetivos clave de la integración continua consisten en encontrar y
- arreglar errores con mayor rapidez, mejorar la calidad del software y reducir
- el tiempo que se tarda en validar y publicar nuevas actualizaciones de
- software.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-CD (Continuos Deployment):
-\series default
+Esta fase se encarga del proceso de despliegue de los cambios en producción
+ en donde los cambios en el código se compilan, prueban y preparan automáticamen
+te para minimizar riesgo y errores y entregar los cambios lo más rápido
+ posible al cliente.
  
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-En esta fase se compilan, prueban y preparan automáticamente los cambios
- en el código y se entregan a la fase de producción.
- Amplía la integración continua al implementar todos los cambios en el código
- en un entorno de pruebas o de producción después de la fase de creación.
-\end_layout
-
-\begin_layout Standard
-Cuando la entrega continua se implementa de manera adecuada, los desarrolladores
- dispondrán siempre de un artefacto listo para su implementación que se
- ha sometido a un proceso de pruebas estandarizado.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Continuos Monitoring:
-\series default
+El despliegue continuo es un paso más allá de la entrega continua porque
+ el despliegue se hace sin intervención humana: una prueba fallida, en esta
+ etapa, impedirá nuevas liberaciones a producción.
  
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Esta fase de encarga de supervisar e identificar los problemas de cumplimiento
- y los riesgos de seguridad a lo largo de cada fase de los ciclos de vida
- de DevOps y de las operaciones de TI.
- El monitoreo continuo puede considerarse como el paso final del proceso
- de DevOps.
- Es uno de los pasos más cruciales del ciclo de vida de DevOps y ayudará
- a conseguir una verdadera eficiencia y escalabilidad.
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Diferencias-integración-continua-entrega-y-despliegue"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta de manera gráfica la diferencia entre entrega continua y despliegue
+ continuo para DevOps.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Diferencias entre integración continua, entrega y despliegue.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diferencias-integración-continua-entrega-y-despliegue"
+
+\end_inset
+
+Diferencias entre integración continua, entrega y despliegue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Coupland2021"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 ¿Qué no es DevOps? 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Que-no-es-devops"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Se tiende a pensar que es un término relacionado con empresas tecnológicas
- en exclusiva, como Netflix, Facebook, LinkedIn o Google.
- Si bien estas empresas fueron pioneras, los principios de DevOps son abiertos
- y quizá sin saberlo, tu empresa ya aplica alguna de sus premisas, como
- por ejemplo Agile o Lean.
+\noindent
+
+\series bold
+DevOps es solo herramientas y automatización
 \end_layout
 
 \begin_layout Standard
-Del mismo modo se tiende a pensar equivocadamente que todos los miembros
- de los equipos tengan que aprender de todo (desarrollo software, testing,
- operaciones, etc.).
- En realidad, esto es completamente falso.
- DevOps no dice que los equipos de operaciones tengan que saber programar
- ni viceversa, si bien es cierto que ambos hacen uso de scripts para administrar
- entornos o realizan tareas con elementos software, en realidad lo que se
- pretende es que cada área tenga una noción de las funciones y tecnologías
- que usan el resto.
- De este modo, todos pueden entender y participar de manera activa en el
- desarrollo de un proyecto (control de versiones, rastreo de errores, etc.)
- y de esta manera contribuir al ciclo de vida del software sobre el que
- trabajan y aportar valor al negocio.
+\noindent
+Para DevOps las herramientas implementadas no aportan valor trascendente,
+ primero es la gente, luego el proceso y después las herramientas.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Puedes instalar la última versión de Jenkins o apuntarte a CircleCI, pero
+ si no tienes un conjunto de pruebas sólido, no sirve de nada
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith2020"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-No existe un rol de DevOps `per se'.
- Si se encuentra un currículum que diga que alguien es ingeniero en DevOps
- se debe desconfiar.
- DevOps es cultura, herramientas y buenas prácticas para hacer una organización,
- una organización altamente colaborativa entre equipos a distintos niveles
- para entregar productos de valor al cliente.
+\noindent
+
+\series bold
+Devops sólo involucra a los desarrolladores y administradores de sistemas
 \end_layout
 
 \begin_layout Standard
+\noindent
+A raíz de la composición del nombre, DevOps no sólo implica a los desarrolladore
+s y a operaciones, los conceptos e ideas de DevOps incluye a quien sea necesario
+ por lo que no hay una lista definitiva de qué equipos o personas deben
+ participar o cómo.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Hay una 
+\begin_inset Quotes eld
+\end_inset
+
+forma correcta
+\begin_inset Quotes erd
+\end_inset
+
+ (o 
+\begin_inset Quotes eld
+\end_inset
+
+incorrecta
+\begin_inset Quotes erd
+\end_inset
+
+) de hacer Devops
+\end_layout
+
+\begin_layout Standard
+\noindent
 No existe una biblia o manual DevOps, que contenga las instrucciones necesarias
  para realizar dicha transformación.
- DevOps se basa en las experiencias positivas y negativas que van acumulando
- los profesionales relacionados con la transformación digital, y por tanto
- se encuentra en constante evolución tanto tecnológicamente, a través de
- sus herramientas, como en cuanto al resto de elementos que lo componen.
- Y debe adaptarse siempre a la situación inicial de la empresa donde quiera
- aplicarse.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+El hecho de que una empresa presente su estrategia de éxito en DevOps no
+ significa que estos mismos procesos sean la forma correcta de hacer DevOps
+ en todos los entornos
+\begin_inset Quotes erd
+\end_inset
+
+ DevOps, debe adaptarse acorde a la situación inicial de la empresa donde
+ quiera aplicarse 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Devops sólo es relevante para los startups
+\end_layout
+
+\begin_layout Standard
+\noindent
+Se tiende a pensar que es un término relacionado con empresas tecnológicas
+ en exclusiva, como Netflix, Facebook, LinkedIn o Google, si bien estas
+ empresas fueron pioneras, los principios de DevOps son abiertos y sin saberlo
+ las empresas del común ya aplica alguna de las premisas, como por ejemplo
+ Agile o Lean 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Devops es un título laboral
+\end_layout
+
+\begin_layout Standard
+\noindent
+EL 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ingeniero DevOps
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ es un título de trabajo que sigue apareciendo en la naturaleza, pero no
+ se tiene un consenso claro en las organizaciones sobre el rol.
+ Sus funciones giran en torno a un administrador de sistemas que sabe programar
+ y a un desarrollador que conoce sobre administración de sistemas e infraestruct
+ura.
+ En las etapas tempranas de adopción DevOps se puede dar el caso en que
+ los desarrolladores desplieguen el código y mantengan la infraestructura,
+ pero a medida que la organización madura y crece, tiene sentido que las
+ personas se especialicen más en sus funciones.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+DevOps es, en esencia, un movimiento cultural, y sus ideas y principios
+ deben utilizarse en toda la organización para que sean eficaces.
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3006360"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1025,11 +1698,17 @@ Métricas de rendimiento
 \end_layout
 
 \begin_layout Standard
-\noindent
-Forsgreen 2018 [11] presenta 4 características para medir el rendimiento
- en la entrega de software que se han extendido y popularizado en la industria,
- Estas métricas se han son comunes en los reportes anuales State of DevOps
- de las compañías Puppet y el proyecto DORA.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ presenta 4 características para medir el rendimiento en la entrega de software
+ que se han extendido y popularizado en la industria, Estas métricas se
+ han son comunes en los reportes anuales State of DevOps de las compañías
+ Puppet y el proyecto DORA.
 \end_layout
 
 \begin_layout Standard
@@ -1072,28 +1751,164 @@ Es el porcentaje de cambios de código que requieren correcciones en vivo
 Mean Time to Restore (MTTR): 
 \series default
 Es el tiempo medio que se necesita para restablecer un servicio cuando ocurre
- un fallo en producción
+ un fallo en producción.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-La Figura 2 9 tomada del reporte Accelerate State of DevOps 2021 [12], presenta
- la tendencia de industria frente a las métricas DevOps para las cuatro
- medidas de rendimiento, donde el nivel elite se caracteriza por tener tiempos
- de respuesta de menos de una hora, ejemplo frecuencias de despliegue por
- día bajo demanda, tiempo de espera de despliegue de cambios de menos de
- una hora, tiempo de restablecimiento ante fallos de menos de una hora y
- por ultimo una tasa de errores en producción entre el 0 y 15 %.
- 
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Escala-de-rendimiento-por-metricas"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ tomada del reporte Accelerate State of DevOps 2021
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DORAsresearchprogram2021"
+literal "false"
+
+\end_inset
+
+, presenta la tendencia de industria frente a las métricas DevOps para las
+ cuatro medidas de rendimiento, donde el nivel elite se caracteriza por
+ tener tiempos de respuesta de menos de una hora, ejemplo frecuencias de
+ despliegue por día bajo demanda, tiempo de espera de despliegue de cambios
+ de menos de una hora, tiempo de restablecimiento ante fallos de menos de
+ una hora y por último una tasa de errores en producción entre el 0 y 15
+ %.
 \end_layout
 
 \begin_layout Standard
-Por otro lado, la Figura 2 10 muestra la evolución de la industria en los
- últimos tres años sobre las cuatro categorías de madurez, se evidencia
- la mejora en cifras porcentuales de las categorías Elite y High, lo que
- presenta una tendencia de mejora constante de las compañías por potenciar
- sus capacidades y métricas de entrega de software.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Escala de rendimiento por métricas.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Escala-de-rendimiento-por-metricas"
+
+\end_inset
+
+Escala de rendimiento por métricas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de: 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DORAsresearchprogram2021"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Evolución-de-la-industria-en-escala-rendimiento"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ muestra la evolución de la industria en los últimos tres años sobre las
+ cuatro categorías de madurez, se evidencia la mejora en cifras porcentuales
+ de las categorías Elite y High, lo que presenta una tendencia de mejora
+ constante de las compañías por potenciar sus capacidades y métricas de
+ entrega de software.
  Se resalta el incremento del 19% de la categoría Elite en solo 3 años (2018
- y 2021) 
+ y 2021).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Evolución de la industria en escala de rendimiento.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-de-la-industria-en-escala-rendimiento"
+
+\end_inset
+
+Evolución de la industria en escala de rendimiento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de: 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DORAsresearchprogram2021"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1105,7 +1920,15 @@ Los objetivos DevOps más comunes en las organizaciones desde el punto de
  vista de Impulsores del negocio ayudan a determinar las métricas y capacidades
  en que la organización se debe centrar.
  haciendo énfasis que en DevOp.
- (Coupland 2021 [10] ) 
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Coupland2021"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1167,9 +1990,25 @@ Estrategias de adopción DevOps
 \end_layout
 
 \begin_layout Standard
-(Sharma 2017 [13]) La Figura 2 11 presenta las estrategias tácticas de mejora
- más comunes en las organizaciones al momento de iniciar un camino de adopción
- DevOps: 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+ La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Áreas-clave-para-adopcion-devops"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta las estrategias tácticas de mejora más comunes en las organizaciones
+ al momento de iniciar un camino de adopción DevOps:
 \end_layout
 
 \begin_layout Enumerate
@@ -1209,16 +2048,57 @@ Cultura:
  ¿cómo fomentar una cultura de confianza, comunicación y colaboración? 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Áreas clave para la adopción DevOps.PNG
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Áreas-clave-para-adopcion-devops"
+
+\end_inset
+
+Áreas clave para la adopción DevOps
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Estado del arte
 \end_layout
 
 \begin_layout Subsection
 Trabajos relacionados 
-\end_layout
-
-\begin_layout Standard
-DevOps y calidad de software.
 \end_layout
 
 \begin_layout Standard
@@ -1231,16 +2111,40 @@ En la búsqueda de literatura sobre estos temas existen miles de artículos
 \end_layout
 
 \begin_layout Standard
-Ordóñez 2020 en [14] presentan un conjunto de lineamientos para la implementació
-n del modelo CALMS para DevOps en miPymes de desarrollo de software en el
- contexto suramericano, en donde se describen los aspectos de cambios organizaci
-onal a tener en cuenta, como temas técnicos relacionados a las herramientas
- utilizadas para la creación de un pipelin e de integración y despliegue
- continuo.
- Presentan los resultados de aplicar dicho modelo en una empresa mipyme
- obteniendo grandes resultados en términos de despliegues, pasando de un
- despliegue semanal a un despliegue diario.
- Como conclusión adicional dicen la que 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ordonez2020"
+literal "false"
+
+\end_inset
+
+ presenta un conjunto de lineamientos utilizados en la implementación del
+ modelo CALMS para DevOps en miPymes de desarrollo de software en el contexto
+ surcolombiano.
+ Describen los aspectos en términos de cambios organizacionales a tener
+ en cuenta para alcanzar una mejora en el rendimiento en la entrega de software,
+ por ejemplo, aspectos técnicos relacionados a las herramientas utilizadas
+ para la creación de un pipeline de integración y despliegue continuo.
+ En el documento hacen referencia a los pasos de adopción DevOps que proponen
+ los principios CALMS lo cual tiene una relación directa con el presente
+ documento en términos del uso de un modelo de evaluación de madurez DevOps
+ en una organización para poder determinar los pasos para iniciar su adopción.
+\end_layout
+
+\begin_layout Standard
+La medición la realizaron a través una encuesta que se basa en preguntas
+ directas sobre conceptos DevOps lo cual difiere del modelo propuesto que
+ se enfoca en preguntas indirectas pensado en el público que se está iniciando
+ en el mundo DevOps sin contar que el modelo de encuesta planteado no presenta
+ un plan de acción concreto para cada escenario de respuesta de la encuesta.
+\end_layout
+
+\begin_layout Standard
+Por último, presentan los resultados de aplicar dicho modelo en un grupo
+ de empresas mipymes de desarrollo de software, obteniendo grandes resultados
+ en términos de despliegues, pasando de un despliegue semanal a un despliegue
+ diario.
+ Como conclusión adicional los autores indican que 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1252,36 +2156,49 @@ la adopción de DevOps debe ser gradual, iterativa e incremental
 \end_layout
 
 \begin_layout Standard
-A.
- Mishra and Z.
- Otaiwi 2020 en [15] presentan un mapeo sistemático del impacto de DevOps
- en la calidad del software analiza las implicaciones de las características
- de DevOps en la calidad del software, proporcionando una mejor comprensión
- de la estrecha relación que se puede generar DevOps en la calidad del software,
- concluyendo que DevOps contribuye positivamente en el aseguramiento de
- la calidad de software.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mishra2020"
+literal "false"
+
+\end_inset
+
+ presenta un mapeo sistemático del impacto de DevOps en la calidad del software,
+ analizando las implicaciones de las características de DevOps en la calidad
+ del software, proporcionando una mejor comprensión de la estrecha relación
+ que se puede generar DevOps en la calidad del software, concluyendo que
+ DevOps contribuye positivamente en el aseguramiento de la calidad de software.
 \end_layout
 
 \begin_layout Standard
-Perera and Silva (2017) [16], realiza un estudio sobre el impacto de la
- práctica DevOps en la calidad del software basándose en explorar las prácticas
- actuales de DevOps en la industria y los factores clave que llevaron a
- esta conclusión.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Perera2017"
+literal "false"
+
+\end_inset
+
+ realiza un estudio sobre el impacto de la práctica DevOps en la calidad
+ del software basándose en explorar las prácticas actuales de DevOps en
+ la industria y los factores clave que llevaron a esta conclusión.
  El autor nos indica que se fundamentó en un sondeo de la experiencia de
  expertos para determinar cómo mejorar la calidad de software a partir de
  la práctica de DevOps.
  Expresan una ecuación para la medición cualitativa de la calidad de software
- a partir en la correlación de 5 pilares de la cultura DevOps, Cultura,
+ a partir de la correlación de 5 pilares de la cultura DevOps, Cultura,
  Automatización, Medición, Compartir.
 \end_layout
 
 \begin_layout Standard
-V.
- L.
- Cruz and A.
- B.
- Albuquerque 2018 en [17], presentan una experiencia de despliegue de DevOps
- para aplicaciones Legacy o heredados.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cruz2018"
+literal "false"
+
+\end_inset
+
+ presenta una experiencia de despliegue de DevOps para aplicaciones Legacy
+ o heredados.
  En este documento se presentaron las herramientas y las modificaciones
  necesarias para que un proyecto Legacy se integre en un flujo DevOps basándose
  en los siguientes subprocesos
@@ -1309,9 +2226,16 @@ Automatización de la infraestructura
 \end_layout
 
 \begin_layout Standard
-ACIS 2018 en [18] hace referencia a un estudio a 1.200 ejecutivos de TI sobre
- el uso de Agile y DevOps en la transformación digita en el que presenta
- las características de los 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ACISAsociacionColombianadeIngenierosdeSistemas2018"
+literal "false"
+
+\end_inset
+
+ hace referencia a un estudio a 1.200 ejecutivos de TI sobre el uso de Agile
+ y DevOps en la transformación digital en el que presenta las características
+ de los 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1337,6 +2261,104 @@ Maestros en Agilidad
  - con una tasa de aumento por encima del 20% -, no es sólo una coincidencia.
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DeFeijter2018"
+literal "false"
+
+\end_inset
+
+ presenta un modelo de madurez DevOps que busca definir un camino de crecimiento
+ para las organizaciones productoras de software a partir de una herramienta
+ de evaluación de DevOps que el autor plantea para realizar autoevaluaciones
+ del estado de madurez DevOps.
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Modelo-de-competencias-feijter"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ muestra la estructuración del modelo, compuesto por 3 perspectivas definidas
+ por el autor que agrupan un conjunto de áreas de interés que representan
+ las practicas DevOps.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Modelo de competencias – propuesto por Rico de Feijter.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Modelo-de-competencias-feijter"
+
+\end_inset
+
+Modelo de competencias – propuesto por Rico de Feijte
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DeFeijter2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evaluadas en una escala de medición entre 1 y 10, donde el rango 1 a 5 represent
+a estados de no adopción DevOps, los niveles entre 5 y 10 presentan un grado
+ de madurez y adopción DevOps dejando los niveles 5 y 6 como etapas de transició
+n.
+\end_layout
+
+\begin_layout Standard
+Este modelo de madurez tiene similitudes con el modelo propuesto ya que
+ comparten la forma de plantear prácticas DevOps y un grupo de categorías
+ de clasificación.
+ El modelo difiere en la escala de calificación ya que el autor propone
+ una escala entre 1 y 10 vs la escala de calificación de 1 a 5 propuesto
+ en este documento, además de un sistema de priorización de activades.
+\end_layout
+
 \begin_layout Subsection
 Modelos de Madurez DevOps
 \end_layout
@@ -1344,8 +2366,8 @@ Modelos de Madurez DevOps
 \begin_layout Standard
 En la literatura no existe un método único o definitivo para implementar
  DevOps, esto se da porque cada organización es diferente y particular,
- en donde la adopción DevOps se da a partir de analizar y medir las la organizac
-ión en términos de capacidades particulares y modelos de referencia:
+ en donde la adopción DevOps se da a partir de analizar y medir la organización
+ en términos de capacidades particulares y modelos de referencia:
 \end_layout
 
 \begin_layout Subsubsection
@@ -1353,17 +2375,27 @@ Accelerate
 \end_layout
 
 \begin_layout Standard
-El libro Accelerate (Forsgren 2018 [11]) presenta el resultado de analizar
- 23000 respuestas de encuestas de organizaciones y profesionales que trabajaban
- con DevOps recopilados en 4 años de investigación entre 2014 y 2017, hallando
- 24 capacidades, agrupadas en 5 categorías dimensionales que a nivel estadístico
- impulsan las mejoras en el rendimiento de la entrega de software y el desempeño
- organizacional de la siguiente forma: (ver imagen Figura 2 12 Modelo grafico
- general de la investigación propuesto por Forsgren 2018 [11])
+El libro Accelerate 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ presenta el resultado de analizar 23000 respuestas de encuestas de organizacion
+es y profesionales que trabajaban con DevOps recopilados en 4 años de investigac
+ión entre 2014 y 2017, hallando 24 capacidades, agrupadas en 5 categorías
+ dimensionales que a nivel estadístico impulsan las mejoras en el rendimiento
+ de la entrega de software y el desempeño organizacional de la siguiente
+ forma: (ver imagen Figura 2‑13 Modelo gráfico general de la investigación
+ propuesto por Forsgren 2018 [10])
 \end_layout
 
 \begin_layout Standard
-Dimensiones o Categorías del modelo 
+
+\series bold
+Dimensiones o Categorías del modelo
 \end_layout
 
 \begin_layout Itemize
@@ -1387,6 +2419,8 @@ Cultura
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 Capacidades y categorías
 \end_layout
 
@@ -1540,7 +2574,7 @@ Apoyar el liderazgo transformacional
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1554,18 +2588,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Modelo general de la investigación propuesto por Forsgren 2018 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Modelo-general-accelerate"
+
+\end_inset
+
+Modelo general de la investigación propuesto por 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "10.5555/3235404"
 literal "false"
-
-\end_inset
-
-[11] 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Modelo-general-accelerate"
 
 \end_inset
 
@@ -1582,6 +2615,14 @@ name "fig:Modelo-general-accelerate"
 \size tiny
 Imagen tomada del libro: Accelerate: The Science of Lean Software and DevOps
  Building and Scaling High Performing Technology Organizations 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1595,16 +2636,22 @@ Modelo CALMS
 
 \begin_layout Standard
 CALMS, es un acrónimo que significa Cultura, Automatización, Lean, Medición
- y Sharing (Compartir).
- Una serie de puntos clave que resultan particularmente útiles para analizar
- la estructura de una organización.
- Simple pero efectivo, CALMS marca las directrices para todas las partes
- interesadas, marcando claramente qué hay que implementar, así como pautas
- y herramientas para articular e integrar las diferentes partes y procesos
- de cara a automatizarlos u optimizarlos al máximo para lograr los mejores
- resultados posibles y esto, de alguna manera, es lo que permite hablar
- plenamente de DevOps dentro de una organización.
- La 
+ y Sharing (Compartir), una serie de puntos clave que resultan particularmente
+ útiles para analizar la estructura de una organización.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Devopsgroup"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es un modelo fundacional para DevOps y un punto de partida útil para entender
+ DevOps como proceso cultural, la 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Modelo-CALM-para-DevOps"
@@ -1614,8 +2661,12 @@ noprefix "false"
 
 \end_inset
 
- presenta la presentación grafica de como los pilares CALM se apoyan en
- la culura y son la base para lograr una trasnformación digital.
+ representa la como la cultura es la base para alcanzar una transformación
+ DevOps.
+\end_layout
+
+\begin_layout Standard
+A continuación, se describen cada una de los componentes del modelo CALMS.
 \begin_inset Newline newline
 \end_inset
 
@@ -1623,6 +2674,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
 Cultura
@@ -1640,6 +2692,7 @@ La cultura en una organización es el conjunto de saberes, creencias y pautas
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
 Automatización:
@@ -1653,14 +2706,28 @@ En este sentido, DevOps propone la aplicación de herramientas que automaticen
  gran parte de los procesos existentes a lo largo del ciclo de vida como:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Automatización de las revisiones de código.
- Automatización de la construcción y del despliegue.
- Automatización de los controles de calidad.
- Automatización del aprovisionamiento de infraestructuras.
+ 
+\end_layout
+
+\begin_layout Itemize
+Automatización de la construcción y del despliegue.
+ 
+\end_layout
+
+\begin_layout Itemize
+Automatización de los controles de calidad.
+ 
+\end_layout
+
+\begin_layout Itemize
+Automatización del aprovisionamiento de la infraestructura.
+ 
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
 Lean
@@ -1675,7 +2742,7 @@ eliminar los desperdicios
 
 , es decir, todo aquello redundante y que supone una pérdida de tiempo ya
  que no aporta valor.
- Estos son:
+ Estos son: 
 \end_layout
 
 \begin_layout Itemize
@@ -1715,11 +2782,12 @@ Cambio de tareas
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
-Medición 
+Medición
 \series default
-(Metrics) Lo que puede medirse puede gestionarse.
+ (Metrics) Lo que puede medirse puede gestionarse.
  Dicho de otra manera, lo que se mide se puede gestionar de forma eficaz,
  y DevOps también pone el foco en esta parte.
 \end_layout
@@ -1745,14 +2813,15 @@ empirismo
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
-Compartir 
+Compartir
 \series default
-(Share) La creación de valor surge de la colaboración, del aprovechamiento
+ (Share) La creación de valor surge de la colaboración, del aprovechamiento
  de experiencias y conocimientos multidisciplinares del equipo.
  Gracias a compartir conocimiento los integrantes del equipo, y de otras
- áreas, pueden tener acceso al mismo, de modo que formaran parte del modelo
+ áreas, pueden tener acceso al mismo, de modo que formarán parte del modelo
  de referencia para un proceso iterativo de aprendizaje y mejora continua,
  optimizando iterativamente los procesos de la organización.
 \end_layout
@@ -1761,6 +2830,7 @@ Compartir
 Compartir también implica invertir en políticas de desarrollo de talento
  e innovación, que faciliten o permitan cambios dentro de la cultura de
  la organización.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1774,7 +2844,7 @@ status collapsed
 \begin_inset Graphics
 	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/devopsgroup_calms_model_watermark_001-01.svg
 	lyxscale 60
-	scale 60
+	scale 40
 
 \end_inset
 
@@ -1782,14 +2852,13 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Modelo CALM para DevOps
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Modelo-CALM-para-DevOps"
 
 \end_inset
 
-
+Modelo CALM para DevOps
 \end_layout
 
 \end_inset
@@ -1801,13 +2870,10 @@ name "fig:Modelo-CALM-para-DevOps"
 
 \size tiny
 Imagen tomada de 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://www.devopsgroup.com/insights/resources/diagrams/all/calms-model-of-devops
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Devopsgroup"
+literal "false"
 
 \end_inset
 
@@ -1820,14 +2886,29 @@ https://www.devopsgroup.com/insights/resources/diagrams/all/calms-model-of-devop
 \end_layout
 
 \begin_layout Subsubsection
-OWASP DevSecOps Maturity Model [19] 
+OWASP DevSecOps Maturity Model 
 \end_layout
 
 \begin_layout Standard
-El Modelo de Madurez DevSecOps (DSOMM ), se enfoca en analizar aspectos
- de seguridad que muchos de los modelos usados en el mercado descuidan,
- creando un modelo de enfocado en mejorar la seguridad.
- 
+El Modelo de Madurez DevSecOps (DSOMM), se enfoca en analizar aspectos de
+ seguridad que muchos de los modelos usados en el mercado descuidan, creando
+ un modelo enfocado en mejorar la seguridad.
+\end_layout
+
+\begin_layout Standard
+OWASP permite complementar las estrategias DevOps en términos de fortalecer
+ y brindar un espacio de mayor relevancia a las medidas de seguridad que
+ se aplican cuando se utilizan estrategias DevOps ya que la evidencia práctica
+ indica que estos aspectos se suelen descuidar o al menos no se tienen suficient
+emente en cuenta durante las fases de ciclo de vida DevOps.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "OWASPFoundation"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1841,7 +2922,7 @@ status open
 \begin_inset Graphics
 	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de madurez devsecops.png
 	lyxscale 60
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -1868,13 +2949,10 @@ name "fig:Modelo-de-madurez-devsecops"
 
 \size tiny
 Imagen tomada de 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://dsomm.timo-pagel.de/spiderweb.php
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "OWASPFoundation"
+literal "false"
 
 \end_inset
 
@@ -1887,6 +2965,9 @@ https://dsomm.timo-pagel.de/spiderweb.php
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\series bold
 Los niveles de implementación en DSOMM son:
 \end_layout
 
@@ -1907,6 +2988,8 @@ Nivel 4: Implantación avanzada de prácticas de seguridad a escala
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 Dimensiones de DevOps
 \end_layout
 
@@ -1932,6 +3015,13 @@ Prueba y verificación
 
 \begin_layout Subsection
 Modelos de medición de DevOps 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Modelos-de-medicion-devops"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1944,14 +3034,21 @@ Es un modelo de evaluación de las capacidades DevOps desarrollador por la
  tecnología con el fin de medir y visualizar su estado de madurez DevOps
  e identificar las áreas clave de crecimiento y desarrollar un plan de acción
  de crecimiento concreto.
- 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AgilityHealth"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2010,6 +3107,133 @@ pdf
 Dora Assessment
 \end_layout
 
+\begin_layout Standard
+El proyecto DevOps Research and Assessment (DORA) presenta un modelo de
+ evaluación corto que se enfoca en cubrir cinco preguntas con opciones de
+ respuesta cerrados en torno a como la organización aborda las cuatro métricas
+ de rendimiento 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Program"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Lead time 
+\end_layout
+
+\begin_layout Itemize
+Deploy frequency 
+\end_layout
+
+\begin_layout Itemize
+Time to restore 
+\end_layout
+
+\begin_layout Itemize
+Change fail percentage 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.devops-research.com/quickcheck.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este chequeo rápido permite tener una visión general del rendimiento de
+ la organización, pero no permite entrar a evaluar y medir cómo opera y
+ funcionan los aspectos técnicos, culturales y de procesos que permite que
+ una organización alcance los tiempos definidos.
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Ejemplo-resultado-evaluación-dora"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+Figura 2 17 presenta un ejemplo del resultado que entrega la plataforma
+ luego de realizar una evaluación 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/ejemplo de resultados DORA.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ejemplo-resultado-evaluación-dora"
+
+\end_inset
+
+Ejemplo resultado evaluación DORA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+Imagen tomada de 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Program"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Algo a destacar del proyecto DORA, es que los autores del libro guía y del
+ modelo de referencia usado en este documento, participaron del proyecto
+ por lo que las capacidades propuestas en esta investigación están basadas
+ en el mismo estudio y comparten muchos aspectos.
+ Adicionalmente en su portal oficial describen cómo implementar, mejorar
+ y medir cada una de las capacidades de la investigación.
+\end_layout
+
 \begin_layout Section
 Antecedentes
 \end_layout
@@ -2031,7 +3255,6 @@ ra Tropical, en adelante CIAT, es unión de fuerzas entre dos centros de
  e innovación agrícola para un futuro sin hambre, dedicado a reducir la
  pobreza, contribuir a la seguridad alimentaria y nutricional y mejorar
  los recursos naturales.
- 
 \end_layout
 
 \begin_layout Standard
@@ -2063,7 +3286,15 @@ ad es apoyar la operación de la organización a través de la prestación y
  El área tiene alcance y cobertura global concentrando la mayor parte de
  su recurso humano en la oficina principal (antiguo Bioversity) y en la
  sede de las américas (antiguo CIAT).
- La 
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Estructura-Organizacional-CIAT"
@@ -2133,7 +3364,7 @@ Integración de sistemas, responsable por el funcionamiento y operación de
 Redes de TI, infraestructura y seguridad, encargados de la gestión de la
  infraestructura física de red y operación de los servidores y servicios
  informáticos de la compañía.
- De esta hay 3 personas directamente involucrados con desarrollo de software,
+ De esta hay 3 personas directamente involucradas con desarrollo de software,
  en tareas como administración de servidores, seguridad de red y servicios
  y la gerencia del área.
  
@@ -2152,23 +3383,18 @@ A nivel de infraestructura la compañía cuenta con un centro de datos propio
  administrado por el área de redes de TI, allí están alojados mediante servidore
 s virtualizados los diferentes ambientes de servidores y servicios utilizados
  en las diferentes etapas del desarrollo de software.
- 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Explicar aquí el organigrama más en detalle sobre el CIAT.
- Explicar cuántas personas tiene el área de sistemas de integración y cuántos
- se encargan de la parte del desarrollo.
- 
-\end_layout
-
-\end_inset
-
-
+El área de integración de sistemas está compuesta por un total de 11 personas,
+ un director global, un coordinador regional y 9 analistas de sistemas,
+ dentro del equipo solo 3 analistas y el coordinador tienen relación directa
+ con desarrollo de aplicaciones, el resto del equipo cumple tareas funcionales
+ con el ERP.
+ El equipo de analistas de desarrollo se encarga de todas las actividades
+ relacionadas con el mantenimiento, soporte, implementación de cambios y
+ nuevos desarrollos internos que sean solicitados por las áreas de operación
+ administrativa.
 \end_layout
 
 \begin_layout Subsection
@@ -2176,17 +3402,18 @@ CIAT y DevOps
 \end_layout
 
 \begin_layout Standard
-El CIAT, es una empresa de investigación en agricultura, no especializada
- como una compañía de desarrollo de software, a pesar de que el software
- es indispensable para la operación administrativa y el apoyo en los procesos
- de análisis científico propios del tipo de compañía ha enfocado sus esfuerzos
- en mantener la operación y desarrollar soluciones a medida para sus procesos
- particulares.
- El termino DevOps no ha sido ajeno a la organización y durante los últimos
+El CIAT, es una empresa de investigación en agricultura, que centra sus
+ objetivos de negocio en la investigación y no se especializada en temas
+ relacionados al desarrollo de software, a pesar de que en la actual modernidad
+ demanda productos de software cada día más especializados e integrados
+ para apoyar tanto los procesos científicos como la operación administrativa
+ y operativa.
+ La compañía ha enfocado sus esfuerzos en mantener la operación y desarrollar
+ soluciones a medida para sus procesos particulares.
+ El término DevOps no ha sido ajeno a la organización y durante los últimos
  2 años los equipos integración de sistemas y redes han recurrido a consultores
  externos para la implementación pilotos de adopción que no han extendido
  de la forma esperada dentro de la misma área.
- 
 \end_layout
 
 \begin_layout Standard
@@ -2196,27 +3423,24 @@ Uno de los principales factores para el estancamiento del piloto de adopción
  herramientas existentes, dejando de lado el análisis del estado los procesos
  de desarrollo y entrega de software, la capacidad de los equipos, las políticas
  y metodologías de aseguramiento de calidad.
- 
 \end_layout
 
 \begin_layout Standard
 La 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "fig:Estructura-Organizacional-CIAT"
+reference "fig:Herramientas-DevOps-instaladas-en-CIAT"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- Figura 2 17 presenta el grupo de aplicaciones que contaba la organización
- antes y las herramientas que se instalaron e integraron después de adoptar
- el piloto DevOps, en este punto se resalta que aprovechando que la compañía
- cuenta con un centro de datos propios, todos los servicios mencionados
- en la gráfica fueron instalados localmente en servidores virtuales propios
- para uso interno.
- 
+ presenta el grupo de aplicaciones que contaba la organización antes y las
+ herramientas que se instalaron e integraron después de adoptar el piloto
+ DevOps, en este punto se resalta que aprovechando que la compañía cuenta
+ con un centro de datos propios, todos los servicios mencionados en la gráfica
+ fueron instalados localmente en servidores virtuales propios para uso interno.
 \end_layout
 
 \begin_layout Standard
@@ -2237,14 +3461,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Herramientas DevOps instaladas en CIAT
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Herramientas-DevOps-instaladas-en-CIAT"
 
 \end_inset
 
-
+Herramientas DevOps instaladas en CIAT
 \end_layout
 
 \end_inset
@@ -2276,7 +3499,7 @@ noprefix "false"
 
 \end_inset
 
- Figura 2 18 Pipeline de despliegue implementado en CIAT como piloto DevOps).
+).
  
 \end_layout
 
@@ -2284,7 +3507,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2316,10 +3539,6 @@ name "fig:Pipeline-de-despliegue-implementado"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2346,7 +3565,7 @@ ación de buenas prácticas en procesos de desarrollo, entrega y calidad de
 
 \begin_layout Standard
 En el mercado existen un número creciente de herramientas que apoyan cada
- uno de las fases del proceso de entrega DevOps brindando un abanico gigante
+ una de las fases del proceso de entrega DevOps brindando un abanico gigante
  de opciones para automatizar los procesos de desarrollo de software.
 \end_layout
 
@@ -2356,7 +3575,7 @@ Por último, se describió la composición del departamento informático y en
  en donde se describió cómo se abordó el primer acercamiento de la compañía
  a los conceptos, buenas prácticas y herramientas DevOps que se hizo por
  medio de un piloto técnico que se enfocó a la instalación e integración
- de servicios que complementaron la infraestructura ya existente, dejando
+ de servicios que complementan la infraestructura ya existente, dejando
  de lado el análisis y validación de procesos de la cadena de valor para
  la entrega de soluciones de software.
  Lo que condujo al estancamiento de la adopción incremental de DevOps en
@@ -2364,7 +3583,7 @@ Por último, se describió la composición del departamento informático y en
 \end_layout
 
 \begin_layout Standard
-En el siguiente capitulo se describirá como se definió, estructuró e implementó
+En el siguiente capítulo se describe como se definió, estructuró e implementó
  una propuesta de un artefacto de evaluación de capacidades DevOps para
  una organización, basada en un modelo dimensional que agrupa capacidades
  culturales, técnicas y de procesos para mejorar el rendimiento en la entrega
