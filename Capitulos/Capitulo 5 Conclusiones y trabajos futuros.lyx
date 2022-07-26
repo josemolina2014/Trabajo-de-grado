@@ -93,8 +93,7 @@ El propósito planteado en este trabajo era identificar cómo la filosofía
  la razón de ser, en el caso particular en una organización como CIAT.
  Para ello se propuso un modelo de evaluación multidimensional de prácticas
  DevOps que se enfoca en los aspectos técnicos y de gestión de procesos
- más representativos en la entrega de productos de software (Forsgren 2018
- 
+ más representativos en la entrega de productos de software 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "10.5555/3235404"
@@ -102,7 +101,7 @@ literal "false"
 
 \end_inset
 
-[11]).
+.
  
 \begin_inset Newline newline
 \end_inset
@@ -114,7 +113,7 @@ literal "false"
 La propuesta de definir un marco de evaluación propio surgió después de
  usar y evaluar un grupo de modelos de madurez DevOps del mercado, donde
  predominó el uso de términos técnicos y complejos, que para compañías o
- usuarios nuevos en las practicas DevOps son confusas o desconocidas, generando
+ usuarios nuevos en las prácticas DevOps son confusas o desconocidas, generando
  ambigüedades y malas interpretaciones en los conceptos.
  El modelo propuesto se diseñó a través de preguntas indirectas usando terminolo
 gía fundamental propia de prácticas de desarrollo de software que buscan
@@ -122,7 +121,7 @@ gía fundamental propia de prácticas de desarrollo de software que buscan
  El modelo presentado permitió evaluar las capacidades DevOps de CIAT y
  de cualquier organización por medio de un cuestionario que abarcó dimensiones
  culturales, técnicas, de gestión de procesos que impulsan mejoras en el
- rendimiento de la entrega de software.
+ rendimiento de la entrega de software..
  
 \begin_inset Newline newline
 \end_inset
@@ -150,7 +149,7 @@ Las dimensiones en las que se enfocó el marco de evaluación son: Entrega
  continua, Arquitectura, Producto y proceso, Gestión Lean monitorización
  y Cultura.
  Cada una de estas dimensiones está compuesta por veinticuatro capacidades
- que (Forsgren 2018 
+ que 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "10.5555/3235404"
@@ -158,7 +157,7 @@ literal "false"
 
 \end_inset
 
- [11]) propone como elementos claves para mejorar el rendimiento de la entrega
+ propone como elementos claves para mejorar el rendimiento de la entrega
  de software.
  Para cada capacidad se definió una escala de cinco niveles de madurez (Sin
  experiencia, Novato, Intermedio, Destacado, Avanzado) que establece la
@@ -177,9 +176,9 @@ Los tres primeros niveles de madurez se categorizan como oportunidades de
  mejora, estos son los primeros elementos que deben tratarse para definir
  los fundamentos y la filosofía de transformación cuando se inicie la adopción,
  el cuarto nivel de madurez se categoriza como Aceptable donde ya existe
- una solidez que se debe seguir potenciando, por último el quito nivel se
- categoriza como Fortalezas, aquí el nivel de solidez y madurez es elevado,
- se debe tratar a través de una filosofía de aprendizaje continuo.
+ una solidez que se debe seguir potenciando, por último el quinto nivel
+ se categoriza como Fortalezas, aquí el nivel de solidez y madurez es elevado,
+ se debe tratar a través de una filosofía de aprendizaje continuo..
 \begin_inset Newline newline
 \end_inset
 
@@ -219,10 +218,9 @@ ron en la categoría oportunidades de mejora, resaltando las dimensiones
 
 \begin_layout Standard
 CIAT como organización tiene el 37.5% de las capacidades evaluadas con necesidad
- de atención prioritaria, el 25% requieren atención media para su potenciar
+ de atención prioritaria, el 25% requieren atención media para potenciar
  su nivel de madurez y el 37.5% de sus capacidades fuertes que necesitan
  pulirse bajo una filosofía de mejora continua de procesos.
- 
 \begin_inset Newline newline
 \end_inset
 
@@ -235,13 +233,13 @@ Después del análisis de los resultados, se concluye que DevOps es una práctic
  A partir de las recomendaciones y buenas prácticas DevOps la organización
  tiene muchos aspectos a mejorar y potenciar para lograr una mejora representati
 va en los tiempos de entrega de productos de software a sus usuarios finales.
- A través de un proceso de adopción incremental, objetivo de la primera
+ A través de un proceso de adopción incremental, el objetivo de la primera
  etapa es reducir los tiempos de desarrollo y entrega productos de meses
- a semanas y llevar los tiempos de despliegues de horas a minutos.
+ a semanas y llevar los tiempos de despliegue de horas a minutos.
  Progresivamente y en etapas posteriores, cuando se alcancen nuevos niveles
  de madurez, el objetivo de la filosofía de mejora continua es reducir los
- tiempos de entrega a escala de días y los despliegues a unos pocos minutos
- por apoyados en procesos automáticos .
+ tiempos de entrega a escala de días y los despliegues a unos pocos minutos,
+ apoyados en procesos automáticos confiables y seguros.
 \end_layout
 
 \begin_layout Section
@@ -249,10 +247,10 @@ Lecciones aprendidas
 \end_layout
 
 \begin_layout Standard
-El desarrollo de este documento, me permitió conocer como DevOps es una
- filosofía que agrupa buenas prácticas de industria para mejorar la entrega
- de productos de software a través de un cambio cultural que abarca personas,
- procesos y herramientas tecnológicas.
+El desarrollo de este documento me permitió conocer cómo DevOps es una filosofía
+ que agrupa buenas prácticas de industria para mejorar la entrega de productos
+ de software a través de un cambio cultural que abarca personas, procesos
+ y herramientas tecnológicas.
  
 \begin_inset Newline newline
 \end_inset
@@ -264,8 +262,8 @@ El desarrollo de este documento, me permitió conocer como DevOps es una
 El modelo de capacidades propuesto fue diseñado a partir de la consolidación
  de muchas fuentes de información especializadas en temas DevOps y agilidad,
  se resaltan dos fuentes que han sido esenciales para el desarrollo del
- presente trabajo: el resultado de la investigación del libro (Accelerate
- Forsgren 2018 
+ presente trabajo: el resultado de la investigación del libro Accelerate
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "10.5555/3235404"
@@ -273,12 +271,11 @@ literal "false"
 
 \end_inset
 
-[11]) y del programa de investigación DORA's de Google.
+ y del programa de investigación DORA's de Google.
  Estas fuentes de información fueron la base de fundamentación para la definició
 n de las preguntas del modelo de capacidades, la escala de respuestas y
  especialmente la construcción del plan de acción para cada opción de respuesta
  o grupo de ellas.
- 
 \begin_inset Newline newline
 \end_inset
 
@@ -291,8 +288,7 @@ Procesar y analizar los resultados del modelo de evaluación propuesto fue
  y presentación de datos.
  Especialmente patrones y buenas prácticas para exteriorizar la información
  como es el caso de estrategia Top-Down que se utilizó para presentar la
- información de general a lo especifico en un barrido de izquierda a derecha.
- 
+ información de general a lo específico en un barrido de izquierda a derecha.
 \begin_inset Newline newline
 \end_inset
 
@@ -300,20 +296,34 @@ Procesar y analizar los resultados del modelo de evaluación propuesto fue
 \end_layout
 
 \begin_layout Standard
-La adopción de DevOps en una organización es un proceso que deber ser abordado
+La adopción de DevOps en una organización es un proceso que debe ser abordado
  de una forma consciente y acorde a sus necesidades puntuales, no existe
  un modelo genérico o receta de adopción única, por lo que cada compañía
  debe ser evaluada mediante un mecanismo que permita estimar el estado de
  sus procesos de entrega de software, así poder definir y estructurar el
  plan de adopción.
- La adopción DevOps en una organización tiene muchas formas de iniciar,
- lo más recomendable es arrancar con pilotos incrementales y focalizados
- ya que los cambios culturales y de procesos no son inmediatos y requieren
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La adopción DevOps en una organización tiene muchas formas de iniciar, lo
+ más recomendable es arrancar con pilotos incrementales y focalizados ya
+ que los cambios culturales y de procesos no son inmediatos y requieren
  tiempo para planearse y adoptarse en consenso con las áreas implicadas.
  Se resalta que los cambios a nivel de cultura y gestión de procesos son
  cruciales a la hora de iniciar la automatización de los procesos técnicos
- ya que “no se puede automatizar el desorden”.
- 
+ ya que 
+\begin_inset Quotes eld
+\end_inset
+
+no se puede automatizar el desorden
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -357,13 +367,23 @@ do los elementos que lo componen (por ejemplo, preguntas, opciones de respuesta,
 \end_layout
 
 \begin_layout Standard
-Al ser la primera versión del mecanismo de evaluación de las capacidades
- DevOps de una organización y aplicado a un único caso de uso particular.
- Otra propuesta, es realizar muestreos en otras organizaciones de diferentes
- sectores que permitan evaluar el comportamiento del modelo y dado el caso
- realizar los ajustes necesarios que permitan robustecer el modelo presentado
- acorde al caso de uso y contexto particular.
- 
+Al ser la primera versión de un mecanismo de evaluación de capacidades DevOps
+ y dado el alcance definido en este documento, el modelo propuesto sólo
+ fue aplicado en un único caso de uso.
+ Por esta razón, se recomienda que el modelo sea usado en diferentes compañías
+ con el fin de poder evaluar los resultados obtenidos y así recolectar retroalim
+entaciones que permitan fortalecer los componentes del artefacto de evaluación.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se propone, crear un espacio de trabajo compartido para que la comunidad
+ universitaria pueda utilizar el modelo propuesto en un marco de trabajo
+ colaborativo donde puedan proponer mejoras a los componentes y estos siempre
+ estén disponibles para su uso.
 \end_layout
 
 \end_body
