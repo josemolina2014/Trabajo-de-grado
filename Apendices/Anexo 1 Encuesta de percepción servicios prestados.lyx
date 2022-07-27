@@ -1,0 +1,781 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ociamthesis-lyx
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Encuesta de medición de la percepción de los productos y los servicios prestados
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:anexo-Encuesta-de-medición"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El objetivo de esta etapa fue poder medir la percepción de satisfacción
+ que tienen los usuarios finales de la organización sobre el portafolio
+ de aplicaciones y calidad de servicio que ofrece el área de desarrollo
+ administrativo (Unidad de integración de sistemas).
+ Para esta tarea se utilizó la encuesta como método directo de recolección
+ de información, en donde se aplicó la métrica NPS para medir el grado de
+ satisfacción de los usuarios finales.
+\end_layout
+
+\begin_layout Standard
+La encuesta implementada fue pensada para ser corta y concisa, solo consta
+ de 6 preguntas que busca identificar qué tan útil son los servicios prestados
+ para el día a día del usuario final y el nivel de satisfacción general
+ de los servicios recibidos desde una perspectiva general y en los últimos
+ 6 meses.
+ Por último, dado que la encuesta será contestada de forma anónima, se agregaron
+ dos preguntas descriptivas con el fin de tener un perfil que indique el
+ área a la que pertenece el empleado y el tiempo que tiene vinculado a la
+ organización.
+\end_layout
+
+\begin_layout Standard
+Las preguntas de satisfacción (3,4 y 5) están diseñadas acorde a la métrica
+ NPS por lo que sus opciones de respuesta están en una escala de 0 a 10.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Preguntas encuesta de percepción de la unidad de Integración de sistemas
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+¿A qué área organizacional perteneces? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(menú desplegable con las áreas)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Cuántos años tienes en la organización? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Menos de 1 año 
+\end_layout
+
+\begin_layout Itemize
+Entre 1 y 3 años 
+\end_layout
+
+\begin_layout Itemize
+Entre 3 y 5 años 
+\end_layout
+
+\begin_layout Itemize
+Entre 5 y 10 años 
+\end_layout
+
+\begin_layout Itemize
+Más de 10 años
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En una escala de 0 a 10, donde 10 es 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Completamente
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ y 0 es 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+En nada
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+¿Qué tanto la unidad de Integración de sistemas le facilita el trabajo diario?
+\end_layout
+
+\begin_layout Standard
+(Escala de 0 a 10)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En una escala de 0 a 10, donde 10 es 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Completamente satisfecho
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ y 0 es 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Completamente insatisfecho
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+¿Qué tan satisfecho está con el servicio prestado por la unidad de Integración
+ de sistemas?
+\end_layout
+
+\begin_layout Standard
+(Escala de 0 a 10)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En una escala de 0 a 10, donde 10 es 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Completamente satisfecho
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ y 0 es 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Completamente insatisfecho
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+¿Qué tan satisfecho está con el servicio prestado por la unidad de Integración
+ de sistemas en los últimos 6 meses?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Tiene usted algún comentario adicional o alguna sugerencia que nos ayude
+ a mejorar algún aspecto del servicio? 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(respuesta abierta)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\series bold
+Resultados:
+\end_layout
+
+\begin_layout Standard
+Para esta encuesta se tuvo en cuenta al menos un representante o líder funcional
+es del portafolio de aplicaciones periféricas ofrecidos por la unidad de
+ integración de sistemas a las demás áreas de soporte de la organización,
+ definiendo una población objetivo de 20 usuarios funcionales, de los que
+ se obtuvo respuesta de 15 de ellos, equivalente un 75% de participación
+ de la población objetivo.
+\end_layout
+
+\begin_layout Standard
+La implementación de la encuesta se realizó en un formulario de encuesta
+ de office 365 que soporta preguntas tipo NPS, obteniendo los siguientes
+ resultados.
+\end_layout
+
+\begin_layout Standard
+Los cuales pueden ser consultados en el siguiente link 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://tinyurl.com/muer2jrd"
+target "https://tinyurl.com/muer2jrd"
+literal "false"
+
+\end_inset
+
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:anexo-resultado-encuesta-servicios-prestados"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado general encuesta.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:anexo-resultado-encuesta-servicios-prestados"
+
+\end_inset
+
+Resultado encuesta de percepción de los productos y los servicios prestados
+ por la unidad de Integración de Sistemas del departamento de Tecnología
+ de Información
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La pregunta número 1, asociada a identificar el área funcional a la que
+ pertenece el encuestado, se obtuvo respuesta de 9 diferentes áreas funcionales,
+ donde las Americas Regional HR y Facilities and Operations representan
+ cada uno equivalente al 20% de los encuestados.
+ (Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Encuesta-de-percepción-pregunta1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 1.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-pregunta1"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La pregunta 2, cuya finalidad era conocer la antigüedad de los encuestados
+ en la organización, se obtuvo que el 60% de los encuestados tienen más
+ de 10 años vinculados a la compañía 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 2.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-pregunta2"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La pregunta 3, se obtuvo una medida de opción NPS de 34%, el cual es un
+ indicador de que positividad en la satisfacción al cliente, indicando que
+ el área si facilita el trabajo diario de un grupo de empleados.
+ (ver Figura 6‑4 Encuesta de percepción respuestas a la pregunta 3) 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 3.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-pregunta3"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Para la pregunta 4, se obtuvo una medida de opción NPS de 53%, el cual es
+ un indicador alto de que positividad en la satisfacción al cliente frente
+ a los servicios recibidos, indicando históricamente el área ofrece servicios
+ que satisfacen las necesidades de los usuarios finales.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 4.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-pregunta4"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La pregunta 5, se obtuvo una medida de opción NPS de 46%, el cual es un
+ indicador alto de que positividad en la satisfacción al cliente frente
+ a los servicios recibidos en los últimos 6 meses, contrastando con la NPS
+ de la pregunta 4, la satisfacción bajó en 7%, manteniendo la precepción
+ en valores considerados altos.
+ (ver Figura 6‑6 Encuesta de percepción respuestas a la pregunta 5).
+ 
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 5.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-pregunta5"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La sexta y última pregunta de esta encuesta fue un espacio abierto para
+ recibir retroalimentación de parte del encuestado.
+ Se recibieron comentarios positivos sobre la percepción de área, resaltando
+ que en los últimos 6 meses se está presentando retraso en la respuesta
+ oportuna a los servicios solicitados y está bajando el NPS del área.
+ Tal y como se muestra en las imágenes Figura 6‑7 Encuesta de percepción
+ respuestas a la pregunta 6 y Figura 6‑8 Encuesta de percepción respuestas
+ a la pregunta 6, comentarios
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 6.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-pregunta6"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 6-comentarios.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encuesta-de-percepción-comentarios-pregunta6"
+
+\end_inset
+
+Encuesta de percepción respuestas a la pregunta 6, comentarios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
