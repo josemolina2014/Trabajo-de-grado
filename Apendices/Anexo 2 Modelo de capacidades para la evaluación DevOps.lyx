@@ -1,0 +1,5025 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ociamthesis-lyx
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+labelenumii}{
+\backslash
+arabic{enumii}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Modelo de capacidades para la evaluación DevOps
+\end_layout
+
+\begin_layout Section
+Preguntas del modelo de capacidades 
+\end_layout
+
+\begin_layout Standard
+Cada una de las preguntas del siguiente cuestionario está orientada a cubrir
+ una de las dimensiones y capacidades que apalancan mejoras en el rendimiento
+ en la entrega de software descritos en el libro [11] con el que se aborda
+ la adopción de prácticas DevOps a partir de medir el contexto actual de
+ la organización para mejorar y progresar de forma continua sus procesos
+ de entrega de software.
+\end_layout
+
+\begin_layout Standard
+Las preguntas de este artefacto de medición de capacidades están diseñadas
+ para el segmento profesionales TI con conocimientos previos o no de las
+ practicas DevOps, por lo que no se pregunta directamente sobre una práctica
+ puntual, sino que se aborda desde el punto de vista de las características
+ y funcionalidades del desarrollo de software y su ciclo de vida, así de
+ evitar sesgos o malas interpretaciones.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, en este cuestionario de evaluación se abordan características
+ que no son medibles por lo que son abordados de forma abstracta y así lograr
+ una aproximación de la a partir de unidades definidas o recomendaciones
+ de industria.
+\end_layout
+
+\begin_layout Standard
+Cada pregunta, está en definida para ser calificada en una escala de 1 a
+ 5 con lo que se permite obtener una medida del estado de cada capacidad.
+\end_layout
+
+\begin_layout Standard
+Por cada pregunta, se tiene una justificación del por qué se aborda esta
+ pregunta, las opciones de respuesta en la escala definida, el plan de acción
+ por cada respuesta o grupo de ella y una categorización donde de relaciona
+ la pregunta al modelo de capacidades de referencia.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+¿La compañía utiliza sistemas de control de versiones?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca, evaluar el uso de un sistema de control de versiones como Git
+ o subversion en la organización.
+ Se tiene en cuenta que se incluya el código fuente, configuraciones de
+ la aplicación, scripts de automatización para construcción y configuración
+ de entornos, que son los elementos clave a la hora de iniciar procesos
+ de automatización.
+\end_layout
+
+\begin_layout Standard
+La escala busca reflejar que tan difundido esta el uso de un sistema de
+ control de versiones en la compañía.
+\begin_inset Newline newline
+\end_inset
+
+ Se debe tener en cuenta el uso de servicios como Github, GitLab o Bitbucket
+ para gestionar y centralizar el uso de sistemas de control de versiones.
+\end_layout
+
+\begin_layout Standard
+Guardar la configuración del sistema y las aplicaciones en el control de
+ versiones esta correlacionado con el rendimiento de la entrega de software
+ que solo guardar el código fuente de la aplicación (Forsgren 2018) [11].
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+No usa o no conoce sobre sistemas de control de versiones.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Hace control de versiones de código de forma manual.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Usa parcialmente herramientas de control de versiones localmente 
+\end_layout
+
+\begin_layout Enumerate
+Utiliza una herramienta centralizada de control de versiones sin mayor profundiz
+ación en sus herramientas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Cuenta con un sistema de control de versiones donde almacena la aplicación,
+ configuraciones y scripts.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1 y 2.
+ Se requiere la adopción de un sistema de control de versiones como Git
+ o Subversion con el fin de gestionar la creación, actualización, eliminación
+ y acceso de los archivos del código fuente, configuraciones y otros documentos
+ que hagan parte del proyecto, en especial los elementos en los que se basan
+ los procesos de compilación, incluyendo las herramientas y los entornos
+ de los que dependen.
+\end_layout
+
+\begin_layout Standard
+3.
+ Se debe avanzar para tener sistemas de control de versiones distribuido
+ y administrado con sistemas de alojamiento web como por ejemplo Github,
+ GitLab, Bitbucket que faciliten la integración con otros procesos del ciclo
+ de vida de las aplicaciones con el fin de poder iniciar la ejecución de
+ tareas de compilación, construcción de las aplicaciones.
+\end_layout
+
+\begin_layout Standard
+4.
+ Aprender y adoptar conceptos de ramas y estrategias de mezcla de cambios
+ con el fin de aprovechar el potencial de un sistema de control de versiones
+ para que los equipos puedan confirmar, comparar, combinar y restablecer
+ revisiones de la aplicación con mayor facilidad y así poder definir los
+ flujos claros para el uso y ejecución de scripts de automatización y configurac
+ión del sistema.
+\end_layout
+
+\begin_layout Standard
+5.
+ Se tiene adoptado las prácticas de referencia de DevOps para el manejo
+ de un sistema de control de versiones, siendo el punto de partida de flujos
+ de tareas integradas y automatizadas que permite llevar cambios en el código
+ fuente hasta tener un producto listo para ser usado por los usuarios finales.
+ El equipo de trabajo debe adoptar la cultura de mejora continua, evaluando
+ periódicamente los procesos implementados con el fin de buscar oportunidades
+ de mejora o nuevas formas de realizar las tareas, teniendo en cuenta que
+ los sistemas de control de versiones deben ir más allá del código fuente
+ de las aplicaciones, es necesario gestionar factores como, la configuración
+ del sistema e infraestructura, la configuración de la aplicación, los comandos
+ de automatización de la construcción y configuración.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Version control [23] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Automatización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Utilizar control de versiones para todos los artefactos de producción
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220311
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo es el proceso de despliegue de soluciones de la compañía?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca determinar el grado de automatización del despliegue de soluciones
+ en la organización, va desde un proceso completamente manual sin ninguna
+ revisión, hasta procesos completamente automáticos.
+\begin_inset Newline newline
+\end_inset
+
+ Se busca determinar si se hacen o no tareas de control de calidad antes
+ de cada despliegue
+\end_layout
+
+\begin_layout Standard
+El despliegue o entrega de software son los pasos y capacidades que se deben
+ ejecutar para pasar los cambios de una aplicación desde un sistema de control
+ de versiones hasta el entorno de producción o a los usuarios finales para
+ su uso de forma rápida y segura.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+El equipo de desarrollo genera manualmente las nuevas versiones de las aplicacio
+nes y ellos mismos la despliegan independientemente del ambiente (pruebas
+ o producción).
+ 
+\end_layout
+
+\begin_layout Enumerate
+El equipo de desarrollo genera nuevas versiones de las aplicaciones y las
+ envían a operaciones para que ellos las desplieguen en su sitio final (normalme
+nte ambientes productivos).
+ 
+\end_layout
+
+\begin_layout Enumerate
+El equipo de desarrollo genera la nueva versión del producto usando scritps
+ y herramientas especializadas sin integración de pruebas y posteriormente
+ la envía a operaciones para su despliegue.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Los equipos de desarrollo y operaciones tienen tareas de generación de producto
+ final y despliegue, pero no están integradas o dependen de aprobación para
+ su despliegue.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La construcción y despliegue se hacen completamente automatizados, se ejecutan
+ tareas de verificación que no requieren ninguna intervención, solo se necesita
+ que un agente de inicio al proceso.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Enumerate
+Iniciar la adopción de herramientas que automaticen la compilación y generación
+ del producto final, ejemplo adopción de Maven, Gradle para ambientes java,
+ Nuget para C#, adicionalmente integrar procesos de aseguramiento de calidad,
+ como son pruebas manuales (unitarias y de aceptación) por último definir
+ roles y responsabilidades en común acuerdo entre desarrollo y operaciones
+ de quienes son los responsables a la hora de hacer los despliegue.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Acordar y adoptar un proceso de responsabilidades compartidas y colaborativo
+ entre las áreas de desarrollo e infraestructura desde la etapa inicial
+ del proyecto en la que se definan roles y responsabilidades, y que herramientas
+ se van a utilizar para las diferentes etapas del ciclo de vida de la aplicación
+, como gestionar la compilación, construcción, ejecución de pruebas y despliegue
+ en producción de la aplicación.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Acordar y adoptar un proceso colaborativo de responsabilidades compartidas
+ entre desarrollo, infraestructura, calidad y seguridad en donde se definan
+ las herramientas a utilizar en cada paso enfocado a lograr unir cada fase
+ en una secuencia de pasos (pipeline), definiendo que scripts se deben ejecutar
+ para compilar y generar el producto final, cuando se deben ejecutar las
+ pruebas (integración y aceptación) del sistema (al menos manuales) y cual
+ es criterio de un producto listo para pasar a producción.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Adoptar una herramienta de orquestación de procesos con el que se pueda
+ integrar las tareas entre desarrolladores, pruebas y operaciones para que
+ el despliegue de una aplicación se sea en un flujo de tareas ágil, repetible
+ y confiable donde se minimice cualquier intervención humana ya sea iniciando
+ procesos o aprobando tareas.
+ El despliegue se debe estructurar como una cadena de procesos (Pipeline)
+ que va desde tomar el código fuente y demás elementos de configuración
+ desde un sistema de control de versiones, compilarlo, ejecutar pruebas
+ (ejemplo de unitarias, de integración, de aceptación, etc.), ejecutar tareas
+ complementarias de calidad y ambientes y por último desplegar el producto
+ resultante en el ambiente de producción con la menor intervención humana.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El despliegue continuo es la capacidad que permite entregar soluciones de
+ software a los usuarios finales de forma rápida y confiable.
+ En este nivel, la compañía debe adoptar una cultura de mejora constante
+ del proceso de automatización para desplegar aplicaciones en entornos de
+ prueba y producción sin ningún tipo de intervención, donde la simplificación
+ y flexibilidad de la arquitectura juega un papel relevante para garantizar
+ el proceso.
+ Se debe tener en cuenta aspectos como, almacenar la configuración del sistema
+ y scripts de configuración en un sistema de control de versiones, el objetivo
+ es evitar la intervención manual.
+ El despliegue continuo requiere del trabajo conjunto de equipos multidisciplina
+rios, integrados por desarrolladores, calidad, seguridad e infraestructura,
+ entre otros para obtener tareas agiles, repetibles y confiables.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+The DevOps Handbook First Edition [8] 
+\end_layout
+
+\begin_layout Itemize
+The DevOps Handbook Second Edition, 2021 [24] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Continuous delivery: [25] 
+\end_layout
+
+\begin_layout Itemize
+RedHat: [26] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Automatización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Automatizar el proceso de despliegue
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220311
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿De qué manera la compañía realiza la compilación, construcción y empaquetamient
+o del producto final?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+La intención es determinar qué tan automático es el proceso de construcción
+ y empaquetamiento de las soluciones finales.
+\end_layout
+
+\begin_layout Standard
+Se evalúa procesos manuales donde incluso las librerías se cargan manualmente,
+ hasta el uso de herramientas de gestión de compilación e integrado para
+ automatizar el proceso de construcción y despliegue de los proyectos de
+ software.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+El desarrollador o líder de desarrollo, ejecuta un proceso manual para obtener
+ el producto final a desplegar 
+\end_layout
+
+\begin_layout Enumerate
+El producto final se genera mediante scripts que un desarrollador ejecuta
+ localmente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se utiliza una herramienta de automatización de compilación (ejemplo Maven,
+ Gradle) para la construcción completa del proyecto mediante la ejecución
+ de scripts automáticos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se utiliza una herramienta de automatización y orquestación integrada en
+ una secuencia de pasos que permite la compilación, ejecución de pruebas
+ y construcción del proyecto en un empaquetado final listo para desplegar.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El proceso de compilación hace parte de un proceso automático de integración
+ basado en secuencias de pasos que permiten compilar, construir y desplegar
+ en un ambiente los proyectos de software 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ y 2.
+ Se debe iniciar la migración de las aplicaciones a una herramienta especializad
+a para la gestión de proyectos de desarrollo de software por ejemplo Maven,
+ Gradle, Nuget, etc, iniciando con la preparación del proyecto, que consiste
+ en crear un inventario de dependencias y definir la fuente o repositorio
+ donde se obtendrán, segundo, adaptar el proyecto acorde a las especificaciones
+ particulares de la herramienta elegida para que el proyecto se pueda gestionar
+ a partir de comandos repetibles y así cubrir las etapas de compilación,
+ construcción, pruebas y empaquetamiento del proyecto y usarse en procesos
+ posteriores.
+\end_layout
+
+\begin_layout Enumerate
+A partir de tener los proyectos gestionados bajo una herramienta especializada
+ (ejemplo, Maven, Gradle, Nuget, etc.), se debe iniciar con la incorporación
+ de procesos complementarios durante las etapas de construcción del proyecto,
+ por ejemplo, ejecución de pruebas unitarias automáticas durante las etapas
+ de compilación, construcción, ejecución de análisis de código estático,
+ etc.
+ En este punto se recomienda la implementación de una herramienta de orquestació
+n de integración continúa, ejemplo Jenkins, CircleCI, Travis CI, Bamboo,
+ AzureDevOps, etc.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se debe asegurar que todas las etapas del proceso de desarrollo de una aplicació
+n estén integrados y automatizados en secuencias de pasos (producto de un
+ consenso interdisciplinario entre desarrollo, infraestructura, calidad
+ de software, etc) que inicia desde la automatización de la compilación,
+ ejecución de pruebas y aseguramiento de calidad y por ultimo despliegue
+ en entornos de producción, por ejemplo, el proceso debe iniciar desde tomar
+ el código fuente desde un sistema de control de versiones, compilarlo,
+ ejecutar pruebas (unitarias, funcionales, de integración, etc) y desplegar
+ el producto final en un ambiente definido.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La integración continua es un proceso que la organización debe adoptar con
+ la filosofía de mejoramiento constante, las tareas de integración y automatizac
+ión del ciclo de vida de las aplicaciones se deben revisar periódicamente,
+ con el fin de robustecer o agregarle nuevas capacidades al proceso de entrega
+ de software.
+ En este nivel los elementos claves que se deben asegurar son: tener un
+ proceso de compilación automatizado, tener un conjunto de pruebas automatizadas
+, tener un sistema de orquestación y automatización basados en secuencias
+ de tareas (pipelines) que pueden integrar un sinfín de procesos automáticos
+ que van más allá de la compilación y el despliegue del proyecto.
+ La integración continua requiere del trabajo conjunto de equipos multidisciplin
+arios, integrados por desarrolladores, calidad, seguridad e infraestructura,
+ entre otros para obtener tareas agiles, repetibles y confiables.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Continuous integration [27] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Automatización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Implementar integración continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220311
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿La compañía usa alguna estrategia de gestión de la configuración?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer como la compañía gestiona los cambios en el código fuente
+ de las aplicaciones que se desarrollan.
+\end_layout
+
+\begin_layout Standard
+Se tienen en cuenta aspectos como no hacer control de cambios, hasta políticas
+ de control de ramas y línea base compartida
+\end_layout
+
+\begin_layout Standard
+La gestión de cambios dentro de un proyecto es un factor clave para garantizar
+ rendimiento, respaldo y productividad dentro de un proyecto de software,
+ no gestionar los cambios en el código fuente y demás archivos propios del
+ proyecto dificulta el trabajo colaborativo entre todos los miembros del
+ equipo ya que no permite un flujo de trabajo ágil y demás de que imposibilita
+ la automatización de procesos y calidad de software.
+\end_layout
+
+\begin_layout Standard
+El DevOps Research and Assessment (DORA) muestra que los equipos alcanzan
+ altos niveles de entrega y rendimiento siguen las siguientes practicas:
+\end_layout
+
+\begin_layout Itemize
+Tener tres ramas activas, o menos, en el repositorio de código de la aplicación
+ 
+\end_layout
+
+\begin_layout Itemize
+Combinar las ramas con el tronco al menos una vez al día 
+\end_layout
+
+\begin_layout Itemize
+No tener congelación de código ni fases de integración 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+No se controlan los cambios.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Los cambios se controlan manualmente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se utiliza un sistema de control de versiones como git, subversión, cvs,
+ etc.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se utiliza la estrategia de rama de producto estable (main/master) y producto
+ en desarrollo (dev/develop).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se es riguroso, se utilizan métodos y estrategias de integración de versiones
+ de código basados en ramas, separando la línea principal del producto estable
+ (main/master) de las líneas de desarrollo (dev/devlop) incluso ramas exclusivas
+ para funcionalidades especificas (features), se adoptan estrategias de
+ fusión de cambios como pull request al repositorio principal.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Enumerate
+Se debe iniciar la adopción de un sistema de control de versiones, un sistema
+ de gestión documental o al menos definir una metodología de trabajo en
+ donde desarrolladores puedan registrar los cambios en el código fuente,
+ archivos de configuración y demás documentos que hagan parte del proyecto
+ de manera que los cambios se puedan consolidar en revisiones en donde debe
+ conservar quien y cuando se hizo algún cambio sobre los archivos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Adoptar un sistema de control de versiones como Git, Subversion y Mercurial,
+ etc.
+ que permita controlar fácilmente los cambios en código fuente y demás archivos
+ propios del proyecto durante todo su ciclo de vida, sin desgastar tiempo
+ y esfuerzo del equipo de trabajo en tareas manuales de consolidación de
+ cambios.
+ La gestión de la configuración es un factor determinante en el rendimiento
+ de los equipos de trabajo y un elemento clave en la entrega continua de
+ productos, por lo que este es el primer paso para mejorarlo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Adoptar estrategias de ramas o división de funcionalidades con el fin de
+ separar el código que esta desplegado en producción de las características
+ que están en etapa de desarrollo, ejemplo uso de rama master/main para
+ el código que está en producción y rama desarrollo/develop para las característ
+icas que están en construcción.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Adoptar un patrón de gestión de ramas para sistemas de control de versiones
+ basado en troncos, en donde el código principal está en una única rama
+ tronco (main o master) y las nuevas funcionalidades se desarrollan en lotes
+ pequeños denominadas ramas de desarrollo de corta duración que suelen durar
+ unas pocas horas, en donde los desarrolladores combinan los cambios constanteme
+nte con el tronco/rama principal, reduciendo la complejidad a la hora de
+ integrar y estabilizar ramas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Las estrategias y patrones para un manejo eficiente de un sistema de control
+ de versiones es una tarea de constante aprendizaje y mejora, por lo la
+ tanto la compañía debe enfocar sus esfuerzos en fortalecer practicas ágiles,
+ dividir el trabajo en lotes pequeños, tener ramas de muy corta duración
+ (horas), integrar frecuentemente de lotes de trabajo, adoptar aprobación
+ ligera de cambios, implementar una fuerte cobertura de pruebas automatizadas.
+ En este nivel no debe existir fases de integración y estabilización largas
+ y complejas con la rama principal.
+ El programa de investigación Dora [28] recomienda las siguientes practicas:
+ Tener máximo 3 ramas activas en el repositorio de código, combinar al menos
+ una vez al día las ramas alternas con la principal, no tener código congelado
+ ni fases de integración.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018, [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Trunk-based development [28] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Version control [23] 
+\end_layout
+
+\begin_layout Itemize
+Trunk Based Development, [29] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo
+\series default
+: Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Metodologías
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Utilizar métodos de desarrollo 
+\begin_inset Quotes eld
+\end_inset
+
+Trunk-Based
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿La compañía implementa procesos de pruebas en los desarrollos?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer si la compañía asegura la calidad de sus productos mediante
+ pruebas, se indaga si estas estas hacen parte del proceso de despliegue
+ ya sea como tarea manual o como tarea automática.
+\end_layout
+
+\begin_layout Standard
+El proceso de pruebas es un mecanismo esencial para el aseguramiento de
+ calidad de los productos de software de una compañía, con el fin de asegurar
+ que los usuarios finales obtengan productos confiables, seguros que generen
+ valor para el negocio o necesidad particular.
+\end_layout
+
+\begin_layout Standard
+El diseño y ejecución de pruebas dentro del proceso de desarrollo es una
+ labor constante que se debe realizar cada que se hace un cambio o se implementa
+ una nueva funcionalidad sobre el proyecto, hacer estas tareas manualmente
+ sin herramientas que apoyen el procese se vuelve desgastante y tedioso.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+No se hacen pruebas 
+\end_layout
+
+\begin_layout Enumerate
+Los desarrolladores hacen pruebas manuales sin un marco o herramienta definido.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Los desarrolladores usan frameworks de pruebas manual unitarias automatizadas,
+ sin una definición clara de que probar.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se utiliza un framework de pruebas estándar basados en un conjunto de definicion
+es de calidad acordado por el equipo de desarrollo, calidad y operaciones.
+ En este punto se deben ejecutar pruebas unitarias, en el momento de cualquier
+ generación de un producto final, adicional se deben manejar pruebas de
+ integración, componentes de GUI en procesos desacoplados.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se tiene implementado un proceso de pruebas automático a lo largo del proceso
+ de desarrollo de software, donde se garanticen la ejecución de pruebas
+ funcionales, de integración y de GUI totalmente automáticas.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Enumerate
+Es fundamental que la compañía inicie la adopción de procesos de pruebas
+ durante todo el proceso de desarrollo, por lo tanto, se debe iniciar con
+ la adopción de pruebas manuales de tipo unitarias, aceptación, usabilidad
+ del sistema que se puede ir escalando a lo largo del tiempo, por ejemplo,
+ iniciar con pruebas unitarias sobre el código fuente de las características
+ core o esenciales del proyecto y progresivamente incorporar pruebas funcionales
+ sobre el funcionamiento de la aplicación o GUI.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se recomienda adoptar herramientas o frameworks diseñados para la implementación
+ de pruebas (por ejemplo, JUnit, QUnit, Jasmine, Nunit, entre otros) acorde
+ con el lenguaje de programación en que se desarrolla cada proyecto, con
+ el fin de poder automatizar la ejecución de las pruebas del proyecto, inicialme
+nte se puede enfocar en las pruebas unitarias e ir escalando a los demás
+ tipos de pruebas, con el fin de que estas puedan ser ejecutadas automáticamente
+ en las diferentes etapas del ciclo de vida de la entrega del proyecto.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se debe implementar una hoja de ruta con los criterios y definiciones de
+ prueba de cada aplicación, de forma estructurada en el que debe intervenir
+ desarrolladores, probadores (si existe en la compañía) y demás miembros
+ del equipo de trabajo con el fin de saber que se debe probar, cómo hacerlo
+ y que tipo de pruebas hacer (unitarias, de integración, de GUI, ect).
+ Existen muchas técnicas y metodologías como, TDD, BDD que son útiles para
+ este propósito, por ejemplo, TDD Test-Driven Development (desarrollo dirigido
+ por tests) es una práctica generalmente utilizada para pruebas unitarias
+ en la que primero se diseña la prueba antes de iniciar su codificación.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se debe iniciar con la integración y ejecución automáticas del grupo de
+ pruebas que cuente el proyecto cada vez que se compile y genere un producto
+ final para despliegue, por ejemplo se puede iniciar desde el bajo nivel
+ integrando las pruebas unitarias de la aplicación mediante un proceso automátic
+o (ejecución de scripts del framework donde este implementadas) que las
+ ejecute en el momento que se compile y se genere un producto final y progresiva
+mente integrar los demás grupos de pruebas implementados (aceptación, de
+ integración, de GUI) al proceso.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La mejora continua es uno de los pilares de la cultura DevOps, el aseguramiento
+ de calidad de los productos de software es una parte clave en este proceso
+ y se debe tener en cuenta desde las etapas iniciales del proyecto.
+ En este nivel, el objetivo es reevaluar y mejorar los procesos existentes,
+ por ejemplo, asegurar que las pruebas automáticas sean fiables y con altos
+ niveles de cobertura en los diferentes tipos de pruebas existentes para
+ lograr minimizar los paquetes de pruebas poco confiables y técnicamente
+ costosos; fortalecer practicas TDD en nuevos desarrollos y trabajar en
+ reducir la deuda técnica, obtener feedback constante de las suites de pruebas
+ y trabajar en conjunto probadores para cubrir pruebas exploratorias, de
+ usabilidad y de aceptación.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Continuous testing, [30] 
+\end_layout
+
+\begin_layout Itemize
+The DevOps Handbook Second Edition 2021 [24] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Pruebas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Implementar pruebas automáticas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220226
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo definen que datos utilizar a la hora de probar las aplicaciones?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+La gestión de los datos de pruebas es un aspecto que ha cobrado mucha relevancia
+ para asegurar la ejecución de pruebas automáticas, por lo que es necesario
+ conocer como lo maneja la empresa.
+\end_layout
+
+\begin_layout Standard
+Los datos de prueba deben ser analizados y definidos cuidosamente para permitir
+ validar recorridos comunes o de alto valor, probar casos extremos, reproducir
+ defectos y simular errores.
+\end_layout
+
+\begin_layout Standard
+Los equipos exitosos tienen los datos de pruebas adecuados para ejecutar
+ sus suites de pruebas totalmente automatizadas y podían adquirir datos
+ adicionales bajo demanda.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+No se maneja ningún tipo de pruebas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A criterio del desarrollador en procesos manuales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se define en conjunto con el equipo de calidad donde las pruebas se ejecutan
+ manualmente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Parcialmente definidos en algunos procesos automáticos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se tienen los datos adecuados para ejecutar la suite de pruebas totalmente
+ automatizadas y con la posibilidad de adquirirlos bajo demanda.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Enumerate
+Se debe iniciar con la adopción progresiva de aseguramiento de calidad de
+ software, para este primer nivel se puede iniciar con la implementación
+ y documentación de pruebas manuales, por ejemplo, a nivel de código fuente
+ identificar los procesos y funciones principales del proyecto e implementar
+ pruebas manuales que permitan asegurar que estos cumplen con su propósito.
+ Por otro lado, a nivel funcional y entorno grafico se debe validar que
+ el producto resultante cumple con los requisitos funcionales y no funcionales
+ del proyecto.
+ El objetivo de este nivel es tener al menos un conjunto de pruebas manuales
+ que respalden los aspectos básicos de calidad del producto de software.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se debe adoptar un proceso colaborativo entre desarrolladores, infraestructura
+ y calidad para definir el criterio, alcance y los datos que se utilizarán
+ durante las pruebas.
+ Se recomienda priorizar las pruebas unitarias ya que son la base de la
+ pirámide de pruebas y progresivamente ir escalando en los demás tipos de
+ pruebas (aceptación, integración, etc.).
+ Hay que asegurar que existan datos de pruebas adecuados, consistentes y
+ realistas para que la ejecución de los casos de pruebas permita asegurar
+ el correcto funcionamiento de la aplicación.
+ El proceso de pruebas se debe adoptar desde las fases iniciales de los
+ proyectos, a través de prácticas de desarrollo que promuevan la implementación
+ de pruebas, como, por ejemplo, (Test-Driven Development).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se debe iniciar con la automatización de las pruebas iniciando con las unitarias
+, partiendo del hecho que los datos de pruebas sean concisos, bien definidos
+ y disponibles al momento de la ejecución.
+ Permitiendo validar los procesos más comunes o de alto valor de la aplicación
+ (ejemplo un lograr una cobertura del 80% de los procesos Core) y así probar
+ casos extremos, reproducir defectos y simular errores de la aplicación.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La automatización de las pruebas se debe integrar con procesos de construcción
+ y aseguramiento de calidad, en donde los datos de pruebas deben ser adecuados,
+ disponibles según demanda y no ser un factor limitante en la ejecución.
+ Los datos de pruebas deben ser puntuales, aislados y específicos para no
+ generar alta dependencias y lograr ejecuciones en paralelo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El aseguramiento de la calidad y disponibilidad de los datos para la ejecución
+ de pruebas es un factor clave para entregar productos confiables con tasas
+ de fallos, por lo tanto, se debe enfocar los esfuerzos en la mejora constante
+ en la calidad, fiabilidad y disponibilidad de los datos necesarios para
+ la ejecución de los diferentes tipos de pruebas implementadas, así potenciar
+ su cobertura y minimizar las tasas de fallos y errores en los ambientes
+ de producción.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Test data management [31] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Pruebas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Implementar gestión de los datos de prueba
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220226
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cuál es el nivel de relevancia que tiene la seguridad en el ciclo de vida
+ del desarrollo de software?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Medir la seguridad es un aspecto clave para aseguramiento de calidad y confiabil
+idad en los productos de software.
+\end_layout
+
+\begin_layout Standard
+Integrar la seguridad en las fases de diseño y pruebas del proceso de desarrollo
+ de software e inclusive antes de iniciar el ciclo de vida del desarrollo,
+ es clave para impulsar el rendimiento del área de desarrollo.
+\end_layout
+
+\begin_layout Standard
+El equipo de seguridad de la información debe proporcionar feedback a cada
+ paso del ciclo de vida de la entrega de software, desde el diseño hasta
+ la ayuda con automatización de pruebas.
+\end_layout
+
+\begin_layout Standard
+Al incorporar estas prácticas de seguridad se contribuye a mejorar el rendimient
+o de la entrega de software.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No se tiene en cuenta
+\end_layout
+
+\begin_layout Standard
+2.
+ Se tiene en cuenta cuando el producto ya está terminado
+\end_layout
+
+\begin_layout Standard
+3.
+ Se tiene en cuenta solo en la etapa al final del desarrollo
+\end_layout
+
+\begin_layout Standard
+4.
+ Se tiene en cuenta al equipo de seguridad, y se adoptan todas las recomendacion
+es a pesar de que afecten los tiempos de desarrollo y entrega.
+\end_layout
+
+\begin_layout Standard
+5.
+ Se involucra al equipo de seguridad desde la fase inicial del proyecto
+ de forma que no ralenticen el proceso de desarrollo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Es fundamental que se inicie la adopción de aspectos de seguridad en todo
+ el ciclo de vida de desarrollo particularmente desde el inicio del proyecto,
+ incorporando pruebas y controles de seguridad, por lo tanto, incluir al
+ menos un representante de seguridad de la información desde el inicio de
+ los proyectos.
+\end_layout
+
+\begin_layout Standard
+2 y 3.
+ Se debe incluir una capa de seguridad al equipo de trabajo desde la fase
+ de inicio del ciclo de vida de la aplicación para que apoyen procesos diseño
+ arquitectónico y pruebas, con el fin de tener definiciones claras de librerías
+ y herramientas aprobadas desde el punto de vista de seguridad, también,
+ la adopción de pruebas de seguridad lo más automatizado posible en todas
+ las fases del ciclo de vida del desarrollo.
+\end_layout
+
+\begin_layout Standard
+4.
+ El proceso de pruebas y validaciones de seguridad se debe definir desde
+ las etapas de iniciales del proyecto en común acuerdo entre todos los miembros
+ del equipo (desarrollo, operaciones y seguridad) de forma que no afecte
+ los tiempos de entrega bajo el principio de responsabilidad compartida.
+\end_layout
+
+\begin_layout Standard
+5.
+ Se integra la seguridad en cada paso del ciclo de vida del desarrollo,
+ teniendo en cuenta que es un proceso de mejora constante y que a través
+ de elementos como feedback del equipo y de los usuarios finales permite
+ las revisiones se seguridad de las aplicaciones, aprobación de uso de las
+ versiones de paquetes, librerías y automatización de las pruebas, logrando
+ mejorar constantemente la calidad de los productos que se despliegan a
+ producción.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Accelerate 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Shifting left on security [32] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Seguridad
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Incorporar los aspectos de seguridad en las fases de diseño y pruebas (shift
+ left de la seguridad)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220226
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Ejecutan tareas automáticas al registrar algún cambio?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+El objetivo es identificar qué pasos sigue la compañía para desplegar una
+ solución o cualquier tipo de cambio en el ambiente de producción
+\end_layout
+
+\begin_layout Standard
+Se deben tener en cuenta factores como:
+\end_layout
+
+\begin_layout Itemize
+Construcción 
+\end_layout
+
+\begin_layout Itemize
+Calidad 
+\end_layout
+
+\begin_layout Itemize
+Automatización 
+\end_layout
+
+\begin_layout Itemize
+Integración 
+\end_layout
+
+\begin_layout Itemize
+Pruebas 
+\end_layout
+
+\begin_layout Itemize
+Seguridad 
+\end_layout
+
+\begin_layout Standard
+Los principios y las prácticas de la entrega continua aplican a cualquier
+ contexto de software, por ejemplo:
+\end_layout
+
+\begin_layout Itemize
+Actualizar servicios en un sistema distribuido complejo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Actualizar el software de la unidad central.
+ 
+\end_layout
+
+\begin_layout Itemize
+Realizar cambios en la configuración de la infraestructura.
+ 
+\end_layout
+
+\begin_layout Itemize
+Realizar cambios en el esquema de la base de datos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Actualizar el firmware de forma automática.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lanzar versiones nuevas de una aplicación para dispositivos móviles.
+ 
+\end_layout
+
+\begin_layout Standard
+La entrega y la implementación continua son practicas independientes.
+ La implementación continua se da cuando los equipos pasan todos los cambios
+ de una aplicación en producción lo antes posible, esta funciona bien para
+ ambientes web, pero no se puede aplicar a software como firmware o aplicaciones
+ de dispositivos móviles.
+ En cambio, la entrega continua es la capacidad de actualizar cambios de
+ todo tipo a pedido de manera rápida, segura y sustentable y se aplica a
+ todo tipo de software
+\end_layout
+
+\begin_layout Standard
+La entrega continua permite la capacidad de lanzar software y realizar cambios
+ en la producción de forma segura y en cualquier momento, incluso durante
+ el horario laboral o de uso habitual, sin afectar a los usuarios finales.
+\end_layout
+
+\begin_layout Standard
+Si bien la entrega continua a menudo se combina con la integración continua
+ y se abrevia como 
+\emph on
+CI/CD
+\emph default
+, la investigación de DORA, muestra que la integración continua es solo
+ un elemento de la implementación de la entrega continua.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+No 
+\end_layout
+
+\begin_layout Enumerate
+Se tienen tareas de validación de calidad que se ejecutan manualmente 
+\end_layout
+
+\begin_layout Enumerate
+Se ejecutan tareas de calidad de software y pruebas 
+\end_layout
+
+\begin_layout Enumerate
+Se compila, construye y se prueba después de registrar cada cambio 
+\end_layout
+
+\begin_layout Enumerate
+Se tienen tareas automáticas de construcción, pruebas, calidad de software,
+ etc.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Se debe asegurar que el código fuente del proyecto tenga la capacidad de
+ compilarse y generar un producto final o desplegable por medio de la ejecución
+ de comandos propios de una herramienta de gestión de librerías.
+\end_layout
+
+\begin_layout Standard
+2.
+ Se debe iniciar con la adopción de tareas automáticas partiendo desde un
+ sistema de control de versiones centralizado, en el que puedan ejecutar
+ tareas automáticas como ejecución de pruebas unitarias y análisis de calidad
+ de código estático.
+\end_layout
+
+\begin_layout Standard
+3.
+ Como primera medida, se debe asegurar que todas las tareas automáticas
+ ya existentes estén cargadas en un sistema de control de versiones incluyendo
+ el código fuente.
+ Iniciar con la adopción de una herramienta de orquestación e integración
+ y a través de una secuencia de procesos estas tareas se ejecuten automáticament
+e al momento de subir un cambio en el sistema de control de versiones.
+\end_layout
+
+\begin_layout Standard
+4.
+ Se debe contar con una herramienta orquestadora de tareas que integre el
+ código fuente y scripts de pruebas y configuración (si existen) que permita
+ que las tareas de compilación, construcción y ejecución de pruebas (unitarias,
+ funcionales, etc.) se integren en una secuencia de procesos automático,
+ resultado en la generación de un producto final listo para el despliegue.
+\end_layout
+
+\begin_layout Standard
+5.
+ La integración continua es un proceso de constate evolución que involucra
+ tener todos los procesos de la construcción de un producto de software
+ completamente automáticos, iniciando desde la construcción del producto
+ final, pasando por ejecución de pruebas (unitarias, funcionales, de integración
+, etc.), seguridad, calidad de software, etc.
+\end_layout
+
+\begin_layout Standard
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Continuous delivery [25] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Entrega continua
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Implementar entrega continua de software
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220107
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Qué características tiene la infraestructura de la organización?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer el grado de acoplamiento de la infraestructura de la organizaci
+ón, que va desde ambientes configurados de forma manual, altamente acoplados
+ hasta ambientes desacoplados y dinámicos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ Ambientes configurados e instalados manualmente
+\end_layout
+
+\begin_layout Standard
+2.
+ Servidores fijos con configuración dinámica
+\end_layout
+
+\begin_layout Standard
+3.
+ Ambientes parametrizados fuertemente acoplados al hardware
+\end_layout
+
+\begin_layout Standard
+4.
+ Ambientes desacoplados con aprovisionamiento manual
+\end_layout
+
+\begin_layout Standard
+5.
+ Ambientes débilmente acoplados y dinámicos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ La compañía debe iniciar un plan de organización y estandarización del
+ stack tecnológico existente con el fin de conocer que elementos pueden
+ ser compartidos y reutilizables en diferentes condiciones, con el fin de
+ que en un futuro se pueda eliminar la necesidad de hacer configuraciones
+ y actualizaciones manuales de las piezas individuales de hardware.
+ Por otro lado, identificar y depurar los conocidos entornos particulares
+ o exclusivos que no pueden reproducirse automáticamente.
+\end_layout
+
+\begin_layout Standard
+2.
+ La compañía debe iniciar un plan de transformación de la arquitectura que
+ soporta la operación de las aplicaciones e incorporar un nuevo concepto
+ conocido como infraestructura como código (IaC) que de primera mano permitiría
+ que la compañía pueda replicar fácilmente la configuración de un servidor
+ a través de scripts.
+ El mercado ofrece un grupo de herramientas para este tipo de funciones,
+ ejemplo: Puppet, Chef, Ansible, AWS cloud formation, Terraform, etc.
+\end_layout
+
+\begin_layout Standard
+3.
+ La adopción del concepto de infraestructura como código IaC, debe ir más
+ allá de solo replicar la configuración de servidor a partir de la ejecución
+ de un script, esta desde estar desligada del hardware físico y se debe
+ enfocar por opciones como virtualización, contenedores o cloud computing.
+ Logrando que los desarrolladores no tengan que preparar ni gestionar manualment
+e ningún elemento de la infraestructura cada vez que desarrollan o implementan
+ una aplicación.
+\end_layout
+
+\begin_layout Standard
+4.
+ La compañía debe iniciar con la adopción de infraestructura con código
+ (IaC) en la organización e integrado al ciclo de vida de las aplicaciones
+ desde etapas de integración, desarrollo, pruebas hasta el despliegue y
+ distribución.
+ Partiendo de entornos uniformes acordados entre infraestructura y desarrollo
+ se pueden generar los todos los entornos necesarios (incluida producción)
+ de forma automática.
+\end_layout
+
+\begin_layout Standard
+5.
+ La de infraestructura con código (IaC) integrado con las practicas DevOps
+ deber ser adoptado como un proceso de autoevaluación y mejora constante
+ con el fin de garantizar la entrega rápida de software.
+ La compañía debe evaluar constantemente aspectos como, la capacidad de
+ provisionamiento, elasticidad de la plataforma, disponibilidad del servicio.
+ En este nivel la recomendación es trabajar o migrarse a modelos de infraestruct
+ura en la nube y adoptar sus prácticas y patrones nativos con el fin de
+ lograr agilidad, estabilidad, disponibilidad y transparencia de costos.
+ Con este nivel de capacidad la organización mejorará el rendimiento de
+ entrega de productos y alto rendimiento organizacional.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+Red Hat, IaC, [33] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Cloud infrastructure [34] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ ambientes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Arquitectura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Utilizar arquitecturas de bajo acoplamiento
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo la organización define las herramientas que utilizan los equipos en
+ los proyectos?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Busca medir el grado de libertad para elegir las herramientas a utilizar
+ dentro de un proyecto.
+\end_layout
+
+\begin_layout Standard
+DevOps tech: Empowering teams to choose tools [35]: Permitir que los equipos
+ elijan las herramientas no significa que se dé rienda suelta a cada equipo
+ para que seleccione la herramienta que quiera.
+ Introducir tecnologías sin ningún tipo de restricción puede aumentar la
+ deuda técnica y la fragilidad.
+ Sin embargo, cuando se combina la elección de herramientas con otras capacidade
+s (por ejemplo, una visión completa del sistema, una retroalimentación rápida
+ y la comprensión de que son responsables del código que escriben), se ayuda
+ a los tecnólogos a tomar decisiones acertadas sobre las herramientas que
+ van a utilizar y a las que deben dar soporte.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No hay un grupo de herramientas base para los proyectos, nadie es responsable
+ de su mantenimiento.
+\end_layout
+
+\begin_layout Standard
+2.
+ El stack tecnológico está definido como política institucional y todos
+ los desarrollos se deben regir bajo ellos.
+\end_layout
+
+\begin_layout Standard
+3.
+ El stack tecnológico del proyecto está definido por los lideres técnicos
+ y no hay opción de ajustarlo.
+\end_layout
+
+\begin_layout Standard
+4.
+ El stack tecnológico del proyecto está definido por los lideres técnicos,
+ cualquier intento de cambio debe pasar por aprobación de un comité.
+\end_layout
+
+\begin_layout Standard
+5.
+ Los equipos pueden decidir que herramientas utilizar acorde a las necesidades
+ del proyecto y en consenso general
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ La compañía debe iniciar el inventario completo las herramientas de desarrollo
+ utilizadas en todos los proyectos de software, a partir de esta información
+ se debe identificar herramientas comunes que sirvan como elementos de apoyo
+ y referencia para iniciar la definición la estandarización de las herramientas
+ utilizadas por el equipo de trabajo.
+\end_layout
+
+\begin_layout Standard
+2.
+ Una de las practicas DevOps, es minimizar el uso de anti patrones como
+ martillo de oro, bala de plata en donde todos los problemas se pretenden
+ solucionar con una única herramienta o metodología, por lo que un stack
+ tecnológico de una organización debe permitir ajustes de acuerdo con las
+ necesidades de los proyectos.
+\end_layout
+
+\begin_layout Standard
+3.
+ El stack tecnológico de la organización no se debe considerar como un elemento
+ estático al que le pasan los años sin ninguna alteración.
+ La vertiginosa dinámica de productos y herramientas informáticos en nuestra
+ actualidad requiere que la compañía permita la adopción de nuevas y el
+ desuso de otras.
+ En compañías conservadores este tipo de análisis se puede hacer en periodos
+ anuales o bianuales, con el objetivo de brindar a los equipos las herramientas
+ necesarias para satisfacer las necesidades de los clientes y mejorar los
+ resultados comerciales.
+\end_layout
+
+\begin_layout Standard
+4.
+ El stack tecnológico de la organización deber ser evaluado por lo menos
+ una vez al año con el fin brindar a los equipos las herramientas necesarias
+ para satisfacer las necesidades de los clientes y resultados comerciales.
+\end_layout
+
+\begin_layout Standard
+5.
+ La capacidad de que los equipos puedan decidir que herramientas utilizar
+ acorde a las necesidades de un nuevo proyecto es un trabajo de mejora continua
+ de parte de todo el equipo de trabajo.
+ El stack tecnológico en operación se evaluar con frecuencia (al menos al
+ inicio de cada proyecto) o al cambio de condiciones para productos en operación
+ sin la necesidad de aprobación de personas ajenas al equipo de trabajo.
+ Esta capacidad de autonomía es un factor importante para mejorar el rendimiento
+, la satisfacción a los clientes y añadir valor a la organización, además
+ de propiciar el espíritu investigativo y proactivo del equipo para proponer
+ nuevas herramientas de trabajo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps tech: Empowering teams to choose tools [35]
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Infraestructura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Arquitectura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Permitir a los equipos definir sus propias arquitecturas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿La compañía recoge el feedback de los clientes respecto a sus productos
+ de software?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se buscar conocer si la compañía recoge el feedback de los clientes respecto
+ a los productos que despliega, en que etapas y con qué frecuencia lo hace.
+\end_layout
+
+\begin_layout Standard
+El feedback incluye métricas de satisfacción de los clientes y opiniones
+ frente a la calidad del producto y sus funcionalidades.
+\end_layout
+
+\begin_layout Standard
+El programa de investigación de DevOps de DORA [35] resalta que los equipos
+ obtienen un mayor rendimiento cuando trabajan en organizaciones que:
+\end_layout
+
+\begin_layout Itemize
+Recopilan métricas de satisfacción del cliente con regularidad.
+ 
+\end_layout
+
+\begin_layout Itemize
+Buscan y atienden los comentarios de los clientes sobre la calidad de los
+ productos y las características.
+ 
+\end_layout
+
+\begin_layout Itemize
+Usan estos comentarios para ayudar a diseñar productos y características.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+Nunca, compañía solo se centra en entregar el desarrollo en los tiempos
+ estipulados 
+\end_layout
+
+\begin_layout Enumerate
+Ocasional, pero solo para los productos terminados 
+\end_layout
+
+\begin_layout Enumerate
+A veces, solo cuando en producto está en las etapas finales del desarrollo
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si, durante la etapa de desarrollo, aunque sin incidir en el proceso de
+ desarrollo 
+\end_layout
+
+\begin_layout Enumerate
+Si, de manera activa, desde el inicio del ciclo de vida del producto y su
+ posterior puesta en producción, estos resultados tienen incidencia en el
+ diseño del producto y nuevas funcionalidades.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Se debe iniciar con la adopción progresiva de la práctica de recolectar
+ el feedback de los clientes durante todo del ciclo de vida del producto,
+ en especial en las etapas tempranas del proyecto, estas opiniones se deben
+ tener en cuenta para el diseño del producto.
+\end_layout
+
+\begin_layout Standard
+2 y 3 El feedback de los clientes frente a los productos desarrollados deber
+ ser incorporados dentro de todo el ciclo de vida del producto, a través
+ de la recopilación activa y periódica de la opinión de los usuarios finales
+ y la definición de métricas que miden la satisfacción del cliente.
+\end_layout
+
+\begin_layout Standard
+4.
+ El feedback como métricas de satisfacción y opinión del producto deben
+ ser tomadas periódicamente e incorporadas en la toma de decisiones en cada
+ fase del ciclo de vida del producto.
+\end_layout
+
+\begin_layout Standard
+5.
+ El feedback constante de los clientes en métricas de satisfacción, opinión
+ del producto y sus funcionalidades debe ser un proceso constante e influyente
+ en el diseño del producto desde el inicio del ciclo de vida del producto
+ (desde el diseño hasta etapas posterior al despliegue en producción).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DevOps process: Customer feedback [36] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo
+\series default
+: Metodologías
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Producto y Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Recolectar e implementar las recomendaciones (feedback) de los clientes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220227
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+A nivel de proyectos, ¿cómo fluye la comunicación entre los miembros del
+ equipo de trabajo y los directivos?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se buscar conocer como es el nivel de comunicación y entendimiento del flujo
+ de trabajo de los proyectos entre todos los miembros del equipo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ Los lideres y stakeholders del proyecto son los únicos que conocen y definen
+ los objetivos, alcances y detalles de los proyectos por iniciar, sin comunicarl
+os con los equipos técnicos (desarrolladores, calidad e infraestructura).
+\end_layout
+
+\begin_layout Standard
+2.
+ Los detalles del proyecto no se comunican desde el inicio y se comparten
+ en etapas avanzadas del proyecto, generando reprocesos.
+\end_layout
+
+\begin_layout Standard
+3.
+ El alcance y objetivos de los proyectos se comunican parcialmente sin mayor
+ nivel de detalle, solo los lideres técnicos los conocen en profundidad.
+\end_layout
+
+\begin_layout Standard
+4.
+ Todos los miembros del equipo conocen el alcance y objetivos de los proyectos
+ a alto nivel.
+\end_layout
+
+\begin_layout Standard
+5.
+ Todos los miembros conocen los elementos claves del proyecto y están visibles
+ para todos.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ La comunicación dentro de los equipos de desarrollo es un factor esencial
+ a la hora de trabajar de forma colaborativa y así lograr mejoras en la
+ entrega de software y el rendimiento de la organización, por lo tanto,
+ la compañía debe iniciar un cambio en la forma en cómo se maneja la información
+ relacionada con los proyectos (personal involucrado, actividades a desarrollar,
+ flujo de información).
+ Se busca que el equipo pueda conocer los detalles de las actividades a
+ realizar en cada etapa del proyecto.
+\end_layout
+
+\begin_layout Standard
+2.
+ La compañía debe asegurar que el equipo de trabajo conozca y participe
+ desde el inicio de proyecto en la definición del flujo de trabajo para
+ el desarrollo del producto, que va desde la solicitud del cliente hasta
+ la entrega del producto, definiendo bloques de trabajo, el personal involucrado
+, las activades a desarrollar, los tiempos estimados de las tareas.
+ Por último, se lleva a herramientas de visualización para que todo el equipo
+ pueda consultar el estado de cada etapa durante todo el ciclo de vida del
+ desarrollo de la aplicación.
+\end_layout
+
+\begin_layout Standard
+3.
+ El flujo de información dentro del equipo es un factor para el entendimiento
+ de los proyectos, en este se debe definir el flujo de trabajo desde el
+ negocio hasta los clientes a través de bloques de procesos o lo que defina
+ la organización en su metodología de trabajo, lo realmente importante es
+ que esta información sea de fácil acceso para el equipo y no sea conocimiento
+ exclusivo de la directiva y los lideres técnicos.
+\end_layout
+
+\begin_layout Standard
+4.
+ La creación de un flujo de valor es una herramienta que permite representar
+ los pasos necesarios para entregar un producto de software a los clientes.
+ Aquí se busca representar el flujo de la información a través de los diferentes
+ procesos desde el punto de vista técnico para cumplir con las necesidades
+ del cliente.
+ Teniendo esta estructura creada y accesible por todos los miembros del
+ equipo se logran mejoras en el rendimiento de la entrega de software.
+\end_layout
+
+\begin_layout Standard
+5.
+ La definición y evolución del mapa de una cadena de valor es un trabajo
+ colaborativo entre todos los miembros del equipo de trabajo que permite
+ descentralizar la toma de decisiones y encontrar dónde están los desperdicios
+ o `waste' para entregar valor de forma continua al cliente.
+ Una cadena de valor sin visualización y evolución no es útil para que una
+ empresa pueda mejorar sus procesos y generar productos de valor.
+ Por ejemplo, se puede apoyar en herramientas visuales como muro de tarjetas,
+ guiones o tableros Kanban para hacer visible la cadena de valor.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps process: Visibility of work in the value
+ stream [37] 
+\end_layout
+
+\begin_layout Itemize
+Value Stream Mapping, K Martin, 2013 [38] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo
+\series default
+: Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo
+\series default
+: Comunicación
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Producto y Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Hacer visible el flujo de trabajo durante todo el ciclo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220304
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo los equipos dividen el trabajo a la hora de iniciar el desarrollo
+ de productos y funcionalidades para tener un mínimo producto viable?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+La recomendación y buenas prácticas de las metodologías agiles es dividir
+ el proyecto en entregas pequeñas que aporten valor funcional al usuario
+ final.
+\end_layout
+
+\begin_layout Standard
+La investigación DORA indica que trabajar en lotes pequeños trae lo siguientes
+ beneficios en el proceso de desarrollo de software:
+\end_layout
+
+\begin_layout Itemize
+Reduce el tiempo que implica recibir comentarios sobre los cambios, lo que
+ facilita la clasificación y la solución de problemas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Aumenta la eficiencia y la motivación.
+ 
+\end_layout
+
+\begin_layout Itemize
+Evita que la organización caiga en la falacia del costo irrecuperable.
+ 
+\end_layout
+
+\begin_layout Standard
+Entregar productos o cambios de software en periodos superiores a un 1 año
+ se asocia a metodologías tradicionales de desarrollo, por ejemplo, RUP
+ y cascada, etc.
+ donde se basan en modelos de entrega de un único producto final al final
+ del ciclo de vida del desarrollo de la aplicación con un producto totalmente
+ terminado.
+ En estos modelos la interacción con el cliente es escasa y en muchos casos
+ interviene en los extremos del ciclo de vida (fase inicial con la gestión
+ de requisitos y al final en la entrega del producto).
+\end_layout
+
+\begin_layout Standard
+Entregar productos en periodos de 6 meses a 1 año se asocia a metodologías
+ tradicionales, donde aún se corre un riesgo de perder oportunidades de
+ mercado o que las necesidades del cliente evolucionen y se generen reprocesos
+ generando pérdida de tiempo, fuerzo para el equipo de desarrollo
+\end_layout
+
+\begin_layout Standard
+Trabajar en lotes pequeños permite entregarle productos de valor al cliente
+ en periodos cortos, aquí las metodologías agiles juegan un papel importante
+ por que permiten una constante evolución y adaptabilidad a las necesidades
+ del cliente entregando productos mínimos viables o prototipos usables y
+ tener rápidas retroalimentaciones pasando de completar tareas en semanas
+ a días e incluso a horas.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+El trabajo se agrupa en proyectos grandes con lanzamientos poco frecuentes
+ de más de un año 
+\end_layout
+
+\begin_layout Enumerate
+En lotes medianos de entre 6 meses a 1 año 
+\end_layout
+
+\begin_layout Enumerate
+En lotes medianos de 3 a 6 meses 
+\end_layout
+
+\begin_layout Enumerate
+En lotes pequeños entre 1 y 3 meses 
+\end_layout
+
+\begin_layout Enumerate
+En lotes pequeños que pueda completarse en tres semanas o menos 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Entregar productos o versiones usables de un software en periodos mayores
+ a 1 año es una práctica poco recomendable porque se corre el riesgo de
+ perder oportunidad de mercado, o que las necesidades del cliente cambien
+ y entregar productos obsoletos que no cumplan con lo que el cliente requiere,
+ por eso el primer paso para reducir esta situación es iniciar con un cambio
+ en la forma como se entrega el producto final a los clientes, adoptando
+ la estrategia de dividir el trabajo en partes más pequeñas que puedan completar
+se en periodos menores, en este caso entregar versiones usables en tiempos
+ menores a 1 año.
+ El objetivo es que los desarrolladores adquieran la experiencia de dividir
+ el trabajo de varios años a entregas de menos de 1 año.
+\end_layout
+
+\begin_layout Standard
+2.
+ La compañía debe iniciar la adopción de metodologías de desarrollo agiles
+ (Scrum, Kanban, Lean etc, que permitan facilitar la división de trabajo
+ en lotes medianos que sean independientes, valiosos y verificable y así
+ entregar a los usuarios finales y demás interesadas productos de valor
+ usables en rangos de tiempo entre 3 y 6 meses.
+\end_layout
+
+\begin_layout Standard
+3.
+ Iniciar la adopción de un enfoque en donde prime la división del trabajo
+ en partes pequeñas de forma independiente, valioso, verificable y negociable,
+ logrando que la entrega de productos mínimos viables pueda adaptase a las
+ necesidades del cliente.
+ Descomponer el trabajo en funcionalidades que permitan un desarrollo rápido
+ en periodos menores a 3 meses.
+\end_layout
+
+\begin_layout Standard
+4.
+ El siguiente paso para alcanzar un proceso de entrega ágil de alto rendimiento
+ es conocer los procesos de la organización, identificar y reducir el desperdici
+o o procesos que no generen valor, y reducir la complejidad del proceso
+ de desarrollo.
+ A partir de estos factores dividir todas las tareas del desarrollo en lotes
+ de trabajo pequeños logrando que estas sean independientes, estimables,
+ verificables y valiosos y que se puedan desplegar en producción en periodos
+ de menos de 3 semanas.
+\end_layout
+
+\begin_layout Standard
+5.
+ La entrega oportuna de productos de valor es un proceso de mejora constante,
+ en donde los equipos de trabajo se deben enfocar para minimizar el esfuerzo
+ necesario para desplegar una aplicación y lograr tiempos de entrega cortos.
+ Actualmente, las grandes empresas de desarrollo de la industria manejan
+ tiempos de despliegues diarios, incluso varios en un mismo día o bajo demanda.
+ Características como, la adopción de metodologías agiles, buenas prácticas
+ de desarrollo, dividir el trabajo en lotes pequeños, automatización de
+ procesos y pruebas, toma rápida de decisiones, etc, son elementos claves
+ para alcanzar la mejora continua de la frecuencia de despliegues en producción,
+ llevando esta tarea a medirse en horas en lugar de días y semanas.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps process: Working in small batches [39] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate State of DevOps 2021 Report[12] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Metodologías
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Producto y Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Trabajar con lotes o cantidades pequeñas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cuál es nivel de libertad que tiene el equipo de desarrollo para elegir
+ sus propias herramientas en función de lo que sea mejor para el usuario?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Busca medir la flexibilidad de la compañía para que los desarrolladores
+ puedan experimentar con nuevas herramientas y metodologías, apoyando el
+ crecimiento del portafolio de opciones y no limitarse a un grupo definido
+ de aplicaciones
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ Ninguna, la compañía tiene una lista de herramientas definidas (stack tecnológi
+co) y no se puede usar nada diferente
+\end_layout
+
+\begin_layout Standard
+2.
+ Poca, cualquier cambio o nueva herramienta a utilizar en el proyecto debe
+ venir únicamente de un líder o comité técnico.
+\end_layout
+
+\begin_layout Standard
+3.
+ Moderado, la compañía tiene un stack tecnológico definido y para usar una
+ nueva herramienta debe pasar por varias aprobaciones, un comité, líder
+ técnico, infraestructura, etc.
+\end_layout
+
+\begin_layout Standard
+4.
+ Controlado, los equipos pueden proponer el uso de alguna herramienta previa
+ aval del líder técnico del proyecto.
+\end_layout
+
+\begin_layout Standard
+5.
+ Concertado, los equipos pueden decidir que herramientas utilizar acorde
+ a las necesidades particulares del proyecto debidamente comunicadas.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Se debe iniciar con un acuerdo entre desarrolladores, lideres de desarrollo
+ y comité técnico (si existe) y gerencia para evaluar al menos 2 veces al
+ año el stack tecnológico vigente y decidir adoptar nuevas herramientas
+ para mejorar el rendimiento y funcionalidades de nuevos desarrollos.
+\end_layout
+
+\begin_layout Standard
+2.
+ El stack tecnológico de una organización debe evaluarse al menos 2 veces
+ en el año con el fin de tener un portafolio de opciones para cubrir necesidades
+ particulares de proyectos en curso o por futuras de la organización o mejorar
+ procesos vigentes.
+\end_layout
+
+\begin_layout Standard
+3.
+ La mejora del stack tecnológico para un proyecto de software deber ser
+ manejado como un proceso participativo en donde un líder técnico o comité
+ especializado están siempre dispuestos a escuchar propuestas de mejora
+ de cualquier miembro del equipo de trabajo y decir su adopción en proyectos
+ nuevo, en curso y en ocasiones ya finalizados.
+\end_layout
+
+\begin_layout Standard
+4.
+ Durante el proceso de desarrollo, los equipos pueden elegir sus propias
+ herramientas en función de lo que sea mejor para los usuarios finales,
+ respaldándose en experiencias de mercado, tendencias mundiales fundamentadas
+ en análisis de rendimiento y feedbacks de los usuarios, sin requerir aprobación
+ de personas ajenas al equipo.
+\end_layout
+
+\begin_layout Standard
+5.
+ Permitir al equipo de trabajo la experimentación en nuevas herramientas
+ es un cambio cultural que la compañía debe acoger como una filosofía de
+ mejora constante para potenciar la innovación y adopción de técnicas modernas
+ de desarrollo.
+ El programa de investigación DORA identifica 3 componentes claves en este
+ aspecto: capacidad de trabajar en nuevas ideas de forma independiente,
+ poder crear y ajustar especificaciones durante el desarrollo, sin requerir
+ aprobación de alguien por fuera del equipo.
+ Todo esto permite lograr mayor satisfacción de los clientes, impactando
+ significativamente la capacidad de entrega continua del software.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Desarrollo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Producto y Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Fomentar y habilitar al equipo para realizar experimentos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo es proceso de gestión de cambios de la compañía?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer como la compañía gestiona el control de cambios en los
+ proyectos, usando una métrica de escala de capacidades iniciando en un
+ estado en donde la compaña no tiene un orden o control de los cambios recibidos
+, hasta llegar a una buena práctica adoptada en DevOps de tener procesos
+ de aprobación ligeros basados en metodologías de evaluación que permitan
+ agilidad en el proceso de desarrollo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No se tiene proceso de evaluación o aprobación de cambios y se realizan
+ en orden de llegada
+\end_layout
+
+\begin_layout Standard
+2.
+ Todos los cambios deben ser evaluados y aprobados por un comité u organismo
+ externo
+\end_layout
+
+\begin_layout Standard
+3.
+ Todos los cambios deben ser evaluados y aprobados por un comité interno.
+\end_layout
+
+\begin_layout Standard
+4.
+ Solo los cambios de alto riesgo que impliquen bases de datos y arquitectura
+ requieren aprobación.
+\end_layout
+
+\begin_layout Standard
+5.
+ Se tiene un proceso de aprobación ligero basado en evaluación apoyado en
+ metodologías de evaluación definidas, ejemplo: evaluación por pares, evaluación
+ 360 entre otras.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Se debe iniciar la adopción de procedimientos y herramientas que permitan
+ gestionar y visualizar los cambios de un proyecto, lo principal es darles
+ orden y visibilidad a dichas solicitudes para que estas puedan ser analizadas
+ y aprobadas por los mecanismos y metodologías que use la compañía (revisión
+ por pares, revisión inter equipo, evaluación 360).
+\end_layout
+
+\begin_layout Standard
+2.
+ Se debe iniciar aliviando la complejidad a la hora de evaluar y aprobar
+ cambios del proyecto, el objetivo es iniciar la definición de un proceso
+ de aprobación ligero a la hora de tomar decisiones.
+ En la investigación (Accelerate, Forsgren 2018 [11]) descubrieron que las
+ aprobaciones externas estaban correlacionadas de forma negativa con el
+ tiempo de provisión, la frecuencia de los despliegues y el tiempo de restauraci
+ón sin correlación con la tasa de fallos en los cambios.
+\end_layout
+
+\begin_layout Standard
+3.
+ La implementación de un proceso ligero de gestión de cambios permite empoderar
+ a los equipos en la toma de decisiones, trasladar la aprobación de cambios
+ a un comité interno permite ganar agilidad en frecuencia de despliegues
+ respecto a tener la aprobación en un comité externos.
+ Adoptar estrategias como hacer revisión por pares para hacer cambios individual
+es.
+ Otro paso importante es definir qué tipo de cambios requieren o no la evaluació
+n comité y cuales se dejan a decisión del equipo.
+\end_layout
+
+\begin_layout Standard
+4.
+ Se debe empoderar al equipo de trabajo para que adopte procesos de aprobación
+ ligeros y gestionados dentro del mismo equipo, enfocándose en cambios de
+ alto impacto, por ejemplo, que afecten la base de datos y la arquitectura.
+ Otro factor importante a tener en cuenta es validar el proceso de cambios
+ a nivel macro del proyecto con el fin de identificar cuellos de botella,
+ definir formas de detectar problemas de forma automatizada y anticiparse
+ a posibles fallos.
+\end_layout
+
+\begin_layout Standard
+5.
+ La optimización de la aprobación de los cambios es una actividad de constante
+ evolución y no debe ser tratada como un proceso estático, esta se debe
+ basar en dos objetivos importantes, que son entregar oportunamente los
+ requisitos y minimizar los cambios a raíz de fallos.
+ Para este propósito, se recomienda actividades como, adoptar aprobaciones
+ ligeras basados en revisión por pares, implementar pruebas continuas y
+ de integración para detectar cambios incorrectos, facilitar canales de
+ notificación y coordinación dentro del equipo, etc.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, Streamlining change approval [40] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Lean
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Gestión Lean y Monitorización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Tener un proceso liviano para la aprobación de cambios
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220203
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿La organización monitorea la infraestructura y las aplicaciones?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer, si la empresa implementa o no herramientas de monitoreo
+ para la infraestructura y las aplicaciones que desarrollan, con el fin
+ de obtener información relevante para decisiones empresariales sobre tasas
+ de uso y rendimiento
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Enumerate
+No 
+\end_layout
+
+\begin_layout Enumerate
+Si, solo se tienen herramientas para verificar el estado de salud de la
+ infraestructura 
+\end_layout
+
+\begin_layout Enumerate
+Si, se utilizan herramientas para monitorear la infraestructura y las aplicacion
+es, pero solo las maneja el equipo de operaciones 
+\end_layout
+
+\begin_layout Enumerate
+Si, se utilizan herramientas para monitorear la infraestructura y las aplicacion
+es y todo el equipo puede consultarlas 
+\end_layout
+
+\begin_layout Enumerate
+Si, se utilizan herramientas para monitorear diariamente la infraestructura
+ y las aplicaciones para tomar decisiones empresariales 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Enumerate
+Se debe adoptar e implementar herramientas que permitan verificar el estado
+ básico de la infraestructura y de las aplicaciones en operación enfocados
+ en estadísticas de uso y rendimiento, por ejemplo, uso de CPU, memoria
+ RAM y espacio en disco duro.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El monitoreo debe ir más allá de solo tener las estadísticas de uso de los
+ recursos físicos del entorno o el servidor donde se despliegan las aplicaciones
+, se debe adoptar herramientas de monitoreo del estado de salud las aplicaciones
+, no basta que el servidor esté funcionando si el usuario final no puede
+ utilizar la aplicación.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Los datos de monitoreo de la infraestructura y las aplicaciones deben ser
+ de fácil acceso para todos los miembros del equipo y no solo de uso exclusivo
+ de un grupo particular, el principal objetivo es obtener datos relevantes
+ a través de una supervisión inteligente y focalizada en las áreas claves
+ que tengan el potencial de generar valor para la compañía y de fácil acceso.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La información de monitoreo del rendimiento de la infraestructura y las
+ aplicaciones son elementos influyentes para tomar decisiones empresariales,
+ se debe asegurar que los datos recolectados de estos monitoreos sean relevantes
+ y den valor para apoyar la toma de decisiones empresariales, en este punto
+ se debe ir más allá de solo tener en cuenta factores como tasa de fallo,
+ rendimiento, etc y enfocarse en una visión global.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El monitoreo de la infraestructura y las aplicaciones son elementos influyentes
+ para apoyar la toma de decisiones empresariales, la organización debe manejar
+ este proceso como una práctica de mejora constante, a partir de revisión
+ de las tareas y el alcance de las mismas para poder brindar información
+ de calidad sobre las áreas claves de la cadena de valor, por ejemplo, estadísti
+cas de rendimiento y tasas de fallo de las aplicaciones.
+ Estas prácticas, permiten identificar con rapidez oportunidades de aprendizaje,
+ incrementan el rendimiento de la entrega de software y también tienen efectos
+ positivos sobre el rendimiento y la cultura de los equipos.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, Monitoring systems to inform business decisions
+ [41] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Lean
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Gestión Lean y Monitorización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Monitorizar las aplicaciones y la infraestructura para tomar decisiones
+ de negocio
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo se maneja las notificaciones que vienen del monitoreo de los sistemas?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer como gestionan y reciben las notificaciones de los sistemas
+ de monitoreo, donde se busca tener alertas tempranas frente a rendimiento
+ y tasas de uso de las aplicaciones y la infraestructura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No se monitorea
+\end_layout
+
+\begin_layout Standard
+2.
+ No se reciben notificaciones
+\end_layout
+
+\begin_layout Standard
+3.
+ Se reciben notificaciones en caso de fallos generados por sistemas de monitoriz
+ación y registros
+\end_layout
+
+\begin_layout Standard
+4.
+ Se reciben advertencias de umbral de capacidad (Ej uso de CPU por encima
+ del 90%)
+\end_layout
+
+\begin_layout Standard
+5.
+ Se reciben advertencias de monitoreo en función de tasas de cambio (ej,
+ el uso de la CPU incrementó en un 25% en los últimos 10 minutos)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Enumerate
+Se debe iniciar con el monitoreo básico de la infraestructura, que implica
+ por ver consultar el estado de los recursos de máquina del servidor (disco
+ duro, memoria y CPU) donde se aloja el producto de software.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El monitoreo debe ir más allá de solo poder consultar el estado de recursos
+ de maquina donde se aloja el servidor (disco duro, memoria y CPU) sino
+ que se debe definir un canal de envío de notificaciones en caso de alguna
+ falla de infraestructura, estas notificaciones pueden ser vía correo electrónic
+a, mensaje de texto, o mensaje a canal de soporte (slack, Ms Teams, etc).
+ 
+\end_layout
+
+\begin_layout Enumerate
+El monitoreo de infraestructura no solo debe limitarse a ser procesos reactivos
+ ante alguna anomalía en la infraestructura, este debe tener la capacidad
+ de anticiparse a hechos que puedan generar alguna situación anómala, por
+ ejemplo, notificar situaciones de picos de alto consumo de recursos de
+ CPU y memoria con el fin de prevenir caídas de la infraestructura y de
+ las soluciones de software.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El monitoreo preventivo y proactivo se debe enfocar en anticipar situaciones
+ de alta demanda del producto de software, en función a tasas de cambio
+ de los recursos del servidor, ejemplo incremento de más de 40% del uso
+ de la CPU en los últimos 10 minutos) 
+\end_layout
+
+\begin_layout Enumerate
+El monitoreo debe ir más allá de la medir el estado de salud de la infraestructu
+ra o elementos supervisados, la compañía se debe adoptar una filosofía de
+ mejora constante en los procesos para implementar notificaciones proactivas
+ basados en aspectos como: definir reglas claras para generar alertas, establece
+r umbrales de activación en categorías especialmente cuando se genera o
+ no un impacto en los usuarios, hacer análisis retrospectivos de los incidentes
+ e implementar medidas de mitigación.
+ El objetivo es ser reactivo y anticiparse a fallas en las aplicaciones
+ con el fin de garantizar la disponibilidad del producto de software hacia
+ los clientes finales.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, Proactive failure notification [42] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Lean
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Gestión Lean y Monitorización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Monitorizar la salud de los servicios y aplicaciones proactivamente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220312
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Cómo controlan la carga de trabajo en los proyectos?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer como la compañía gestiona las cargas de trabajo del equipo
+ de desarrollo.
+\end_layout
+
+\begin_layout Standard
+A partir de la investigación DORA, limitar el trabajo en proceso forman
+ parte de las capacidades para mejorar la entrega de software y el rendimiento
+ organizacional, por lo tanto, lo primero que se debe hacer:
+\end_layout
+
+\begin_layout Itemize
+Prioriza el trabajo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Limita la cantidad de personas que trabajan en una tarea.
+ 
+\end_layout
+
+\begin_layout Itemize
+Concentrarse en completar pocas tareas de alta prioridad.
+ 
+\end_layout
+
+\begin_layout Standard
+Una de las estrategias que recomienda DORA es hacer las siguientes preguntas:
+\end_layout
+
+\begin_layout Itemize
+¿Conoces el plazo de entrega y la variabilidad promedio de todo el flujo
+ de valor (desde la idea hasta el cliente)? 
+\end_layout
+
+\begin_layout Itemize
+¿Estás buscando maneras de aumentar el flujo y reducir así el plazo de entrega
+ del trabajo? 
+\end_layout
+
+\begin_layout Itemize
+¿Los límites de WIP ayudan a manifestar los obstáculos que te impiden aumentar
+ el flujo? 
+\end_layout
+
+\begin_layout Itemize
+¿Estás tratando de resolver esos obstáculos? 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No hay control sobre la cantidad de trabajo que se le asigna a un equipo
+\end_layout
+
+\begin_layout Standard
+2.
+ Los equipos no controlan la cantidad de trabajo y normalmente se sobrecargan.
+\end_layout
+
+\begin_layout Standard
+3.
+ Se identifican las sobrecargas, aunque no se puede hacer nada para limitarlas
+\end_layout
+
+\begin_layout Standard
+4.
+ Los equipos por sí mismos a juicios propios tratan de controlar la cantidad
+ de trabajo para no sobrecargarse
+\end_layout
+
+\begin_layout Standard
+5.
+ Se cuenta con procesos que ayudan a limitar la cantidad de trabajo en proceso
+ apoyado en feedbacks y datos de monitoreo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Implementar un sistema o metodología que permita registrar, consultar y
+ asignar tareas del proyecto de software a los miembros del equipo de trabajo
+ basados en la priorización del trabajo, limitar la cantidad de personas
+ asignadas a una tarea y enfocado completar las tareas de alta prioridad.
+\end_layout
+
+\begin_layout Standard
+2.
+ Revisar y analizar la forma en que se asignan a cada miembro del quipo
+ las cargas por cada periodo de entrega del proyecto.
+ Identificar donde están los cuellos de botella, preguntándose cuando y
+ por qué se alcanzan los límites de trabajo en curso, para esto se recomienda
+ usar un storyboard o guion gráfico con el fin de tener escrito todo el
+ trabajo que el equipo realiza en las diferentes etapas del proceso de desarroll
+o.
+\end_layout
+
+\begin_layout Standard
+3.
+ No caer en la tentación de ajustar arbitrariamente la cantidad de trabajo
+ en curso de un equipo de trabajo, este deber ser un proceso de revisión
+ constante y acordado entre los miembros del equipo para que a partir de
+ un análisis fundamentado en el rendimiento y en el cumplimiento de tareas
+ se definan las diferentes estrategias para regular la cantidad de trabajo
+ en progreso, por ejemplo, limitar la cantidad de asignación de trabajo
+ al paso del proceso más lento y respetando esos límites definidos, analizando
+ y buscando mejorar los factores que contribuyen a los retrasos.
+\end_layout
+
+\begin_layout Standard
+4.
+ Los límites del trabajo en curso mejoran el rendimiento y reducen la cantidad
+ de trabajo 
+\begin_inset Quotes eld
+\end_inset
+
+prácticamente listo
+\begin_inset Quotes erd
+\end_inset
+
+, ya que obliga al equipo a centrarse en un conjunto de tareas más pequeño
+ fomentan la cultura de finalizar tareas específicas y administradas como
+ consenso del equipo de desarrollo, por lo tanto, se debe asegurar que,
+ el trabajo este priorizado, equilibrado (limitar la cantidad de personas
+ trabajando en una misma tarea) y focalizado en completar las tareas de
+ alta prioridad, para lograrlo se debe hacer visible todas las actividades
+ del proyecto, ejemplo adoptando un guion gráfico o storyboard, definiendo
+ límites de trabajo en curso acorde a la capacidad del equipo.
+\end_layout
+
+\begin_layout Standard
+5.
+ Controlar la cantidad de trabajo en proceso en progreso (WIP) es una práctica
+ de gestión LEAN que debe ser adoptado como un proceso dinámico que está
+ en constante evolución, este se debe apoyar a través del uso de guiones
+ gráficos como storyboards o tableros Kanban para representar el flujo de
+ valor los procesos de entrega y así tener una forma práctica de controlar
+ las cargas de trabajo sobre un equipo o un individuo, encontrar cuellos
+ de botella y evitar sobrecargar a miembros del equipo de trabajo.
+ Estas prácticas son elementos clave para conseguir mejores tasas de entrega,
+ reducirlos riesgos del proyecto y generar efectos positivos en la cultura
+ del equipo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+¿Qué son los límites de trabajo en curso? [43] 
+\end_layout
+
+\begin_layout Itemize
+Kanban Tool, Limitando el Trabajo en Progreso [44] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, Work in process limits [45] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Procesos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Lean
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría
+\series default
+: Gestión Lean y Monitorización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Administrar y establecer límites para el trabajo en progreso (Work-In-Progress)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220303
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿La empresa utiliza herramientas para visualizar y controlar el avance de
+ los proyectos?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+1.
+ No, los proyectos se coordinan informalmente a juicio de expertos, no se
+ genera documentación del estado del proyecto
+\end_layout
+
+\begin_layout Standard
+2.
+ No, los proyectos se coordinan formalmente, se genera documentación del
+ avance del proyecto, pero esta no es publica o de fácil acceso.
+\end_layout
+
+\begin_layout Standard
+3.
+ Si, solo se utilizan repositorios de documentos con información no siempre
+ actualizada del estado del proyecto, no todos pueden acceder a ella.
+\end_layout
+
+\begin_layout Standard
+4.
+ Si, se utilizan herramientas para visualizar el avance del proyecto, pero
+ solo es visible por unos pocos miembros del equipo
+\end_layout
+
+\begin_layout Standard
+5.
+ Si, se utilizan herramientas para que todos los miembros del equipo puedan
+ ver el estado actual del proyecto
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer los mecanismos que utiliza la compañía para visualizar
+ el avance del proyecto y la visibilidad que tiene esta información entre
+ equipo de trabajo y los clientes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ La compañía debe adoptar la cultura de generar documentación mínima necesaria
+ para poder obtener fácilmente el estado actual de un proyecto.
+\end_layout
+
+\begin_layout Standard
+2.
+ La compañía debe propiciar el fácil acceso de todo el equipo una documentación
+ centralizada del proyecto para conocer el estado y avance del proyecto
+ manualmente.
+\end_layout
+
+\begin_layout Standard
+3.
+ Se debe dar el salto de rendimiento y agilidad en la gestión de los proyectos
+ a través de la implementación de una herramienta que permita conocer los
+ detalles generales del proyecto y su avance.
+\end_layout
+
+\begin_layout Standard
+4.
+ Las herramientas de gestión de proyecto deben permitir herramientas visuales
+ para organizar el trabajo, como tableros Kanban, historias de usuario de
+ fácil acceso para los miembros del equipo de trabajo.
+\end_layout
+
+\begin_layout Standard
+5.
+ Tener herramientas de visualización para que todos los miembros del equipo
+ puedan consultar y gestionar el estado de la cadena de valor de proyecto,
+ debe ser adoptado por la compañía como una tarea de mejora continua entre
+ todos los miembros del equipo, en donde resalten elementos como: reflejar
+ información relevante e importante para los objetivos del trabajo, permitir
+ ejecutar o tomar acciones, fácil de entender, mantener actualizada y precisa.
+ El objetivo es mantener al equipo informado con información útil, exacta
+ y actualizada para identificar y quitar obstáculos en el rendimiento a
+ través de elementos visuales como tableros Kanban, storyboards, tarjetas
+ físicas, entre otras.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, Visual management capabilities [46] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo
+\series default
+: Herramientas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Monitoreo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Gestión Lean y Monitorización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Visualizar el trabajo para monitorizar la calidad y comunicarlo al equipo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220313
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Como describiría su organización?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca medir el tipo de organización basado en la siguiente escala del
+ modelo Teal
+\end_layout
+
+\begin_layout Standard
+1.
+ Organizaciones Rojo, Lideradas por la Fuerza
+\end_layout
+
+\begin_layout Standard
+2.
+ Organizaciones Ámbar, Lideradas por el Mandante
+\end_layout
+
+\begin_layout Standard
+3.
+ Organizaciones Naranja, Lideradas a través de a la eficiencia
+\end_layout
+
+\begin_layout Standard
+4.
+ Organizaciones Vede, Lideradas a través de la responsabilidad
+\end_layout
+
+\begin_layout Standard
+5.
+ Organizaciones Teal
+\end_layout
+
+\begin_layout Standard
+Mención especial al modelo Westrum
+\end_layout
+
+\begin_layout Standard
+1.
+ Patológicas (Orientadas al poder), equivalente al nivel 1 Rojo
+\end_layout
+
+\begin_layout Standard
+2.
+ Burocráticas (Orientado a reglas), equivalente al nivel 2 Ámbar
+\end_layout
+
+\begin_layout Standard
+3.
+ Generativas (orientado a rendimiento), equivalente a los niveles 3,4 y
+ 5 Naranja, Verde y Teal
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ Regidas por el ejercicio del poder y el miedo, altamente reactivas.
+\end_layout
+
+\begin_layout Standard
+2.
+ Regida por roles formales en estructura piramidal escalable, top-down command
+ and control, procesos estables y replicables
+\end_layout
+
+\begin_layout Standard
+3.
+ Objetivo vencer a la competencia, a través del crecimiento y la rentabilidad,
+ gestión por objetivos.
+\end_layout
+
+\begin_layout Standard
+4.
+ Foco en la cultura y el empoderamiento para potenciar la motivación de
+ los empleados.
+\end_layout
+
+\begin_layout Standard
+5.
+ Organización vista como un organismo vivo orientada a desarrollar todo
+ su potencial, equipos autogestionados.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Este tipo de organizaciones predomina en entornos normalmente caóticos,
+ donde prima la necesidad de supervivencia y suelen operar de un modo más
+ reactivo, en este caso se debe iniciar con un proceso de redefinición progresiv
+a de su estructura para evolucionar a un modelo piramidal y adoptar un modelo
+ de mando jerárquico en pro de que la organización pueda alcanzar objetivos
+ a largo plazo.
+\end_layout
+
+\begin_layout Standard
+2.
+ Este es un modelo muy propio para estructuras altamente jerarquizadas donde
+ predomina la burocracia y la rigidez organizacional y la antigüedad es
+ un factor muy importante para el escalamiento.
+ ejemplo fuerzas armadas, entidades del sector público o la iglesia.
+ Para evolucionar este modelo la compañía debe aceptar el paradigma de constante
+ evolución y adaptarse a los cambios del entorno, donde prima el crecimiento
+ para obtener beneficios, basados en el principio de la meritocracia, cumplimien
+to de objetivos individuales e innovación.
+\end_layout
+
+\begin_layout Standard
+3.
+ Este tipo de organizaciones se centran en el crecimiento y sus principales
+ decisiones se toman a partir de un rendimiento económico, adaptándose a
+ los cambios del entorno.
+ Sus principales características son la meritocracia, los objetivos individuales
+ y la innovación.
+ El siguiente nivel para este tipo de organizaciones es ajustar su foco
+ y dar prioridad a la cultura y el empoderamiento de sus miembros para que
+ estén motivados en su trabajo.
+\end_layout
+
+\begin_layout Standard
+4.
+ Este tipo de organización utilizan los valores a la hora de tomar decisiones,
+ operan bajo una estructura piramidal, dan prioridad a la cultura y al empoderam
+iento de sus miembros.
+ El siguiente nivel, se basa enfocar el paradigma de la organización a un
+ modelo evolutivo y autogestionado, donde la toma decisiones no se toma
+ en la cima de la organización.
+\end_layout
+
+\begin_layout Standard
+5.
+ Las organizaciones que se clasifican como de alto rendimiento, son organizacion
+es que tienen como filosofía la mejora constante de sus procesos.
+ En este nivel se deben garantizar que el equipo este comprometido y adopte
+ prácticas laborales de alta colaboración, manejo de riesgos compartidos,
+ orientación a las conciliaciones y motivación a la innovación.
+ Este modelo se centra en que la organización pueda funcionar con mayores
+ niveles de eficacia y eficiencia, sin jerarquía, eliminando estructuras
+ piramidales donde los valores y el factor humano son los protagonistas.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Reinventar las organizaciones [47] 
+\end_layout
+
+\begin_layout Itemize
+Cómo están evolucionando las organizaciones, [48] 
+\end_layout
+
+\begin_layout Itemize
+Thepowermba, Organizaciones Teal [49] 
+\end_layout
+
+\begin_layout Itemize
+Euroforum, ¿Sabes lo que son las Organizaciones TEAL?, [50] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps culture: Westrum organizational culture
+ [51] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Organización
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Implementar una cultura tipo generativa
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220303
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿En los últimos 6 meses que espacios has tenido para aprender nuevas tecnologías
+, herramientas y prácticas?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer si la empresa propicia espacios para el aprendizaje y experimen
+tar con nuevas herramientas y tecnologías.
+\end_layout
+
+\begin_layout Standard
+Estos espacios se dan a criterio y disponibilidad de tiempo de la compañía,
+ normalmente se da durante el proyecto para lograr mejora continua, en ocasiones
+ se da al final del proyecto o en la brecha entre el cierre e inicio de
+ un nuevo proyecto.
+\end_layout
+
+\begin_layout Standard
+El proyecto de investigación y evaluación de DevOps DORA muestra que una
+ cultura organizacional que valora el aprendizaje contribuye al rendimiento
+ de la entrega de software con las siguientes características:
+\end_layout
+
+\begin_layout Itemize
+Mayor frecuencia de implementación.
+ 
+\end_layout
+
+\begin_layout Itemize
+Plazos de entrega reducidos para los cambios, tiempo para restablecer el
+ servicio y cambio en la tasa de fallas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cultura de equipo sólida.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No he tenido espacio, voluntad, recursos o necesidad
+\end_layout
+
+\begin_layout Standard
+2.
+ Solo lo puedo hacer en tiempo personal con recursos propios
+\end_layout
+
+\begin_layout Standard
+3.
+ Si, en una mezcla entre espacio individual y laboral donde cada parte cubre
+ sus gastos
+\end_layout
+
+\begin_layout Standard
+4.
+ Solo para cubrir las necesidades particulares que requiera la empresa con
+ recursos de la compañía.
+\end_layout
+
+\begin_layout Standard
+5.
+ Si, tengo la opción de proponer temas y tecnologías para aprender lo que
+ se requiera adicional de lo que demande los proyectos de la empresa con
+ recursos de la compañía.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Propiciar los espacios de motivación para que los empleados adquieran nuevos
+ conocimientos con el fin de dar el primer paso de una cultura de aprendizaje
+\end_layout
+
+\begin_layout Standard
+2.
+ Crear un presupuesto interno acorde a la capacidad de la empresa para apoyar
+ la capacitación o asistencia a eventos de nuevas tecnologías y casos de
+ éxito de los miembros del equipo acorde a cuanto la empresa valora el clima
+ de aprendizaje.
+\end_layout
+
+\begin_layout Standard
+3 y 4, Una cultura organizativa debe tratarse como una inversión, para ello
+ debe iniciar propiciando espacios de aprendizaje y compartir información,
+ crear presupuestos de capacitación y apoyar el intercambio de conocimiento
+ en eventos tecnológicos.
+\end_layout
+
+\begin_layout Standard
+5.
+ La cultura del aprendizaje está dada en el momento que la compañía la vea
+ y la trate como una inversión a las capacidades técnicas de su personal
+ y está directamente relacionada con tener equipos empoderados y comprometidos
+ con la mejora continua, reflejándose en mayor frecuencia de implementación,
+ menores tiempo de entrega
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuentes:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps culture: Learning culture [52] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Aprendizaje continuo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Animar y apoyar al equipo a aprender
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20211223
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Como califica la división de responsabilidades entre los miembros del equipo
+ de trabajo?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer lo bien que interactúan los equipos de desarrollo, operaciones
+ y seguridad, que tradicionalmente trabajan en silos.
+\end_layout
+
+\begin_layout Standard
+Se busca determinar el grado de colaboración y como se comparten las responsabil
+idades del proyecto
+\end_layout
+
+\begin_layout Standard
+La investigación de DORA demuestra que una cultura generativa y de alta
+ confianza predice la entrega de software y el rendimiento organizacional
+ en la tecnología.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No hay asignación de responsabilidades definidos, cada uno hace lo que
+ considera y los miembros del equipo eluden las responsabilidades
+\end_layout
+
+\begin_layout Standard
+2.
+ Las responsabilidades están limitadas y focalizadas a cada miembro del
+ equipo de trabajo
+\end_layout
+
+\begin_layout Standard
+3.
+ Las responsabilidades se comparten parcialmente
+\end_layout
+
+\begin_layout Standard
+4.
+ Los riesgos son compartidos entre todos los miembros del equipo y existe
+ alguien que asigna y determina responsabilidades
+\end_layout
+
+\begin_layout Standard
+5.
+ Las responsabilidades y riesgos se comparten y son producto de un acuerdo
+ entre todos los miembros del equipo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Identificar y referenciar las responsabilidades de cada miembro del equipo
+ con el fin de generar una visión global del flujo de información las todas
+ las actividades del proceso de entrega de software que se implementan,
+ así crear canales de comunicación alineados para un mismo propósito e iniciar
+ la toma de decisiones compartida.
+\end_layout
+
+\begin_layout Standard
+2 y 3 Propiciar equipos multidisciplinarios con representantes de cada área
+ funcional (desarrolladores, analistas, personal de calidad, infraestructura,
+ seguridad, etc.) donde existan canales de comunicación abiertos y colaborativos
+ para que la toma de decisiones sea compartida desde el inicio del ciclo
+ de vida de la aplicación para que todos los miembros compartan la responsabilid
+ad de compilar, implementar y mantener un producto de software.
+ La automatización también reduce el riesgo y, con la herramienta adecuada,
+ se puede emplear la colaboración.
+\end_layout
+
+\begin_layout Standard
+4.
+ Se debe definir equipos multidisciplinarios con representantes de cada
+ área funcional que intervenga en el proceso de desarrollo de las aplicaciones
+ con el fin que todos compartan responsabilidades, tomen decisiones compartidas,
+ asuman riesgos compartidos, con el fin de enfocar esfuerzos en mejorar
+ incidencias y problemas del día a día como cuellos de botella con mayor
+ eficacia.
+ La empresa no debe abordar el trabajo técnico solo como un desafío de tecnologí
+a y procesos.
+\end_layout
+
+\begin_layout Standard
+5.
+ Adoptar un cambio cultural es una tarea de aprendizaje y mejora continua
+ en donde la compañía debe enfocarse en revisar y fortalecer aspectos de
+ la cultura organizacional como: la alta colaboración, la toma de riesgos
+ y decisiones compartidos, el fortalecimiento de la conciliación, el fomento
+ de la confianza, la gestión proactiva de errores y el potenciamiento de
+ la innovación.
+ La cultura influye en la forma en que fluye la información en una organización,
+ modelos como la cultura generativa de Westrum propician mejores ambientes
+ laborales, alta confianza, calidad y rendimiento de los equipos por ende
+ mejores tiempos de entrega y productividad.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps culture: Westrum organizational culture
+ [51] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Colaboración
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Apoyar y facilitar la colaboración entre los equipos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220314
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Como calificaría el trabajo en equipo entre desarrolladores y operación?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca conocer el grado de cooperación que existe entre desarrolladores
+ e infraestructura en la compañía.
+\end_layout
+
+\begin_layout Standard
+Esta escala permite conocer si no hay comparación alguna o si se tienen
+ equipos que cooperan y se ayudan constantemente
+\end_layout
+
+\begin_layout Standard
+El primer paso para la transformación digital de la compañía es derribar
+ lo que en DevOps denominan muro de confusión donde desarrollo y operaciones
+ van por caminos separados en una especie de burbuja donde cada uno se limita
+ a hacer sus funciones sin tener en cuenta a los otros.
+\end_layout
+
+\begin_layout Standard
+La colaboración entre equipos es el eje fundamental para mejorar los tiempos
+ de entrega y calidad de los productos de software.
+ Reforzar y adoptar el pensamiento sistémico entre las dos áreas es fundamental
+ para mejorar la comunicación e iniciar la toma de decisiones compartidas
+ durante todo el ciclo de vida de una aplicación
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No hay cooperación entre áreas
+\end_layout
+
+\begin_layout Standard
+2.
+ Cooperación baja menos del 20% de las tareas conjuntas
+\end_layout
+
+\begin_layout Standard
+3.
+ Cooperación moderada, entre un 20 y 50 % de tareas conjuntas
+\end_layout
+
+\begin_layout Standard
+4.
+ Cooperación alta, entre un 50 y 70% de tareas conjuntas
+\end_layout
+
+\begin_layout Standard
+5.
+ Cooperación continua y constante, más del 70% de las tareas son conjuntas
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Para esto se debe iniciar con un cambio cultura progresivo adoptando un
+ pensamiento sistémico entre las dos áreas bajo la premisa todo está conectado
+ con lo demás, un primer paso es encontrar sentido al porque trabajar en
+ conjunto identificando eventos, relaciones y actividades comunes entre
+ las dos áreas y así tener un marco común para realizar tareas conjuntas
+ particulares.
+ Una alternativa es emplear actividades de gamificación entre los equipos
+ para reforzar el clima laboral entre las áreas.
+\end_layout
+
+\begin_layout Standard
+2.
+ Una buena práctica para iniciar es que cada equipo involucre a miembros
+ del otro equipo en sus reuniones clave, por ejemplo, que el equipo de desarroll
+o invite a representantes del equipo de infraestructura a reuniones de planeació
+n, evaluación y demostración de proyectos en curso, por otro lado, que infraestr
+uctura involucre a representantes de desarrollo en reuniones que tengan
+ algún impacto sobre las aplicaciones.
+ Esto es un proceso progresivo que no se alcanza de un día para otro.
+\end_layout
+
+\begin_layout Standard
+3.
+ En este nivel la cooperación entre desarrollo y operaciones los equipos,
+ colaboran entre sí y toman decisiones compartidas durante las diferentes
+ etapas del ciclo de vida de una aplicación a través de un pensamiento sistémico
+ y entregar valor los clientes.
+ Otro factor para tener en cuenta es que en esta etapa los equipos deben
+ compartir responsabilidades propias de cada especialidad para lograr un
+ flujo de trabajo continuo.
+\end_layout
+
+\begin_layout Standard
+4.
+ Adoptar un pensamiento sistémico para la entrega de valor y un flujo de
+ trabajo continúo enfocado en la colaboración, toma de decisiones y riesgos
+ compartidos que permitan la distribución efectiva del conocimiento para
+ poder identificar incidencias y cuellos de botella en la entrega de valor
+ al cliente, a través de procesos de retroalimentación rápido y continua
+ de los clientes.
+\end_layout
+
+\begin_layout Standard
+5.
+ El trabajo colaborativo en equipos interdisciplinarios es una capacidad
+ cultural que debe fundamentarse en la mejora constante, en donde la compañía
+ debe potenciar prácticas como, responsabilidad compartida durante el ciclo
+ de vida de la aplicación (compilar, implementar y mantener un producto),
+ toma de decisiones conjunta, empoderamiento individual para la toma de
+ decisiones, fomentar una cultura de experimentación y aprendizaje continuo.
+ En este nivel, no puede existir el denominado muro de confusión DevOps
+ entre desarrollo, infraestructura y demás miembros del equipo, alcanzando
+ así un grado donde se comparte un objetivo común y se tiene un plan para
+ alcanzarlo juntos.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Udemy, DevOps - Introducción y Fundamentos no técnicos [53] 
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+The DevOps Handbook First Edition [8] 
+\end_layout
+
+\begin_layout Itemize
+Atlassian, Marco CALMS [54] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Colaboración
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Apoyar y facilitar la colaboración entre los equipos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 202203014
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿La compañía provee de todas las herramientas necesarias para hacer bien
+ el trabajo?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ No se cuenta con las herramientas claras para los proyectos
+\end_layout
+
+\begin_layout Standard
+2.
+ La empresa tiene un stack tecnológico a los que los miembros del equipo
+ deben adaptar los desarrollos.
+\end_layout
+
+\begin_layout Standard
+3.
+ Solo se provee las herramientas mínimas para cumplir cada proyecto
+\end_layout
+
+\begin_layout Standard
+4.
+ La empresa provee solo las herramientas que varios comités técnicos aprueben.
+\end_layout
+
+\begin_layout Standard
+5.
+ La empresa invierte y provee las herramientas necesarias para que el equipo
+ de desarrollo logre sus objetivos de negocio.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se quiere conocer, el grado de compromiso de la compañía para brindar las
+ herramientas necesarias para el desarrollo e implementación de los proyectos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ La compañía debe definir un stack tecnológico base en el que los desarrolladore
+s puedan usar como marco de referencia para el desarrollo de los proyectos,
+ teniendo en cuenta que cada proyecto posee condiciones particulares que
+ no se pueden resolver con las mismas herramientas.
+\end_layout
+
+\begin_layout Standard
+2.
+ y 3.
+ La compañía debe permitir la flexibilidad de ajustar el stack tecnológico
+ corporativo para solventar las particularidades de un proyecto y así brindar
+ al equipo de trabajo las herramientas y recursos adecuados para hacer el
+ trabajo, no todo se puede resolver de la mejor manera con una misma herramienta
+ universal.
+\end_layout
+
+\begin_layout Standard
+4.
+ La satisfacción laboral del equipo es directamente proporcional a empoderar
+ al equipo en la toma de decisiones sobre las herramientas a utilizar en
+ cada proyecto, apoyados en procesos de aprobación ligeros sin burocracia,
+ garantizando poder asegurar las herramientas y recursos necesarios para
+ hacer el trabajo en el menor tiempo posible.
+\end_layout
+
+\begin_layout Standard
+5.
+ La satisfacción laboral impacta la productividad, por lo que es importante
+ que la compañía adopte una filosofía de mejora y aprendizaje continuo,
+ brindando herramientas y recursos adecuados para realizar el trabajo, por
+ ejemplo, recursos técnicos, como el acceso a servidores o entornos necesarios
+ para desarrollar y probar, o recursos necesarios para aprender y desarrollar
+ nuevas habilidades.
+ Otro elemento a destacar, es generar los espacios de empoderamiento con
+ los miembros del equipo para que sientan que su opinión de valora y poder
+ aprovechar sus habilidades y capacidades.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps culture: Job satisfaction [55] 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ acceso a recursos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Proporcionar recursos y herramientas para que el trabajo sea significativo
+ para los individuos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación
+\series default
+: 20220303
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+¿Como describe a los lideres de su organización?
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Opciones de respuestas
+\end_layout
+
+\begin_layout Standard
+1.
+ Ejerce todo el poder y toma las decisiones, mientras que el resto del equipo
+ debe acatar las órdenes sin opción a proponer su visión.
+\end_layout
+
+\begin_layout Standard
+2.
+ Se empeña en realizar un seguimiento absoluto del trabajo de sus subordinados.
+\end_layout
+
+\begin_layout Standard
+3.
+ Comparte la información que tiene y está abierto a debatir las opciones
+ con todo el quipo
+\end_layout
+
+\begin_layout Standard
+4.
+ Deja a su equipo libertad en la toma de decisiones en los puntos o áreas
+ de influencia del equipo
+\end_layout
+
+\begin_layout Standard
+5.
+ Alientan, inspiran y motivan a los empleados a innovar y crear cambios
+ que ayudarán a crecer y dar forma al éxito futuro de la empresa
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Justificación
+\end_layout
+
+\begin_layout Standard
+Se busca medir el tipo de liderazgo en la organización basado en la siguiente
+ escala de tipo de lideres, donde cada nivel corresponde a una de las opciones
+ de respuesta
+\end_layout
+
+\begin_layout Standard
+1.
+ Líderes autocráticos
+\end_layout
+
+\begin_layout Standard
+2.
+ Lideres controladores (micromanagement)
+\end_layout
+
+\begin_layout Standard
+3.
+ Líderes democráticos
+\end_layout
+
+\begin_layout Standard
+4.
+ Líderes liberales
+\end_layout
+
+\begin_layout Standard
+5.
+ Líder transformador
+\end_layout
+
+\begin_layout Standard
+La investigación DORA define cinco características de un líder transformador
+ son las siguientes:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Visión:
+\series default
+ Comprende con claridad hacia dónde se dirige la organización y su equipo
+ y dónde quiere que esté su equipo en cinco años.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Comunicación inspiradora:
+\series default
+ Se expresa de una manera positiva en cuanto al equipo, hace comentarios
+ que provocan que los empleados se sientan orgullosos de formar parte de
+ su organización y alienta a las personas a ver las condiciones cambiantes
+ como situaciones llenas de oportunidades.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Estímulo intelectual:
+\series default
+ Desafía a los miembros del equipo a pensar en problemas antiguos de maneras
+ nuevas y a reconsiderar algunas suposiciones básicas sobre sus trabajos.
+ Tiene ideas que obligan a los miembros del equipo a reconsiderar algunos
+ aspectos que nunca se habían cuestionado.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Liderazgo de asistencia:
+\series default
+ Evalúa los sentimientos del otro antes de actuar, se comporta de un modo
+ que tiene en cuenta las necesidades personales de los demás y comprende
+ que se debe estar atento a los intereses de los miembros del equipo.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reconocimiento personal:
+\series default
+ Elogia a los miembros del equipo cuando realizan un trabajo mejor que el
+ promedio, reconoce mejoras en la calidad del trabajo de los miembros del
+ equipo y felicita de forma personal a los miembros del equipo de forma
+ personal cuando realizan trabajos sobresalientes.
+ 
+\end_layout
+
+\begin_layout Standard
+El equipo de Dora creó un modelo para probar la relación entre liderazgo,
+ practicas técnicas y de gestión de productos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 2 - proyecto DORA.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cultura-y-liderazgo-transformacional"
+
+\end_inset
+
+Cultura y liderazgo transformacional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Imagen tomada de: 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+1.
+ Se debe iniciar un proceso para transformar a los lideres de la organización
+ con el fin que desarrollen y potencien capacidades de liderazgo transformativo
+ que permita inspirar y motivar a quienes están a su alrededor se identifiquen
+ con la organización, se comprometan con el apoyo a los objetivos organizativos.
+ Esto genera ambientes de mayor confianza y apoyo dentro del equipo, a su
+ vez se refleja en mejora de rendimiento y productividad.
+\end_layout
+
+\begin_layout Standard
+2.
+ Se debe iniciar un proceso para transformar a los lideres de la organización
+ hacia un enfoque de líder tecnológico en donde debe propiciar espacios
+ de mayor confianza, apoyo, trabajo colaborativo y abierto con todos los
+ miembros del equipo, esto se refleja en mejora en el rendimiento y productivida
+d.
+ (Accelerate) 
+\begin_inset Quotes eld
+\end_inset
+
+un buen líder influye en la capacidad de un equipo para entregar código,
+ crear la arquitectura de sistemas, aplicar principios LEAN en la manera
+ de que el equipo gestiona su trabajo y desarrolla productos
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+3.
+ Se debe iniciar un proceso para transformar a los lideres para que potencien
+ las habilidades de comunicación y el apoyo dentro del equipo de trabajo,
+ que son características asociados a un líder transformativo y estas están
+ muy correlacionadas con el rendimiento en la entrega de software.
+\end_layout
+
+\begin_layout Standard
+4.
+ La organización debe apoyar para que sus lideres se involucren en los procesos
+ de transformación tecnológica y dar el siguiente paso para evolucionar
+ de simples lideres a lideres transformacionales con la capacidad de inspirar
+ y motivar a quienes están a su alrededor.
+ Permitiendo generar ambientes colaborativos dentro del equipo, por el lado
+ técnico un buen líder influye en capacidades para entregar código, crear
+ buenas arquitecturas, aplicar principios LEAN a la gestión del trabajo.
+\end_layout
+
+\begin_layout Standard
+5.
+ El papel de líderes y directores de una compañía en los procesos de transformac
+ión tecnológica va más allá de coordinar a grupos de personas, estos deben
+ ser los principales actores de la cultura de mejoramiento constante, a
+ continuación, se resaltan las características principales de un líder transform
+ador que la compañía deben adoptar o potenciar:
+\end_layout
+
+\begin_layout Itemize
+Visión: saber dónde quiere que esté el equipo y la organización en el mediano
+ y largo plazo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Comunicación: inspirar y mantener motivado al equipo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Estimulación intelectual: ayudar al equipo a reconsiderar y buscar alternativas
+ de solución problemas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Comprensivo: tener en cuenta las necesidades humanas del equipo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Reconocimiento personal: elogiar el trabajo sobresaliente del equipo.
+ 
+\end_layout
+
+\begin_layout Standard
+La influencia positiva (o negativa) del liderazgo impacta indirectamente
+ el rendimiento en la entrega de software y rendimiento organizativo, un
+ buen liderazgo facilita que los equipos adopten prácticas técnicas y eficientes
+ en la administración de productos.
+ El liderazgo no solo está representado por ejecutivos y administradores,
+ cualquier miembro del equipo que practique comportamientos de liderazgo
+ puede ser líder.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fuente:
+\end_layout
+
+\begin_layout Itemize
+Accelerate, Forsgren 2018 [11] 
+\end_layout
+
+\begin_layout Itemize
+DORA's research program, DevOps culture: Transformational leadership [56]
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Tipo
+\series default
+: Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Subtipo:
+\series default
+ Liderazgo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Categoría:
+\series default
+ Cultura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capacidad:
+\series default
+ Apoyar el liderazgo transformacional
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ultima modificación:
+\series default
+ 20220315
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
