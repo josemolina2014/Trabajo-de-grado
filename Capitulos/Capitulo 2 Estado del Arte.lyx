@@ -516,7 +516,6 @@ eliminación de residuos
 \begin_inset Quotes erd
 \end_inset
 
-.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -525,7 +524,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -882,12 +881,9 @@ caballo
  lo suficientemente rápido como para vencer a la competencia, preocupaciones
  de cumplimiento, una incapacidad para escalar, altos niveles de desconfianza
  entre Desarrollo y Operaciones, y así sucesivamente.
-\end_layout
-
-\begin_layout Standard
-Sin embargo, cada una de estas organizaciones fue capaz de transformar su
- arquitectura, sus prácticas técnicas y su cultura para crear los sorprendentes
- resultados que asociamos con DevOps 
+ Sin embargo, cada una de estas organizaciones fue capaz de transformar
+ su arquitectura, sus prácticas técnicas y su cultura para crear los sorprendent
+es resultados que asociamos con DevOps 
 \emph on
 
 \begin_inset CommandInset citation
@@ -897,7 +893,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -936,7 +932,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -950,8 +946,7 @@ DevOps es incompatible con ITIL
  operaciones, incluido uno de los coautores, y es una biblioteca de prácticas
  en constante evolución destinada a codificar los procesos y las prácticas
  que sustentan las operaciones de TI de clase mundial, que abarcan la estrategia
-, el diseño y el soporte del servicio.
- 
+, el diseño y el soporte del servicio 
 \emph on
 
 \begin_inset CommandInset citation
@@ -961,7 +956,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -985,8 +980,7 @@ NoOps
  Las operaciones de TI colaboran en una fase mucho más temprana del ciclo
  de vida del software con el departamento de desarrollo, que sigue trabajando
  con las operaciones de TI mucho después de que el código se haya desplegado
- en la producción.
- 
+ en la producción 
 \emph on
 
 \begin_inset CommandInset citation
@@ -996,7 +990,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1025,9 +1019,9 @@ DevOps no es sobre la automatización, al igual que la astronomía no es sobre
 \begin_inset Quotes erd
 \end_inset
 
-.
-\emph on
 
+\emph on
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "10.5555/3044729"
@@ -1035,7 +1029,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1048,8 +1042,7 @@ DevOps es sólo para el software de código abierto:
  resultados de DevOps es independiente de la tecnología que se utilice.
  Se han logrado éxitos con aplicaciones escritas en Microsoft.NET, COBOL
  y código ensamblador de mainframe, así como con SAP e incluso con sistemas
- integrados (por ejemplo, el firmware de HP LaserJet).
- 
+ integrados (por ejemplo, el firmware de HP LaserJet) 
 \emph on
 
 \begin_inset CommandInset citation
@@ -1059,7 +1052,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1546,7 +1539,7 @@ Devops sólo involucra a los desarrolladores y administradores de sistemas
 A raíz de la composición del nombre, DevOps no sólo implica a los desarrolladore
 s y a operaciones, los conceptos e ideas de DevOps incluye a quien sea necesario
  por lo que no hay una lista definitiva de qué equipos o personas deben
- participar o cómo.
+ participar o cómo 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "10.5555/3006360"
@@ -1682,7 +1675,7 @@ DevOps es, en esencia, un movimiento cultural, y sus ideas y principios
 \begin_inset Quotes erd
 \end_inset
 
-.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "10.5555/3006360"
@@ -1690,7 +1683,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2388,8 +2381,17 @@ es y profesionales que trabajaban con DevOps recopilados en 4 años de investiga
 ión entre 2014 y 2017, hallando 24 capacidades, agrupadas en 5 categorías
  dimensionales que a nivel estadístico impulsan las mejoras en el rendimiento
  de la entrega de software y el desempeño organizacional de la siguiente
- forma: (ver imagen Figura 2‑13 Modelo gráfico general de la investigación
- propuesto por Forsgren 2018 [10])
+ forma: (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Modelo-general-accelerate"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ que describe la realación entre los diferentes componentes)
 \end_layout
 
 \begin_layout Standard
@@ -2574,7 +2576,7 @@ Apoyar el liderazgo transformacional
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
