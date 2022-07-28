@@ -108,10 +108,17 @@ Preguntas del modelo de capacidades
 \begin_layout Standard
 Cada una de las preguntas del siguiente cuestionario está orientada a cubrir
  una de las dimensiones y capacidades que apalancan mejoras en el rendimiento
- en la entrega de software descritos en el libro [11] con el que se aborda
- la adopción de prácticas DevOps a partir de medir el contexto actual de
- la organización para mejorar y progresar de forma continua sus procesos
- de entrega de software.
+ en la entrega de software descritos en el libro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ con el que se aborda la adopción de prácticas DevOps a partir de medir
+ el contexto actual de la organización para mejorar y progresar de forma
+ continua sus procesos de entrega de software.
 \end_layout
 
 \begin_layout Standard
@@ -179,7 +186,15 @@ La escala busca reflejar que tan difundido esta el uso de un sistema de
 \begin_layout Standard
 Guardar la configuración del sistema y las aplicaciones en el control de
  versiones esta correlacionado con el rendimiento de la entrega de software
- que solo guardar el código fuente de la aplicación (Forsgren 2018) [11].
+ que solo guardar el código fuente de la aplicación (Forsgren 2018) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -271,11 +286,27 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Version control [23] 
+DORA's research program, DevOps tech: Version control 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogram"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -469,23 +500,63 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-The DevOps Handbook First Edition [8] 
+The DevOps Handbook First Edition 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-The DevOps Handbook Second Edition, 2021 [24] 
+The DevOps Handbook Second Edition, 2021 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GeneKimJezHumblePatrickDeboisJohnWillisandNicoleForsgren2021"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Continuous delivery: [25] 
+DORA's research program, DevOps tech: Continuous delivery: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramo"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-RedHat: [26] 
+RedHat: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Redhat2018"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -664,11 +735,27 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Continuous integration [27] 
+DORA's research program, DevOps tech: Continuous integration 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprograml"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -859,10 +946,17 @@ Las estrategias y patrones para un manejo eficiente de un sistema de control
  ligera de cambios, implementar una fuerte cobertura de pruebas automatizadas.
  En este nivel no debe existir fases de integración y estabilización largas
  y complejas con la rama principal.
- El programa de investigación Dora [28] recomienda las siguientes practicas:
- Tener máximo 3 ramas activas en el repositorio de código, combinar al menos
- una vez al día las ramas alternas con la principal, no tener código congelado
- ni fases de integración.
+ El programa de investigación DORA 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramk"
+literal "false"
+
+\end_inset
+
+ recomienda las siguientes practicas: Tener máximo 3 ramas activas en el
+ repositorio de código, combinar al menos una vez al día las ramas alternas
+ con la principal, no tener código congelado ni fases de integración.
  
 \end_layout
 
@@ -873,19 +967,51 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018, [11] 
+Accelerate, Forsgren 2018, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Trunk-based development [28] 
+DORA's research program, DevOps tech: Trunk-based development 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramk"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Version control [23] 
+DORA's research program, DevOps tech: Version control 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogram"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Trunk Based Development, [29] 
+Trunk Based Development,
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hammants"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1084,15 +1210,39 @@ Fuente
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Continuous testing, [30] 
+DORA's research program, DevOps tech: Continuous testing, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramn"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-The DevOps Handbook Second Edition 2021 [24] 
+The DevOps Handbook Second Edition 2021 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GeneKimJezHumblePatrickDeboisJohnWillisandNicoleForsgren2021"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1275,11 +1425,27 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Test data management [31] 
+DORA's research program, DevOps tech: Test data management 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramb"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1446,10 +1612,26 @@ Fuentes:
 
 \begin_layout Itemize
 Accelerate 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Shifting left on security [32] 
+DORA's research program, DevOps tech: Shifting left on security 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramq"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1686,11 +1868,27 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Continuous delivery [25] 
+DORA's research program, DevOps tech: Continuous delivery 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramo"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1857,15 +2055,39 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Red Hat, IaC, [33] 
+Red Hat, IaC, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RedHat"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Cloud infrastructure [34] 
+DORA's research program, DevOps tech: Cloud infrastructure 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprograma"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2044,11 +2266,26 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps tech: Empowering teams to choose tools [35]
+DORA's research program, DevOps tech: Empowering teams to choose tools 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Program"
+literal "false"
+
+\end_inset
+
  
 \end_layout
 
@@ -2215,11 +2452,27 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DevOps process: Customer feedback [36] 
+DevOps process: Customer feedback 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramp"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2393,16 +2646,40 @@ Fuente
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps process: Visibility of work in the value
- stream [37] 
+ stream 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprograms"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Value Stream Mapping, K Martin, 2013 [38] 
+Value Stream Mapping, K Martin, 2013 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Martin2014"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2617,15 +2894,39 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps process: Working in small batches [39] 
+DORA's research program, DevOps process: Working in small batches 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramg"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Accelerate State of DevOps 2021 Report[12] 
+Accelerate State of DevOps 2021 Report 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogram2021"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2790,7 +3091,15 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2914,10 +3223,18 @@ Plan de acción
  Se debe iniciar aliviando la complejidad a la hora de evaluar y aprobar
  cambios del proyecto, el objetivo es iniciar la definición de un proceso
  de aprobación ligero a la hora de tomar decisiones.
- En la investigación (Accelerate, Forsgren 2018 [11]) descubrieron que las
- aprobaciones externas estaban correlacionadas de forma negativa con el
- tiempo de provisión, la frecuencia de los despliegues y el tiempo de restauraci
-ón sin correlación con la tasa de fallos en los cambios.
+ En la investigación (Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+) descubrieron que las aprobaciones externas estaban correlacionadas de
+ forma negativa con el tiempo de provisión, la frecuencia de los despliegues
+ y el tiempo de restauración sin correlación con la tasa de fallos en los
+ cambios.
 \end_layout
 
 \begin_layout Standard
@@ -2962,11 +3279,27 @@ Fuente
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, Streamlining change approval [40] 
+DORA's research program, Streamlining change approval 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramm"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3126,12 +3459,28 @@ Fuente
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, Monitoring systems to inform business decisions
- [41] 
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogrami"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3291,11 +3640,27 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, Proactive failure notification [42] 
+DORA's research program, Proactive failure notification 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprograme"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3515,19 +3880,51 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-¿Qué son los límites de trabajo en curso? [43] 
+¿Qué son los límites de trabajo en curso? 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Atlassiana"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Kanban Tool, Limitando el Trabajo en Progreso [44] 
+Kanban Tool, Limitando el Trabajo en Progreso 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kanbantool"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, Work in process limits [45] 
+DORA's research program, Work in process limits 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramd"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3685,11 +4082,27 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, Visual management capabilities [46] 
+DORA's research program, Visual management capabilities 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramj"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3902,28 +4315,76 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-Reinventar las organizaciones [47] 
+Reinventar las organizaciones 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Laloux2016"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Cómo están evolucionando las organizaciones, [48] 
+Cómo están evolucionando las organizaciones, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AbantianAmunarriz"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Thepowermba, Organizaciones Teal [49] 
+Thepowermba, Organizaciones Teal 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ThePowerMBA"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Euroforum, ¿Sabes lo que son las Organizaciones TEAL?, [50] 
+Euroforum, ¿Sabes lo que son las Organizaciones TEAL?, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Euroforum"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps culture: Westrum organizational culture
- [51] 
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramf"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4095,11 +4556,27 @@ Fuentes:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps culture: Learning culture [52] 
+DORA's research program, DevOps culture: Learning culture 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramh"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4270,11 +4747,27 @@ Fuente
 
 \begin_layout Itemize
 DORA's research program, DevOps culture: Westrum organizational culture
- [51] 
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramf"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4460,19 +4953,51 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Udemy, DevOps - Introducción y Fundamentos no técnicos [53] 
+Udemy, DevOps - Introducción y Fundamentos no técnicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Udemy"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-The DevOps Handbook First Edition [8] 
+The DevOps Handbook First Edition 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3044729"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-Atlassian, Marco CALMS [54] 
+Atlassian, Marco CALMS 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Atlassian"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4623,11 +5148,27 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps culture: Job satisfaction [55] 
+DORA's research program, DevOps culture: Job satisfaction 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramr"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4972,11 +5513,26 @@ Fuente:
 \end_layout
 
 \begin_layout Itemize
-Accelerate, Forsgren 2018 [11] 
+Accelerate, Forsgren 2018 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
-DORA's research program, DevOps culture: Transformational leadership [56]
+DORA's research program, DevOps culture: Transformational leadership 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DORAsresearchprogramc"
+literal "false"
+
+\end_inset
+
  
 \end_layout
 

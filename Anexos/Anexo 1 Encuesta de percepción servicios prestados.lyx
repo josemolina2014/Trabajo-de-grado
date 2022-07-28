@@ -79,6 +79,7 @@
 
 \begin_layout Chapter
 Encuesta de medición de la percepción de los productos y los servicios prestados
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:anexo-Encuesta-de-medición"
@@ -370,11 +371,13 @@ La implementación de la encuesta se realizó en un formulario de encuesta
 
 \begin_layout Standard
 Los cuales pueden ser consultados en el siguiente link 
-\begin_inset CommandInset href
-LatexCommand href
-name "https://tinyurl.com/muer2jrd"
-target "https://tinyurl.com/muer2jrd"
-literal "false"
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://tinyurl.com/muer2jrd
+\end_layout
 
 \end_inset
 
@@ -395,7 +398,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -457,7 +460,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center

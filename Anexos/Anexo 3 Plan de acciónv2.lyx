@@ -1,0 +1,612 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ociamthesis-lyx
+\begin_preamble
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{array}
+\usepackage{longtable}
+\providecommand{\tabularnewline}{\\}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Plan de acción
+\end_layout
+
+\begin_layout Standard
+Una vez se obtuvo el resultado de la encuesta del modelo de capacidades
+ de las áreas de desarrollo administrativo e infraestructura del CIAT, con
+ el fin de tener la opción de respuesta que represente cada pregunta se
+ calculó la moda para cada una de las preguntas del modelo propuesto.
+ Acorde con la definición del modelo de capacidades cada opción de respuesta
+ tiene asociado un único plan de acción.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{|>{
+\backslash
+centering}p{0.15
+\backslash
+linewidth}|>{
+\backslash
+centering}p{0.2
+\backslash
+linewidth}|>{
+\backslash
+centering}p{0.2
+\backslash
+linewidth}|>{
+\backslash
+centering}p{0.15
+\backslash
+linewidth}|>{
+\backslash
+centering}p{0.3
+\backslash
+linewidth}|}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Dimensión & Capacidad & Pregunta & Titulo & Descripción del plan
+ de acción
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Automatizar el proceso de despliegue & ¿Cómo es
+ el proceso de despliegue de soluciones de la compañía? & Oportunidades
+ de mejora & Acordar y adoptar un proceso de responsabilidades compartidas
+ y colaborativo entre las áreas de desarrollo e infraestructura desde la
+ etapa inicial del proyecto en la que se definan roles y responsabilidades,
+ y que herramientas se van a utilizar para las diferentes etapas del ciclo
+ de vida de la aplicación, como gestionar la compilación, construcción,
+ ejecución de pruebas y despliegue en producción de la aplicación.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Implementar pruebas automáticas & ¿La compañía
+ implementa procesos de pruebas de los desarrollos? & Oportunidades de mejora
+ & Se recomienda adoptar herramientas o frameworks diseñados para la implementac
+ión de pruebas (por ejemplo, JUnit, QUnit, Jasmine, Nunit, entre otros)
+ acorde con el lenguaje de programación en que se desarrolla cada proyecto,
+ con el fin de poder automatizar la ejecución de las pruebas del proyecto,
+ inicialmente se puede enfocar en las pruebas unitarias e ir escalando a
+ los demás tipos de pruebas, con el fin de que estas puedan ser ejecutadas
+ automáticamente en las diferentes etapas del ciclo de vida de la entrega
+ del proyecto.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Implementar gestión de los datos de prueba & ¿Cómo
+ definen que datos utilizar a la hora de probar las aplicaciones? & Oportunidade
+s de mejora & Se debe adoptar un proceso colaborativo entre desarrolladores,
+ infraestructura y calidad para definir el criterio, alcance y los datos
+ que se utilizarán durante las pruebas.
+ Se recomienda priorizar las pruebas unitarias ya que son la base de la
+ pirámide de pruebas y progresivamente ir escalando en los demás tipos de
+ pruebas (aceptación, integración, etc.).
+ Hay que asegurar que existan datos de pruebas adecuados, consistentes y
+ realistas para que la ejecución de los casos de pruebas permita asegurar
+ el correcto funcionamiento de la aplicación.
+ El proceso de pruebas se debe adoptar desde las fases iniciales de los
+ proyectos, a través de prácticas de desarrollo que promuevan la implementación
+ de pruebas, como, por ejemplo, (Test-Driven Development).
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Arquitectura & Utilizar arquitecturas de bajo acoplamiento & ¿Qué
+ características tiene la infraestructura de la organización? & Oportunidades
+ de mejora & La compañía debe iniciar un plan de transformación de la arquitectu
+ra que soporta la operación de las aplicaciones e incorporar un nuevo concepto
+ conocido como infraestructura como código (IaC) que de primera mano permitiría
+ que la compañía pueda replicar fácilmente la configuración de un servidor
+ a través de scripts.
+ El mercado ofrece un grupo de herramientas para este tipo de funciones,
+ ejemplo: Puppet, Chef, Ansible, AWS cloud formation, Terraform, etc.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Producto y Procesos & Recolectar e implementar las recomendaciones
+ (feedback) de los clientes & ¿La compañía recoge el feedback de los clientes
+ respecto a sus productos de software? & Oportunidades de mejora & El feedback
+ de los clientes frente a los productos desarrollados deber ser incorporados
+ dentro de todo el ciclo de vida del producto, a través de la recopilación
+ activa y periódica de la opinión de los usuarios finales y la definición
+ de métricas que miden la satisfacción del cliente.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Cultura & Apoyar y facilitar la colaboración entre los equipos &
+ ¿Como califica la división de responsabilidades entre los miembros del
+ equipo de trabajo? & Oportunidades de mejora & Propiciar equipos multidisciplin
+arios con representantes de cada área funcional (desarrolladores, analistas,
+ personal de calidad, infraestructura, seguridad, etc.) donde existan canales
+ de comunicación abiertos y colaborativos para que la toma de decisiones
+ sea compartida desde el inicio del ciclo de vida de la aplicación para
+ que todos los miembros compartan la responsabilidad de compilar, implementar
+ y mantener un producto de software.
+ La automatización también reduce el riesgo y, con la herramienta adecuada,
+ se puede emplear la colaboración.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Cultura & Proporcionar recursos y herramientas para que el trabajo
+ sea significativo para los individuos & ¿La compañía provee de todas las
+ herramientas necesarias para hacer bien el trabajo? & Oportunidades de
+ mejora & La compañía debe permitir la flexibilidad de ajustar el stack
+ tecnológico corporativo para solventar las particularidades de un proyecto
+ y así brindar al equipo de trabajo las herramientas y recursos adecuados
+ para hacer el trabajo, no todo se puede resolver de la mejor manera con
+ una misma herramienta universal.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Implementar integración continua & ¿De qué manera
+ la compañia realiza la compilación, construcción y empaquetamiento del
+ producto final? & Oportunidades de mejora & Se debe iniciar la migración
+ de las aplicaciones a una herramienta especializada para la gestión de
+ proyectos de desarrollo de software por ejemplo Maven, Gradle, Nuget, etc,
+ iniciando con la preparación del proyecto, que consiste en crear un inventario
+ de dependencias y definir la fuente o repositorio donde se obtendrán, segundo,
+ adaptar el proyecto acorde a las especificaciones particulares de la herramient
+a elegida para que el proyecto se pueda gestionar a partir de comandos repetible
+s y así cubrir las etapas de compilación, construcción, pruebas y empaquetamient
+o del proyecto y usarse en procesos posteriores.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Gestión Lean y Monitorización & Tener un proceso liviano para la
+ aprobación de cambios & ¿Cómo es proceso de gestión de cambios de la compañía?
+ & Oportunidades de mejora & Se debe iniciar la adopción de procedimientos
+ y herramientas que permitan gestionar y visualizar los cambios de un proyecto,
+ lo principal es darles orden y visibilidad a dichas solicitudes para que
+ estas puedan ser analizadas y aprobadas por los mecanismos y metodologías
+ que use la compañía (revisión por pares, revisión inter equipo, evaluación
+ 360).
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Incorporar los aspectos de seguridad en las fases
+ de diseño y pruebas (shift left de la seguridad) & ¿Cuál es el nivel de
+ relevancia que tiene la seguridad en el ciclo de vida del desarrollo de
+ software? & Aceptable & Se debe incluir una capa de seguridad al equipo
+ de trabajo desde la fase de inicio del ciclo de vida de la aplicación para
+ que apoyen procesos diseño arquitectónico y pruebas, con el fin de tener
+ definiciones claras de librerías y herramientas aprobadas desde el punto
+ de vista de seguridad, también, la adopción de pruebas de seguridad lo
+ más automatizado posible en todas las fases del ciclo de vida del desarrollo.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Producto y Procesos & Hacer visible el flujo de trabajo durante todo
+ el ciclo & A nivel de proyectos, ¿cómo fluye la comunicación entre los
+ miembros del equipo de trabajo y los directivos? & Aceptable & El flujo
+ de información dentro del equipo es un factor para el entendimiento de
+ los proyectos, en este se debe definir el flujo de trabajo desde el negocio
+ hasta los clientes a través de bloques de procesos o lo que defina la organizac
+ión en su metodología de trabajo, lo realmente importante es que esta informació
+n sea de fácil acceso para el equipo y no sea conocimiento exclusivo de
+ la directiva y los lideres técnicos.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Producto y Procesos & Fomentar y habilitar al equipo para realizar
+ experimentos & ¿Cuál es nivel de libertad que tiene el equipo de desarrollo
+ para elegir sus propias herramientas en función de lo que sea mejor para
+ el usuario? & Aceptable & La mejora del stack tecnológico para un proyecto
+ de software deber ser manejado como un proceso participativo en donde un
+ líder técnico o comité especializado están siempre dispuestos a escuchar
+ propuestas de mejora de cualquier miembro del equipo de trabajo y decir
+ su adopción en proyectos nuevo, en curso y en ocasiones ya finalizados.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Gestión Lean y Monitorización & Monitorizar las aplicaciones y la
+ infraestructura para tomar decisiones de negocio & ¿La organización monitorea
+ la infraestructura y las aplicaciones? & Aceptable & Los datos de monitoreo
+ de la infraestructura y las aplicaciones deben ser de fácil acceso para
+ todos los miembros del equipo y no solo de uso exclusivo de un grupo particular
+, el principal objetivo es obtener datos relevantes a través de una supervisión
+ inteligente y focalizada en las áreas claves que tengan el potencial de
+ generar valor para la compañía y de fácil acceso.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Gestión Lean y Monitorización & Visualizar el trabajo para monitorizar
+ la calidad y comunicarlo al equipo & ¿La empresa utiliza herramientas para
+ visualizar y controlar el avance de los proyectos? & Aceptable & Se debe
+ dar el salto de rendimiento y agilidad en la gestión de los proyectos a
+ través de la implementación de una herramienta que permita conocer los
+ detalles generales del proyecto y su avance.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Cultura & Apoyar y facilitar la colaboración entre los equipos &
+ ¿Como calificaría el trabajo en equipo entre desarrolladores y operación?
+ & Aceptable & En este nivel la cooperación entre desarrollo y operaciones
+ los equipos, colaboran entre sí y toman decisiones compartidas durante
+ las diferentes etapas del ciclo de vida de una aplicación a través de un
+ pensamiento sistémico y entregar valor los clientes.
+ Otro factor para tener en cuenta es que en esta etapa los equipos deben
+ compartir responsabilidades propias de cada especialidad para lograr un
+ flujo de trabajo continuo.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Cultura & Apoyar el liderazgo transformacional & ¿Como describe a
+ los lideres de su organización? & Aceptable & Se debe iniciar un proceso
+ para transformar a los lideres para que potencien las habilidades de comunicaci
+ón y el apoyo dentro del equipo de trabajo, que son características asociados
+ a un líder transformativo y estas están muy correlacionadas con el rendimiento
+ en la entrega de software.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Arquitectura & Permitir a los equipos definir sus propias arquitecturas
+ & ¿Cómo la organización define las herramientas que utilizan los equipos
+ en los proyectos? & Fortalezas & La capacidad de que los equipos puedan
+ decidir que herramientas utilizar acorde a las necesidades de un nuevo
+ proyecto es un trabajo de mejora continua de parte de todo el equipo de
+ trabajo.
+ El stack tecnológico en operación se evaluar con frecuencia (al menos al
+ inicio de cada proyecto) o al cambio de condiciones para productos en operación
+ sin la necesidad de aprobación de personas ajenas al equipo de trabajo.
+ Esta capacidad de autonomía es un factor importante para mejorar el rendimiento
+, la satisfacción a los clientes y añadir valor a la organización, además
+ de propiciar el espíritu investigativo y proactivo del equipo para proponer
+ nuevas herramientas de trabajo.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Cultura & Animar y apoyar al equipo a aprender & ¿En los ultimos
+ 6 meses que espacios has tenido para aprender nuevas tecnologías, herramientas
+ y prácticas? & Fortalezas & La cultura del aprendizaje está dada en el
+ momento que la compañía la vea y la trate como una inversión a las capacidades
+ técnicas de su personal y está directamente relacionada con tener equipos
+ empoderados y comprometidos con la mejora continua, reflejándose en mayor
+ frecuencia de implementación, menores tiempo de entrega.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Utilizar control de versiones para todos los artefacto
+s de producción & ¿La compañía utiliza sistemas de control de versiones?
+ & Fortalezas & Aprender y adoptar conceptos de ramas y estrategias de mezcla
+ de cambios con el fin de aprovechar el potencial de un sistema de control
+ de versiones para que los equipos puedan confirmar, comparar, combinar
+ y restablecer revisiones de la aplicación con mayor facilidad y así poder
+ definir los flujos claros para el uso y ejecución de scripts de automatización
+ y configuración del sistema.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Utilizar métodos de desarrollo ``Trunk-Based''
+ & ¿La compañia usa alguna estrategia de gestion de la configuracion? &
+ Fortalezas & Adoptar un patrón de gestión de ramas para sistemas de control
+ de versiones basado en troncos, en donde el código principal está en una
+ única rama tronco (main o master) y las nuevas funcionalidades se desarrollan
+ en lotes pequeños denominadas ramas de desarrollo de corta duración que
+ suelen durar unas pocas horas, en donde los desarrolladores combinan los
+ cambios constantemente con el tronco/rama principal, reduciendo la complejidad
+ a la hora de integrar y estabilizar ramas.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Entrega continua & Implementar entrega continua de software & ¿Ejecutan
+ tareas automáticas al registrar algún cambio? & Fortalezas & Se debe contar
+ con una herramienta orquestadora de tareas que integre el código fuente
+ y scripts de pruebas y configuración (si existen) que permita que las tareas
+ de compilación, construcción y ejecución de pruebas (unitarias, funcionales,
+ etc.) se integren en una secuencia de procesos automático, resultado en
+ la generación de un producto final listo para el despliegue.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Producto y Procesos & Trabajar con lotes o cantidades pequeñas &
+ ¿Cómo los equipos dividen el trabajo a la hora de iniciar el desarrollo
+ de productos y funcionalidades para tener un mínimo producto viable? &
+ Fortalezas & El siguiente paso para alcanzar un proceso de entrega ágil
+ de alto rendimiento es conocer los procesos de la organización, identificar
+ y reducir el desperdicio o procesos que no generen valor, y reducir la
+ complejidad del proceso de desarrollo.
+ A partir de estos factores dividir todas las tareas del desarrollo en lotes
+ de trabajo pequeños logrando que estas sean independientes, estimables,
+ verificables y valiosos y que se puedan desplegar en producción en periodos
+ de menos de 3 semanas.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Gestión Lean y Monitorización & Monitorizar la salud de los servicios
+ y aplicaciones proactivamente & ¿Cómo se maneja las notificaciones que
+ vienen del monitoreo de los sistemas? & Fortalezas & El monitoreo preventivo
+ y proactivo se debe enfocar en anticipar situaciones de alta demanda del
+ producto de software, en función a tasas de cambio de los recursos del
+ servidor, ejemplo incremento de más de 40
+\backslash
+% del uso de la CPU en los últimos 10 minutos).
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Gestión Lean y Monitorización & Administrar y establecer límites
+ para el trabajo en progreso (Work-In-Progress) & ¿Cómo controlan la carga
+ de trabajo en los proyectos? & Fortalezas & Los límites del trabajo en
+ curso mejoran el rendimiento y reducen la cantidad de trabajo ``prácticamente
+ listo'', ya que obliga al equipo a centrarse en un conjunto de tareas más
+ pequeño fomentan la cultura de finalizar tareas específicas y administradas
+ como consenso del equipo de desarrollo, por lo tanto, se debe asegurar
+ que, el trabajo este priorizado, equilibrado (limitar la cantidad de personas
+ trabajando en una misma tarea) y focalizado en completar las tareas de
+ alta prioridad, para lograrlo se debe hacer visible todas las actividades
+ del proyecto, ejemplo adoptando un guion gráfico o storyboard, definiendo
+ límites de trabajo en curso acorde a la capacidad del equipo.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  Cultura & Implementar una cultura tipo generativa & ¿Como describiría
+ su organización? & Fortalezas & Este tipo de organización utilizan los
+ valores a la hora de tomar decisiones, operan bajo una estructura piramidal,
+ dan prioridad a la cultura y al empoderamiento de sus miembros.
+ El siguiente nivel, se basa enfocar el paradigma de la organización a un
+ modelo evolutivo y autogestionado, donde la toma decisiones no se toma
+ en la cima de la organización.
+\backslash
+tabularnewline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline  
+\backslash
+caption {Plan de acción resultante de la evaluación CIAT} 
+\backslash
+label {tab:plan-accion-final} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+s
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
