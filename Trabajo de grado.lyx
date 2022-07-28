@@ -41,6 +41,12 @@ pdfstartview={FitH}
   \fancyhead{}
   \renewcommand{\headrulewidth}{0pt}
 }
+\setcitestyle{authoryear,open={(},close={)}} %Citation-related commands
+\newrefformat{fig}{Figura\,\ref{#1}}
+%\setcitestyle{authornumber,open={((},close={))}} %Citation-related commands
+
+\usepackage{array}
+\usepackage{longtable}
 \end_preamble
 \use_default_options false
 \begin_modules
@@ -73,6 +79,16 @@ foottoend
 \paperfontsize 12
 \spacing single
 \use_hyperref false
+\pdf_author "Jose Libardo Molina"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry false
 \use_package amsmath 2
@@ -86,8 +102,8 @@ foottoend
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type numerical
-\biblio_style plainnat
+\cite_engine_type authoryear
+\biblio_style abbrvnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -200,13 +216,6 @@ filename "portada/portada.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Capitulos/glosario.lyx"
-
-\end_inset
-
-
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -294,7 +303,18 @@ filename "Capitulos/Capitulo 5 Conclusiones y trabajos futuros.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 6 Anexos.lyx"
+filename "Capitulos/Capitulo 7 Bibliografía.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset CommandInset include
+LatexCommand include
+filename "Anexos/Anexo 1 Encuesta de percepción servicios prestados.lyx"
 
 \end_inset
 
@@ -304,7 +324,17 @@ filename "Capitulos/Capitulo 6 Anexos.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 7 Bibliografía.lyx"
+filename "Anexos/Anexo 2 Modelo de capacidades para la evaluación DevOps.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Anexos/Anexo 3 Plan de acciónv2.lyx"
 
 \end_inset
 
