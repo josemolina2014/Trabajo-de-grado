@@ -113,11 +113,11 @@ centering}p{0.15
 \backslash
 linewidth}|>{
 \backslash
-centering}p{0.2
+centering}p{0.20
 \backslash
 linewidth}|>{
 \backslash
-centering}p{0.2
+centering}p{0.20
 \backslash
 linewidth}|>{
 \backslash
@@ -125,7 +125,7 @@ centering}p{0.15
 \backslash
 linewidth}|>{
 \backslash
-centering}p{0.3
+centering}p{0.25
 \backslash
 linewidth}|}
 \end_layout
@@ -598,7 +598,7 @@ label {tab:plan-accion-final}
 
 \begin_layout Plain Layout
 
-s
+
 \backslash
 end{longtable}
 \end_layout

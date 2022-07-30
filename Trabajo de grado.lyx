@@ -55,7 +55,7 @@ endnotes
 foottoend
 \end_modules
 \maintain_unincluded_children false
-\language spanish
+\language spanish-mexico
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -121,7 +121,7 @@ foottoend
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style french
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 2
@@ -301,16 +301,6 @@ filename "Capitulos/Capitulo 5 Conclusiones y trabajos futuros.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Capitulos/Capitulo 7 Bibliografía.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \start_of_appendix
 \begin_inset CommandInset include
 LatexCommand include
@@ -335,6 +325,48 @@ filename "Anexos/Anexo 2 Modelo de capacidades para la evaluación DevOps.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Anexos/Anexo 3 Plan de acciónv2.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset FormulaMacro
+\newcommand{\bibname}{References}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+bibname}{Referencias}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/referencias/Bibiografia"
+options "bibtotoc,abbrvnat"
 
 \end_inset
 
