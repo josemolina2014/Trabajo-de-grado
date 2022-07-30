@@ -83,7 +83,7 @@
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/referencias/Bibiografia"
-options "bibtotoc,plain"
+options "bibtotoc,abbrvnat"
 
 \end_inset
 

@@ -362,11 +362,9 @@ bibname}{Referencias}
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/referencias/Bibiografia"
-options "bibtotoc,abbrvnat"
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitulos/Capitulo 7 Bibliografía.lyx"
 
 \end_inset
 

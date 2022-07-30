@@ -4327,18 +4327,6 @@ literal "false"
 \end_layout
 
 \begin_layout Itemize
-Cómo están evolucionando las organizaciones, 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "AbantianAmunarriz"
-literal "false"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
 Thepowermba, Organizaciones Teal 
 \begin_inset CommandInset citation
 LatexCommand cite
