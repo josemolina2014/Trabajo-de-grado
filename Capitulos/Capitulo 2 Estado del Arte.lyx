@@ -244,7 +244,7 @@ name "subsec:el-modelo-en-cascada"
 \begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "true"
 
 \end_inset
@@ -350,7 +350,7 @@ Agile es el nombre dado a un grupo de marcos de trabajo de desarrollo de
  considerados tradicionales como la cascada 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -645,7 +645,7 @@ El termino DevOps, es un concepto tecnológico relativamente nuevo que la
 \begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -1138,7 +1138,7 @@ En años siguientes el evento DevOpsDays se popularizó en el resto del mundo
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -1180,13 +1180,13 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/DevOps en el ciclo de vida del desarrollo de software.png
-	scale 40
+	scale 60
 
 \end_inset
 
@@ -1440,7 +1440,7 @@ te para minimizar riesgo y errores y entregar los cambios lo más rápido
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -1604,7 +1604,7 @@ s y a operaciones, los conceptos e ideas de DevOps incluye a quien sea necesario
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -1660,7 +1660,7 @@ El hecho de que una empresa presente su estrategia de éxito en DevOps no
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -1691,7 +1691,7 @@ Se tiende a pensar que es un término relacionado con empresas tecnológicas
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -1761,7 +1761,7 @@ DevOps es, en esencia, un movimiento cultural, y sus ideas y principios
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "10.5555/3006360"
+key "Davis2016"
 literal "false"
 
 \end_inset
@@ -2128,7 +2128,7 @@ Cultura:
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
