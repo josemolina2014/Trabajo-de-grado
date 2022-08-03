@@ -5346,11 +5346,22 @@ Reconocimiento personal:
 
 \begin_layout Standard
 El equipo de Dora creó un modelo para probar la relación entre liderazgo,
- practicas técnicas y de gestión de productos
+ practicas técnicas y de gestión de productos que se muestra en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cultura-y-liderazgo-transformacional"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -5359,7 +5370,6 @@ status open
 \align center
 \begin_inset Graphics
 	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 2 - proyecto DORA.png
-	scale 60
 
 \end_inset
 
@@ -5385,7 +5395,17 @@ Cultura y liderazgo transformacional
 \end_layout
 
 \begin_layout Plain Layout
+
+\size tiny
 Imagen tomada de: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10.5555/3235404"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

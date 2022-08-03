@@ -1,0 +1,142 @@
+%% LyX 2.3.6.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,a4paper,twoside,spanish]{ociamthesis-lyx}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage[active]{srcltx}
+\usepackage{array}
+\usepackage{prettyref}
+\usepackage{refstyle}
+\usepackage{url}
+\usepackage{endnotes}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[authoryear]{natbib}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+
+\AtBeginDocument{\providecommand\figref[1]{\ref{fig:#1}}}
+\AtBeginDocument{\providecommand\chapref[1]{\ref{chap:#1}}}
+\AtBeginDocument{\providecommand\subsecref[1]{\ref{subsec:#1}}}
+\AtBeginDocument{\providecommand\secref[1]{\ref{sec:#1}}}
+\AtBeginDocument{\providecommand\tabref[1]{\ref{tab:#1}}}
+\special{papersize=\the\paperwidth,\the\paperheight}
+
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+\RS@ifundefined{subsecref}
+  {\newref{subsec}{name = \RSsectxt}}
+  {}
+\RS@ifundefined{thmref}
+  {\def\RSthmtxt{theorem~}\newref{thm}{name = \RSthmtxt}}
+  {}
+\RS@ifundefined{lemref}
+  {\def\RSlemtxt{lemma~}\newref{lem}{name = \RSlemtxt}}
+  {}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\let\footnote=\endnote
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+% ociamthesis-lyx v2.1
+% By Keith A. Gillow <gillow@maths.ox.ac.uk>
+% modified for LyX by Danny Price <danny.price@astro.ox.ac.uk>
+% modified for UGR by Rafael Martos Llavero <rafamll@correo.ugr.es>
+
+%Packages
+\usepackage{graphicx}
+\usepackage [ colorlinks=true , c i t e c o l o r =blue , l i n k c o l o r=black , ur l c o l o r=
+green ] { hyper ref }
+\usepackage{listings}
+\usepackage{color}
+
+%Ajustar página pdf a la ventana
+\hypersetup{
+pdfstartview={FitH}
+}
+\usepackage[spanish]{babel} \addto\captionsspanish{   \def\tablename{Tabla}   \def\listtablename{\'Indice de tablas} }
+
+%Encabezado y pie de pagina
+\pagestyle{fancy}
+%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\renewcommand{\subsectionmark}[1]{\markright{\thesubsection. #1}}
+\fancyhf{}
+\fancyhead[RO]{\bfseries\rightmark}
+\fancyhead[LE]{\bfseries\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt}
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \renewcommand{\headrulewidth}{0pt}
+}
+\setcitestyle{authoryear,open={(},close={)}} %Citation-related commands
+\newrefformat{fig}{Figura\,\ref{#1}}
+%\setcitestyle{authornumber,open={((},close={))}} %Citation-related commands
+
+\usepackage{array}
+\usepackage{longtable}
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>.}}
+
+\begin{document}
+% PLANTILLA LYX PARA PROYECTO FINAL DE CARRERA
+% Autor: Rafael Martos Llavero
+% Modificado por:  Jose Libardo Molina
+
+%Vease el preambulo de LaTeX para configurar el diseño del documento.
+
+%Modifica interlineado
+\baselineskip=18pt plus1pt
+ 
+
+\begin{romanpages}
+
+\include{\string"Resumen/Ficha Resumen\string"}
+
+\include{portada/portada}
+
+\include{Resumen/Abstract}
+
+\include{Resumen/AbstractEnglish}
+
+\tableofcontents{}\listoffigures
+
+\listoftables
+
+\end{romanpages}
+
+\include{Capitulos/Capitulo1}
+\include{Capitulos/Capitulo2}
+\include{Capitulos/Capitulo3}
+\include{Capitulos/Capitulo4}
+\include{Capitulos/Capitulo5}
+
+
+\appendix
+\include{Anexos/Anexo1}
+
+\include{Anexos/Anexo2}
+
+\include{Anexos/Anexo3}
+
+\include{Capitulos/Capitulo7}
+\end{document}
