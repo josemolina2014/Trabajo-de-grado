@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass ociamthesis-lyx
 \options a4paper,titlepage
 \use_default_options true
@@ -10,16 +12,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -30,16 +34,26 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_authoryear
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -48,7 +62,10 @@
 \tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -86,40 +103,59 @@ cleardoublepage}
 \series bold
 \size larger
 \noun on
-Key Words
-\end_layout
-
-\begin_layout Standard
-Video surveillance, distributed servers, streaming video, IP networks, Android
- devices, data encryption, PTZ, camera control
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\size larger
-\noun on
 Abstract
 \end_layout
 
 \begin_layout Standard
-Today we live under numerous "eyes" who care for our businesses, for people
- who use public services, day care of our children and / or daughters, etc.
- The early development of IP networks that are based on currently existing
- video surveillance suggests a multitude of innovative features to interconnect
- offices and remote locations.
- In addition, the proliferation of remote management needs related to alarm,
- unified video services, voice and data, etc..
- largely require the use of IP technologies that provide solutions to all
- kinds of challenges.
+The adoption of new technologies and methodologies to improve performance
+ in the delivery of software products in an organization is a task that
+ involves evaluating and analyzing how the stages of the software development
+ life cycle are being implemented in a company.
+ This type of evaluations allows to determine how smooth and efficient are
+ the organization's processes to deliver software products to end users
+ in the shortest possible time, ensuring quality and reliability, through
+ the identification of bottlenecks at the level of processes, procedures
+ and work methodologies.
 \end_layout
 
 \begin_layout Standard
-Blah, blah, blah ...
+This document evaluates the convenience of adopting a set of best practices
+ for software development such as DevOps to a company whose business focus
+ is not to produce software, but an agricultural research center that uses
+ software for its operational and functional support through internal applicatio
+ns and that, like any other company, requires agile and timely processes
+ to improve its operation.
+ 
+\end_layout
+
+\begin_layout Standard
+One of the aspects to highlight is the proposal of an artifact for DevOps
+ evaluation in an organization, which through a model of indirect questions
+ designed for people who are not familiar with DevOps terminology, allows
+ to evaluate the state of the company's processes and from a multidimensional
+ point of view determine the state of maturity of a group of particular
+ capabilities with the added benefit of relating an action plan from each
+ evaluated practice.
+ 
+\end_layout
+
+\begin_layout Standard
+The Bioversity International Alliance and the International Center for Tropical
+ Agriculture (CIAT) was evaluated as a particular study case of the proposed
+ evaluation artifact and from these results an analysis was generated to
+ prioritize which elements should be addressed according to their level
+ of maturity and begin the progressive adoption of DevOps practices focusing
+ on improving the speed in the frequency of deployments and the reduction
+ of deployment time.
+\end_layout
+
+\begin_layout Standard
+A DevOps digital transformation is not a process that is achieved overnight,
+ this can take months or even years, it already involves a change in organizatio
+nal culture and process management, according to the particularities of
+ each company leaving finally the tools and all automation processes that
+ is the tip of the DevOps iceberg, but if done in the opposite order is
+ a direct path to failure or to automate the organizational disorder.
  
 \end_layout
 

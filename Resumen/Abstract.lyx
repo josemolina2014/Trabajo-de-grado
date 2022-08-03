@@ -1,25 +1,29 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass ociamthesis-lyx
 \options a4paper,titlepage
 \use_default_options true
 \maintain_unincluded_children false
-\language spanish
+\language spanish-mexico
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -30,16 +34,26 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_authoryear
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -48,7 +62,10 @@
 \tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -86,56 +103,59 @@ cleardoublepage}
 \series bold
 \size larger
 \noun on
-Palabras Clave
-\end_layout
-
-\begin_layout Standard
-Vídeo vigilancia, servidores distribuidos, 
-\emph on
-streaming
-\emph default
- de vídeo, redes IP, dispositivos 
-\emph on
-Android
-\emph default
-, cifrado de datos, PTZ, control remoto de cámaras motorizadas
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\size larger
-\noun on
 Resumen
 \end_layout
 
 \begin_layout Standard
-En nuestros días vivimos bajo infinidad de 
-\begin_inset Quotes eld
-\end_inset
-
-ojos
-\begin_inset Quotes erd
-\end_inset
-
- que cuidan de nuestros negocios, de la gente que utiliza servicios públicos,
- de la guardería de nuestros hijos y/o hijas, etc.
- El desarrollo de redes IP sobre las que se fundamenta la vídeo vigilancia
- actual permite pensar en multitud de funcionalidades innovadoras para la
- interconexión de sedes y puntos remotos.
- Además, la proliferación de necesidades relacionadas con gestión remota
- de alarmas, unificación de servicios de vídeo, voz y datos, etc.
- obligan en gran parte al uso de tecnologías IP que den solución a todo
- tipo de retos.
+La adopción de nuevas tecnologías y metodologías para mejorar el rendimiento
+ en la entrega de productos de software en una organización es una tarea
+ que implica evaluar y analizar cómo se está implementando las etapas del
+ ciclo de vida del desarrollo de software en una compañía.
+ Este tipo de evaluaciones permite determinar qué tan fluidos y eficientes
+ son los procesos de la organización para entregar productos de software
+ a los usuarios finales en el menor tiempo posible, asegurando calidad y
+ confiabilidad, a través de la identificación de cuellos de botellas a nivel
+ de procesos, procedimientos y metodologías de trabajo.
 \end_layout
 
 \begin_layout Standard
-Bla, bla, bla ...
- No pasarse de una cara
+Este documento busca evaluar la conveniencia de adoptar un conjunto de buenas
+ prácticas muy difundidas y popularizadas para el desarrollo de software
+ como lo es DevOps a una empresa cuyo foco de negocio no es producir software,
+ sino un centro de investigación en agricultura que utiliza el software
+ para su soporte operativo y funcional por medio de aplicativos internos
+ y que como toda empresa requiere procesos agiles y oportunos para mejorar
+ su operación.
+\end_layout
+
+\begin_layout Standard
+Uno de los aspectos a destacar es la propuesta de un artefacto para la evaluació
+n DevOps en una organización, que a través de un modelo de preguntas indirectas
+ pensadas para personas que no estén familiarizadas con la terminología
+ DevOps, permite evaluar el estado de los procesos de la compañía y desde
+ un punto de vista multidimensional determinar el estado de madurez de un
+ grupo de capacidades particulares con el beneficio añadido de relacionar
+ un plan de acción a partir de cada practica evaluada.
+\end_layout
+
+\begin_layout Standard
+La Alianza Bioversity International y el Centro Internacional de Agricultura
+ Tropical (CIAT) fue evaluada como caso de estudio particular del artefacto
+ de evaluación propuesto y a partir de estos resultados se generó un análisis
+ para priorizar que elementos deben ser tratados acorde a su nivel de madurez
+ y así iniciar la adopción progresiva de las practicas DevOps enfocándose
+ en mejorar la velocidad en la frecuencia de despliegues y la reducción
+ de tiempo en el despliegue.
+\end_layout
+
+\begin_layout Standard
+Una transformación digital DevOps no es un proceso que se logra de la noche
+ a la mañana, este puede tardar meses e incluso años, ya implica un cambio
+ en la cultura organizacional y la gestión de los procesos, acorde con las
+ particularidades de cada compañía dejando por último las herramientas y
+ todos los procesos de automatización que es la punta del iceberg DevOps,
+ pero que si se hace en el orden opuesto es un camino directo al fracaso
+ o a automatizar el desorden organizacional
 \end_layout
 
 \end_body
