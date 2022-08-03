@@ -208,7 +208,34 @@ begin{romanpages}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "Resumen/Ficha Resumen.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
 filename "portada/portada.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Resumen/Abstract.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Resumen/AbstractEnglish.lyx"
 
 \end_inset
 
@@ -325,36 +352,6 @@ filename "Anexos/Anexo 2 Modelo de capacidades para la evaluación DevOps.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Anexos/Anexo 3 Plan de acciónv2.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang spanish
-\begin_inset FormulaMacro
-\newcommand{\bibname}{References}
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang spanish
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-bibname}{Referencias}
-\end_layout
 
 \end_inset
 
