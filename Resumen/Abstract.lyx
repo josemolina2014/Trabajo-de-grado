@@ -107,15 +107,16 @@ Resumen
 \end_layout
 
 \begin_layout Standard
-La adopción de nuevas tecnologías y metodologías para mejorar el rendimiento
- en la entrega de productos de software en una organización es una tarea
- que implica evaluar y analizar cómo se está implementando las etapas del
- ciclo de vida del desarrollo de software en una compañía.
- Este tipo de evaluaciones permite determinar qué tan fluidos y eficientes
- son los procesos de la organización para entregar productos de software
+La adopción de un conjunto de buenas prácticas muy difundidas y popularizadas
+ para el desarrollo de software como lo es DevOps en una organización es
+ una tarea que no se logra de la noche a la mañana, implica evaluar y adecuar
+ cómo se están implementando las etapas del ciclo de vida del desarrollo
+ de software en una compañía, además de un cambio en la cultura organizacional
+ y la gestión de los procesos acorde con las particularidades de cada compañía.
+ Con este tipo de transformaciones se busca entregar productos de software
  a los usuarios finales en el menor tiempo posible, asegurando calidad y
- confiabilidad, a través de la identificación de cuellos de botellas a nivel
- de procesos, procedimientos y metodologías de trabajo.
+ confiabilidad, a través de la identificación de cuellos de botellas en
+ procesos, procedimientos y metodologías de trabajo.
 \end_layout
 
 \begin_layout Standard
@@ -126,6 +127,7 @@ Este documento busca evaluar la conveniencia de adoptar un conjunto de buenas
  para su soporte operativo y funcional por medio de aplicativos internos
  y que como toda empresa requiere procesos agiles y oportunos para mejorar
  su operación.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -136,6 +138,7 @@ n DevOps en una organización, que a través de un modelo de preguntas indirecta
  un punto de vista multidimensional determinar el estado de madurez de un
  grupo de capacidades particulares con el beneficio añadido de relacionar
  un plan de acción a partir de cada practica evaluada.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -146,16 +149,6 @@ La Alianza Bioversity International y el Centro Internacional de Agricultura
  y así iniciar la adopción progresiva de las practicas DevOps enfocándose
  en mejorar la velocidad en la frecuencia de despliegues y la reducción
  de tiempo en el despliegue.
-\end_layout
-
-\begin_layout Standard
-Una transformación digital DevOps no es un proceso que se logra de la noche
- a la mañana, este puede tardar meses e incluso años, ya implica un cambio
- en la cultura organizacional y la gestión de los procesos, acorde con las
- particularidades de cada compañía dejando por último las herramientas y
- todos los procesos de automatización que es la punta del iceberg DevOps,
- pero que si se hace en el orden opuesto es un camino directo al fracaso
- o a automatizar el desorden organizacional
 \end_layout
 
 \end_body

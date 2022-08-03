@@ -283,24 +283,14 @@ end{romanpages}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 1 Introducción.lyx"
+filename "Capitulos/Capitulo1.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 2 Estado del Arte.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Capitulos/Capitulo 3 Metodología.lyx"
+filename "Capitulos/Capitulo2.lyx"
 
 \end_inset
 
@@ -310,7 +300,7 @@ filename "Capitulos/Capitulo 3 Metodología.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 4 Caso de estudio.lyx"
+filename "Capitulos/Capitulo3.lyx"
 
 \end_inset
 
@@ -320,7 +310,17 @@ filename "Capitulos/Capitulo 4 Caso de estudio.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 5 Conclusiones y trabajos futuros.lyx"
+filename "Capitulos/Capitulo4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitulos/Capitulo5.lyx"
 
 \end_inset
 
@@ -331,7 +331,7 @@ filename "Capitulos/Capitulo 5 Conclusiones y trabajos futuros.lyx"
 \start_of_appendix
 \begin_inset CommandInset include
 LatexCommand include
-filename "Anexos/Anexo 1 Encuesta de percepción servicios prestados.lyx"
+filename "Anexos/Anexo1.lyx"
 
 \end_inset
 
@@ -341,7 +341,7 @@ filename "Anexos/Anexo 1 Encuesta de percepción servicios prestados.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Anexos/Anexo 2 Modelo de capacidades para la evaluación DevOps.lyx"
+filename "Anexos/Anexo2.lyx"
 
 \end_inset
 
@@ -351,7 +351,7 @@ filename "Anexos/Anexo 2 Modelo de capacidades para la evaluación DevOps.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Anexos/Anexo 3 Plan de acciónv2.lyx"
+filename "Anexos/Anexo3.lyx"
 
 \end_inset
 
@@ -361,7 +361,7 @@ filename "Anexos/Anexo 3 Plan de acciónv2.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Capitulos/Capitulo 7 Bibliografía.lyx"
+filename "Capitulos/Capitulo7.lyx"
 
 \end_inset
 

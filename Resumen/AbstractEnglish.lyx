@@ -107,15 +107,16 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-The adoption of new technologies and methodologies to improve performance
- in the delivery of software products in an organization is a task that
- involves evaluating and analyzing how the stages of the software development
- life cycle are being implemented in a company.
- This type of evaluations allows to determine how smooth and efficient are
- the organization's processes to deliver software products to end users
- in the shortest possible time, ensuring quality and reliability, through
- the identification of bottlenecks at the level of processes, procedures
- and work methodologies.
+The adoption of a widespread and popularized set of best practices for software
+ development such as DevOps in an organization is a task that is not achieved
+ overnight, it involves evaluating and adapting how the lifecycle of software
+ development stages are being implemented in a company, in addition to a
+ change in the organizational culture and process management according to
+ the particularities of each company.
+ With this type of transformation, the goal is to deliver software products
+ to end users in the shortest possible time, ensuring quality and reliability,
+ through the identification of bottlenecks in processes, procedures and
+ work methodologies.
 \end_layout
 
 \begin_layout Standard
@@ -147,16 +148,6 @@ The Bioversity International Alliance and the International Center for Tropical
  of maturity and begin the progressive adoption of DevOps practices focusing
  on improving the speed in the frequency of deployments and the reduction
  of deployment time.
-\end_layout
-
-\begin_layout Standard
-A DevOps digital transformation is not a process that is achieved overnight,
- this can take months or even years, it already involves a change in organizatio
-nal culture and process management, according to the particularities of
- each company leaving finally the tools and all automation processes that
- is the tip of the DevOps iceberg, but if done in the opposite order is
- a direct path to failure or to automate the organizational disorder.
- 
 \end_layout
 
 \end_body
