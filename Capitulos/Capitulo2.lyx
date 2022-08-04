@@ -122,7 +122,7 @@ literal "false"
 
 \end_inset
 
- define cuatro actividades fundamentales que son comunes a todos los procesos
+ define cuatro asctividades fundamentales que son comunes a todos los procesos
  de desarrollo de software.
 \end_layout
 
@@ -251,7 +251,11 @@ literal "true"
 
  define el modelo de cascada como un mecanismo de entrega de proyectos en
  el que las tareas se completan en un orden secuencial para lograr un objetivo
- específico, cada fase solo inicia si la fase anterior esta completa
+ específico, cada fase solo inicia si la fase anterior esta completa.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -262,7 +266,7 @@ literal "true"
 
 \end_inset
 
-La 
+ La 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Modelo-en-cascada"
@@ -594,14 +598,6 @@ name "subsec:DevOps"
 
 \end_layout
 
-\begin_layout Standard
-El termino DevOps, como cualquier nuevo concepto tecnológico que se adopta
- en la industria, se ha convertido en una palabra de moda sobrecargada en
- donde todo el mundo habla de tema y no todo el mundo sabe realmente de
- qué se trata, lo peor de todo es que muchos de los que afirman que lo hacen
- lo hacen realmente mal.
-\end_layout
-
 \begin_layout Subsubsection
 Conceptos y definiciones: 
 \begin_inset CommandInset label
@@ -835,276 +831,6 @@ literal "false"
 \end_layout
 
 \begin_layout Subsubsection
-Mitos 
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-
-\emph default
- detalla un conjunto de mitos sobre DevOps
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DevOps es sólo para las startups:
-\series default
- 
-\begin_inset Quotes eld
-\end_inset
-
-Aunque las prácticas de DevOps han sido pioneras en las empresas 
-\begin_inset Quotes eld
-\end_inset
-
-unicornio
-\begin_inset Quotes erd
-\end_inset
-
- de Internet a escala web, como Google, Amazon, Netflix y Etsy, cada una
- de estas organizaciones ha corrido, en algún momento de su historia, el
- riesgo de quebrar debido a los problemas asociados con las organizaciones
- 
-\begin_inset Quotes eld
-\end_inset
-
-caballo
-\begin_inset Quotes erd
-\end_inset
-
- más tradicionales: lanzamientos de código altamente peligrosos que eran
- propensos a fallas catastróficas, incapacidad para lanzar características
- lo suficientemente rápido como para vencer a la competencia, preocupaciones
- de cumplimiento, una incapacidad para escalar, altos niveles de desconfianza
- entre Desarrollo y Operaciones, y así sucesivamente.
- Sin embargo, cada una de estas organizaciones fue capaz de transformar
- su arquitectura, sus prácticas técnicas y su cultura para crear los sorprendent
-es resultados que asociamos con DevOps
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DevOps sustituye a Agile
-\series default
-: 
-\begin_inset Quotes eld
-\end_inset
-
-Los principios y prácticas de DevOps son compatibles con Agile, y muchos
- observan que DevOps es una continuación lógica del viaje de Agile que comenzó
- en 2001.
- Agile a menudo sirve como un habilitador eficaz de DevOps, debido a su
- enfoque en pequeños equipos que entregan continuamente código de alta calidad
- a los clientes.
-\end_layout
-
-\begin_layout Standard
-Muchas prácticas de DevOps surgen si continuamos gestionando nuestro trabajo
- más allá del objetivo de 
-\begin_inset Quotes eld
-\end_inset
-
-código potencialmente entregable
-\begin_inset Quotes erd
-\end_inset
-
- al final de cada iteración, extendiéndolo a tener nuestro código siempre
- en un estado desplegable, con los desarrolladores comprobando en el tronco
- diariamente, y que demostramos nuestras características en entornos similares
- a la producción
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DevOps es incompatible con ITIL
-\series default
-: 
-\begin_inset Quotes eld
-\end_inset
-
-Muchos ven a DevOps como una reacción a ITIL o ITSM (Gestión de Servicios
- de TI), que se publicó originalmente en 1989.
- ITIL ha influido ampliamente en varias generaciones de profesionales de
- operaciones, incluido uno de los coautores, y es una biblioteca de prácticas
- en constante evolución destinada a codificar los procesos y las prácticas
- que sustentan las operaciones de TI de clase mundial, que abarcan la estrategia
-, el diseño y el soporte del servicio
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DevOps significa eliminar las operaciones de TI, o 
-\begin_inset Quotes eld
-\end_inset
-
-NoOps
-\begin_inset Quotes erd
-\end_inset
-
-:
-\series default
- 
-\begin_inset Quotes eld
-\end_inset
-
-Muchos interpretan erróneamente DevOps como la eliminación completa de la
- función de Operaciones de TI.
- Sin embargo, esto no suele ser así.
- Aunque la naturaleza del trabajo de Operaciones de TI puede cambiar, sigue
- siendo tan importante como siempre.
- Las operaciones de TI colaboran en una fase mucho más temprana del ciclo
- de vida del software con el departamento de desarrollo, que sigue trabajando
- con las operaciones de TI mucho después de que el código se haya desplegado
- en la producción
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DevOps es sólo 
-\begin_inset Quotes eld
-\end_inset
-
-infraestructura como código
-\begin_inset Quotes erd
-\end_inset
-
- o automatización
-\series default
-: 
-\begin_inset Quotes eld
-\end_inset
-
-DevOps requiere normas culturales y una arquitectura que permita alcanzar
- los objetivos compartidos en todo el flujo de valor de TI.
- Esto va mucho más allá de la automatización.
- Como escribió Christopher Little, un ejecutivo de tecnología y uno de los
- primeros cronistas de DevOps, 
-\begin_inset Quotes eld
-\end_inset
-
-DevOps no es sobre la automatización, al igual que la astronomía no es sobre
- los telescopios
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph on
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-DevOps es sólo para el software de código abierto:
-\series default
- 
-\begin_inset Quotes eld
-\end_inset
-
-Aunque muchas historias de éxito de DevOps tienen lugar en organizaciones
- que utilizan software como la pila LAMP (Linux, Apache, MySQL, PHP), lograr
- resultados de DevOps es independiente de la tecnología que se utilice.
- Se han logrado éxitos con aplicaciones escritas en Microsoft.NET, COBOL
- y código ensamblador de mainframe, así como con SAP e incluso con sistemas
- integrados (por ejemplo, el firmware de HP LaserJet)
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "10.5555/3044729"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsubsection
 Historia 
 \end_layout
 
@@ -1129,7 +855,7 @@ Inspirado en la charla
  en la que describieron que la única manera de construir software viable
  era integrar operaciones y desarrollo a través de objetivos compartidos.
  Ese mismo año Patrick decidió entonces organizar un evento en Gante, Bélgica,
- llamado DevOpsDays y posteriormente el nombre se abrevió a DevOps
+ llamado DevOpsDays y posteriormente el nombre se abrevió a DevOps.
 \end_layout
 
 \begin_layout Standard
@@ -1451,8 +1177,7 @@ literal "false"
 \begin_layout Standard
 El despliegue continuo es un paso más allá de la entrega continua porque
  el despliegue se hace sin intervención humana: una prueba fallida, en esta
- etapa, impedirá nuevas liberaciones a producción.
- 
+ etapa, impedirá nuevas liberaciones a producción 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sharma2017"
@@ -1553,27 +1278,13 @@ DevOps es solo herramientas y automatización
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
-\end_inset
-
-Para DevOps las herramientas implementadas no aportan valor trascendente,
- primero es la gente, luego el proceso y después las herramientas.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Puedes instalar la última versión de Jenkins o apuntarte a CircleCI, pero
- si no tienes un conjunto de pruebas sólido, no sirve de nada
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Quotes frd
-\end_inset
-
- 
+DevOps es más que un conjunto de herramientas implementadas e interconectadas
+ que automatizan las fases del proceso de desarrollo, primero se debe enfocar
+ la cultura visto como las personas, luego el proceso y después las herramientas.
+ “Puedes instalar la última versión de Jenkins o apuntarte a CircleCI, pero
+ si no tienes un conjunto de pruebas sólido, no sirve de nada” 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Smith2020"
 literal "false"
 
@@ -1591,19 +1302,13 @@ Devops sólo involucra a los desarrolladores y administradores de sistemas
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
-\end_inset
-
-A raíz de la composición del nombre, DevOps no sólo implica a los desarrolladore
-s y a operaciones, los conceptos e ideas de DevOps incluye a quien sea necesario
- por lo que no hay una lista definitiva de qué equipos o personas deben
- participar o cómo
-\begin_inset Quotes frd
-\end_inset
-
- 
+En sus orígenes el DevOps nació como la interacción entre desarrolladores
+ y operaciones, las ideas y conceptos DevOps va más allá e incluye a quien
+ sea necesario para mejorar el proceso de entrega de software por lo que
+ no hay una lista definitiva de qué equipos o personas participan, todo
+ depende de las necesidades de cada organización 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
@@ -1637,29 +1342,14 @@ incorrecta
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
-\end_inset
-
-No existe una biblia o manual DevOps, que contenga las instrucciones necesarias
- para realizar dicha transformación.
- 
-\begin_inset Quotes eld
-\end_inset
-
-El hecho de que una empresa presente su estrategia de éxito en DevOps no
- significa que estos mismos procesos sean la forma correcta de hacer DevOps
- en todos los entornos
-\begin_inset Quotes erd
-\end_inset
-
- DevOps, debe adaptarse acorde a la situación inicial de la empresa donde
- quiera aplicarse
-\begin_inset Quotes frd
-\end_inset
-
- 
+No existe un modelo genérico o manual paso a paso que contenga las instrucciones
+ necesarias para realizar una adopción de prácticas DevOps.
+ “El hecho de que una empresa presente su estrategia de éxito en DevOps
+ no significa que estos mismos procesos sean la forma correcta de hacer
+ DevOps en todos los entornos” DevOps, debe adaptarse acorde a la situación
+ inicial y tipo de empresa donde quiera aplicarse 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
