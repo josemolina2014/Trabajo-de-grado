@@ -44,9 +44,9 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
-\biblio_style plain
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -491,7 +491,7 @@ Fuente: Elaboración propia
 \begin_layout Standard
 Basado en lo propuesto por 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "Sharma2017"
 literal "false"
 
@@ -2837,7 +2837,7 @@ Una vez obtenido el resultado de evaluación y evaluando las oportunidades
 \begin_layout Standard
 La adopción DevOps se planteó basado en lo propuesto por 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "Sharma2017"
 literal "false"
 

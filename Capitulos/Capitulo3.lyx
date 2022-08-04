@@ -44,9 +44,9 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
-\biblio_style plain
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -145,15 +145,15 @@ Durante el proceso de búsqueda de información y de artefactos de evaluación
 \begin_layout Standard
 Se diseñó un artefacto de medición de competencias DevOps, denominado modelo
  de capacidades, que se fundamenta en el resultado de la investigación del
- libro (Accelerate
+ libro Accelerate
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
-), donde identificaron 24 capacidades y 5 dimensiones que abarcan ámbitos
+, donde identificaron 24 capacidades y 5 dimensiones que abarcan ámbitos
  técnicos, gestión de procesos y cultura que a nivel estadístico impulsan
  mejoras en el rendimiento en la entrega de software en una compañía.
  
@@ -457,7 +457,7 @@ Capacidad
 Las capacidades son los elementos claves para mejorar la entrega de software
  en una organización, identificados en el modelo de referencia 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -1654,7 +1654,7 @@ La adopción DevOps en una compañía no se puede llevar a cabo siguiendo una
  El artefacto de medición denominado modelo de capacidades, que se fundamenta
  en el resultado de la investigación del libro Accelerate 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 

@@ -116,7 +116,7 @@ s de la industria están Cascada, Espiral y Ágil.
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "IanSommerville2011"
 literal "false"
 
@@ -243,7 +243,7 @@ name "subsec:el-modelo-en-cascada"
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "true"
 
@@ -256,7 +256,7 @@ literal "true"
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "IanSommerville2011"
 literal "true"
 
@@ -280,6 +280,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status collapsed
@@ -349,13 +350,13 @@ Agile es el nombre dado a un grupo de marcos de trabajo de desarrollo de
  software que están diseñadas para ser más ligeras y flexibles que los métodos
  considerados tradicionales como la cascada 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -371,7 +372,7 @@ El término
  se publicó un documento llamado Manifiesto Ágil que define el siguiente
  conjunto de valores:
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Beck"
 literal "false"
 
@@ -408,7 +409,7 @@ noprefix "false"
 \end_inset
 
  representa algunos de los elementos que componen los marcos de trabajo
- agiles.
+ ágiles.
  Las tareas se dividen en bloques de tiempo, con el fin de entregar característi
 cas específicas para un lanzamiento.
  Se adopta un enfoque iterativo y después de cada iteración se entrega una
@@ -416,7 +417,7 @@ cas específicas para un lanzamiento.
  de características, por último, la versión final contiene todas las característ
 icas requeridas por el cliente 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "ProjectmanagementInstitute2017"
 literal "false"
 
@@ -518,7 +519,7 @@ eliminación de residuos
 
  
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "ProjectmanagementInstitute2017"
 literal "false"
 
@@ -555,7 +556,7 @@ name "fig:Enfoques-y-marcos-de-trabajo-agiles"
 
 \end_inset
 
-Enfoques y marcos de trabajo agiles
+Enfoques y marcos de trabajo ágiles
 \end_layout
 
 \end_inset
@@ -644,7 +645,7 @@ El termino DevOps, es un concepto tecnológico relativamente nuevo que la
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
@@ -679,7 +680,7 @@ DevOps
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Gonzalez2017"
 literal "false"
 
@@ -703,7 +704,7 @@ DevOps es una filosofía más que un conjunto de herramientas o un procedimiento
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Smith2020"
 literal "false"
 
@@ -736,7 +737,7 @@ DevOps pone un gran énfasis en las responsabilidades compartidas entre todos
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Gartner"
 literal "false"
 
@@ -1137,13 +1138,13 @@ En años siguientes el evento DevOpsDays se popularizó en el resto del mundo
  como un movimiento cultural.
  
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1250,13 +1251,13 @@ Es la práctica de desarrollo de software que permite integrar rápidamente
  versiones y pruebas automáticas.
  
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Sharma2017"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1345,13 +1346,13 @@ nte relacionada con la IC, va más allá de simplemente asegurarse de que
 n.
  
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Coupland2021"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1436,16 +1437,15 @@ Continuous Deployment:
 Esta fase se encarga del proceso de despliegue de los cambios en producción
  en donde los cambios en el código se compilan, prueban y preparan automáticamen
 te para minimizar riesgo y errores y entregar los cambios lo más rápido
- posible al cliente.
- 
+ posible al cliente 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1460,7 +1460,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1579,7 +1579,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1677,20 +1677,14 @@ Devops sólo es relevante para los startups
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
-\end_inset
-
-Se tiende a pensar que es un término relacionado con empresas tecnológicas
- en exclusiva, como Netflix, Facebook, LinkedIn o Google, si bien estas
- empresas fueron pioneras, los principios de DevOps son abiertos y sin saberlo
- las empresas del común ya aplica alguna de las premisas, como por ejemplo
- Agile o Lean
-\begin_inset Quotes frd
-\end_inset
-
+El termino DevOps es un término que no es exclusivo de grandes empresas
+ tecnológicas, como Netflix, Facebook, LinkedIn o Google, o de organizaciones
+ a la vanguardia en innovación, los principios de la cultura DevOps son
+ abiertos y cualquier compañía los puede adoptar, algunas sin saberlo ya
+ aplican alguna de las premisas, como por ejemplo Agile o Lean, entre otros
  
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Davis2016"
 literal "false"
 
@@ -1708,33 +1702,9 @@ Devops es un título laboral
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes eld
-\end_inset
-
-El 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-ingeniero DevOps
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- es un título de trabajo que sigue apareciendo en la naturaleza, pero no
- se tiene un consenso claro en las organizaciones sobre el rol.
+EL "ingeniero DevOps" es un título de trabajo que cada vez es más frecuente
+ en el mercado laboral, aún no se tiene un consenso claro en las organizaciones
+ sobre el rol.
  Sus funciones giran en torno a un administrador de sistemas que sabe programar
  y a un desarrollador que conoce sobre administración de sistemas e infraestruct
 ura.
@@ -1742,23 +1712,8 @@ ura.
  los desarrolladores desplieguen el código y mantengan la infraestructura,
  pero a medida que la organización madura y crece, tiene sentido que las
  personas se especialicen más en sus funciones.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Quotes eld
-\end_inset
-
-DevOps es, en esencia, un movimiento cultural, y sus ideas y principios
- deben utilizarse en toda la organización para que sean eficaces.
-\begin_inset Quotes erd
-\end_inset
-
- 
+ “DevOps es, en esencia, un movimiento cultural, y sus ideas y principios
+ deben utilizarse en toda la organización para que sean eficaces” 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Davis2016"
@@ -1775,7 +1730,7 @@ Métricas de rendimiento
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -1847,7 +1802,7 @@ noprefix "false"
 
  tomada del reporte Accelerate State of DevOps 2021
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "DORAsresearchprogram2021"
 literal "false"
 
@@ -1899,7 +1854,7 @@ Escala de rendimiento por métricas
 \size tiny
 Imagen tomada de: 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "DORAsresearchprogram2021"
 literal "false"
 
@@ -1973,7 +1928,7 @@ Evolución de la industria en escala de rendimiento
 \size tiny
 Imagen tomada de: 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "DORAsresearchprogram2021"
 literal "false"
 
@@ -1992,19 +1947,17 @@ Pilares y Objetivos DevOps
 \end_layout
 
 \begin_layout Standard
-Los objetivos DevOps más comunes en las organizaciones desde el punto de
- vista de Impulsores del negocio ayudan a determinar las métricas y capacidades
- en que la organización se debe centrar.
- haciendo énfasis que en DevOp.
- 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Coupland2021"
 literal "false"
 
 \end_inset
 
-
+ indica que la adopción DevOps en una organización difiere de muchos elementos
+ y condiciones que lo hacen particular, desde el punto de vista de Impulsores
+ del negocio los objetivos DevOps más comunes que ayudan a determinar las
+ métricas y capacidades en que la organización se debe centrar son: 
 \end_layout
 
 \begin_layout Itemize
@@ -2044,12 +1997,14 @@ Shorter lead times:
  
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Puede tratarse de cualquier cosa, desde la planificación, en la que se obtienen
  los requisitos de forma más eficaz, hasta la construcción de la infraestructura
  más rápida que antes.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 
 \series bold
@@ -2066,14 +2021,15 @@ Estrategias de adopción DevOps
 \end_layout
 
 \begin_layout Standard
+Basado en 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Sharma2017"
 literal "false"
 
 \end_inset
 
- La 
+, la 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Áreas-clave-para-adopcion-devops"
@@ -2128,7 +2084,7 @@ Cultura:
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2162,6 +2118,16 @@ name "fig:Áreas-clave-para-adopcion-devops"
 
 \begin_layout Plain Layout
 
+\size tiny
+Fuente elaboración propia basado en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2188,7 +2154,7 @@ En la búsqueda de literatura sobre estos temas existen miles de artículos
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Ordonez2020"
 literal "false"
 
@@ -2233,7 +2199,7 @@ la adopción de DevOps debe ser gradual, iterativa e incremental
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Mishra2020"
 literal "false"
 
@@ -2248,7 +2214,7 @@ literal "false"
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Perera2017"
 literal "false"
 
@@ -2267,7 +2233,7 @@ literal "false"
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Cruz2018"
 literal "false"
 
@@ -2303,7 +2269,7 @@ Automatización de la infraestructura
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "ACISAsociacionColombianadeIngenierosdeSistemas2018"
 literal "false"
 
@@ -2339,7 +2305,7 @@ Maestros en Agilidad
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "DeFeijter2018"
 literal "false"
 
@@ -2453,7 +2419,7 @@ Accelerate
 \begin_layout Standard
 El libro Accelerate 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -2659,7 +2625,7 @@ Apoyar el liderazgo transformacional
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2681,7 +2647,7 @@ name "fig:Modelo-general-accelerate"
 
 Modelo general de la investigación propuesto por 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -2701,7 +2667,7 @@ literal "false"
 Imagen tomada del libro: Accelerate: The Science of Lean Software and DevOps
  Building and Scaling High Performing Technology Organizations 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -2725,13 +2691,13 @@ CALMS, es un acrónimo que significa Cultura, Automatización, Lean, Medición
  útiles para analizar la estructura de una organización.
  
 \begin_inset CommandInset citation
-LatexCommand citep
-key "Devopsgroup"
+LatexCommand citet
+key "Devopsgroup,Atlassian"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2927,7 +2893,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/devopsgroup_calms_model_watermark_001-01.svg
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/devopsgroup_calms_model_watermark_001-01.png
 	lyxscale 60
 	scale 40
 
@@ -2985,15 +2951,15 @@ OWASP permite complementar las estrategias DevOps en términos de fortalecer
  y brindar un espacio de mayor relevancia a las medidas de seguridad que
  se aplican cuando se utilizan estrategias DevOps ya que la evidencia práctica
  indica que estos aspectos se suelen descuidar o al menos no se tienen suficient
-emente en cuenta durante las fases de ciclo de vida DevOps.
+emente en cuenta durante las fases de ciclo de vida DevOps
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "OWASPFoundation"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -3035,7 +3001,7 @@ name "fig:Modelo-de-madurez-devsecops"
 \size tiny
 Imagen tomada de 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "OWASPFoundation"
 literal "false"
 
@@ -3120,7 +3086,7 @@ Es un modelo de evaluación de las capacidades DevOps desarrollador por la
  e identificar las áreas clave de crecimiento y desarrollar un plan de acción
  de crecimiento concreto.
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "AgilityHealth"
 literal "false"
 
@@ -3133,7 +3099,7 @@ literal "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3198,7 +3164,7 @@ El proyecto DevOps Research and Assessment (DORA) presenta un modelo de
  respuesta cerrados en torno a como la organización aborda las cuatro métricas
  de rendimiento 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Program"
 literal "false"
 
@@ -3255,8 +3221,8 @@ noprefix "false"
 
 \end_inset
 
-Figura 2 17 presenta un ejemplo del resultado que entrega la plataforma
- luego de realizar una evaluación 
+ presenta un ejemplo del resultado que entrega la plataforma luego de realizar
+ una evaluación 
 \end_layout
 
 \begin_layout Standard
@@ -3296,7 +3262,7 @@ Ejemplo resultado evaluación DORA
 \size tiny
 Imagen tomada de 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Program"
 literal "false"
 
@@ -3391,6 +3357,9 @@ noprefix "false"
 
  presenta la distribución del área de Integración Tecnológica y sus cinco
  subáreas especializadas: 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false

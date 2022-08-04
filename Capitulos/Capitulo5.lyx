@@ -44,9 +44,9 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
-\biblio_style plain
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -95,7 +95,7 @@ El propósito planteado en este trabajo era identificar cómo la filosofía
  DevOps que se enfoca en los aspectos técnicos y de gestión de procesos
  más representativos en la entrega de productos de software 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -151,7 +151,7 @@ Las dimensiones en las que se enfocó el marco de evaluación son: Entrega
  Cada una de estas dimensiones está compuesta por veinticuatro capacidades
  que 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -265,7 +265,7 @@ El modelo de capacidades propuesto fue diseñado a partir de la consolidación
  presente trabajo: el resultado de la investigación del libro Accelerate
  
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 

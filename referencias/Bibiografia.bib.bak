@@ -29,7 +29,7 @@ url = {https://kanbantool.com/es/guia-kanban/fundamentos-de-kanban/limitando-el-
 }
 
 @Misc{ACISAsociacionColombianadeIngenierosdeSistemas2018,
-  author    = {Asociaci{\'{o}}n Colombiana de Ingenieros de Sistemas, ACIS},
+  author    = {ACIS, Asociaci{\'{o}}n Colombiana de Ingenieros de Sistemas},
   title     = {El uso de Agile y DevOps genera un aumento de hasta un 60% en las ganancias de las productoras de software},
   year      = {2018},
   booktitle = {Abr 02, 2018},
