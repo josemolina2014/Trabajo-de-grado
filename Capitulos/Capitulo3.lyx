@@ -46,7 +46,7 @@
 \use_package undertilde 1
 \cite_engine natbib
 \cite_engine_type numerical
-\biblio_style plainnat
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -145,7 +145,7 @@ Durante el proceso de búsqueda de información y de artefactos de evaluación
 \begin_layout Standard
 Se diseñó un artefacto de medición de competencias DevOps, denominado modelo
  de capacidades, que se fundamenta en el resultado de la investigación del
- libro Accelerate
+ libro Accelerate 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "10.5555/3235404"

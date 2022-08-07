@@ -259,7 +259,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -324,7 +324,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -517,7 +517,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -548,6 +548,16 @@ name "fig:Pasos-para-iniciar-transformacion-DevOps"
 \end_layout
 
 \begin_layout Plain Layout
+
+\size tiny
+Gráfico generado a partir de lo indicado en 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
 
 \end_layout
 

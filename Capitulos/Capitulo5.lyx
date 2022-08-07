@@ -95,7 +95,7 @@ El propósito planteado en este trabajo era identificar cómo la filosofía
  DevOps que se enfoca en los aspectos técnicos y de gestión de procesos
  más representativos en la entrega de productos de software 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 

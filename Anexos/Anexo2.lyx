@@ -195,7 +195,7 @@ Guardar la configuración del sistema y las aplicaciones en el control de
  versiones esta correlacionado con el rendimiento de la entrega de software
  que solo guardar el código fuente de la aplicación 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
@@ -295,24 +295,25 @@ Fuente:
 \begin_layout Itemize
 DORA's research program, DevOps tech: Version control 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogram"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 Accelerate, 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -509,60 +510,63 @@ Fuentes:
 \begin_layout Itemize
 The DevOps Handbook First Edition 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3044729"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 The DevOps Handbook Second Edition, 2021 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "kim2021devops"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Continuous delivery: 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramo"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 RedHat: 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Redhat2018"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -744,24 +748,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Continuous integration 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprograml"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -976,48 +982,50 @@ Fuentes:
 \begin_layout Itemize
 Accelerate, Forsgren 2018, 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Trunk-based development 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramk"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Version control 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogram"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 Trunk Based Development,
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Hammants"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -1219,36 +1227,39 @@ Fuente
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Continuous testing, 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramn"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 The DevOps Handbook Second Edition 2021 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "kim2021devops"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -1434,24 +1445,26 @@ Fuentes:
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Test data management 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramb"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -1620,25 +1633,25 @@ Fuentes:
 \begin_layout Itemize
 Accelerate 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Shifting left on security 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramq"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1877,25 +1890,26 @@ Fuentes:
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Continuous delivery 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramo"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2064,36 +2078,39 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Red Hat, IaC, 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "RedHat"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Cloud infrastructure 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprograma"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2275,24 +2292,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps tech: Empowering teams to choose tools 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Program"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2366,7 +2385,7 @@ El feedback incluye métricas de satisfacción de los clientes y opiniones
 \begin_layout Standard
 El programa de investigación de DevOps de DORA 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Program"
 literal "false"
 
@@ -2469,24 +2488,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DevOps process: Customer feedback 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramp"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2663,12 +2684,13 @@ Fuente
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2676,25 +2698,25 @@ literal "false"
 DORA's research program, DevOps process: Visibility of work in the value
  stream 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprograms"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 Value Stream Mapping, K Martin, 2013 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Martin2014"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2911,36 +2933,38 @@ Fuentes:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps process: Working in small batches 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramg"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
 Accelerate State of DevOps 2021 Report 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogram2021"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -3108,12 +3132,13 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -3238,9 +3263,9 @@ Plan de acción
  Se debe iniciar aliviando la complejidad a la hora de evaluar y aprobar
  cambios del proyecto, el objetivo es iniciar la definición de un proceso
  de aprobación ligero a la hora de tomar decisiones.
- En la investigación (Accelerate, Forsgren 2018 
+ En la investigación (Accelerate 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citet
 key "10.5555/3235404"
 literal "false"
 
@@ -3296,25 +3321,26 @@ Fuente
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, Streamlining change approval 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramm"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -3476,12 +3502,13 @@ Fuente
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -3489,13 +3516,13 @@ literal "false"
 DORA's research program, Monitoring systems to inform business decisions
  
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogrami"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -3657,25 +3684,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, Proactive failure notification 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprograme"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -3897,13 +3925,13 @@ Fuente:
 \begin_layout Itemize
 ¿Qué son los límites de trabajo en curso? 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Atlassiana"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
@@ -3915,7 +3943,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
@@ -3927,6 +3955,7 @@ literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -3939,7 +3968,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -4099,25 +4128,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, Visual management capabilities 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramj"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -4332,48 +4362,52 @@ Fuentes:
 \begin_layout Itemize
 Reinventar las organizaciones 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Laloux2016"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Thepowermba, Organizaciones Teal 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "ThePowerMBA"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Euroforum, ¿Sabes lo que son las Organizaciones TEAL?, 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Euroforum"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -4381,12 +4415,13 @@ literal "false"
 DORA's research program, DevOps culture: Westrum organizational culture
  
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramf"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -4561,24 +4596,26 @@ Fuentes:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps culture: Learning culture 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramh"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -4752,24 +4789,26 @@ Fuente
 DORA's research program, DevOps culture: Westrum organizational culture
  
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramf"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -4958,48 +4997,52 @@ Fuente:
 \begin_layout Itemize
 Udemy, DevOps - Introducción y Fundamentos no técnicos 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Udemy"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Accelerate, Forsgren 2018 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 The DevOps Handbook First Edition 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3044729"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 Atlassian, Marco CALMS 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Atlassian"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -5153,25 +5196,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps culture: Job satisfaction 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramr"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -5538,24 +5582,26 @@ Fuente:
 \begin_layout Itemize
 Accelerate, Forsgren 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 
 \begin_layout Itemize
 DORA's research program, DevOps culture: Transformational leadership 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogramc"
 literal "false"
 
 \end_inset
 
+.
  
 \end_layout
 

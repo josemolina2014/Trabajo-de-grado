@@ -231,7 +231,11 @@ name "subsec:modelos-de-proceso-de-software"
 \end_layout
 
 \begin_layout Subsubsection
-El modelo en cascada (waterfall) 
+El modelo en cascada (
+\shape italic
+waterfall
+\shape default
+) 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:el-modelo-en-cascada"
@@ -245,7 +249,7 @@ name "subsec:el-modelo-en-cascada"
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Davis2016"
-literal "true"
+literal "false"
 
 \end_inset
 
@@ -259,14 +263,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset citation
-LatexCommand citet
-key "IanSommerville2011"
-literal "true"
-
-\end_inset
-
- La 
+La 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Modelo-en-cascada"
@@ -279,7 +276,15 @@ noprefix "false"
  presenta las diferentes etapas que componen el modelo en cascada, donde
  se implementan las actividades fundamentales del proceso como son: Análisis
  y definición de requerimientos, el diseño, la implementación, la integración,
- las pruebas, la operación y el mantenimiento.
+ las pruebas, la operación y el mantenimiento 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "IanSommerville2011"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -287,7 +292,7 @@ noprefix "false"
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -350,11 +355,15 @@ name "subsec:Agile"
 \end_layout
 
 \begin_layout Standard
-Agile es el nombre dado a un grupo de marcos de trabajo de desarrollo de
- software que están diseñadas para ser más ligeras y flexibles que los métodos
- considerados tradicionales como la cascada 
+
+\shape italic
+Agile
+\shape default
+ es el nombre dado a un grupo de marcos de trabajo de desarrollo de software
+ que están diseñadas para ser más ligeras y flexibles que los métodos considerad
+os tradicionales como la cascada 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Davis2016"
 literal "false"
 
@@ -374,9 +383,9 @@ El término
 
  es un término relativamente nuevo, acuñado oficialmente en 2001 cuando
  se publicó un documento llamado Manifiesto Ágil que define el siguiente
- conjunto de valores:
+ conjunto de valores: 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Beck"
 literal "false"
 
@@ -421,7 +430,7 @@ cas específicas para un lanzamiento.
  de características, por último, la versión final contiene todas las característ
 icas requeridas por el cliente 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "ProjectmanagementInstitute2017"
 literal "false"
 
@@ -434,7 +443,7 @@ literal "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -485,7 +494,11 @@ literal "false"
 \begin_layout Standard
 Los marcos de trabajo ágiles más populares en la industria son Extreme Programmi
 ng, Scrum, Rational Unified Process, Crystal Clear, Adaptive Software Developmen
-t, entre otras En la 
+t, entre otras.
+\end_layout
+
+\begin_layout Standard
+En la 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Enfoques-y-marcos-de-trabajo-agiles"
@@ -495,9 +508,23 @@ noprefix "false"
 
 \end_inset
 
- muestra la relación de composición entre los marcos de trabajo agile y
- los enfoques agile, donde la agilidad y el método Kanban se presentan como
- subconjuntos de Lean porque comparten conceptos particulares, como: 
+ se muestra la relación de composición entre los marcos de trabajo 
+\shape italic
+Agile
+\shape default
+ y los enfoques 
+\shape italic
+Agile
+\shape default
+, donde la agilidad y el método 
+\shape italic
+Kanban
+\shape default
+ se presentan como subconjuntos de 
+\shape italic
+Lean
+\shape default
+ porque comparten conceptos particulares, como: 
 \begin_inset Quotes eld
 \end_inset
 
@@ -523,7 +550,7 @@ eliminación de residuos
 
  
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "ProjectmanagementInstitute2017"
 literal "false"
 
@@ -536,7 +563,7 @@ literal "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -778,7 +805,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -861,10 +888,9 @@ Inspirado en la charla
 \begin_layout Standard
 En años siguientes el evento DevOpsDays se popularizó en el resto del mundo
  convirtiéndose en eventos muy concurridos popularizando el término DevOps
- como un movimiento cultural.
- 
+ como un movimiento cultural 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Davis2016"
 literal "false"
 
@@ -974,10 +1000,9 @@ CI (Continuous Integration):
 Es la práctica de desarrollo de software que permite integrar rápidamente
  el código recién desarrollado con el resto del código de la aplicación
  (al menos una vez al día) y con otros componentes, tras lo cual se ejecutan
- versiones y pruebas automáticas.
- 
+ versiones y pruebas automáticas 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Sharma2017"
 literal "false"
 
@@ -1005,7 +1030,7 @@ s.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1069,10 +1094,9 @@ nte relacionada con la IC, va más allá de simplemente asegurarse de que
  los nuevos cambios pueden integrarse sin causar regresiones a las pruebas
  automatizadas, la entrega continua significa que estos cambios pueden ser
  desplegados de forma manual o parcialmente automatizada al entorno de producció
-n.
- 
+n 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Coupland2021"
 literal "false"
 
@@ -1101,7 +1125,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1165,7 +1189,7 @@ Esta fase se encarga del proceso de despliegue de los cambios en producción
 te para minimizar riesgo y errores y entregar los cambios lo más rápido
  posible al cliente 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Davis2016"
 literal "false"
 
@@ -1207,7 +1231,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1284,7 +1308,7 @@ DevOps es más que un conjunto de herramientas implementadas e interconectadas
  “Puedes instalar la última versión de Jenkins o apuntarte a CircleCI, pero
  si no tienes un conjunto de pruebas sólido, no sirve de nada” 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Smith2020"
 literal "false"
 
@@ -1308,7 +1332,7 @@ En sus orígenes el DevOps nació como la interacción entre desarrolladores
  no hay una lista definitiva de qué equipos o personas participan, todo
  depende de las necesidades de cada organización 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Davis2016"
 literal "false"
 
@@ -1349,7 +1373,7 @@ No existe un modelo genérico o manual paso a paso que contenga las instruccione
  DevOps en todos los entornos” DevOps, debe adaptarse acorde a la situación
  inicial y tipo de empresa donde quiera aplicarse 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Davis2016"
 literal "false"
 
@@ -1374,7 +1398,7 @@ El termino DevOps es un término que no es exclusivo de grandes empresas
  aplican alguna de las premisas, como por ejemplo Agile o Lean, entre otros
  
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Davis2016"
 literal "false"
 
@@ -1511,7 +1535,7 @@ literal "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1544,7 +1568,7 @@ Escala de rendimiento por métricas
 \size tiny
 Imagen tomada de: 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "DORAsresearchprogram2021"
 literal "false"
 
@@ -1582,7 +1606,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1774,7 +1798,7 @@ Cultura:
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1811,7 +1835,7 @@ name "fig:Áreas-clave-para-adopcion-devops"
 \size tiny
 Fuente elaboración propia basado en 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Sharma2017"
 literal "false"
 
@@ -2027,7 +2051,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2315,7 +2339,7 @@ Apoyar el liderazgo transformacional
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2357,7 +2381,7 @@ literal "false"
 Imagen tomada del libro: Accelerate: The Science of Lean Software and DevOps
  Building and Scaling High Performing Technology Organizations 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
@@ -2378,10 +2402,9 @@ Modelo CALMS
 \begin_layout Standard
 CALMS, es un acrónimo que significa Cultura, Automatización, Lean, Medición
  y Sharing (Compartir), una serie de puntos clave que resultan particularmente
- útiles para analizar la estructura de una organización.
- 
+ útiles para analizar la estructura de una organización 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Devopsgroup,Atlassian"
 literal "false"
 
@@ -2578,7 +2601,7 @@ Compartir también implica invertir en políticas de desarrollo de talento
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2641,9 +2664,9 @@ OWASP permite complementar las estrategias DevOps en términos de fortalecer
  y brindar un espacio de mayor relevancia a las medidas de seguridad que
  se aplican cuando se utilizan estrategias DevOps ya que la evidencia práctica
  indica que estos aspectos se suelen descuidar o al menos no se tienen suficient
-emente en cuenta durante las fases de ciclo de vida DevOps
+emente en cuenta durante las fases de ciclo de vida DevOps 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "OWASPFoundation"
 literal "false"
 
@@ -2691,7 +2714,7 @@ name "fig:Modelo-de-madurez-devsecops"
 \size tiny
 Imagen tomada de 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "OWASPFoundation"
 literal "false"
 
@@ -2774,15 +2797,15 @@ Es un modelo de evaluación de las capacidades DevOps desarrollador por la
  compañía AgilityHealth para para los programas y/o equipos de entrega de
  tecnología con el fin de medir y visualizar su estado de madurez DevOps
  e identificar las áreas clave de crecimiento y desarrollar un plan de acción
- de crecimiento concreto.
+ de crecimiento concreto
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "AgilityHealth"
 literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2854,7 +2877,7 @@ El proyecto DevOps Research and Assessment (DORA) presenta un modelo de
  respuesta cerrados en torno a como la organización aborda las cuatro métricas
  de rendimiento 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Program"
 literal "false"
 
@@ -2919,7 +2942,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2952,7 +2975,7 @@ Ejemplo resultado evaluación DORA
 \size tiny
 Imagen tomada de 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Program"
 literal "false"
 
@@ -3053,7 +3076,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
