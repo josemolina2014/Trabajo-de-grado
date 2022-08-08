@@ -118,7 +118,7 @@ Cada una de las preguntas del siguiente cuestionario está orientada a cubrir
  una de las dimensiones y capacidades que apalancan mejoras en el rendimiento
  en la entrega de software descritos en el libro 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "10.5555/3235404"
 literal "false"
 
