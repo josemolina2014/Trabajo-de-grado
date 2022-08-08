@@ -52,7 +52,7 @@
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \use_minted 0
 \index Index
 \shortcut idx
@@ -198,11 +198,10 @@ Para el caso de estudio CIAT, al promediar todas las capacidades evaluadas
 \end_layout
 
 \begin_layout Standard
-En términos de capacidades 9 de las 24 (37.5%) capacidades evaluadas se clasifica
-ron en la categoría oportunidades de mejora, resaltando las dimensiones
- Entrega Continua y Arquitectura con el 50% de sus capacidades clasificadas
- en esta categoría, junto con la dimensión cultura con el 40% de sus capacidades
- aquí clasificadas.
+El 37.5% (9 de las 24) de las capacidades evaluadas se clasificaron en la
+ categoría oportunidades de mejora, resaltando las dimensiones Entrega Continua
+ y Arquitectura con el 50% de sus capacidades clasificadas en esta categoría,
+ junto con la dimensión cultura con el 40% de sus capacidades aquí clasificadas.
  En la categoría Aceptable, 6 de las 24 capacidades aquí clasificadas, donde
  se destacan las dimensiones Producto y Procesos con el 50% y Gestión Lean
  con el 40% de todas sus capacidades clasificadas dentro de esta categoría.
@@ -247,10 +246,10 @@ Lecciones aprendidas
 \end_layout
 
 \begin_layout Standard
-El desarrollo de este documento me permitió conocer cómo DevOps es una filosofía
- que agrupa buenas prácticas de industria para mejorar la entrega de productos
- de software a través de un cambio cultural que abarca personas, procesos
- y herramientas tecnológicas.
+El desarrollo de esta investigación me permitió conocer cómo DevOps es una
+ filosofía que agrupa buenas prácticas de industria para mejorar la entrega
+ de productos de software a través de un cambio cultural que abarca personas,
+ procesos y herramientas tecnológicas.
  
 \begin_inset Newline newline
 \end_inset
