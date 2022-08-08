@@ -139,13 +139,13 @@ year = {2019}
 }
 
 @Misc{DORAsresearchprogramh,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps culture: Learning culture}},
   url    = {https://cloud.google.com/architecture/devops/devops-culture-learning-culture},
 }
 
 @Misc{DORAsresearchprograma,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps tech: Cloud infrastructure}},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-cloud-infrastructure},
 }
@@ -159,7 +159,7 @@ year = {2014}
 }
 
 @Misc{DORAsresearchprogramo,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps tech: Continuous delivery}},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery},
 }
@@ -181,13 +181,13 @@ url = {https://www.thepowermba.com/es/blog/organizaciones-teal/}
 }
 
 @Misc{DORAsresearchprogramq,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps tech: Shifting left on security}},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security},
 }
 
 @Misc{DORAsresearchprogrami,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps measurement: Monitoring systems to inform business decisions}},
   url    = {https://cloud.google.com/architecture/devops/devops-measurement-monitoring-systems},
 }
@@ -270,13 +270,13 @@ url = {https://agilityhealthradar.com}
 }
 
 @Misc{DORAsresearchprogramd,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps measurement: Work in process limits}},
   url    = {https://cloud.google.com/architecture/devops/devops-measurement-wip-limits},
 }
 
 @Misc{DORAsresearchprogramj,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps measurement: Visual management capabilities}},
   url    = {https://cloud.google.com/architecture/devops/devops-measurement-visual-management},
 }
@@ -317,7 +317,7 @@ year = {2019}
 }
 
 @Misc{DORAsresearchprogramf,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps culture: Westrum organizational culture}},
   url    = {https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture},
 }
@@ -346,7 +346,7 @@ year = {2011}
 }
 
 @Misc{Program,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {DevOps tech: Empowering teams to choose tools},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-teams-empowered-to-choose-tools},
 }
@@ -390,7 +390,7 @@ year = {2019}
 }
 
 @Misc{DORAsresearchprogramr,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps culture: Job satisfaction}},
   url    = {https://cloud.google.com/architecture/devops/devops-culture-job-satisfaction},
 }
@@ -421,7 +421,7 @@ year = {2020}
 }
 
 @Misc{DORAsresearchprogramg,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps process: Working in small batches}},
   url    = {https://cloud.google.com/architecture/devops/devops-process-working-in-small-batches},
 }
@@ -490,7 +490,7 @@ year = {2017}
 }
 
 @Misc{DORAsresearchprograme,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps measurement: Proactive failure notification}},
   url    = {ciatnet.ciat.cgiar.org/sites/it/External Information/Forms/AllItems.aspx?RootFolder={\%}2Fsites{\%}2Fit{\%}2FExternal Information},
 }
@@ -522,13 +522,13 @@ year = {2016}
 }
 
 @Misc{DORAsresearchprogram,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {DevOps tech: Version control},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-version-control},
 }
 
 @Misc{DORAsresearchprograms,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps process: Visibility of work in the value stream}},
   url    = {https://cloud.google.com/architecture/devops/devops-process-work-visibility-in-value-stream},
 }
@@ -593,7 +593,7 @@ year = {2015}
 }
 
 @Misc{DORAsresearchprograml,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps tech: Continuous integration}},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-continuous-integration},
 }
@@ -637,13 +637,13 @@ year = {2016}
 }
 
 @Misc{DORAsresearchprogramc,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps culture: Transformational leadership}},
   url    = {https://cloud.google.com/architecture/devops/devops-culture-transformational-leadership},
 }
 
 @Misc{DORAsresearchprogramb,
-  author = {DORA's Research Program},
+  author = {DORA's, Research Program},
   title  = {{DevOps tech: Test data management}},
   url    = {https://cloud.google.com/architecture/devops/devops-tech-test-data-management},
 }
@@ -734,6 +734,15 @@ year = {2021}
   keywords      = {icle},
   pages         = {1689--1699},
   pmid          = {25246403},
+}
+
+@Misc{,
+}
+
+@Misc{DORA,
+  author = {Google, LLC},
+  title  = {DevOps Research and Assessment (DORA)},
+  url    = {https://www.devops-research.com/research.html},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

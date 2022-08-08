@@ -2925,7 +2925,7 @@ El proyecto DevOps Research and Assessment (DORA) presenta un modelo de
  de rendimiento 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Program"
+key "DORA"
 literal "false"
 
 \end_inset
@@ -3041,6 +3041,10 @@ Algo a destacar del proyecto DORA, es que los autores del libro guía y del
  en el mismo estudio y comparten muchos aspectos.
  Adicionalmente en su portal oficial describen cómo implementar, mejorar
  y medir cada una de las capacidades de la investigación.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
