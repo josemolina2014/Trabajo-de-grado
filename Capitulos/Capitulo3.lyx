@@ -203,7 +203,7 @@ s propuesto se complementa con una justificación del enfoque o propósito
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -298,7 +298,7 @@ modelo de capacidades
  y un plan de acción diseñado para resolver cada opción de respuesta.
  (El modelo completo se detalla en profundidad en el anexo 
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "chap:anexo-detalle-Modelo-de-capacidades"
 plural "false"
 caps "false"
