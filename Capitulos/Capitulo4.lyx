@@ -53,7 +53,7 @@
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \use_minted 0
 \index Index
 \shortcut idx
@@ -162,6 +162,11 @@ noprefix "false"
 
 \end_inset
 
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
 
 \begin_inset Newline linebreak
 \end_inset
@@ -190,7 +195,7 @@ En la reunión inicial con los directores del área de integración de sistemas
  Al momento de definir el grupo de encuestados se involucró al área de infraestr
 uctura, ya que la compañía no cuenta con área de calidad de software.
  El criterio de selección de los participantes en el sondeo se basó en que
- la persona elegida debía estar directamente involucradas en el proceso
+ las personas elegidas debían estar directamente involucradas en el proceso
  de desarrollo y entrega de software.
  Al final se definió un total de 8 encuestados, 4 representantes por área,
  que incluyó a los dos coordinadores técnicos de las áreas.
@@ -230,9 +235,9 @@ Ejecución:
  cargaron las preguntas con sus opciones de respuestas al formulario de
  encuestas de office 365.
  Con el fin de brindar una alternativa de respuesta cuando el encuestado
- no tiene el suficiente conocimiento o experticia sobre el tema preguntado,
+ no tenia el suficiente conocimiento o experticia sobre el tema preguntado,
  se agregaron dos opciones de respuesta (No aplica y No sabe /No responde)
- a cada pregunta del modelo de capacidades en el formulario de encuesta
+ a cada pregunta del modelo de capacidades en el formulario de encuesta.
 \end_layout
 
 \begin_layout Standard
@@ -259,15 +264,14 @@ noprefix "false"
  presenta el consolidado que la herramienta generó indicando el número de
  respuestas por parte de los participantes definidos en la etapa de preparación
  y el tiempo promedio para responder el cuestionario.
- respuestas por parte de los participantes definidos en la etapa de preparación
- y el tiempo promedio para responder el cuestionario.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -332,7 +336,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -378,24 +382,32 @@ Fuente: Elaboración propia
 Resultados:
 \series default
 \emph default
- En este paso, se creó un segundo archivo Excel que contine el modelo de
- capacidades completo, es decir, el modelo de referencia, el cuestionario
- de preguntas, la relación entre el cuestionario y el modelo de referencia,
- las opciones de respuestas a cada pregunta, los planes de acción, la escala
- de medición y el rango de notas.
+ En este paso se creó un segundo archivo Excel que contine el 
+\shape italic
+modelo de capacidades
+\shape default
+ completo, es decir, el modelo de referencia, el cuestionario de preguntas,
+ la relación entre el cuestionario y el modelo de referencia, las opciones
+ de respuestas a cada pregunta, los planes de acción, la escala de medición
+ y el rango de notas.
+ Junto con el archivo de los resultados de la encuesta, fueron cargadas
+ en un reporte analítico desarrollado en la herramienta Power BI, que se
+ encargó de realizar todo el proceso de transformación de resultados en
+ unidades de análisis.
 \end_layout
 
 \begin_layout Standard
-Estas dos fuentes de datos fueron cargadas en un reporte analítico desarrollado
- en la herramienta Power BI, que se encargó de realizar todo el proceso
- de transformación de resultados en unidades de análisis.
-\end_layout
-
-\begin_layout Standard
-La limpieza de los resultados de la encuesta consistió en depurar las opciones
- de respuestas No aplica y No sabe /No responde de cada pregunta que no
- están dentro del modelo de capacidades y omitir del análisis la pregunta
- del perfil del encuestado agregadas en el paso anterior.
+La limpieza de los resultados de la encuesta consistió en quitar las opciones
+ de respuestas 
+\shape italic
+No aplica y No sabe /No responde
+\shape default
+ de cada pregunta con el fin de omitir del análisis las opciones de respuesta
+ no alineadas al 
+\shape italic
+modelo de capacidades
+\shape default
+ y centrarse solo en los elementos definidos en el modelo propuesto.
 \end_layout
 
 \begin_layout Standard
@@ -413,7 +425,7 @@ Acorde con la definición del modelo de capacidades cada opción de respuesta
  evaluación.
  El anexo 
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "chap:anexo-plan-de-acción-resultados"
 plural "false"
 caps "false"
@@ -436,9 +448,9 @@ noprefix "false"
 \end_inset
 
  muestra la nota general de la medición del caso práctico con un valor de
- 3.0 en una escala de 1 a 5, esa cifra se obtuvo promediando la nota de cada
- pregunta del cuestionario de medición.
- Esta cifra representa un alcance del 60% de los conceptos básicos DevOps
+ 3.0 en una escala de 1 a 5.
+ Esa cifra se obtuvo promediando la nota de cada pregunta del cuestionario
+ de medición y representa un alcance del 60% de los conceptos básicos DevOps
  para la organización.
 \begin_inset Newline newline
 \end_inset
@@ -723,10 +735,45 @@ Visualización de datos
 \end_layout
 
 \begin_layout Standard
-Se creó un reporte consolidado con el resultado de la encuesta, el modelo
- de capacidades, con el que se generaron gráficos analíticos que permitieron
- brindar las recomendaciones de adopción de prácticas DevOps para que la
- compañía CIAT pueda mejorar los tiempos de entrega
+Para la presentación de los resultados de la evaluación del caso de uso
+ (en este caso CIAT), se creó un reporte consolidado que a traves de gráficos
+ analíticos y una estrategia de visualización que va de lo general a lo
+ especifico permitieron identificar el estado actual de la organización
+ acorde a las diferentes dimensiones y capaciades evaluadas en el 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto.
+ Por otro lado, apoyados en la escala de evaluación definda el reporte permitió
+ identificar que elementos se deben priorizar al momento de iniciar la adopción
+ de prácticas DevOps para que la compañía CIAT pueda mejorar los tiempos
+ de entrega
+\end_layout
+
+\begin_layout Standard
+Una vez se depuró y consolidó el resultado de la encuesta de evaluación
+ del caso de uso (en este caso CIAT), se creó un reporte consolidado que
+ por medio de una estrategia de visualización de gráficos analíticos que
+ va de lo general a lo especifico, logró identificar el estado actual de
+ la organización acorde a las diferentes dimensiones y capacidades evaluadas
+ en el 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto.
+ Apoyados en la escala de evaluación (definida en el capítulo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Propuesta-del-artefacto-de-evaluacion"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), el reporte permitió clasificar de los resultados en un orden que permite
+ priorizar que elementos se deben tratar primero al momento de iniciar la
+ adopción de prácticas DevOps en la organización CIAT.
 \end_layout
 
 \begin_layout Standard
@@ -759,7 +806,7 @@ Para identificar el estado de madurez de los procesos de desarrollo de software
 \end_layout
 
 \begin_layout Standard
-El objetivo de la evaluación con el modelo de capacidades es poder determinar
+El objetivo de la evaluación con el modelo de capacidades es determinar
  qué tan robustas están las prácticas de desarrollo de software en la organizaci
 ón frente las recomendaciones DevOps.
  El modelo se centró en evaluar las dimensiones y capacidades con el fin
@@ -767,12 +814,12 @@ El objetivo de la evaluación con el modelo de capacidades es poder determinar
 \end_layout
 
 \begin_layout Enumerate
-¿Qué tan capaz está la organización para ofrecer rápidamente aplicaciones
- nuevas e innovadoras y de aprovechar las arquitecturas modernas? 
+¿Qué tan capaz es la organización de ofrecer rápidamente aplicaciones nuevas
+ e innovadoras y de aprovechar las arquitecturas modernas? 
 \end_layout
 
 \begin_layout Enumerate
-¿Qué tan capaz es la organización para modernizar las aplicaciones existentes
+¿Qué tan capaz es la organización de modernizar las aplicaciones existentes
  y permitir una entrega más rápida y la innovación? 
 \end_layout
 
@@ -1080,17 +1127,17 @@ name "tab:Resultado-Oportunidades de mejora"
 La entrega continua es la dimensión que presenta mayor debilidad, representa
  el 44.4% de las capacidades categorizadas como oportunidades de mejora,
  a nivel general el 50% de las capacidades que componen esta dimensión están
- en esta categoría y su calificación promedio la sitúa en la como debilidad,
- posicionándola como la dimensión a priorizar al momento de iniciar la adopción
- de prácticas DevOps en la organización.
+ en esta categoría y su calificación promedio la sitúa como debilidad, posicioná
+ndola como la dimensión a priorizar al momento de iniciar la adopción de
+ prácticas DevOps en la organización.
  
 \end_layout
 
 \begin_layout Itemize
 La cultura es la segunda dimensión con mayor número de capacidades clasificadas
  en esta categoría con un 22%, a nivel general el 40% de sus capacidades
- se clasificaron en oportunidades de mejora y el promedio de la dimensión
- la clasifica en la siguiente categoría.
+ se clasificaron en oportunidades de mejora y el promedio general de toda
+ la dimensión la clasifica como Aceptable.
  
 \end_layout
 
@@ -1101,9 +1148,9 @@ En un triple empate con el 11% de las capacidades clasificadas como oportunidad
 
 \begin_layout Itemize
 Arquitectura con el 50% de sus capacidades clasificadas como oportunidades
- de mejora, donde su nota promedio la sitúa en la siguiente categoría, se
- resalta la adopción incremental de arquitecturas físicas como lógicas de
- bajo acoplamiento permitan gestionar ambientes de software a dinámicamente.
+ de mejora, donde su nota promedio la clasifica como Aceptable, se resalta
+ la adopción incremental de arquitecturas físicas como lógicas de bajo acoplamie
+nto permitan gestionar ambientes de software a dinámicamente.
  
 \end_layout
 
@@ -1800,8 +1847,8 @@ Por último, se da respuesta a las preguntas planteadas al inicio de la medició
 \end_layout
 
 \begin_layout Enumerate
-¿Qué tan capaz está la organización para ofrecer rápidamente aplicaciones
- nuevas e innovadoras y de aprovechar las arquitecturas modernas? 
+¿Qué tan capaz es la organización de ofrecer rápidamente aplicaciones nuevas
+ e innovadoras y de aprovechar las arquitecturas modernas? 
 \end_layout
 
 \begin_deeper
@@ -1853,8 +1900,8 @@ Automatización de procesos
 \begin_layout Standard
 La organización debe potenciar sus procesos en términos de depurar pasos
  innecesarios, esperas, retrabajos y actividades manuales, apoyar el bienestar
- del equipo, entre otros, así poder alcanzar niveles altos y avanzados de
- madurez en la entrega de productos de software.
+ del equipo, entre otros, para alcanzar niveles altos y avanzados de madurez
+ en la entrega de productos de software.
  Las áreas se deben ajustar y en algunos casos redefinir su forma de trabajo
  (configurarse para el éxito) para lograr encaminarse con la transformación
  y buenas prácticas que ofrece DevOps.
@@ -1862,7 +1909,7 @@ La organización debe potenciar sus procesos en términos de depurar pasos
 
 \end_deeper
 \begin_layout Enumerate
-¿Qué tan capaz es la organización para modernizar las aplicaciones existentes
+¿Qué tan capaz es la organización de modernizar las aplicaciones existentes
  y permitir una entrega más rápida y la innovación? 
 \end_layout
 
@@ -1880,8 +1927,7 @@ Este es uno de los aspectos que la organización debe poner mucha atención
 Un factor por destacar es que la compañía tiene claramente definido su stack
  tecnológico y el 88% de todo su portafolio de aplicaciones esta categorizado
  en dos paquetes tecnológicos, por lo que la modernización no será un proceso
- en extremo complejo, pero si requerirá muchas horas de trabajo para cada
- proyecto.
+ en extremo complejo, pero si requerirá de horas de trabajo para cada proyecto.
 \end_layout
 
 \end_deeper
@@ -1935,7 +1981,7 @@ noprefix "false"
  estrategias para abordar el nivel que complementan el plan de acción descrito
  para cada capacidad(para mayor detalle consultar el Anexo 
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "chap:anexo-plan-de-acción-resultados"
 plural "false"
 caps "false"
@@ -1974,7 +2020,7 @@ Abordar las oportunidades de mejora:
 \emph default
 La primera fase se fundamenta en priorizar la adopción e implementación
  de las recomendaciones generales por dimensión y del plan de acción sobre
- cada capacidad clasificada como oportunidades de mejora, la
+ cada capacidad clasificada como oportunidades de mejora, la 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Resultado-Oportunidades de mejora"
@@ -2184,13 +2230,12 @@ Entrega continua
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 \noindent
 
-\emph on
-Pulir 
 \series bold
-y robustecer las fortalezas: 
+\emph on
+Pulir y robustecer las fortalezas: 
 \series default
 \emph default
 Esta fase se debe abordar con la filosofía de que todo proceso u actividad
@@ -2254,9 +2299,9 @@ Cultura
 , enfocarse en términos de la gestión de los equipos y la toma de decisiones
  de la organización u área de implementación, aquí se busca que los equipos
  tengan iniciativas e inicien su transformación a equipos autogestionados.
- Los primeros pasos de este hito se logran a través del apoyo liderazgo
- de los directivos de la organización, donde fomenten la creación de equipos
- multidisciplinarios con propósitos de aprendizaje y trabajo colaborativo.
+ Los primeros pasos de este hito se logran a través del liderazgo de los
+ directivos de la organización, donde fomenten la creación de equipos multidisci
+plinarios con propósitos de aprendizaje y trabajo colaborativo.
 \begin_inset Newline newline
 \end_inset
 
@@ -2364,7 +2409,7 @@ Reducción de tiempo en el despliegue
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -2483,7 +2528,7 @@ Integrar herramientas.
 \begin_layout Itemize
 
 \size footnotesize
-Automatizar las manualidades.
+Automatizar la compilación y la construcción (build).
 \end_layout
 
 \begin_layout Itemize
