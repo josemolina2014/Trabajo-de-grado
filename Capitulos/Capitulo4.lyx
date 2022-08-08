@@ -125,8 +125,8 @@ Configuración del caso de estudio y objetivos del análisis
 \begin_layout Standard
 La medición de capacidades DevOps en la compañía Alianza Bioversity – CIAT
  a través del modelo propuesto, buscó ir más allá de solo medir que tan
- evolucionados y automatizados están sus procesos de entrega de software,
- el principal objetivo fue brindar una herramienta ligera que minimice la
+ evolucionados y automatizados están sus procesos de entrega de software.
+ El principal objetivo fue brindar una herramienta ligera que minimice la
  complejidad conceptual al momento de medir aspectos que impulsan la entrega
  de software en la organización, a su vez identificar y clasificar estos
  aspectos en puntos débiles y fuertes para que sean abordados a través de
@@ -165,10 +165,6 @@ noprefix "false"
 .
  
 \begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline linebreak
 \end_inset
 
 
@@ -336,7 +332,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -777,13 +773,70 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-El reporte puede ser accedido a través del siguiente enlace 
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Resumen-resultados-caso-estudio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta una vista preliminar del reporte con los resultados de la evaluación
+ del caso de estudio CIAT, este reporte esta disponibe para su consulta
+ web a través del siguiente enlace 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
 https://tinyurl.com/4vp9s22c
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resumen general caso de estudio CIAT.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resumen de los resultados del caso de estudio
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Resumen-resultados-caso-estudio"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
