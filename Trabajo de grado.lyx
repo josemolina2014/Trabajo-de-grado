@@ -43,6 +43,7 @@ pdfstartview={FitH}
 }
 \setcitestyle{authoryear,open={(},close={)}} %Citation-related commands
 \newrefformat{fig}{Figura\,\ref{#1}}
+\newrefformat{tab}{Tabla\,\ref{#1}}
 %\setcitestyle{authornumber,open={((},close={))}} %Citation-related commands
 
 \usepackage{array}
