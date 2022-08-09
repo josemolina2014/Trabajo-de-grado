@@ -2974,12 +2974,16 @@ Calidad de la evaluación
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Una vez obtenidos los resultados de la medición de capacidades DevOps del
  caso de estudio, el siguiente paso fue presentar los a la organización
  con el fin de evaluar la percepción y pertinencia de los resultados obtenidos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Al ser un único caso de estudio la medición de la pertinencia y calidad
  de la evaluación de los resultados queda sesgada a la percepción del CIAT
  como caso de estudio.
@@ -2997,7 +3001,7 @@ Preguntas de evaluación
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 El cuestionario fue estructurado para medir la opinión frente al modelo
  y los resultados de la medición de capacidades DevOps en el CIAT.
 \end_layout
@@ -3023,6 +3027,11 @@ El cuestionario fue estructurado para medir la opinión frente al modelo
 
 \begin_layout Itemize
 ¿Qué se le podría mejorar al modelo de evaluación propuesto? 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
