@@ -218,6 +218,16 @@ filename "Resumen/Ficha Resumen.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "Anexos/CartaSustentación.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "Anexos/CartaAvalCIAT.lyx"
 
 \end_inset
