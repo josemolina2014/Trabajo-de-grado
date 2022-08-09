@@ -231,7 +231,7 @@ Estructura del
 \shape italic
 modelo de capacidades
 \shape default
-
+ propuesto
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Estructura-del-modelo-capacidades"
@@ -337,7 +337,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Ejemplo Estructura de preguntas del 
+Ejemplo estructura de preguntas del 
 \shape italic
 modelo de capacidades
 \shape default
@@ -382,6 +382,16 @@ Con el fin de brindar una alternativa de respuesta cuando el encuestado
  no tiene el suficiente conocimiento o experticia sobre el tema preguntado,
  al momento de la implementación se incluyeron en el formulario de encuesta
  dos opciones de respuesta: No aplica y No sabe /No responde por cada pregunta.
+\end_layout
+
+\begin_layout Standard
+En las siguientes secciones se describirá cada uno de los elementos que
+ compone el 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto dimensiones, capacidades, preguntas, opciones de respuesta y
+ planes de acción.
 \end_layout
 
 \begin_layout Subsection
@@ -723,7 +733,7 @@ modelo de capacidades
  propuesto está compuesto por un cuestionario de preguntas cerradas descrito
  en el punto 
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "sec:Modelo-de-capacidades"
 plural "false"
 caps "false"
@@ -1094,7 +1104,7 @@ Consolidación de datos:
  de referencia desarrollado.
  Este punto consta de dos fuentes de datos, el primero son los datos obtenidos
  de la encuesta y el segundo es un archivo fijo de referencia que contiene
- el modelo de referencia completo, las escalas de evaluación, los rangos
+ el modelo de referencia completo, las escalas de evaluación y los rangos
  de notas.
 \end_layout
 
@@ -1669,12 +1679,13 @@ e bajo el tiempo definido, al momento de finalizar el sondeo en la organización
 Resultados: Esta fase se encargó de transformar los datos obtenidos en la
  medición de capacidades en unidades de análisis, para sintetizar los resultados
  en gráficos expresado en un reporte estilo dashboard y obtener el plan
- de acción de cada pregunta Esta fase toma como entrada el resultado de
- la encuesta exportado de la herramienta utilizada, donde se ejecutó un
- proceso de depuración y limpieza de datos que permitió realizar los cálculos
- analíticos descritos en el punto 
+ de acción de cada pregunta.
+ Esta fase toma como entrada el resultado de la encuesta exportado de la
+ herramienta utilizada, donde se ejecutó un proceso de depuración y limpieza
+ de datos que permitió realizar los cálculos analíticos descritos en el
+ punto 
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "subsec:Transformación-resultados-unidades-de-análisis "
 plural "false"
 caps "false"
@@ -1724,7 +1735,7 @@ modelo de capacidades
  compañía Alianza Bioversity CIAT como se detalla en el siguiente capítulo
  
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "chap:Caso-de-estudio"
 plural "false"
 caps "false"

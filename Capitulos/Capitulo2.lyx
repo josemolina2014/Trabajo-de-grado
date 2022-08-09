@@ -29,6 +29,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement h
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
@@ -745,8 +746,8 @@ DevOps pone énfasis en las responsabilidades compartidas entre todos los
  equipos a lo largo del ciclo de vida del desarrollo de software.
  Los bordes de las funciones de trabajo de trabajo se suavizan, ya que los
  miembros del equipo de operaciones asumen tareas que tradicionalmente estaban
- tradicionalmente más centradas en los desarrolladores, y los miembros del
- equipo de desarrollo hacen lo mismo.
+ más centradas en los desarrolladores, y los miembros del equipo de desarrollo
+ hacen lo mismo.
  El término DevOps se asocia más comúnmente con el desarrollo (Dev) y las
  operaciones de TI (Ops), pero el enfoque puede extenderse también a otros
  grupos, incluyendo, entre otros, la seguridad (DevSecOps), el control de
@@ -903,7 +904,7 @@ Paul Hammond
 \begin_layout Standard
 En años siguientes el evento DevOpsDays se popularizó en el resto del mundo
  convirtiéndose en eventos muy concurridos popularizando el término DevOps
- como un movimiento cultural 
+ para un movimiento cultural 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Davis2016"
@@ -945,7 +946,7 @@ noprefix "false"
 
 \begin_layout Standard
 A continuación, se explican las tres fases principales en DevOps integración
- continua, despliegue continuo y entrega continua.
+ continua, despliegue continuo y entrega continua:
 \end_layout
 
 \begin_layout Standard
@@ -1020,9 +1021,9 @@ CI - Continuous Integration
 \end_layout
 
 \begin_layout Standard
-Es la práctica de desarrollo de software que permite integrar rápidamente
- el código recién desarrollado con el resto del código de la aplicación
- (al menos una vez al día) y con otros componentes, tras lo cual se ejecutan
+Es la fase de desarrollo de software que permite integrar rápidamente el
+ código recién desarrollado con el resto del código de la aplicación (al
+ menos una vez al día) y con otros componentes, tras lo cual se ejecutan
  versiones y pruebas automáticas 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1155,7 +1156,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1362,7 +1363,7 @@ Devops sólo involucra a los desarrolladores y administradores de sistemas
 \begin_layout Standard
 \noindent
 En sus orígenes el DevOps nació como la interacción entre desarrolladores
- y operaciones, las ideas y conceptos DevOps va más allá e incluye a quien
+ y operaciones, las ideas y conceptos DevOps van más allá e incluye a quien
  sea necesario para mejorar el proceso de entrega de software por lo que
  no hay una lista definitiva de qué equipos o personas participan, todo
  depende de las necesidades de cada organización 
@@ -1486,9 +1487,9 @@ literal "false"
 \end_inset
 
  presenta 4 características para medir el rendimiento en la entrega de software
- que se han extendido y popularizado en la industria, Estas métricas se
- han son comunes en los reportes anuales State of DevOps de las compañías
- Puppet y el proyecto DORA.
+ que se han extendido y popularizado en la industria, Estas métricas son
+ comunes en los reportes anuales State of DevOps de las compañías Puppet
+ y el proyecto DORA.
 \end_layout
 
 \begin_layout Standard
@@ -2029,10 +2030,10 @@ literal "false"
 
  hace referencia a un estudio a 1.200 ejecutivos de TI sobre el uso de 
 \shape italic
-A
+Agile
 \shape default
-gile y DevOps en la transformación digital en el que presenta las característica
-s de los 
+ y DevOps en la transformación digital en el que presenta las características
+ de los 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2468,8 +2469,7 @@ noprefix "false"
 
 \end_inset
 
- representa la como la cultura es la base para alcanzar una transformación
- DevOps.
+ representa como la cultura es base para alcanzar una transformación DevOps.
 \end_layout
 
 \begin_layout Standard
@@ -3043,10 +3043,6 @@ Algo a destacar del proyecto DORA, es que los autores del libro guía y del
  y medir cada una de las capacidades de la investigación.
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
 Antecedentes
 \end_layout
@@ -3125,7 +3121,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -3263,7 +3259,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
