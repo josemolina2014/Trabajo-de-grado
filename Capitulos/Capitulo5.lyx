@@ -198,17 +198,12 @@ Para el caso de estudio CIAT, al promediar todas las capacidades evaluadas
 \end_layout
 
 \begin_layout Standard
-El 37.5% (9 de las 24) de las capacidades evaluadas se clasificaron en la
- categoría oportunidades de mejora, resaltando las dimensiones Entrega Continua
- y Arquitectura con el 50% de sus capacidades clasificadas en esta categoría,
- junto con la dimensión cultura con el 40% de sus capacidades aquí clasificadas.
- En la categoría Aceptable, 6 de las 24 capacidades aquí clasificadas, donde
- se destacan las dimensiones Producto y Procesos con el 50% y Gestión Lean
- con el 40% de todas sus capacidades clasificadas dentro de esta categoría.
- En la categoría Fortalezas, 9 de las 24 capacidades, donde resaltan las
- dimensiones Arquitectura con el 50%, Gestión Lean y Cultura con el 40%
- de todas sus capacidades clasificadas dentro de esta categoría.
- 
+Al momento de iniciar la adopción DevOps en la organización, se deben priorizar
+ las dimensiones Entrega Continua, Arquitectura y Cultura, ya que más del
+ 40% de sus capacidades están clasificadas como Oportunidad de Mejora.
+ Entrega Continua con el 50% (4 de 8) de sus capacidades, Arquitectura con
+ el 50% (1 de 2) de sus capacidades y Cultura con el 40% (2 de 5) del total
+ de sus capacidades.
 \begin_inset Newline newline
 \end_inset
 
@@ -216,10 +211,11 @@ El 37.5% (9 de las 24) de las capacidades evaluadas se clasificaron en la
 \end_layout
 
 \begin_layout Standard
-CIAT como organización tiene el 37.5% de las capacidades evaluadas con necesidad
- de atención prioritaria, el 25% requieren atención media para potenciar
- su nivel de madurez y el 37.5% de sus capacidades fuertes que necesitan
- pulirse bajo una filosofía de mejora continua de procesos.
+CIAT como organización tiene 9 de las 24 que constituye el 37.5% de las capacidad
+es evaluadas con necesidad de atención prioritaria, 6 capacidades que equivale
+ al 25% requieren atención media para potenciar su nivel de madurez y 9
+ capacidades que representa el 37.5% capacidades fuertes que necesitan pulirse
+ bajo una filosofía de mejora continua de procesos.
 \begin_inset Newline newline
 \end_inset
 
@@ -323,6 +319,20 @@ no se puede automatizar el desorden
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un aspecto a resaltar durante el desarrollo del presente documento fue la
+ grata experiencia de tener dos evaluadores complementarios, cada uno desde
+ su experticia me brindó el acompañamiento constante y paciente con las
+ herramientas necesarias para aterrizar conceptos, abordar dudas en temas
+ que en un inicio eran completamente nuevos para mí, de igual forma este
+ camino recorrido me permitió afinar mi análisis crítico ante situaciones,
+ especialmente al momento de la redacción y elaboración de este documento.
 \end_layout
 
 \begin_layout Section
