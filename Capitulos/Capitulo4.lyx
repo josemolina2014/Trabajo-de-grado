@@ -5,7 +5,7 @@
 \save_transient_properties true
 \origin unavailable
 \textclass ociamthesis-lyx
-\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage
+\options a4paper,titlepage
 \use_default_options true
 \maintain_unincluded_children false
 \language spanish-mexico
@@ -94,7 +94,11 @@ name "chap:Caso-de-estudio"
 Acorde al alcance definido este documento, el caso de estudio se llevó a
  cabo únicamente en la compañía Alianza Bioversity – CIAT, donde se realizó
  el diagnóstico del estado actual de los procesos de entrega de software
- usando el modelo de capacidades propuesto y detallado en el capítulo anterior.
+ usando el 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto y detallado en el capítulo anterior.
  Con esta evaluación se buscó determinar la conveniencia de adoptar DevOps
  como estrategia para la entrega continua de productos de software en la
  organización.
@@ -140,7 +144,10 @@ Ejecución del caso de estudio
 
 \begin_layout Standard
 El proceso de medición de las capacidades DevOps en la compañía Alianza
- Bioversity – CIAT, implementó las etapas de uso del modelo de capacidades
+ Bioversity – CIAT, implementó las etapas de uso del 
+\shape italic
+modelo de capacidades
+\shape default
  descrito en la 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -227,13 +234,20 @@ ica de anonimato a la hora de responder el cuestionario junto con el enlace
 Ejecución:
 \series default
 \emph default
- En este paso se configuró el cuestionario del modelo de capacidades y se
- cargaron las preguntas con sus opciones de respuestas al formulario de
- encuestas de office 365.
+ En este paso se configuró el cuestionario del 
+\shape italic
+modelo de capacidades
+\shape default
+ y se cargaron las preguntas con sus opciones de respuestas al formulario
+ de encuestas de Office 365.
  Con el fin de brindar una alternativa de respuesta cuando el encuestado
  no tenia el suficiente conocimiento o experticia sobre el tema preguntado,
  se agregaron dos opciones de respuesta (No aplica y No sabe /No responde)
- a cada pregunta del modelo de capacidades en el formulario de encuesta.
+ a cada pregunta del 
+\shape italic
+modelo de capacidades
+\shape default
+ en el formulario de encuesta.
 \end_layout
 
 \begin_layout Standard
@@ -332,7 +346,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -345,7 +359,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Modelo de capacidades, distribución de encuestados 
+
+\shape italic
+Modelo de capacidades
+\shape default
+, distribución de encuestados 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Modelo-de-capacidades-distribucion-encuestados"
@@ -415,10 +433,13 @@ Al finalizar la fase de limpieza de datos, se ejecutaron las diferentes
 \end_layout
 
 \begin_layout Standard
-Acorde con la definición del modelo de capacidades cada opción de respuesta
- tiene asociado un único plan de acción, a partir de la nota de cada respuesta
- se obtuvo el plan de acción para cada una de las preguntas del modelo de
- evaluación.
+Acorde con la definición del 
+\shape italic
+modelo de capacidades
+\shape default
+ cada opción de respuesta tiene asociado un único plan de acción, a partir
+ de la nota de cada respuesta se obtuvo el plan de acción para cada una
+ de las preguntas del modelo de evaluación.
  El anexo 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -458,7 +479,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -533,7 +554,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -850,8 +871,11 @@ Resultados
 
 \begin_layout Standard
 Para identificar el estado de madurez de los procesos de desarrollo de software
- en una organización se utilizó el modelo de capacidades propuesto y detallado
- en el capítulo anterior.
+ en una organización se utilizó el 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto y detallado en el capítulo anterior.
  Para el caso particular CIAT, en este capítulo se implementó el modelo
  evaluación propuesto y se obtuvo un grupo de resultados que fueron analizados
  para determinar la conveniencia de adoptar DevOps como estrategia para
@@ -859,10 +883,21 @@ Para identificar el estado de madurez de los procesos de desarrollo de software
 \end_layout
 
 \begin_layout Standard
-El objetivo de la evaluación con el modelo de capacidades es determinar
- qué tan robustas están las prácticas de desarrollo de software en la organizaci
-ón frente las recomendaciones DevOps.
- El modelo se centró en evaluar las dimensiones y capacidades con el fin
+El objetivo de la evaluación con el 
+\shape italic
+modelo de capacidades
+\shape default
+ es determinar qué tan robustas están las prácticas de desarrollo de software
+ en la organización frente las recomendaciones DevOps.
+ Basado en lo propuesto por 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Sharma2017"
+literal "false"
+
+\end_inset
+
+, el modelo se centró en evaluar las dimensiones y capacidades con el fin
  de poder dar respuestas a las siguientes preguntas:
 \end_layout
 
@@ -905,6 +940,62 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Resultados-porcentaje-categoria-dimension"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta un resumen consolidado de las cifras porcentuales de los resultados
+ obtenidos desde el punto de vista de la categoría y de la dimensión evaluado
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../imagenes/resultados - dimension vs categoria.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resultados de evaluación por categoría y dimensión 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Resultados-porcentaje-categoria-dimension"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \series bold
@@ -923,8 +1014,9 @@ noprefix "false"
 
 \end_inset
 
-detalla las dimensiones y capacidades clasificadas en esta categoría, a
- las que se le realizó un análisis Top-down de dimensión a capacidad.
+ detalla las 9 capacidades y su dimensión asociada clasificadas en esta
+ categoría a las que a continuación se le realizó un análisis Top-down de
+ las dimensiones y capacidades presentes en esta escala de categorización.
 \end_layout
 
 \begin_layout Standard
@@ -1173,24 +1265,27 @@ name "tab:Resultado-Oportunidades de mejora"
 
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Itemize
-La entrega continua es la dimensión que presenta mayor debilidad, representa
- el 44.4% de las capacidades categorizadas como oportunidades de mejora,
- a nivel general el 50% de las capacidades que componen esta dimensión están
- en esta categoría y su calificación promedio la sitúa como debilidad, posicioná
-ndola como la dimensión a priorizar al momento de iniciar la adopción de
- prácticas DevOps en la organización.
+La entrega continua es la dimensión que presenta mayor debilidad, a nivel
+ de la categoría de 4 de las 9 (44.4%) capacidades clasificadas como oportunidad
+ pertenece a la dimensión entrega continua.
+ Desde el punto de vista de la dimensión el 50% (4 de las 8) de las capacidades
+ que componen esta entrega continua están en esta categoría y su calificación
+ promedio la sitúa como debilidad, posicionándola como la dimensión a priorizar
+ al momento de iniciar la adopción de prácticas DevOps en la organización.
  
 \end_layout
 
 \begin_layout Itemize
 La cultura es la segunda dimensión con mayor número de capacidades clasificadas
- en esta categoría con un 22%, a nivel general el 40% de sus capacidades
- se clasificaron en oportunidades de mejora y el promedio general de toda
- la dimensión la clasifica como Aceptable.
+ en esta categoría 2 que representa el 22% de las capacidades clasificadas
+ en esta categoría.
+ Desde el punto de vista dimensional el 40% de sus capacidades se clasificaron
+ en oportunidades de mejora y el promedio general de toda la dimensión la
+ clasifica como Aceptable.
  
 \end_layout
 
@@ -1200,15 +1295,17 @@ En un triple empate con el 11% de las capacidades clasificadas como oportunidad
 \end_layout
 
 \begin_layout Itemize
-Arquitectura con el 50% de sus capacidades clasificadas como oportunidades
- de mejora, donde su nota promedio la clasifica como Aceptable, se resalta
- la adopción incremental de arquitecturas físicas como lógicas de bajo acoplamie
-nto permitan gestionar ambientes de software a dinámicamente.
+Arquitectura con 1 capacidad clasificada, y que desde el punto de vista
+ dimensional representa el 50% de sus capacidades clasificadas como oportunidade
+s de mejora, su nota promedio la clasifica como Aceptable, se resalta la
+ adopción incremental de arquitecturas físicas como lógicas de bajo acoplamiento
+ permitan gestionar ambientes de software a dinámicamente.
  
 \end_layout
 
 \begin_layout Itemize
-Gestión LEAN con el 20% de sus capacidades clasificadas como oportunidad
+Gestión LEAN con 1 capacidad clasificada en esta categoría, a nivel de dimensión
+ la presentación es del 20% de sus capacidades clasificadas como oportunidad
  de mejora y una nota promedio Aceptable.
  En este nivel, la prioridad es redefinir y adoptar mecanismos que permitan
  reducir los cuellos de botella en la gestión y aprobación de procesos,
@@ -1218,8 +1315,9 @@ Gestión LEAN con el 20% de sus capacidades clasificadas como oportunidad
 \end_layout
 
 \begin_layout Itemize
-Producto y procesos con el 25% de sus capacidades clasificadas dentro de
- esta categoría y su promedio general se clasifica en la categoría aceptable,
+Producto y procesos con 1 capacidad clasificada en esta categoría, a nivel
+ dimensional refleja que el 25% de sus capacidades están clasificadas dentro
+ de esta categoría y su promedio general se clasifica en la categoría aceptable,
  en este nivel la priorización está enmarcada en adoptar los mecanismos
  necesarios para recolectar eficientemente las retroalimentaciones de los
  usuarios finales (clientes) en todo el ciclo de vida del desarrollo del
@@ -1262,18 +1360,18 @@ noprefix "false"
 
 \end_inset
 
- presenta el grupo de capacidades clasificadas como Aceptables, estos representa
-n los elementos clasificados como intermedio, donde se cuenta con procesos
- estandarizados que apoyan la toma de decisiones compartidas, procesos centrales
- automatizados y parcialmente integrados a lo largo del ciclo de vida del
- desarrollo de software.
+ presenta el grupo de 6 capacidades clasificadas como Aceptables, estos
+ representan los elementos clasificados como intermedio, donde se cuenta
+ con procesos estandarizados que apoyan la toma de decisiones compartidas,
+ procesos centrales automatizados y parcialmente integrados a lo largo del
+ ciclo de vida del desarrollo de software.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1471,18 +1569,20 @@ Con un doble empate con el 33% de las capacidades categorizadas como aceptables
 \end_layout
 
 \begin_layout Itemize
-Producto y proceso, con el 50% del total de las capacidades de la dimensión
- clasificadas en esta categoría, en este nivel se busca pulir y potenciar
- los procesos clave como visibilizar el flujo de valor del trabajo realizado
- durante el ciclo de vida del desarrollo de software mejorando la transparencia
- y la comunicación entre todos los miembros del equipo de trabajo.
+Producto y proceso, con 2 capacidades clasificadas como aceptables, desde
+ el punto de vista de la dimensión representa 2 de las 4 (50%) capacidades
+ de toda la dimensión clasificadas en esta categoría.
+ En este nivel se busca pulir y potenciar los procesos clave como visibilizar
+ el flujo de valor del trabajo realizado durante el ciclo de vida del desarrollo
+ de software mejorando la transparencia y la comunicación entre todos los
+ miembros del equipo de trabajo.
  
 \end_layout
 
 \begin_layout Itemize
-Gestión LEAN y monitorización, el 40 % de todas las capacidades de esta
- dimensión se clasifican en esta categoría, a nivel general toda dimensión
- se clasifica como aceptable.
+Gestión LEAN y monitorización, tuvo 2 de sus capacidades clasificadas en
+ esta categoría; desde el punto de vista de la dimensión estas 2 dimensiones
+ representan el 40 % de todas las capacidades (5) de esta dimensión.
  Para esta dimensión se debe potenciar todos los aspectos de monitoreo tanto
  de infraestructura como de operación.
  
@@ -1493,19 +1593,22 @@ Con un doble empate en el 16% de las capacidades se encuentran las dimensiones:
 \end_layout
 
 \begin_layout Itemize
-Cultura, con el 20% del total de sus capacidades clasificadas en la categoría
- aceptable, en este nivel se busca fortalecer el trabajo en equipo especialmente
- entre desarrollo, operaciones buscando la toma de decisiones compartidas
- y el trabajo colaborativo en equipos multifuncionales que incluyan calidad
- y seguridad de software.
+Cultura, con 1 capacidad aquí clasificada y desde el punto de vista de la
+ dimensión representa el 20% del total de sus capacidades clasificadas en
+ la categoría aceptable.
+ En este nivel se busca fortalecer el trabajo en equipo especialmente entre
+ desarrollo, operaciones buscando la toma de decisiones compartidas y el
+ trabajo colaborativo en equipos multifuncionales que incluyan calidad y
+ seguridad de software.
  
 \end_layout
 
 \begin_layout Itemize
-Entrega continua, el 12.5% del total de las capacidades de esta dimensión
- están clasificadas en esta categoría, donde se destaca el fortalecimiento
- técnico y preventivo de los aspectos de seguridad desde el inicio del ciclo
- de vida del desarrollo.
+Entrega continua, 1 de sus capacidades se clasificó en esta categoría, desde
+ el punto de vista de la dimensión esta capacidad representa el 12.5% del
+ total de las capacidades de la dimensión.
+ Se destaca el fortalecimiento técnico y preventivo de los aspectos de seguridad
+ desde el inicio del ciclo de vida del desarrollo.
  
 \end_layout
 
@@ -1544,7 +1647,7 @@ noprefix "false"
 
 \end_inset
 
- presenta las capacidades clasificadas como Fortalezas, estas presentan
+ presenta las 9 capacidades clasificadas como Fortalezas, estas presentan
  los niveles de calificación destacado y avanzado.
  A este nivel se usan procesos estandarizados y avanzados que apoyan la
  toma de decisiones compartidas, los procesos de automatización y pruebas
@@ -1814,10 +1917,11 @@ name "tab:Resultado-Fortalezas"
 \end_layout
 
 \begin_layout Itemize
-La entrega continua con el 33% de las capacidades clasificadas en esta categoría
- de fortalezas, se posiciona como la dimensión con más representativa, a
- nivel global representa el 37% todas las capacidades de la dimensión.
- 
+La entrega continua con 3 de las 9 las capacidades clasificadas en esta
+ categoría de fortalezas, se posiciona como la dimensión con más representativa
+ en esta categoría, a nivel de la dimensión estas 3 capacidades representan
+ el 37% de todas las capacidades asociadas a la dimensión.
+ Se destaca el uso avanzando de sistemas de control de versiones.
 \end_layout
 
 \begin_layout Standard
@@ -1826,19 +1930,21 @@ Con un doble empate en el 22.2% de las capacidades clasificadas como fortalezas
 \end_layout
 
 \begin_layout Itemize
-Cultura que a nivel global representa el 40% de todas sus capacidades, aunque
- su promedio general la clasifique en la categoría Aceptable.
+Cultura con 2 capacidades aquí clasificadas y que nivel de toda la dimensión
+ representa el 40% de todas sus capacidades clasificadas como Fortalezas.
  En este nivel el enfoque se debe dar en términos de la gestión de los equipos
  y la toma de decisiones de la organización u área de implementación.
  
 \end_layout
 
 \begin_layout Itemize
-Gestión Lean y monitorización, con el 40% de todas sus capacidades clasificadas
- como Fortalezas, esta dimensión se debe enfocar en potenciar y alcanzar
- niveles de predicción proactiva de la salud de los componentes de la aplicación
- tanto a nivel de físico y lógico, el objetivo es anticipar fallos por alta
- demanda o picos de trabajo y procesamiento.
+Gestión Lean y monitorización con 2 capacidades clasificadas en esta categoría,
+ a nivel de toda la dimensión representa el 40% de todas sus capacidades
+ clasificadas como Fortalezas.
+ Esta dimensión se debe enfocar en potenciar y alcanzar niveles de predicción
+ proactiva de la salud de los componentes de la aplicación tanto a nivel
+ de físico y lógico, el objetivo es anticipar fallos por alta demanda o
+ picos de trabajo y procesamiento.
  
 \end_layout
 
@@ -1848,25 +1954,29 @@ Con un doble empate al 11.1% de las capacidades clasificadas es esta categoría
 \end_layout
 
 \begin_layout Itemize
-Producto y proceso con el 25% de todas sus capacidades aquí clasificadas,
- se debe abordar con un enfoque de gestión de trabajo ágil donde las tareas
+Producto y proceso con 1 capacidad clasificada en esta categoría y que desde
+ el punto de vista general de la dimensión presenta el 25% de todas sus
+ capacidades aquí clasificadas.
+ Se debe abordar con un enfoque de gestión de trabajo ágil donde las tareas
  se distribuyan en lotes pequeños, que puedan entregarse en periodos de
  tiempo cortos (horas, minutos e inclusive segundos).
  
 \end_layout
 
 \begin_layout Itemize
-Arquitectura con el 50% de sus capacidades clasificadas en esta categoría,
- se debe abordar con un enfoque y visión de alcanzar niveles de madurez,
- experiencia y empoderamiento de los equipos que permitan dar la liberta
- de que ellos mismos puedan definir la arquitectura (física, lógica) que
- mejor solucione los problemas particulares propios de los proyectos de
- software.
+Arquitectura con 1 capacidad aquí clasificada, que desde el punto de vista
+ de la dimensión presenta el 50% de sus capacidades clasificadas en esta
+ categoría.
+ Esta dimensión se debe abordar con un enfoque y visión de alcanzar niveles
+ de madurez, experiencia y empoderamiento de los equipos que permitan dar
+ la liberta de que ellos mismos puedan definir la arquitectura (física,
+ lógica) que mejor solucione los problemas particulares propios de los proyectos
+ de software.
  
 \end_layout
 
 \begin_layout Standard
-En resumen, los aspectos más importantes clasificados como aceptables que
+En resumen, los aspectos más importantes clasificados como fortalezas que
  se deben priorizar son:
 \end_layout
 
@@ -1910,7 +2020,7 @@ A nivel general CIAT obtuvo un resultado general Aceptable con una nota
  promedio de 3.0, lo que indica que la empresa no debe iniciar el camino
  de transformación DevOps desde cero.
  La mayor parte de sus prácticas técnicas y gestión de procesos están entre
- niveles novato e intermedio, lo que conlleva a que la compañía debe categorizar
+ niveles novato e intermedio, lo que conlleva a que la compañía deba categorizar
  que capacidades se deben abordar con mayor prioridad.
 \end_layout
 
@@ -1924,7 +2034,7 @@ Gestión:
 
 \begin_deeper
 \begin_layout Itemize
-Adoptar metodologías de trabajo agiles 
+Adoptar metodologías de trabajo ágiles 
 \end_layout
 
 \begin_layout Itemize
@@ -2052,26 +2162,32 @@ Las tres fases de adopción modelo son:
 
 \begin_layout Enumerate
 Reevaluar, adoptar e implementar los planes de acción de las capacidades
- clasificadas en oportunidades de mejora 
+ clasificadas en oportunidades de mejora.
+ 
 \end_layout
 
 \begin_layout Enumerate
-Ajustar y potenciar las capacidades clasificadas como aceptable 
+Ajustar y potenciar las capacidades clasificadas como aceptable.
+ 
 \end_layout
 
 \begin_layout Enumerate
 Pulir, robustecer y direccionar las capacidades categorizadas como fortalezas
- hacia una filosofía de mejora continua 
+ hacia una filosofía de mejora continua.
 \end_layout
 
 \begin_layout Standard
+Los cuales se detallan a continuación:
+\end_layout
+
+\begin_layout Enumerate
 
 \series bold
 \emph on
 Abordar las oportunidades de mejora:
 \series default
 \emph default
-La primera fase se fundamenta en priorizar la adopción e implementación
+ La primera fase se fundamenta en priorizar la adopción e implementación
  de las recomendaciones generales por dimensión y del plan de acción sobre
  cada capacidad clasificada como oportunidades de mejora, la 
 \begin_inset CommandInset ref
@@ -2084,14 +2200,11 @@ noprefix "false"
 \end_inset
 
  detalla las dimensiones y capacidades clasificadas en esta categoría, a
- las que se le realizó un análisis Top-down de dimensión a capacidad..
-\begin_inset Newline newline
-\end_inset
-
-
+ las que se le realizó un análisis Top-down de dimensión a capacidad.
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2101,6 +2214,7 @@ Entrega continua
  enfocarse en factores clave como:
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 \noindent
 Definir y adoptar una política de calidad de software.
@@ -2124,7 +2238,8 @@ Adoptar procesos de automatización de despliegue permiten alcanzar una mejora
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2139,7 +2254,7 @@ es, infraestructura, calidad, seguridad, entre otros)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2153,7 +2268,7 @@ o permitan gestionar ambientes de software a dinámicamente.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2168,7 +2283,7 @@ Gestión LEAN
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2183,7 +2298,8 @@ entaciones de los usuarios finales (clientes) en todo el ciclo de vida del
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Enumerate
 \noindent
 
 \series bold
@@ -2205,13 +2321,10 @@ noprefix "false"
 
  presenta el grupo de capacidades clasificadas como Aceptables, y que representa
 n la segunda fase del plan de adopción de recomendaciones y plan de acción.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2231,7 +2344,7 @@ Producto y proceso
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2248,7 +2361,7 @@ Gestión LEAN y monitorización
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2267,7 +2380,7 @@ s, el objetivo es llegar a la toma de decisiones compartidas, integrar al
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2283,7 +2396,8 @@ Entrega continua
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Enumerate
 \noindent
 
 \series bold
@@ -2309,7 +2423,9 @@ noprefix "false"
  capacidades clasificadas como aceptables.
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Itemize
+\noindent
 
 \series bold
 La entrega continua
@@ -2319,31 +2435,37 @@ La entrega continua
  como:
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
+\noindent
 Manejo eficiente de sistemas de control de versiones.
  
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Estrategias que optimicen el uso de ramas o líneas de tiempo.
  
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Entrega y despliegue de lotes de cambios pequeños.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+\noindent
 Por último, reevaluar y potenciar todos los procesos denominados automáticos
  que intervengan durante el proceso de llevar un cambio desde el desarrollador
- al cliente final asegurando aspectos de calidad, seguridad y confiabilidad..
+ al cliente final asegurando aspectos de calidad, seguridad y confiabilidad.
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2361,7 +2483,7 @@ plinarios con propósitos de aprendizaje y trabajo colaborativo.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2382,7 +2504,7 @@ Gestión Lean y monitorización
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2402,7 +2524,7 @@ Producto y proceso
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \noindent
 
 \series bold
@@ -2411,13 +2533,14 @@ Arquitectura
 , abordar con un enfoque y visión de alcanzar niveles de madurez, experiencia
  y empoderamiento de los equipos que permitan dar la libertad de que ellos
  mismos puedan definir la arquitectura (física, lógica) que mejor solucione
- los problemas particulares propios de los proyectos de software..
+ los problemas particulares propios de los proyectos de software.
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Subsubsection
 Aspectos a tener en cuenta
 \end_layout
@@ -2462,7 +2585,7 @@ Reducción de tiempo en el despliegue
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -2834,7 +2957,7 @@ A pesar de las limitaciones el área de desarrollo cuenta con altos niveles
  de aceptación de parte de sus principales usuarios funcionales, la encuesta
  NPS realizada a este público específico y que se detalla en el anexo 
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand nameref
 reference "chap:anexo-Encuesta-de-medición"
 plural "false"
 caps "false"
@@ -2933,13 +3056,21 @@ Resumen del capítulo
 \begin_layout Standard
 Como caso de estudio de este documento, se realizó el diagnóstico de los
  procesos de entrega de software en la compañía Alianza Bioversity – CIAT
- por medio de la implementación del modelo de capacidades propuesto.
+ por medio de la implementación del 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto.
  La ejecución del modelo se realizó con un grupo representativo de las áreas
  de desarrollo e infraestructura de la organización logrando una visión
  general de los procesos desde dos puntos de vista diferente.
- Con los resultados del modelo de capacidades, se identificaron y clasificaron
- los aspectos débiles y fuertes acorde a las dimensiones y capacidades evaluador
-es para que sean abordados a través de un plan de recomendaciones.
+ Con los resultados del 
+\shape italic
+modelo de capacidades
+\shape default
+, se identificaron y clasificaron los aspectos débiles y fuertes acorde
+ a las dimensiones y capacidades evaluadores para que sean abordados a través
+ de un plan de recomendaciones.
 \end_layout
 
 \begin_layout Standard
@@ -2988,8 +3119,11 @@ Reducción de tiempo en el despliegue
 Entender el estado actual:
 \series default
  Para identificar el estado de madurez de los procesos de desarrollo de
- software en una organización se utilizó el modelo de capacidades propuesto
- para el caso particular CIAT.
+ software en una organización se utilizó el 
+\shape italic
+modelo de capacidades
+\shape default
+ propuesto para el caso particular CIAT.
  Utilizando la escala de clasificación se presentan los resultados más important
 es de cada categoría: 
 \end_layout
