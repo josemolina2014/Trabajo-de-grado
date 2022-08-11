@@ -99,6 +99,10 @@ FICHA RESUMEN
 
 \series bold
 TRABAJO DE GRADO
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -163,7 +167,7 @@ FECHA DE INICIO: 27 Julio del 2021
 \end_layout
 
 \begin_layout Enumerate
-DURACIÓN ESTIMADA (En meses): 12 meses 
+DURACIÓN ESTIMADA (En meses): 6 meses 
 \end_layout
 
 \end_body
