@@ -168,23 +168,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-%Modifica interlineado
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-baselineskip=18pt plus1pt
-\end_layout
-
-\begin_layout Plain Layout
-
- 
-\end_layout
-
 \end_inset
 
 
@@ -209,7 +192,7 @@ begin{romanpages}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Resumen/Ficha Resumen.lyx"
+filename "Anexos/CartaSustentación.lyx"
 
 \end_inset
 
@@ -219,7 +202,7 @@ filename "Resumen/Ficha Resumen.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Anexos/CartaSustentación.lyx"
+filename "Resumen/Datos actuales.lyx"
 
 \end_inset
 
@@ -239,7 +222,7 @@ filename "Anexos/CartaAvalCIAT.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "portada/portada.lyx"
+filename "Resumen/Ficha Resumen.lyx"
 
 \end_inset
 
@@ -260,6 +243,16 @@ filename "Resumen/Abstract.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Resumen/AbstractEnglish.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "portada/portada.lyx"
 
 \end_inset
 
