@@ -164,51 +164,7 @@ Más de 10 años
 
 \end_deeper
 \begin_layout Enumerate
-En una escala de 0 a 10, donde 10 es 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-Completamente
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- y 0 es 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-En nada
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-.
+En una escala de 0 a 10, donde 10 es "Completamente" y 0 es "En nada".
  
 \end_layout
 
@@ -223,51 +179,9 @@ status collapsed
 
 \end_deeper
 \begin_layout Enumerate
-En una escala de 0 a 10, donde 10 es 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-Completamente satisfecho
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- y 0 es 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-Completamente insatisfecho
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-.
+4.
+ En una escala de 0 a 10, donde 10 es "Completamente satisfecho" y 0 es
+ "Completamente insatisfecho".
  
 \end_layout
 
@@ -283,51 +197,9 @@ status collapsed
 
 \end_deeper
 \begin_layout Enumerate
-En una escala de 0 a 10, donde 10 es 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-Completamente satisfecho
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
- y 0 es 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-Completamente insatisfecho
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-"
-\end_layout
-
-\end_inset
-
-.
+5.
+ En una escala de 0 a 10, donde 10 es "Completamente satisfecho" y 0 es
+ "Completamente insatisfecho".
  
 \end_layout
 
