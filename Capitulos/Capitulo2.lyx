@@ -298,7 +298,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo cascada.png
+	filename ../imagenes/modelo cascada.png
 	scale 60
 
 \end_inset
@@ -449,7 +449,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/caracteristicas generales.png
+	filename ../imagenes/caracteristicas generales.png
 	scale 60
 
 \end_inset
@@ -569,7 +569,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/enfoques y metodos agile.png
+	filename ../imagenes/enfoques y metodos agile.png
 	lyxscale 40
 	scale 30
 
@@ -810,7 +810,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/cultura devops.png
+	filename ../imagenes/cultura devops.png
 	lyxscale 60
 	scale 40
 
@@ -1059,7 +1059,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Integración continua.png
+	filename ../imagenes/Integración continua.png
 	scale 60
 
 \end_inset
@@ -1161,7 +1161,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/entrega continua.png
+	filename ../imagenes/entrega continua.png
 	scale 60
 
 \end_inset
@@ -1267,12 +1267,12 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Diferencias entre integración continua, entrega y despliegue.png
+	filename ../imagenes/Diferencias entre integración continua, entrega y despliegue.png
 	lyxscale 50
 	scale 40
 
@@ -1576,7 +1576,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Escala de rendimiento por métricas.png
+	filename ../imagenes/Escala de rendimiento por métricas.png
 	scale 60
 
 \end_inset
@@ -1647,7 +1647,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Evolución de la industria en escala de rendimiento.png
+	filename ../imagenes/Evolución de la industria en escala de rendimiento.png
 	scale 60
 
 \end_inset
@@ -1835,12 +1835,12 @@ Cultura:
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Áreas clave para la adopción DevOps.PNG
+	filename ../imagenes/Áreas clave para la adopción DevOps.PNG
 	lyxscale 50
 	scale 40
 
@@ -2097,12 +2097,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Modelo de competencias – propuesto por Rico de Feijter.png
+	filename ../imagenes/Modelo de competencias – propuesto por Rico de Feijter.png
 	lyxscale 60
 	scale 60
 
@@ -2388,7 +2388,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo accelerate.png
+	filename ../imagenes/modelo accelerate.png
 	scale 60
 
 \end_inset
@@ -2649,7 +2649,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/devopsgroup_calms_model_watermark_001-01.png
+	filename ../imagenes/devopsgroup_calms_model_watermark_001-01.png
 	lyxscale 60
 	scale 40
 
@@ -2727,7 +2727,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de madurez devsecops.png
+	filename ../imagenes/modelo de madurez devsecops.png
 	lyxscale 60
 	scale 35
 
@@ -2859,12 +2859,12 @@ literal "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de evaluacion - health radar.png
+	filename ../imagenes/modelo de evaluacion - health radar.png
 	scale 40
 
 \end_inset
@@ -2987,12 +2987,12 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/ejemplo de resultados DORA.png
+	filename ../imagenes/ejemplo de resultados DORA.png
 	scale 60
 
 \end_inset
@@ -3121,12 +3121,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/estructura organizacional ciat.png
+	filename ../imagenes/estructura organizacional ciat.png
 	scale 60
 
 \end_inset
@@ -3259,12 +3259,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de capaciades-herrmientas DevOps de ciat.png
+	filename ../imagenes/modelo de capaciades-herrmientas DevOps de ciat.png
 	scale 60
 
 \end_inset
@@ -3319,12 +3319,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de capaciades-Pipeline existente - ciat .png
+	filename ../imagenes/modelo de capaciades-Pipeline existente - ciat .png
 	scale 50
 
 \end_inset

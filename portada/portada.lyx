@@ -120,7 +120,7 @@ thispagestyle{empty}
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/logo javeriana.png
+	filename ../imagenes/logo javeriana.png
 	width 70page%
 
 \end_inset

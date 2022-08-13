@@ -271,12 +271,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado general encuesta.png
+	filename ../imagenes/anexo 1 - resultado general encuesta.png
 	lyxscale 60
 	scale 60
 
@@ -333,12 +333,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 1.png
+	filename ../imagenes/anexo 1 - resultado pregunta 1.png
 	scale 60
 
 \end_inset
@@ -380,12 +380,12 @@ La pregunta 2, cuya finalidad era conocer la antigüedad de los encuestados
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 2.png
+	filename ../imagenes/anexo 1 - resultado pregunta 2.png
 	scale 60
 
 \end_inset
@@ -428,12 +428,12 @@ La pregunta 3, se obtuvo una medida de opción NPS de 34%, el cual es un
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 3.png
+	filename ../imagenes/anexo 1 - resultado pregunta 3.png
 	scale 60
 
 \end_inset
@@ -474,12 +474,12 @@ Para la pregunta 4, se obtuvo una medida de opción NPS de 53%, el cual es
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 4.png
+	filename ../imagenes/anexo 1 - resultado pregunta 4.png
 	scale 60
 
 \end_inset
@@ -526,12 +526,12 @@ La pregunta 5, se obtuvo una medida de opción NPS de 46%, el cual es un
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 5.png
+	filename ../imagenes/anexo 1 - resultado pregunta 5.png
 	scale 60
 
 \end_inset
@@ -575,12 +575,12 @@ La sexta y última pregunta de esta encuesta fue un espacio abierto para
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 6.png
+	filename ../imagenes/anexo 1 - resultado pregunta 6.png
 	scale 60
 
 \end_inset
@@ -613,12 +613,12 @@ Encuesta de percepción respuestas a la pregunta 6
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/anexo 1 - resultado pregunta 6-comentarios.png
+	filename ../imagenes/anexo 1 - resultado pregunta 6-comentarios.png
 	scale 60
 
 \end_inset

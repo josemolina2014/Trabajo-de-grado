@@ -281,12 +281,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resultados encuesta CIAT - número de respuestas.png
+	filename ../imagenes/resultados encuesta CIAT - número de respuestas.png
 	scale 80
 
 \end_inset
@@ -346,12 +346,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resultados encuesta CIAT - distribución de encuestados.png
+	filename ../imagenes/resultados encuesta CIAT - distribución de encuestados.png
 
 \end_inset
 
@@ -479,12 +479,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resultados encuesta CIAT - nota final.png
+	filename ../imagenes/resultados encuesta CIAT - nota final.png
 
 \end_inset
 
@@ -554,12 +554,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/paos para iniciar transformación digital devops.png
+	filename ../imagenes/paos para iniciar transformación digital devops.png
 	lyxscale 60
 	scale 40
 
@@ -654,12 +654,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Frecuencia de despliegues CIAT - 2021.png
+	filename ../imagenes/Frecuencia de despliegues CIAT - 2021.png
 	scale 40
 
 \end_inset
@@ -702,12 +702,12 @@ Fuente: Elaboración propia
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/Frecuencia de entrega CIAT - 2021.png
+	filename ../imagenes/Frecuencia de entrega CIAT - 2021.png
 	scale 60
 
 \end_inset
@@ -824,11 +824,12 @@ https://tinyurl.com/4vp9s22c
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/resumen general caso de estudio CIAT.png
+	filename ../imagenes/resumen general caso de estudio CIAT.png
 	lyxscale 50
 	scale 50
 

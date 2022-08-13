@@ -210,12 +210,12 @@ s propuesto se complementa con una justificación del enfoque o propósito
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de capaciades-diseño del modelo de capaciades.drawio.png
+	filename ../imagenes/modelo de capaciades-diseño del modelo de capaciades.drawio.png
 	scale 60
 
 \end_inset
@@ -320,12 +320,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de capaciades-estructura.png
+	filename ../imagenes/modelo de capaciades-estructura.png
 	scale 60
 
 \end_inset
@@ -540,12 +540,12 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de capaciades-dimensiones y capacidades.drawio-global.png
+	filename ../imagenes/modelo de capaciades-dimensiones y capacidades.drawio-global.png
 	width 70page%
 
 \end_inset
@@ -1532,12 +1532,12 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/ejemplo graficos reporte dashboard.png
+	filename ../imagenes/ejemplo graficos reporte dashboard.png
 	scale 60
 
 \end_inset
@@ -1600,12 +1600,12 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/modelo de capaciades-diseño del proceso de evaluación.pasos.png
+	filename ../imagenes/modelo de capaciades-diseño del proceso de evaluación.pasos.png
 	scale 60
 
 \end_inset
