@@ -241,7 +241,7 @@ modelo de capacidades
  y se cargaron las preguntas con sus opciones de respuestas al formulario
  de encuestas de Office 365.
  Con el fin de brindar una alternativa de respuesta cuando el encuestado
- no tenia el suficiente conocimiento o experticia sobre el tema preguntado,
+ no tenía el suficiente conocimiento o experticia sobre el tema preguntado,
  se agregaron dos opciones de respuesta (No aplica y No sabe /No responde)
  a cada pregunta del 
 \shape italic
@@ -396,7 +396,7 @@ Fuente: Elaboración propia
 Resultados:
 \series default
 \emph default
- En este paso se creó un segundo archivo Excel que contine el 
+ En este paso se creó un segundo archivo Excel que contiene el 
 \shape italic
 modelo de capacidades
 \shape default
@@ -404,7 +404,7 @@ modelo de capacidades
  la relación entre el cuestionario y el modelo de referencia, las opciones
  de respuestas a cada pregunta, los planes de acción, la escala de medición
  y el rango de notas.
- Junto con el archivo de los resultados de la encuesta, fueron cargadas
+ Junto con el archivo de los resultados de la encuesta, fueron cargados
  en un reporte analítico desarrollado en la herramienta Power BI, que se
  encargó de realizar todo el proceso de transformación de resultados en
  unidades de análisis.
@@ -636,7 +636,7 @@ noprefix "false"
  presenta el tiempo (medido en días calendario) de despliegue en producción
  para el año 2021 en el CIAT, en este caso la unidad de medida fue horas
  con un promedio 2021 de 15.45 horas.
- El segundo aspecto que determino el enfoque es la frecuencia de entrega
+ El segundo aspecto que determinó el enfoque es la frecuencia de entrega
  de productos, la 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -753,25 +753,25 @@ Visualización de datos
 
 \begin_layout Standard
 Para la presentación de los resultados de la evaluación del caso de uso
- (en este caso CIAT), se creó un reporte consolidado que a traves de gráficos
+ (en este caso CIAT), se creó un reporte consolidado que a través de gráficos
  analíticos y una estrategia de visualización que va de lo general a lo
- especifico permitieron identificar el estado actual de la organización
- acorde a las diferentes dimensiones y capaciades evaluadas en el 
+ específico permitieron identificar el estado actual de la organización
+ acorde a las diferentes dimensiones y capacidades evaluadas en el 
 \shape italic
 modelo de capacidades
 \shape default
  propuesto.
- Por otro lado, apoyados en la escala de evaluación definda el reporte permitió
- identificar que elementos se deben priorizar al momento de iniciar la adopción
- de prácticas DevOps para que la compañía CIAT pueda mejorar los tiempos
- de entrega
+ Por otro lado, apoyados en la escala de evaluación definida el reporte
+ permitió identificar qué elementos se deben priorizar al momento de iniciar
+ la adopción de prácticas DevOps para que la compañía CIAT pueda mejorar
+ los tiempos de entrega
 \end_layout
 
 \begin_layout Standard
 Una vez se depuró y consolidó el resultado de la encuesta de evaluación
  del caso de uso (en este caso CIAT), se creó un reporte consolidado que
  por medio de una estrategia de visualización de gráficos analíticos que
- va de lo general a lo especifico, logró identificar el estado actual de
+ va de lo general a lo específico, logró identificar el estado actual de
  la organización acorde a las diferentes dimensiones y capacidades evaluadas
  en el 
 \shape italic
@@ -788,8 +788,8 @@ noprefix "false"
 
 \end_inset
 
-), el reporte permitió clasificar de los resultados en un orden que permite
- priorizar que elementos se deben tratar primero al momento de iniciar la
+), el reporte permitió clasificar los resultados en un orden que permite
+ priorizar qué elementos se deben tratar primero al momento de iniciar la
  adopción de prácticas DevOps en la organización CIAT.
 \end_layout
 
@@ -805,7 +805,7 @@ noprefix "false"
 \end_inset
 
  presenta una vista preliminar del reporte con los resultados de la evaluación
- del caso de estudio CIAT, este reporte esta disponibe para su consulta
+ del caso de estudio CIAT, este reporte está disponible para su consulta
  web a través del siguiente enlace 
 \begin_inset Flex URL
 status collapsed
@@ -1275,7 +1275,7 @@ La entrega continua es la dimensión que presenta mayor debilidad, a nivel
  pertenece a la dimensión entrega continua.
  Desde el punto de vista de la dimensión el 50% (4 de las 8) de las capacidades
  que componen esta entrega continua están en esta categoría y su calificación
- promedio la sitúa como debilidad, posicionándola como la dimensión a priorizar
+ promedio la sitúa como debilidad, ubicándola  como la dimensión a priorizar
  al momento de iniciar la adopción de prácticas DevOps en la organización.
  
 \end_layout
@@ -1300,7 +1300,7 @@ Arquitectura con 1 capacidad clasificada, y que desde el punto de vista
  dimensional representa el 50% de sus capacidades clasificadas como oportunidade
 s de mejora, su nota promedio la clasifica como Aceptable, se resalta la
  adopción incremental de arquitecturas físicas como lógicas de bajo acoplamiento
- permitan gestionar ambientes de software a dinámicamente.
+ que permitan gestionar ambientes de software a dinámicamente.
  
 \end_layout
 
@@ -1310,7 +1310,7 @@ Gestión LEAN con 1 capacidad clasificada en esta categoría, a nivel de dimensi
  de mejora y una nota promedio Aceptable.
  En este nivel, la prioridad es redefinir y adoptar mecanismos que permitan
  reducir los cuellos de botella en la gestión y aprobación de procesos,
- depurando procesos que no generen valor y solo produzca retrasos en la
+ depurando procesos que no generen valor y sólo produzcan retrasos en la
  cadena de valor de la entrega de software.
  
 \end_layout
@@ -1922,7 +1922,7 @@ La entrega continua con 3 de las 9 las capacidades clasificadas en esta
  categoría de fortalezas, se posiciona como la dimensión con más representativa
  en esta categoría, a nivel de la dimensión estas 3 capacidades representan
  el 37% de todas las capacidades asociadas a la dimensión.
- Se destaca el uso avanzando de sistemas de control de versiones.
+ Se destaca el uso avanzado de sistemas de control de versiones.
 \end_layout
 
 \begin_layout Standard
@@ -1944,13 +1944,13 @@ Gestión Lean y monitorización con 2 capacidades clasificadas en esta categorí
  clasificadas como Fortalezas.
  Esta dimensión se debe enfocar en potenciar y alcanzar niveles de predicción
  proactiva de la salud de los componentes de la aplicación tanto a nivel
- de físico y lógico, el objetivo es anticipar fallos por alta demanda o
- picos de trabajo y procesamiento.
+ físico y lógico, el objetivo es anticipar fallos por alta demanda o picos
+ de trabajo y procesamiento.
  
 \end_layout
 
 \begin_layout Standard
-Con un doble empate al 11.1% de las capacidades clasificadas es esta categoría
+Con un doble empate al 11.1% de las capacidades clasificadas en esta categoría
  que encuentran las capacidades:
 \end_layout
 
@@ -1959,7 +1959,7 @@ Producto y proceso con 1 capacidad clasificada en esta categoría y que desde
  el punto de vista general de la dimensión presenta el 25% de todas sus
  capacidades aquí clasificadas.
  Se debe abordar con un enfoque de gestión de trabajo ágil donde las tareas
- se distribuyan en lotes pequeños, que puedan entregarse en periodos de
+ se distribuyen en lotes pequeños, que puedan entregarse en periodos de
  tiempo cortos (horas, minutos e inclusive segundos).
  
 \end_layout
@@ -1970,7 +1970,7 @@ Arquitectura con 1 capacidad aquí clasificada, que desde el punto de vista
  categoría.
  Esta dimensión se debe abordar con un enfoque y visión de alcanzar niveles
  de madurez, experiencia y empoderamiento de los equipos que permitan dar
- la liberta de que ellos mismos puedan definir la arquitectura (física,
+ la libertad de que ellos mismos puedan definir la arquitectura (física,
  lógica) que mejor solucione los problemas particulares propios de los proyectos
  de software.
  
@@ -2022,7 +2022,7 @@ A nivel general CIAT obtuvo un resultado general Aceptable con una nota
  de transformación DevOps desde cero.
  La mayor parte de sus prácticas técnicas y gestión de procesos están entre
  niveles novato e intermedio, lo que conlleva a que la compañía deba categorizar
- que capacidades se deben abordar con mayor prioridad.
+ qué capacidades se deben abordar con mayor prioridad.
 \end_layout
 
 \begin_layout Standard
@@ -2089,9 +2089,9 @@ Este es uno de los aspectos que la organización debe poner mucha atención
 
 \begin_layout Standard
 Un factor por destacar es que la compañía tiene claramente definido su stack
- tecnológico y el 88% de todo su portafolio de aplicaciones esta categorizado
+ tecnológico y el 88% de todo su portafolio de aplicaciones está categorizado
  en dos paquetes tecnológicos, por lo que la modernización no será un proceso
- en extremo complejo, pero si requerirá de horas de trabajo para cada proyecto.
+ en extremo complejo, pero sí requerirá de horas de trabajo para cada proyecto.
 \end_layout
 
 \end_deeper
@@ -2105,7 +2105,7 @@ Un factor por destacar es que la compañía tiene claramente definido su stack
 CIAT y particularmente las áreas de desarrollo e infraestructura desde su
  dirección media y operacional tienen el propósito mejorar sus procesos,
  por lo que la adopción de prácticas DevOps no se estima que sea una tarea
- que genere mucha resistencia, debido a que hace un par de años las áreas
+ que genera mucha resistencia, debido a que hace un par de años las áreas
  ya tuvieron un intento de adopción DevOps que no se completó porque solo
  se le dio un enfoque técnico y no se contemplaron aspectos de cultura y
  procesos para la gestión del ciclo de vida del desarrollo de software.
@@ -2140,7 +2140,7 @@ noprefix "false"
 
 \end_inset
 
- que propone tres fases, cada una se analiza con una estrategia top-down
+ qué propone tres fases, cada una se analiza con una estrategia top-down
  desde la dimensión hacia la capacidad, puntualizando recomendaciones y
  estrategias para abordar el nivel que complementan el plan de acción descrito
  para cada capacidad(para mayor detalle consultar el Anexo 
@@ -2277,7 +2277,8 @@ Gestión LEAN
 \series default
 , redefinir y adoptar mecanismos que permitan reducir los cuellos de botella
  en la gestión y aprobación de procesos, depurando procesos que no generen
- valor y solo produzca retrasos en la cadena de valor de la entrega de software.
+ valor y sólo produzcan retrasos en la cadena de valor de la entrega de
+ software.
 \begin_inset Newline newline
 \end_inset
 
@@ -2373,7 +2374,7 @@ s, el objetivo es llegar a la toma de decisiones compartidas, integrar al
  trabajo colaborativo en equipos multifuncionales como calidad y seguridad
  de software.
  Este trabajo debe acompañarse con el fortalecimiento de habilidades blandas
- como liderazgo de los lideres de áreas y empoderar a todos los colaboradores
+ como liderazgo de los líderes de áreas y empoderar a todos los colaboradores
  a potenciar sus habilidades técnicas y de trabajo en equipo.
 \begin_inset Newline newline
 \end_inset
@@ -2387,7 +2388,7 @@ s, el objetivo es llegar a la toma de decisiones compartidas, integrar al
 \series bold
 Entrega continua
 \series default
-,fortalecimiento técnico y preventivo de los aspectos de seguridad desde
+, fortalecimiento técnico y preventivo de los aspectos de seguridad desde
  el inicio del ciclo de vida del desarrollo para que sea una actividad altamente
  relevante antes, durante y en especial después de la entrega de un producto
  de software hacia los clientes finales.
@@ -2476,8 +2477,8 @@ Cultura
  de la organización u área de implementación, aquí se busca que los equipos
  tengan iniciativas e inicien su transformación a equipos autogestionados.
  Los primeros pasos de este hito se logran a través del liderazgo de los
- directivos de la organización, donde fomenten la creación de equipos multidisci
-plinarios con propósitos de aprendizaje y trabajo colaborativo.
+ directivos de la organización, donde se promueve la creación de equipos
+ multidisciplinarios con propósitos de aprendizaje y trabajo colaborativo.
 \begin_inset Newline newline
 \end_inset
 
@@ -2512,7 +2513,7 @@ Gestión Lean y monitorización
 Producto y proceso
 \series default
 , abordar con un enfoque de gestión de trabajo ágil donde las tareas se
- distribuyan en lotes pequeños y puedan entregarse en periodos de tiempo
+ distribuyen en lotes pequeños y puedan entregarse en periodos de tiempo
  cortos.
  A nivel de frecuencia de despliegues este nivel el término corto se debe
  ir acotando progresivamente para llegar a niveles de industria altos en
@@ -3268,7 +3269,7 @@ item[2]
 
 \end_inset
 
-Ajustar y potenciar las capacidades clasificadas como aceptable 
+Ajustar y potenciar las capacidades clasificadas como aceptables 
 \end_layout
 
 \begin_layout Standard

@@ -123,7 +123,7 @@ literal "false"
 
 \end_inset
 
- define cuatro asctividades fundamentales que son comunes a todos los procesos
+ define cuatro actividades fundamentales que son comunes a todos los procesos
  de desarrollo de software.
 \end_layout
 
@@ -256,7 +256,7 @@ literal "false"
 
  define el modelo de cascada como un mecanismo de entrega de proyectos en
  el que las tareas se completan en un orden secuencial para lograr un objetivo
- específico, cada fase solo inicia si la fase anterior esta completa.
+ específico, cada fase solo inicia si la fase anterior está completa.
 \begin_inset Newline newline
 \end_inset
 
@@ -659,9 +659,9 @@ ión entre las personas involucradas en desarrollo de software.
 \end_layout
 
 \begin_layout Standard
-El termino DevOps, es un concepto tecnológico relativamente nuevo que la
+El término DevOps, es un concepto tecnológico relativamente nuevo que la
  industria del software ha adoptado.
- Muchos autores no tienen un conceso definitivo de una definición universal,
+ Muchos autores no tienen un consenso definitivo de una definición universal,
  a continuación, se presenta la versión de diferentes autores referentes
  de la industria:
 \end_layout
@@ -937,7 +937,7 @@ noprefix "false"
 \end_inset
 
  muestra las diferentes fases del ciclo de vida del desarrollo de software
- y como estas están relacionadas con las prácticas DevOps.
+ y cómo estas están relacionadas con las prácticas DevOps.
  Adicionalmente, la gráfica muestra la complementariedad que existe entre
  el desarrollo ágil y DevOps, donde el desarrollo ágil se encarga de las
  etapas iniciales como planeación, desarrollo y pruebas y DevOps se ocupa
@@ -1011,7 +1011,7 @@ https://www.udemy.com/course/devops-en-espanol
 \begin_layout Itemize
 
 \series bold
-Integración Continua (
+Integración Contínua (
 \shape italic
 CI - Continuous Integration
 \shape default
@@ -1036,7 +1036,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-La 
+En la 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Integración-continua"
@@ -1124,7 +1124,7 @@ CI
 \shape default
 , va más allá de simplemente asegurarse de que los cambios superen las diferente
 s fases de pruebas sin causar regresiones, la entrega continua significa
- que estos cambios ya estan listos para ser desplegados de forma manual
+ que estos cambios ya están listos para ser desplegados de forma manual
  o parcialmente automatizada al entorno de producción 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1340,7 +1340,7 @@ DevOps es solo herramientas y automatización
 \noindent
 DevOps es más que un conjunto de herramientas implementadas e interconectadas
  que automatizan las fases del proceso de desarrollo, primero se debe enfocar
- la cultura visto como las personas, luego el proceso y después las herramientas.
+ la cultura visto cómo las personas, luego el proceso y después las herramientas.
  “Puedes instalar la última versión de Jenkins o apuntarte a CircleCI, pero
  si no tienes un conjunto de pruebas sólido, no sirve de nada” 
 \begin_inset CommandInset citation
@@ -1427,7 +1427,7 @@ Devops sólo es relevante para los startups
 
 \begin_layout Standard
 \noindent
-El termino DevOps es un término que no es exclusivo de grandes empresas
+El término DevOps es un término que no es exclusivo de grandes empresas
  tecnológicas, como Netflix, Facebook, LinkedIn o Google, o de organizaciones
  a la vanguardia en innovación, los principios de la cultura DevOps son
  abiertos y cualquier compañía los puede adoptar, algunas sin saberlo ya
@@ -1978,7 +1978,7 @@ literal "false"
  Los autores indican que se basaron en un sondeo a partir de la experiencia
  de expertos para determinar cómo mejorar la calidad de software a partir
  de la práctica de DevOps.
- Esta medición fue experesada por los autores a partir de análisis de regresión
+ Esta medición fue expresada por los autores a partir de análisis de regresión
  múltiple generando una ecuación para la medición cualitativa entre y la
  calidad de software, a partir de los siguientes pilares: Cultura, Automatizació
 n, Medición, Compartir.
@@ -2056,7 +2056,7 @@ Maestros en Agilidad
  también están más propensos a utilizar prácticas del enfoque Agile en otras
  funciones de la empresa, por lo que el aumento del 60% en los ingresos
  y ganancias y la probabilidad de expandir sus negocios es 2,4 veces mayor
- - con una tasa de aumento por encima del 20% -, no es sólo una coincidencia.
+ con una tasa de aumento por encima del 20% , no es sólo una coincidencia.
 \end_layout
 
 \begin_layout Standard
@@ -2151,7 +2151,7 @@ Este modelo de madurez tiene similitudes con el modelo propuesto ya que
  de clasificación.
  El modelo difiere en la escala de calificación ya que el autor propone
  una escala entre 1 y 10 vs la escala de calificación de 1 a 5 propuesto
- en este documento, además de un sistema de priorización de activades.
+ en este documento, además de un sistema de priorización de actividades.
 \end_layout
 
 \begin_layout Subsection
@@ -2193,7 +2193,7 @@ noprefix "false"
 
 \end_inset
 
- que describe la realación entre los diferentes componentes).
+ que describe la relación entre los diferentes componentes).
 \end_layout
 
 \begin_layout Standard
@@ -2375,8 +2375,9 @@ Apoyar el liderazgo transformacional
 \end_layout
 
 \begin_layout Standard
-Estos conceptos se profundizarán en siguiente capitulo donde se describe
- el modelo de evaluación propuesto que se fundamentó en estos conceptos.
+Los conceptos listados se profundizarán en mayor detalle en el siguiente
+ capítulo donde se describe el modelo de evaluación propuesto que se fundamentó
+ en estos conceptos.
 \end_layout
 
 \begin_layout Standard
@@ -2509,7 +2510,7 @@ Automatización:
 \end_layout
 
 \begin_layout Standard
-En este sentido, DevOps propone la aplicación de herramientas que automaticen
+En este sentido, DevOps propone la aplicación de herramientas que automatizan
  gran parte de los procesos existentes a lo largo del ciclo de vida como:
 \end_layout
 
@@ -2921,7 +2922,7 @@ Dora Assessment
 \begin_layout Standard
 El proyecto DevOps Research and Assessment (DORA) presenta un modelo de
  evaluación corto que se enfoca en cubrir cinco preguntas con opciones de
- respuesta cerrados en torno a como la organización aborda las cuatro métricas
+ respuesta cerrados en torno a cómo la organización aborda las cuatro métricas
  de rendimiento 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3094,7 +3095,7 @@ ad es apoyar la operación de la organización a través de la prestación y
  soporte de servicios tecnológicos en cada una de las sedes regionales.
  El área tiene alcance y cobertura global concentrando la mayor parte de
  su recurso humano en la oficina principal (antiguo Bioversity) y en la
- sede de las américas (antiguo CIAT).
+ sede de las Américas (antiguo CIAT).
  
 \begin_inset Newline newline
 \end_inset
@@ -3357,7 +3358,7 @@ name "fig:Pipeline-de-despliegue-implementado"
 \end_layout
 
 \begin_layout Section
-Resumen del capitulo 
+Resumen del capítulo 
 \end_layout
 
 \begin_layout Standard

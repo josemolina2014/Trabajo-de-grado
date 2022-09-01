@@ -151,7 +151,7 @@ n también se hace de forma manual, incrementando los tiempos de entrega
 
 \begin_layout Standard
 Desde inicios del 2020 el área de desarrollo y soporte administrativo se
- restructuró en una nueva área llamada integración de sistemas.
+ reestructuró en una nueva área llamada integración de sistemas.
  Esta área tiene el propósito de mejorar, agilizar y potenciar las tareas
  del ciclo de vida del desarrollo de software.
  De esta forma se llegó al primer acercamiento teórico al término DevOps
@@ -292,7 +292,7 @@ Artefacto para diagnosticar el nivel de madurez de las prácticas actuales
 \end_layout
 
 \begin_layout Itemize
-Un artefacto que permita evaluar el estado de las practicas DevOps en una
+Un artefacto que permita evaluar el estado de las prácticas DevOps en una
  organización con la capacidad de relacionar las opciones de respuesta de
  cada pregunta a un plan de acción.
  

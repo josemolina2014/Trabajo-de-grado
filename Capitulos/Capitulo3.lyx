@@ -385,12 +385,12 @@ Con el fin de brindar una alternativa de respuesta cuando el encuestado
 \end_layout
 
 \begin_layout Standard
-En las siguientes secciones se describirá cada uno de los elementos que
- compone el 
+En las siguientes secciones se describirán cada uno de los elementos que
+ componen el 
 \shape italic
 modelo de capacidades
 \shape default
- propuesto dimensiones, capacidades, preguntas, opciones de respuesta y
+ propuesto: dimensiones, capacidades, preguntas, opciones de respuesta y
  planes de acción.
 \end_layout
 
@@ -672,7 +672,7 @@ Respuesta
 \begin_layout Standard
 Las opciones de respuesta para cada pregunta del modelo fueron diseñadas
  en una escala de 1 a 5 usando una estrategia de valores extremos, donde
- 1 indica la ausencia o no uso de la practica DevOps y 5 el uso avanzado
+ 1 indica la ausencia o no uso de la práctica DevOps y 5 el uso avanzado
  y extendido de la capacidad abordada, después se definió la opción 3 como
  un valor intermedio equivalente a los extremos, por último, para los puntos
  2 y 4 se usó la estrategia de analizar cada opción como estado de transición
@@ -872,7 +872,7 @@ Novato
 
 \begin_layout Plain Layout
 Se cuenta con conocimientos fundamentales en procesos técnicos y de gestión
- de procesos parcialmente automatizados, pero no integrados entre si
+ de procesos parcialmente automatizados, pero no integrados entre sí
 \end_layout
 
 \end_inset
@@ -1083,10 +1083,10 @@ Recolección de datos:
 
  Esta fase inicia con la definición del medio de captura de datos del cuestionar
 io, por ejemplo, Forms de Office 365 o Google Forms.
- El principal requisito para la herramienta es que permita crear preguntas
- cerradas, elegir una única respuesta por pregunta y que al final del proceso
- poder exportar las respuestas capturadas en una hoja electrónica como un
- documento Excel.
+ El principal requisito para la herramienta de captura de información es
+ que permita crear preguntas cerradas, elegir una única respuesta por pregunta
+ y que al final del proceso poder exportar las respuestas capturadas en
+ una hoja electrónica como un documento Excel.
 \end_layout
 
 \begin_layout Description
@@ -1215,7 +1215,7 @@ status collapsed
 
 \series bold
 \emph on
-Titulo
+Título
 \end_layout
 
 \end_inset
@@ -1508,8 +1508,8 @@ noprefix "false"
 \begin_layout Standard
 La elección de Power BI como herramienta de visualización de los resultados
  permitió el uso de gráficos dinámicos, botones y eventos que permite la
- creación de sub reportes para ver mayor detalle de grupos de información
- particulares.
+ creación de sub reportes con el propósito de generar niveles de detalle
+ para visualizar bloques de información particulares complementarios.
 \end_layout
 
 \begin_layout Standard
@@ -1870,12 +1870,9 @@ El informe de resultados se basó en una estrategia de buenas prácticas para
 \end_layout
 
 \begin_layout Standard
-En el siguiente capítulo se describirá cómo se aplicaron las diferentes
- fases del 
-\shape italic
-modelo de capacidades
-\shape default
- propuesto en un caso estudio particular para la compañía CIAT.
+El siguiente capítulo describirá cómo se aplicaron las diferentes fases
+ del modelo de capacidades propuesto en un caso de estudio particular para
+ la compañía CIAT.
 \end_layout
 
 \end_body
