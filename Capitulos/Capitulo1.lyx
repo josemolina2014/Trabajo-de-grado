@@ -151,7 +151,7 @@ n también se hace de forma manual, incrementando los tiempos de entrega
 
 \begin_layout Standard
 Desde inicios del 2020 el área de desarrollo y soporte administrativo se
- reestructuró en una nueva área llamada integración de sistemas.
+ reestructuraron en una nueva área llamada integración de sistemas.
  Esta área tiene el propósito de mejorar, agilizar y potenciar las tareas
  del ciclo de vida del desarrollo de software.
  De esta forma se llegó al primer acercamiento teórico al término DevOps
@@ -186,10 +186,11 @@ Adoptar la filosofía DevOps implica una transformación a nivel de procesos,
  Sin embargo, el CIAT no es experto en estas temáticas ni tiene las capacidades
  técnicas y culturales para ejecutar un cambio de este tipo, por lo tanto,
  este trabajo permitirá evaluar el estado de los procesos de desarrollo
- de software las áreas frente a las recomendaciones DevOps y brindará los
- criterios y orden de priorización de los elementos requeridos para la adopción
- de la filosofía acorde al estado de madurez de los procesos de la compañía.
- El propósito es que las áreas de integración de sistemas y redes y seguridad
+ de software las áreas de desarrollo y operaciones frente a las recomendaciones
+ DevOps y brindará los criterios y orden de priorización de los elementos
+ requeridos para la adopción de la filosofía acorde al estado de madurez
+ de los procesos de la compañía.
+ El propósito es que las áreas de Integración de Sistemas y Redes y Seguridad
  del CIAT tengan los elementos necesarios para iniciar un proceso de adopción
  progresivo de un piloto DevOps definido y estructurado acorde a los resultados
  de la evaluación de la organización en el marco de evaluación DevOps propuesto
@@ -202,11 +203,13 @@ Problema
 
 \begin_layout Standard
 A partir de identificar las prácticas de desarrollo software que implementan
- las áreas de integración de sistemas y redes en la sede para las Américas
+ las áreas de Integración de Sistemas y Redes en la sede para las Américas
  del CIAT durante el ciclo de vida de las aplicaciones y evaluándolas frente
- a un modelo de capacidades acorde al contexto y objetivos organizaciones
- que brinda DevOps para iniciar una transformación digital en la compañía,
- la principal pregunta contestar con este trabajo es:
+ a un modelo que permita identificar el estado actual de dichas prácticas
+ frente a las recomenciones que brinda DevOps para iniciar un proceso de
+ transformación digital en la compañía , la principal pregunta contestar
+ con este trabajo es: de capacidades acorde al contexto y objetivos organizacion
+es que brinda DevOps
 \end_layout
 
 \begin_layout Standard
