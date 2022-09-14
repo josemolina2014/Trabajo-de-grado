@@ -770,7 +770,7 @@ noprefix "false"
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1029,7 +1029,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1130,26 +1130,21 @@ modelo de capacidades
 \begin_inset Preview
 
 \begin_layout Standard
-Cálculo de la moda: 
+Cómputo de la respuesta: 
 \end_layout
 
 \end_inset
 
- Para determinar la respuesta más elegida por los encuestados se utilizó
- la moda como medida de tendencia central pues la moda no se ve afectada
- por valores extremos.
- Para el caso de una única respuesta, la moda representa la opción elegida
- por el encuestado.
+ Teniendo en cuenta que cada opción de respuesta está expresada en una escala
+ de 1 a 5, se utilizó la estrategia de tomar la mínima opción de respuesta
+ para determinar la opción de respuesta que va a presentar cada una de las
+ preguntas del modelo.
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-Con el cálculo de la moda se obtuvo la nota que representa cada pregunta
- del 
-\shape italic
-modelo de capacidades
-\shape default
-.
+Con esta estrategia se buscó analizar cada capacidad desde el punto de vista
+ de que, si no se usa, no se considera práctica empresarial.
 \end_layout
 
 \end_deeper
