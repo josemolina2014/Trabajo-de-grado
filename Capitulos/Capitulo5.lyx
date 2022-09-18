@@ -121,7 +121,7 @@ gía fundamental propia de prácticas de desarrollo de software que buscan
  El modelo presentado permitió evaluar las capacidades DevOps de CIAT y
  de cualquier organización por medio de un cuestionario que abarcó dimensiones
  culturales, técnicas, de gestión de procesos que impulsan mejoras en el
- rendimiento de la entrega de software..
+ rendimiento de la entrega de software.
  
 \begin_inset Newline newline
 \end_inset
@@ -178,7 +178,7 @@ Los tres primeros niveles de madurez se categorizan como oportunidades de
  el cuarto nivel de madurez se categoriza como Aceptable donde ya existe
  una solidez que se debe seguir potenciando, por último el quinto nivel
  se categoriza como Fortalezas, aquí el nivel de solidez y madurez es elevado,
- se debe tratar a través de una filosofía de aprendizaje continuo..
+ se debe tratar a través de una filosofía de aprendizaje continuo.
 \begin_inset Newline newline
 \end_inset
 
@@ -187,10 +187,11 @@ Los tres primeros niveles de madurez se categorizan como oportunidades de
 
 \begin_layout Standard
 Para el caso de estudio CIAT, al promediar todas las capacidades evaluadas
- se obtuvo una nota general de 3.0, posicionándolo dentro de la categoría
- Aceptable, lo que quiere decir que a nivel general la compañía tiene un
- nivel de desarrollo básico de las capacidades DevOps que se debe potenciar.
- 
+ se obtuvo una nota general de 1.96, posicionándolo dentro de la categoría
+ Oportunidad de Mejora, lo que quiere decir que a nivel general la compañía
+ tiene un nivel de desarrollo principiante, con poco conocimiento y experiencia
+ de las prácticas organizaciones y recomendaciones que ofrece DevOps, la
+ cuales se deben potenciar.
 \begin_inset Newline newline
 \end_inset
 
@@ -200,10 +201,7 @@ Para el caso de estudio CIAT, al promediar todas las capacidades evaluadas
 \begin_layout Standard
 Al momento de iniciar la adopción DevOps en la organización, se deben priorizar
  las dimensiones Entrega Continua, Arquitectura y Cultura, ya que más del
- 40% de sus capacidades están clasificadas como Oportunidad de Mejora.
- Entrega Continua con el 50% (4 de 8) de sus capacidades, Arquitectura con
- el 50% (1 de 2) de sus capacidades y Cultura con el 40% (2 de 5) del total
- de sus capacidades.
+ 80% de sus capacidades están clasificadas como Oportunidad de Mejora.
 \begin_inset Newline newline
 \end_inset
 
@@ -211,11 +209,25 @@ Al momento de iniciar la adopción DevOps en la organización, se deben prioriza
 \end_layout
 
 \begin_layout Standard
-CIAT como organización tiene 9 de las 24 que constituye el 37.5% de las capacidad
-es evaluadas con necesidad de atención prioritaria, 6 capacidades que equivale
- al 25% requieren atención media para potenciar su nivel de madurez y 9
- capacidades que representa el 37.5% capacidades fuertes que necesitan pulirse
- bajo una filosofía de mejora continua de procesos.
+CIAT como organización tiene el 75% de las capacidades evaluadas con necesidad
+ de atención prioritaria, lo que indica que el proceso de adopción se debe
+ enforcar en fortalecer las bases teóricas y técnicas de todos los eslabones
+ del equipo de trabajo que intervienen en el ciclo de vida de entrega de
+ productos de software.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las organizaciones deben ser asertivas al momento de definir el personal
+ que va a participar en la medición.
+ Este grupo idóneo de personas debe conocer y participar activamente en
+ los procesos de desarrollo y entrega de productos de software para poder
+ reflejar con mayor exactitud la realidad de las prácticas empresariales
+ de la organización.
 \begin_inset Newline newline
 \end_inset
 
@@ -393,6 +405,19 @@ Se propone, crear un espacio de trabajo compartido para que la comunidad
  universitaria pueda utilizar el modelo propuesto en un marco de trabajo
  colaborativo donde puedan proponer mejoras a los componentes y estos siempre
  estén disponibles para su uso.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una opción que se puede analizar es ajustar el modelo de evaluación propuesto
+ para que al momento de la consolidación de los resultados la selección
+ de la opción respuesta que representará cada pregunta no sea calculada
+ con una medida estadística, sino que sea el resultado de una decisión consensua
+da de parte los miembros del equipo de trabajo de la organización que participan
+ en la evaluación.
 \end_layout
 
 \end_body
