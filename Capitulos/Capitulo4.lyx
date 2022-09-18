@@ -465,9 +465,9 @@ noprefix "false"
 \end_inset
 
  muestra la nota general de la medición del caso práctico con un valor de
- 3.0 en una escala de 1 a 5.
+ 1.96 en una escala de 1 a 5.
  Esa cifra se obtuvo promediando la nota de cada pregunta del cuestionario
- de medición y representa un alcance del 60% de los conceptos básicos DevOps
+ de medición y representa un alcance del 39.2% de los conceptos básicos DevOps
  para la organización.
 \begin_inset Newline newline
 \end_inset
@@ -1015,21 +1015,34 @@ noprefix "false"
 
 \end_inset
 
- detalla las 9 capacidades y su dimensión asociada clasificadas en esta
- categoría a las que a continuación se le realizó un análisis Top-down de
- las dimensiones y capacidades presentes en esta escala de categorización.
+ detalla las capacidades evaluadas con su dimensión asociada que fueron
+ clasificadas en esta categoría.
+ Un aspecto importante para resaltar con estos resultados obtenidos es que
+ ¾ partes de todas las capacidades evaluadas en el modelo están aquí clasificada
+s, lo que genera una alerta del nivel actual de las prácticas técnicas y
+ de gestión de procesos de la organización.
+ 
+\end_layout
+
+\begin_layout Standard
+A este grupo se le realizó un análisis de mayor a menor respecto al porcentaje
+ de capacidades clasificadas como Oportunidad de Mejora, el propósito es
+ analizar cada una de las dimensiones y capacidades presentes en esta escala
+ de categorización acorde al porcentaje de incidencia en esta categoría
+ y así tener elementos de base proponer estrategias para su mejora y priorizació
+n.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="2">
+<lyxtabular version="3" rows="19" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="60col%">
@@ -1111,6 +1124,26 @@ Entrega continua
 \begin_inset Text
 
 \begin_layout Plain Layout
+Utilizar métodos de desarrollo “Trunk-Based”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Implementar pruebas automáticas
 \end_layout
 
@@ -1142,6 +1175,47 @@ Implementar gestión de los datos de prueba
 \begin_inset Text
 
 \begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Incorporar los aspectos de seguridad en las fases de diseño y pruebas (shift
+ left de la seguridad)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrega continua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar entrega continua de software
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Arquitectura
 \end_layout
 
@@ -1152,6 +1226,26 @@ Arquitectura
 
 \begin_layout Plain Layout
 Utilizar arquitecturas de bajo acoplamiento
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arquitectura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permitir a los equipos definir sus propias arquitecturas
 \end_layout
 
 \end_inset
@@ -1182,6 +1276,46 @@ Recolectar e implementar las recomendaciones (feedback) de los clientes
 \begin_inset Text
 
 \begin_layout Plain Layout
+Producto y Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hacer visible el flujo de trabajo durante todo el ciclo 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Producto y Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fomentar y habilitar al equipo para realizar experimentos 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Gestión Lean y Monitorización
 \end_layout
 
@@ -1192,6 +1326,67 @@ Gestión Lean y Monitorización
 
 \begin_layout Plain Layout
 Tener un proceso liviano para la aprobación de cambios
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visualizar el trabajo para monitorizar la calidad y comunicarlo al equipo
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementar una cultura tipo generativa 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Animar y apoyar al equipo a aprender 
 \end_layout
 
 \end_inset
@@ -1270,60 +1465,76 @@ name "tab:Resultado-Oportunidades de mejora"
 \end_layout
 
 \begin_layout Itemize
-La entrega continua es la dimensión que presenta mayor debilidad, a nivel
- de la categoría de 4 de las 9 (44.4%) capacidades clasificadas como oportunidad
- pertenece a la dimensión entrega continua.
- Desde el punto de vista de la dimensión el 50% (4 de las 8) de las capacidades
- que componen esta entrega continua están en esta categoría y su calificación
- promedio la sitúa como debilidad, ubicándola  como la dimensión a priorizar
- al momento de iniciar la adopción de prácticas DevOps en la organización.
- 
+La entrega continua es la dimensión que presenta mayor debilidad, 38.89%
+ (7 de las 18) capacidades clasificadas como oportunidad de mejora pertenece
+ a la dimensión entrega continua.
+ Desde el punto de vista de toda la dimensión el 87.5% (7 de las 8) de sus
+ capacidades están clasificadas en esta categoría; su calificación promedio
+ la sitúa como debilidad critica, ubicándola como una de las dimensiones
+ de alta priorización al momento de iniciar la adopción de prácticas DevOps
+ en la organización.
+ En este punto se destaca la evidente debilidad en aspectos de acción inmediata
+ como la Integración de procesos, Gestión de procesos y Pruebas, para que
+ sean la base para abordar las demás prácticas de entrega continúa clasificadas
+ en esta categoría.
 \end_layout
 
 \begin_layout Itemize
 La cultura es la segunda dimensión con mayor número de capacidades clasificadas
- en esta categoría 2 que representa el 22% de las capacidades clasificadas
- en esta categoría.
- Desde el punto de vista dimensional el 40% de sus capacidades se clasificaron
- en oportunidades de mejora y el promedio general de toda la dimensión la
- clasifica como Aceptable.
+ en esta categoría con el 22% de las capacidades clasificadas en esta categoría
+ (4 capacidades).
+ Desde el punto de vista general de la dimensión, el 40% de sus capacidades
+ se clasificaron como oportunidades de mejora con un promedio general de
+ 2.0.
+ Se destacan aspectos a priorizar como: potenciar la colaboración entre
+ los miembros del trabajo en equipo y generar empoderamiento progresivo
+ frente a la organización a través de espacios de aprendizaje en ámbitos
+ técnicos y de trabajo en equipo.
+\end_layout
+
+\begin_layout Itemize
+Producto y procesos con el 16.67% compuesto por 3 capacidades clasificadas
+ en esta categoría, a nivel dimensional general refleja que el 75% (3 de
+ 4) de sus capacidades están clasificadas dentro de esta categoría y su
+ promedio general se clasifica en la categoría oportunidad de mejora,en
+ este nivel la priorización está enmarcada en iniciar la adopción de los
+ mecanismos necesarios para recolectar eficientemente las retroalimentaciones
+ de los usuarios finales (clientes) en todo el ciclo de vida del desarrollo
+ del producto de software y de elementos que permitan visibilizar el flujo
+ de actividades para todos los miembros del equipo de trabajo.
  
 \end_layout
 
 \begin_layout Itemize
-En un triple empate con el 11% de las capacidades clasificadas como oportunidad
+En un doble empate con el 11.11% de las capacidades clasificadas como oportunidad
  de mejora se posicionan las dimensiones: 
 \end_layout
 
 \begin_layout Itemize
-Arquitectura con 1 capacidad clasificada, y que desde el punto de vista
- dimensional representa el 50% de sus capacidades clasificadas como oportunidade
-s de mejora, su nota promedio la clasifica como Aceptable, se resalta la
- adopción incremental de arquitecturas físicas como lógicas de bajo acoplamiento
- que permitan gestionar ambientes de software a dinámicamente.
- 
+Arquitectura con 2 capacidades, desde el punto de vista general de toda
+ la dimensión representa el 100% de sus capacidades clasificadas como oportunida
+des de mejora.
+ Este caso particular genera un elemento de consideración de alta prioridad
+ porque toda la dimensión tiene la calificación más baja, con un promedio
+ general de 1.5 en la escala de evaluación.
+ Se debe iniciar con la adopción incremental desde las bases para iniciar
+ a justar la infraestructura actual desde los conceptos y alcances para
+ arquitecturas físicas como lógicas de bajo acoplamiento en donde los equipos
+ tengan la posibilidad de definir y aportar ideas en que arquitectura es
+ adecuada para proyecto.
 \end_layout
 
 \begin_layout Itemize
-Gestión LEAN con 1 capacidad clasificada en esta categoría, a nivel de dimensión
- la presentación es del 20% de sus capacidades clasificadas como oportunidad
- de mejora y una nota promedio Aceptable.
+Gestión LEAN con 2 capacidades clasificada en esta categoría, a nivel de
+ dimensión la representación es del 40% de todas sus capacidades clasificadas
+ como oportunidad de mejora y una nota promedio de 2.4 (la más alta de toda
+ la medición).
  En este nivel, la prioridad es redefinir y adoptar mecanismos que permitan
  reducir los cuellos de botella en la gestión y aprobación de procesos,
- depurando procesos que no generen valor y sólo produzcan retrasos en la
- cadena de valor de la entrega de software.
- 
-\end_layout
-
-\begin_layout Itemize
-Producto y procesos con 1 capacidad clasificada en esta categoría, a nivel
- dimensional refleja que el 25% de sus capacidades están clasificadas dentro
- de esta categoría y su promedio general se clasifica en la categoría aceptable,
- en este nivel la priorización está enmarcada en adoptar los mecanismos
- necesarios para recolectar eficientemente las retroalimentaciones de los
- usuarios finales (clientes) en todo el ciclo de vida del desarrollo del
- producto de software.
- 
+ depurando lo que no genere valor y produzcan retrasos en la cadena de valor
+ en la entrega de software; por otro lado, implementar las herramientas
+ necesarias para que esta información esté siempre disponible y sea de fácil
+ acceso a todos los miembros del equipo de trabajo.
 \end_layout
 
 \begin_layout Standard
@@ -1341,6 +1552,10 @@ Gestión de cambios y metodología de desarrollo
 
 \begin_layout Itemize
 Silos y falta de comunicación entre las áreas 
+\end_layout
+
+\begin_layout Itemize
+Arquitectura de bajo acoplamiento
 \end_layout
 
 \begin_layout Standard
@@ -1361,310 +1576,24 @@ noprefix "false"
 
 \end_inset
 
- presenta el grupo de 6 capacidades clasificadas como Aceptables, estos
- representan los elementos clasificados como intermedio, donde se cuenta
- con procesos estandarizados que apoyan la toma de decisiones compartidas,
- procesos centrales automatizados y parcialmente integrados a lo largo del
- ciclo de vida del desarrollo de software.
+ presenta el grupo de 5 capacidades clasificadas como Aceptables (20.83%
+ de todas las capacidades evaluadas), representan los elementos clasificados
+ como intermedio, donde se cuenta con procesos encaminados a apoyar la toma
+ de decisiones compartidas y mecanismos para controlar la carga de trabajo
+ hacia los miembros del equipo de trabajo, a nivel técnico se destaca el
+ uso intermedio de sistemas de control de versiones.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="60col%">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\emph on
-Dimensión
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\emph on
-Capacidad
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Entrega continua
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Incorporar los aspectos de seguridad en las fases de diseño y pruebas (shift
- left de la seguridad)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Producto y Procesos
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Hacer visible el flujo de trabajo durante todo el ciclo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Producto y Procesos
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fomentar y habilitar al equipo para realizar experimentos
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Gestión Lean y Monitorización
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Monitorizar las aplicaciones y la infraestructura para tomar decisiones
- de negocio
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Gestión Lean y Monitorización
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Visualizar el trabajo para monitorizar la calidad y comunicarlo al equipo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cultura
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Apoyar el liderazgo transformacional
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Resultado escala de clasificación Aceptable
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Resultado-Aceptable"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Con un doble empate con el 33% de las capacidades categorizadas como aceptables
- están las dimensiones:
-\end_layout
-
-\begin_layout Itemize
-Producto y proceso, con 2 capacidades clasificadas como aceptables, desde
- el punto de vista de la dimensión representa 2 de las 4 (50%) capacidades
- de toda la dimensión clasificadas en esta categoría.
- En este nivel se busca pulir y potenciar los procesos clave como visibilizar
- el flujo de valor del trabajo realizado durante el ciclo de vida del desarrollo
- de software mejorando la transparencia y la comunicación entre todos los
- miembros del equipo de trabajo.
- 
-\end_layout
-
-\begin_layout Itemize
-Gestión LEAN y monitorización, tuvo 2 de sus capacidades clasificadas en
- esta categoría; desde el punto de vista de la dimensión estas 2 dimensiones
- representan el 40 % de todas las capacidades (5) de esta dimensión.
- Para esta dimensión se debe potenciar todos los aspectos de monitoreo tanto
- de infraestructura como de operación.
- 
-\end_layout
-
-\begin_layout Standard
-Con un doble empate en el 16% de las capacidades se encuentran las dimensiones:
-\end_layout
-
-\begin_layout Itemize
-Cultura, con 1 capacidad aquí clasificada y desde el punto de vista de la
- dimensión representa el 20% del total de sus capacidades clasificadas en
- la categoría aceptable.
- En este nivel se busca fortalecer el trabajo en equipo especialmente entre
- desarrollo, operaciones buscando la toma de decisiones compartidas y el
- trabajo colaborativo en equipos multifuncionales que incluyan calidad y
- seguridad de software.
- 
-\end_layout
-
-\begin_layout Itemize
-Entrega continua, 1 de sus capacidades se clasificó en esta categoría, desde
- el punto de vista de la dimensión esta capacidad representa el 12.5% del
- total de las capacidades de la dimensión.
- Se destaca el fortalecimiento técnico y preventivo de los aspectos de seguridad
- desde el inicio del ciclo de vida del desarrollo.
- 
-\end_layout
-
-\begin_layout Standard
-En resumen, los aspectos más importantes clasificados como aceptables que
- se deben priorizar son:
-\end_layout
-
-\begin_layout Itemize
-Metodologías de trabajo 
-\end_layout
-
-\begin_layout Itemize
-Gestión de proyectos y visibilizar el trabajo 
-\end_layout
-
-\begin_layout Itemize
-Motivación del equipo de trabajo 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\emph on
-Fortalezas
-\end_layout
-
-\begin_layout Standard
-La 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Resultado-Fortalezas"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- presenta las 9 capacidades clasificadas como Fortalezas, estas presentan
- los niveles de calificación destacado y avanzado.
- A este nivel se usan procesos estandarizados y avanzados que apoyan la
- toma de decisiones compartidas, los procesos de automatización y pruebas
- ya están integrados a lo largo del ciclo de vida del desarrollo de software.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="2">
+<lyxtabular version="3" rows="6" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="60col%">
@@ -1719,74 +1648,6 @@ Utilizar control de versiones para todos los artefactos de producción
 \begin_inset Text
 
 \begin_layout Plain Layout
-Entrega continua
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Utilizar métodos de desarrollo 
-\begin_inset Quotes eld
-\end_inset
-
-Trunk-Based
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Entrega continua
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Implementar entrega continua de software
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Arquitectura
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Permitir a los equipos definir sus propias arquitecturas
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 Producto y Procesos
 \end_layout
 
@@ -1796,7 +1657,7 @@ Producto y Procesos
 \begin_inset Text
 
 \begin_layout Plain Layout
-Trabajar con lotes o cantidades pequeñas
+Trabajar con lotes o cantidades pequeñas 
 \end_layout
 
 \end_inset
@@ -1816,7 +1677,8 @@ Gestión Lean y Monitorización
 \begin_inset Text
 
 \begin_layout Plain Layout
-Monitorizar la salud de los servicios y aplicaciones proactivamente
+Monitorizar las aplicaciones y la infraestructura para tomar decisiones
+ de negocio
 \end_layout
 
 \end_inset
@@ -1837,26 +1699,7 @@ Gestión Lean y Monitorización
 
 \begin_layout Plain Layout
 Administrar y establecer límites para el trabajo en progreso (Work-In-Progress)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cultura
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Implementar una cultura tipo generativa
+ 
 \end_layout
 
 \end_inset
@@ -1876,7 +1719,203 @@ Cultura
 \begin_inset Text
 
 \begin_layout Plain Layout
-Animar y apoyar al equipo a aprender
+Apoyar el liderazgo transformacional
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resultado escala de clasificación Aceptable
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Resultado-Aceptable"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Gestión LEAN y Monitorización, con el 40% tuvo 2 de sus capacidades clasificadas
+ en esta categoría; desde el punto de vista general de toda la dimensión,
+ representan el 40% de todas las capacidades de esta dimensión.
+ En este nivel de escala, se parte de prácticas base en operación que se
+ deben abordar en un enfoque de mejora continua para seguir escalando en
+ los niveles de madurez, en este punto se resalta el monitoreo tanto de
+ la infraestructura como de operación de las aplicaciones con el fin de
+ llevarlo a niveles de monitoreo predictivos, por otro lado, potenciar los
+ mecanismos para controlar la carga de trabajo y evitar la sobrecarga excesiva
+ tanto físico como mental del equipo de trabajo.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con un tripe empate con el 20% de las capacidades categorizadas como aceptables
+ están las dimensiones:
+\end_layout
+
+\begin_layout Itemize
+Producto y proceso, con 1 capacidad clasificada como aceptable, desde el
+ punto de vista general de la dimensión representa 1 de las 4 capacidades
+ (25%) de toda la dimensión clasificadas en esta categoría.
+ En este nivel se busca pulir y potenciar la gestión de trabajo de forma
+ ágil, de tal forma que se puedan distribuir las actividades en lotes pequeños
+ para que puedan entregarse en periodos de tiempo cortos acorde con el nivel
+ de experiencia y experticia de los miembros del equipo de trabajo.
+ El primer paso de evolución es que las entregas de productos de valor se
+ de en periodos de tiempos menores a 3 meses y progresivamente con la mejora
+ constante de procesos y adopción de prácticas agiles, esta unidad de tiempo
+ se debe ir reduciendo a entregas aún más cortas como semanas e inclusive
+ días.
+\end_layout
+
+\begin_layout Itemize
+Cultura, con 1 capacidad aquí clasificada y desde el punto de vista de general
+ de la dimensión representa el 20% del total de sus capacidades clasificadas
+ en esta categoría.
+ En este nivel se busca fortalecer el trabajo en equipo, actividad que debe
+ ir de la mano con lideres que potencien la comunicación abierta y constante
+ para que desarrollo, operaciones mejoren la toma de decisiones compartidas
+ e incrementen el trabajo colaborativo buscando evolucionar el trabajo a
+ equipos multifuncionales que abarquen todo el proceso de entrega de software
+ resaltando aspectos como la calidad y la seguridad de software.
+\end_layout
+
+\begin_layout Itemize
+Entrega continua, 1 de sus capacidades se clasificó en esta categoría, desde
+ el punto de vista de la dimensión esta capacidad representa el 12.5% del
+ total de las capacidades de la dimensión.
+ Se destaca el uso de sistemas de control de versiones para los artefactos
+ en producción se debe potenciar el uso de herramientas de control versiones
+ en ambientes web para facilitar la integración con los demás procesos de
+ desarrollo.
+\end_layout
+
+\begin_layout Standard
+En resumen, los aspectos más importantes clasificados como aceptables que
+ se deben priorizar son:
+\end_layout
+
+\begin_layout Itemize
+Cultura de trabajo orientada al rendimiento (Generativa)
+\end_layout
+
+\begin_layout Itemize
+Metodologías de trabajo ágiles.
+\end_layout
+
+\begin_layout Itemize
+Gestión de proyectos y herramientas para visibilizar el trabajo.
+\end_layout
+
+\begin_layout Itemize
+Liderazgo y motivación del equipo de trabajo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Fortalezas
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Resultado-Fortalezas"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presenta capacidades clasificadas como Fortalezas, estas presentan los
+ niveles de calificación destacado y avanzado.
+ A este nivel se usan procesos estandarizados y avanzados que apoyan la
+ toma de decisiones compartidas, los procesos de automatización y pruebas
+ ya están integrados a lo largo del ciclo de vida del desarrollo de software.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Dimensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Capacidad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestión Lean y Monitorización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monitorizar la salud de los servicios y aplicaciones proactivamente
 \end_layout
 
 \end_inset
@@ -1918,84 +1957,24 @@ name "tab:Resultado-Fortalezas"
 \end_layout
 
 \begin_layout Itemize
-La entrega continua con 3 de las 9 las capacidades clasificadas en esta
- categoría de fortalezas, se posiciona como la dimensión con más representativa
- en esta categoría, a nivel de la dimensión estas 3 capacidades representan
- el 37% de todas las capacidades asociadas a la dimensión.
- Se destaca el uso avanzado de sistemas de control de versiones.
-\end_layout
-
-\begin_layout Standard
-Con un doble empate en el 22.2% de las capacidades clasificadas como fortalezas
- se encuentran las dimensiones
-\end_layout
-
-\begin_layout Itemize
-Cultura con 2 capacidades aquí clasificadas y que nivel de toda la dimensión
- representa el 40% de todas sus capacidades clasificadas como Fortalezas.
- En este nivel el enfoque se debe dar en términos de la gestión de los equipos
- y la toma de decisiones de la organización u área de implementación.
- 
-\end_layout
-
-\begin_layout Itemize
-Gestión Lean y monitorización con 2 capacidades clasificadas en esta categoría,
- a nivel de toda la dimensión representa el 40% de todas sus capacidades
- clasificadas como Fortalezas.
+Gestión Lean y monitorización con la única capacidad que alcanzó este nivel
+ de clasificación, a nivel de toda la dimensión representa el 20% (1 de
+ 5) de todas sus capacidades aquí clasificadas.
  Esta dimensión se debe enfocar en potenciar y alcanzar niveles de predicción
  proactiva de la salud de los componentes de la aplicación tanto a nivel
  físico y lógico, el objetivo es anticipar fallos por alta demanda o picos
  de trabajo y procesamiento.
- 
 \end_layout
 
 \begin_layout Standard
-Con un doble empate al 11.1% de las capacidades clasificadas en esta categoría
- que encuentran las capacidades:
+En resumen, el único aspecto que se debe potenciar y no descuidar es poder
+ tener los mecanismos necesarios para por anticipar situaciones de alta
+ demanda de las aplicaciones y la infraestructura en función a cambios drásticos
+ en recursos del servidor.
 \end_layout
 
 \begin_layout Itemize
-Producto y proceso con 1 capacidad clasificada en esta categoría y que desde
- el punto de vista general de la dimensión presenta el 25% de todas sus
- capacidades aquí clasificadas.
- Se debe abordar con un enfoque de gestión de trabajo ágil donde las tareas
- se distribuyen en lotes pequeños, que puedan entregarse en periodos de
- tiempo cortos (horas, minutos e inclusive segundos).
- 
-\end_layout
-
-\begin_layout Itemize
-Arquitectura con 1 capacidad aquí clasificada, que desde el punto de vista
- de la dimensión presenta el 50% de sus capacidades clasificadas en esta
- categoría.
- Esta dimensión se debe abordar con un enfoque y visión de alcanzar niveles
- de madurez, experiencia y empoderamiento de los equipos que permitan dar
- la libertad de que ellos mismos puedan definir la arquitectura (física,
- lógica) que mejor solucione los problemas particulares propios de los proyectos
- de software.
- 
-\end_layout
-
-\begin_layout Standard
-En resumen, los aspectos más importantes clasificados como fortalezas que
- se deben priorizar son:
-\end_layout
-
-\begin_layout Itemize
-Cultura de trabajo orientada al rendimiento (Generativa) 
-\end_layout
-
-\begin_layout Itemize
-Despliegue continuo 
-\end_layout
-
-\begin_layout Itemize
-Gestión de lotes y tamaño de trabajo 
-\end_layout
-
-\begin_layout Itemize
-Liderazgo y potenciar las capacidades técnicas y culturales de los miembros
- del equipo 
+Monitoreo preventivo y proactivo 
 \end_layout
 
 \begin_layout Subsection
@@ -2017,12 +1996,13 @@ Por último, se da respuesta a las preguntas planteadas al inicio de la medició
 
 \begin_deeper
 \begin_layout Standard
-A nivel general CIAT obtuvo un resultado general Aceptable con una nota
- promedio de 3.0, lo que indica que la empresa no debe iniciar el camino
- de transformación DevOps desde cero.
+A nivel general CIAT obtuvo un resultado general de Oportunidad de Mejora
+ con una nota promedio de 1.96, lo que indica que la empresa debe iniciar
+ el camino de transformación DevOps a partir de definir unas bases técnicas
+ y teóricas sólidas.
  La mayor parte de sus prácticas técnicas y gestión de procesos están entre
- niveles novato e intermedio, lo que conlleva a que la compañía deba categorizar
- qué capacidades se deben abordar con mayor prioridad.
+ niveles sin experiencia y novato, lo que conlleva a que la compañía deba
+ categorizar qué capacidades se deben abordar con mayor prioridad.
 \end_layout
 
 \begin_layout Standard
@@ -2035,15 +2015,18 @@ Gestión:
 
 \begin_deeper
 \begin_layout Itemize
-Adoptar metodologías de trabajo ágiles 
+Adoptar metodologías de trabajo ágiles.
+ 
 \end_layout
 
 \begin_layout Itemize
-Formar equipos multidisciplinarios para los proyectos 
+Formar equipos multidisciplinarios para los proyectos.
+ 
 \end_layout
 
 \begin_layout Itemize
-Definir políticas de calidad 
+Definir políticas de calidad.
+ 
 \end_layout
 
 \end_deeper
@@ -2053,11 +2036,13 @@ Técnico:
 
 \begin_deeper
 \begin_layout Itemize
-Integración de herramientas 
+Integración de herramientas.
+ 
 \end_layout
 
 \begin_layout Itemize
-Automatización de procesos 
+Automatización de procesos.
+ 
 \end_layout
 
 \end_deeper
@@ -2081,10 +2066,10 @@ La organización debe potenciar sus procesos en términos de depurar pasos
 \begin_layout Standard
 Este es uno de los aspectos que la organización debe poner mucha atención
  ya que la gran mayoría de sus productos están desarrollados en tecnologías
- y herramientas de más de 5 años.
+ y herramientas de más de 10 años de antigüedad.
  La recomendación es iniciar la adopción hacia nuevos desarrollos y proyectos
  recientes de máximo 3 años de vida con el fin de ganar experiencia en los
- procesos técnicos particulares.
+ procesos técnicos particulares y luego tratar las aplicaciones legadas.
 \end_layout
 
 \begin_layout Standard
@@ -2211,15 +2196,14 @@ noprefix "false"
 \series bold
 Entrega continua
 \series default
-, es la dimensión que presenta mayor debilidad, esta se debe abordar en
- enfocarse en factores clave como:
+, es la dimensión que presenta una debilidad muy alta, se debe abordar enfocándo
+se en los siguientes factores clave:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 \noindent
 Definir y adoptar una política de calidad de software.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -2236,6 +2220,22 @@ Adoptar e implementar mecanismos técnicos que permitan la integración de
 \begin_layout Itemize
 Adoptar procesos de automatización de despliegue permiten alcanzar una mejora
  en el nivel.
+ • Estrategias que optimicen el uso de ramas o líneas de tiempo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Entrega y despliegue de lotes de cambios pequeños.
+\end_layout
+
+\begin_layout Itemize
+Por último, reevaluar y potenciar todos los procesos denominados automáticos
+ que intervengan durante el proceso de llevar un cambio desde el desarrollador
+ al cliente final asegurando aspectos de calidad, seguridad y confiabilidad.
+ • Fortalecimiento técnico y preventivo de los aspectos de seguridad desde
+ el inicio del ciclo de vida del desarrollo para que sea una actividad altamente
+ relevante antes, durante y en especial después de la entrega de un producto
+ de software hacia los clientes finales.
  
 \end_layout
 
@@ -2248,27 +2248,64 @@ Cultura
 \series default
 , potenciar el trabajo colaborativo entre los integrantes del equipo de
  trabajo (equipos multidisciplinarios que cubren representantes de desarrollador
-es, infraestructura, calidad, seguridad, entre otros)
-\begin_inset Newline newline
-\end_inset
-
-
+es, infraestructura, calidad, seguridad, entre otros) el objetivo es llegar
+ a::
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+\noindent
+La toma de decisiones compartidas.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Integrar al trabajo colaborativo en equipos multifuncionales como calidad
+ y seguridad de software.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Propiciar espacios de aprendizaje en por de fortalecer la motivación del
+ equipo.
+ 
+\end_layout
+
+\begin_layout Standard
+Este trabajo debe acompañarse con el fortalecimiento de habilidades blandas
+ como liderazgo de parte de los líderes de áreas para empoderar a todos
+ los colaboradores a potenciar sus habilidades técnicas y de trabajo en
+ equipo.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 \noindent
 
 \series bold
 Arquitectura
 \series default
-, adopción incremental de arquitecturas físicas como lógicas de bajo acoplamient
-o permitan gestionar ambientes de software a dinámicamente.
-\begin_inset Newline newline
-\end_inset
-
-
+, Es la dimensión con menor calificación promedio por lo tanto se debe abordar
+ con un enfoque y visión desde niveles fundamentales para iniciar la adopción
+ incremental de
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Arquitecturas físicas como lógicas de bajo acoplamiento permitan gestionar
+ ambientes de software a dinámicamente.
+\end_layout
+
+\begin_layout Itemize
+Empoderar a los equipos en términos de dar libertad de que ellos mismos
+ puedan proponer y definir con fundamentos la arquitectura (física, lógica)
+ que mejor solucione los problemas particulares propios que afronte cada
+ proyecto de software.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 \noindent
 
@@ -2291,15 +2328,28 @@ Gestión LEAN
 \series bold
 Producto y procesos
 \series default
-, adoptar los mecanismos necesarios para recolectar eficientemente las retroalim
-entaciones de los usuarios finales (clientes) en todo el ciclo de vida del
- desarrollo del producto de software.
-\begin_inset Newline newline
-\end_inset
-
-
+, Se recomienda abordar esta dimensión basado en los siguientes aspectos:
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Adoptar los mecanismos necesarios para recolectar eficientemente las retroalimen
+taciones de los usuarios finales (clientes) en todo el ciclo de vida del
+ desarrollo del producto de software.
+\end_layout
+
+\begin_layout Itemize
+Pulir y potenciar los procesos clave como visibilizar el flujo de valor
+ del trabajo realizado durante el ciclo de vida del desarrollo de software
+ mejorando la transparencia y la comunicación entre todos los miembros del
+ equipo de trabajo, otro punto importante en esta categoría es propiciar
+ y apoyar la investigación y la cultura de aprendizaje para que los equipos
+ realicen experimentos de nuevos componentes tecnológicos con el fin de
+ ampliar el portafolio de herramientas y procesos para resolver futuros
+ retos tecnológicos.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \noindent
@@ -2330,27 +2380,7 @@ n la segunda fase del plan de adopción de recomendaciones y plan de acción.
 \noindent
 
 \series bold
-Producto y proceso
-\series default
-, pulir y potenciar los procesos clave como visibilizar el flujo de valor
- del trabajo realizado durante el ciclo de vida del desarrollo de software
- mejorando la transparencia y la comunicación entre todos los miembros del
- equipo de trabajo, otro punto importante en esta categoría es propiciar
- y apoyar la investigación y la cultura de aprendizaje para que los equipos
- realicen experimentos de nuevos componentes tecnológicos con el fin de
- ampliar el portafolio de herramientas y procesos para resolver futuros
- retos tecnológicos.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-
-\series bold
-Gestión LEAN y monitorización
+Gestión Lean y monitorización
 \series default
 , potenciar todos los aspectos de monitoreo tanto de infraestructura como
  de operación con el fin de prever y anticiparse a situaciones adversas
@@ -2369,13 +2399,12 @@ Gestión LEAN y monitorización
 \series bold
 Cultura
 \series default
-, fortalecer el trabajo colaborativo, inicialmente entre desarrollo y operacione
-s, el objetivo es llegar a la toma de decisiones compartidas, integrar al
- trabajo colaborativo en equipos multifuncionales como calidad y seguridad
- de software.
- Este trabajo debe acompañarse con el fortalecimiento de habilidades blandas
- como liderazgo de los líderes de áreas y empoderar a todos los colaboradores
- a potenciar sus habilidades técnicas y de trabajo en equipo.
+, enfocarse en términos de la gestión de los equipos y la toma de decisiones
+ de la organización u área de implementación, aquí se busca que los equipos
+ tengan iniciativas e inicien su transformación a equipos autogestionados.
+ Los primeros pasos de este hito se logran a través del liderazgo de los
+ directivos de la organización, donde se promueve la creación de equipos
+ multidisciplinarios con propósitos de aprendizaje y trabajo colaborativo.
 \begin_inset Newline newline
 \end_inset
 
@@ -2386,12 +2415,31 @@ s, el objetivo es llegar a la toma de decisiones compartidas, integrar al
 \noindent
 
 \series bold
-Entrega continua
+Producto y proceso
 \series default
-, fortalecimiento técnico y preventivo de los aspectos de seguridad desde
- el inicio del ciclo de vida del desarrollo para que sea una actividad altamente
- relevante antes, durante y en especial después de la entrega de un producto
- de software hacia los clientes finales.
+, abordar con un enfoque de gestión de trabajo ágil donde las tareas se
+ distribuyen en lotes pequeños y puedan entregarse en periodos de tiempo
+ cortos.
+ En el objetivo principal para la primera etapa es entregar productos de
+ valor en semanas y no en meses, en niveles superiores de madurez ir reduciendo
+ la unidad de medida a días y unidades de tiempo menores.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\series bold
+La entrega continua
+\series default
+, fortalecimiento técnico y preventivo en el manejo de sistemas de control
+ de versiones que faciliten la integración con otros procesos del ciclo
+ de vida del desarrollo de software, fundamental para que sea el punto de
+ inicio de la ejecución de los diferentes pipelines que implemente la organizaci
+ón.
 \begin_inset Newline newline
 \end_inset
 
@@ -2430,65 +2478,6 @@ noprefix "false"
 \noindent
 
 \series bold
-La entrega continua
-\series default
-, en este punto se analiza el grado de madurez para determinar los ajustes
- puntuales de cada capacidad en un enfoque de mejor constante, factores
- como:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\noindent
-Manejo eficiente de sistemas de control de versiones.
- 
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Estrategias que optimicen el uso de ramas o líneas de tiempo.
- 
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Entrega y despliegue de lotes de cambios pequeños.
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Por último, reevaluar y potenciar todos los procesos denominados automáticos
- que intervengan durante el proceso de llevar un cambio desde el desarrollador
- al cliente final asegurando aspectos de calidad, seguridad y confiabilidad.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-\noindent
-
-\series bold
-Cultura
-\series default
-, enfocarse en términos de la gestión de los equipos y la toma de decisiones
- de la organización u área de implementación, aquí se busca que los equipos
- tengan iniciativas e inicien su transformación a equipos autogestionados.
- Los primeros pasos de este hito se logran a través del liderazgo de los
- directivos de la organización, donde se promueve la creación de equipos
- multidisciplinarios con propósitos de aprendizaje y trabajo colaborativo.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-
-\series bold
 Gestión Lean y monitorización
 \series default
 , enfocarse en alcanzar niveles de predicción proactiva de la salud de los
@@ -2500,42 +2489,6 @@ Gestión Lean y monitorización
  de sobrecarga de trabajo que desborden la capacidad del equipo generando,
  retrasos prolongados y el incumplimiento de entregas.
  El punto clave es asegurar que el trabajo esté priorizado y equilibrado.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-
-\series bold
-Producto y proceso
-\series default
-, abordar con un enfoque de gestión de trabajo ágil donde las tareas se
- distribuyen en lotes pequeños y puedan entregarse en periodos de tiempo
- cortos.
- A nivel de frecuencia de despliegues este nivel el término corto se debe
- ir acotando progresivamente para llegar a niveles de industria altos en
- donde se mide en términos de horas e incluso en niveles más avanzados del
- mercado actual habla de entregar y desplegar funcionalidades en minutos
- e inclusive segundos.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-
-\series bold
-Arquitectura
-\series default
-, abordar con un enfoque y visión de alcanzar niveles de madurez, experiencia
- y empoderamiento de los equipos que permitan dar la libertad de que ellos
- mismos puedan definir la arquitectura (física, lógica) que mejor solucione
- los problemas particulares propios de los proyectos de software.
 \begin_inset Newline newline
 \end_inset
 
@@ -2932,8 +2885,9 @@ Al evaluar los resultados de la medición con las métricas de la frecuencia
  el abanico de oportunidades para mejorar los procesos de entrega de productos
  de software.
  La adopción de las recomendaciones DevOps en el manejo de procesos a nivel
- técnico, gestión de procesos y cultura, le traería la oportunidad de ser
- eficiente y oportuno para brindar soluciones a los usuarios finales.
+ técnico, gestión de procesos y cultura, le traería la oportunidad de mejorar
+ muchísimo la eficiencia y oportunidad para brindar soluciones a los usuarios
+ finales.
 \end_layout
 
 \begin_layout Standard
@@ -2944,7 +2898,7 @@ La adopción progresiva de prácticas DevOps en las fases propuestas ayudarán
  Abordar prácticas de agilidad, apoyado de un trabajo cultural donde se
  propicie el trabajo colaborativo son los factores claves para alcanzar
  el éxito en la adopción DevOps, esto no se trata de solo implementar herramient
-as y automatizarlas
+as y automatizarlas.
 \end_layout
 
 \begin_layout Standard
@@ -3150,15 +3104,22 @@ Oportunidades de mejora
 
 \begin_deeper
 \begin_layout Itemize
-Procesos de integración y automatización 
+Procesos de integración y automatización.
+ 
 \end_layout
 
 \begin_layout Itemize
-Gestión de cambios y metodología de desarrollo 
+Gestión de cambios y metodología de desarrollo.
+ 
 \end_layout
 
 \begin_layout Itemize
-Silos y falta de comunicación entre las áreas 
+Silos y falta de comunicación entre las áreas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Arquitectura de bajo acoplamiento.
 \end_layout
 
 \end_deeper
@@ -3170,15 +3131,17 @@ Aceptables
 
 \begin_deeper
 \begin_layout Itemize
-Metodologías de trabajo 
+Cultura de trabajo orientada al rendimiento (Generativa).
+ 
 \end_layout
 
 \begin_layout Itemize
-Gestión de proyectos y visibilizar el trabajo 
+Gestión de proyectos y herramientas para visibilizar el trabajo.
 \end_layout
 
 \begin_layout Itemize
-Motivación del equipo de trabajo 
+Liderazgo y motivación del equipo de trabajo Metodologías de trabajo.
+ 
 \end_layout
 
 \end_deeper
@@ -3192,23 +3155,7 @@ Fortalezas
 
 \begin_deeper
 \begin_layout Itemize
-Cultura de trabajo orientada al rendimiento (Generativa) 
-\end_layout
-
-\begin_layout Itemize
-Despliegue continuo 
-\end_layout
-
-\begin_layout Itemize
-Gestión de lotes y tamaño de trabajo 
-\end_layout
-
-\begin_layout Itemize
-Liderazgo 
-\end_layout
-
-\begin_layout Itemize
-Potenciar las capacidades técnicas y culturales de los miembros del equipo
+Monitoreo preventivo y proactivo.
 \end_layout
 
 \end_deeper
