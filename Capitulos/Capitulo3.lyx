@@ -1143,8 +1143,27 @@ Cómputo de la respuesta:
 
 \begin_deeper
 \begin_layout Standard
-Con esta estrategia se buscó analizar cada capacidad desde el punto de vista
- de que, si no se usa, no se considera práctica empresarial.
+Se usó la estrategia de valor mínimo con el propósito de identificar alertas
+ tempranas en las prácticas organizacionales que se están evaluando desde
+ el punto de vista de la relevancia de su uso y adopción para el encuestado.
+ 
+\end_layout
+
+\begin_layout Standard
+Por otro lado, esta estrategia permite obtener un panorama general de los
+ eslabones más débiles de la organización, lo que permite identificar los
+ elementos y las herramientas necesarias para la toma de decisiones para
+ iniciar la adopción DevOps fundamentada en la mejora de las practicas organizac
+iones partiendo de la premisa de fortalecer las bases.
+ 
+\end_layout
+
+\begin_layout Standard
+Esta estrategia genera una especial atención a la hora de definir el grupo
+ representativo idóneo para presentar el cuestionario de evaluación y así
+ conseguir que el modelo pueda capturar la realidad más aproximada del estado
+ de las practicas organizacionales.
+ 
 \end_layout
 
 \end_deeper
