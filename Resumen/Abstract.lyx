@@ -136,12 +136,17 @@ Este documento busca evaluar la conveniencia de adoptar un conjunto de buenas
 
 \begin_layout Standard
 Uno de los aspectos a destacar es la propuesta de un artefacto para la evaluació
-n DevOps en una organización, que a través de un modelo de preguntas indirectas
- pensadas para personas que no estén familiarizadas con la terminología
- DevOps, permite evaluar el estado de los procesos de la compañía y desde
- un punto de vista multidimensional determinar el estado de madurez de un
- grupo de capacidades particulares con el beneficio añadido de relacionar
- un plan de acción a partir de cada practica evaluada.
+n DevOps en una organización que a través de preguntas indirectas pensadas
+ para el segmento de personas que participan en el ciclo de vida de desarrollo
+ de software y no estén familiarizadas con la terminología DevOps, puedan
+ evaluar el estado de las prácticas de desarrollo de software corporativas
+ desde un punto de vista multidimensional.
+ El modelo propuesto evalúa dimensiones como la cultura, la gestión de procesos,
+ la gestión LEAN, la arquitectura y la entrega continua, con estos elementos
+ se pudo determinar el estado de madurez de un grupo de prácticas que apalancan
+ mejores rendimientos en la entrega de productos de software de calidad.
+ El modelo propuesto se diseñó con el beneficio de relacionar un plan de
+ acción a partir de cada opción de respuesta de los aspectos evaluados.
  
 \end_layout
 

@@ -744,10 +744,9 @@ DevOps es un conjunto de prácticas de desarrollo de software que combina
 \begin_layout Standard
 DevOps pone énfasis en las responsabilidades compartidas entre todos los
  equipos a lo largo del ciclo de vida del desarrollo de software.
- Los bordes de las funciones de trabajo de trabajo se suavizan, ya que los
- miembros del equipo de operaciones asumen tareas que tradicionalmente estaban
- más centradas en los desarrolladores, y los miembros del equipo de desarrollo
- hacen lo mismo.
+ Los límites del trabajo se suavizan, ya que los miembros del equipo de
+ operaciones asumen tareas que tradicionalmente estaban más centradas en
+ los desarrolladores, y los miembros del equipo de desarrollo hacen lo mismo.
  El término DevOps se asocia más comúnmente con el desarrollo (Dev) y las
  operaciones de TI (Ops), pero el enfoque puede extenderse también a otros
  grupos, incluyendo, entre otros, la seguridad (DevSecOps), el control de
@@ -1925,12 +1924,12 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Los autores realizaron la medición la a través una encuesta que se basa
- en preguntas directas sobre conceptos DevOps lo cual difiere del modelo
- propuesto en este trabajo que se enfoca en preguntas indirectas pensado
- en el público que se está iniciando en el mundo DevOps, además, el modelo
- de encuesta planteado no presenta un plan de acción concreto para cada
- escenario de respuesta de la encuesta.
+Los autores realizaron la medición de prácticas empresariales a través una
+ encuesta que se basa en preguntas directas sobre conceptos DevOps lo cual
+ difiere del modelo propuesto en este trabajo que se enfoca en preguntas
+ indirectas pensado en el público que se está iniciando en el mundo DevOps,
+ además, el modelo de encuesta planteado no presenta un plan de acción concreto
+ para cada escenario de respuesta de la encuesta.
 \end_layout
 
 \begin_layout Standard
@@ -1960,8 +1959,8 @@ literal "false"
  presenta un mapeo sistemático del impacto de DevOps en la calidad del software,
  analizando las implicaciones de las características de DevOps en la calidad
  del software, proporcionando una mejor comprensión de la estrecha relación
- que se puede generar DevOps en la calidad del software, concluyendo que
- DevOps contribuye positivamente en el aseguramiento de la calidad de software.
+ que se genera entre DevOps y la calidad, concluyendo que DevOps contribuye
+ positivamente en el aseguramiento de la calidad de software.
 \end_layout
 
 \begin_layout Standard
@@ -1979,9 +1978,9 @@ literal "false"
  de expertos para determinar cómo mejorar la calidad de software a partir
  de la práctica de DevOps.
  Esta medición fue expresada por los autores a partir de análisis de regresión
- múltiple generando una ecuación para la medición cualitativa entre y la
- calidad de software, a partir de los siguientes pilares: Cultura, Automatizació
-n, Medición, Compartir.
+ múltiple generando una ecuación para la medición cualitativa de la calidad
+ de software a partir de los siguientes pilares: Cultura, Automatización,
+ Medición, Compartir.
 \end_layout
 
 \begin_layout Standard
@@ -2149,9 +2148,11 @@ literal "false"
 Este modelo de madurez tiene similitudes con el modelo propuesto ya que
  comparten la forma de plantear prácticas DevOps y un grupo de categorías
  de clasificación.
- El modelo difiere en la escala de calificación ya que el autor propone
- una escala entre 1 y 10 vs la escala de calificación de 1 a 5 propuesto
- en este documento, además de un sistema de priorización de actividades.
+ Los modelos difieren en la escala de calificación ya que el autor propone
+ una escala de respuestas numéricas entre 1 y 10 vs a diferencia de la escala
+ de calificación propuesto en este documento que va entre 1 y 5, además
+ de que este modelo utiliza un sistema de priorización y peso a las activades
+ evaluadas.
 \end_layout
 
 \begin_layout Subsection
@@ -3177,9 +3178,10 @@ Integración de sistemas, responsable por el funcionamiento y operación de
 Redes de TI, infraestructura y seguridad, encargados de la gestión de la
  infraestructura física de red y operación de los servidores y servicios
  informáticos de la compañía.
- De esta hay 3 personas directamente involucradas con desarrollo de software,
- en tareas como administración de servidores, seguridad de red y servicios
- y la gerencia del área.
+ En esta área solo hay 3 personas directamente involucradas con los procesos
+ del ciclo de vida de desarrollo y entrega de productos de software.
+ Su participación se centra en tareas particulares como administración de
+ servidores, seguridad de red y servicios y la gerencia del área.
  
 \end_layout
 
@@ -3223,10 +3225,10 @@ El CIAT, es una empresa de investigación en agricultura, que centra sus
  y operativa.
  La compañía ha enfocado sus esfuerzos en mantener la operación y desarrollar
  soluciones a medida para sus procesos particulares.
- El término DevOps no ha sido ajeno a la organización y durante los últimos
- 2 años los equipos integración de sistemas y redes han recurrido a consultores
- externos para la implementación pilotos de adopción que no han extendido
- de la forma esperada dentro de la misma área.
+ El término DevOps no ha sido ajeno a la organización, a finales del 2020
+ los equipos integración de sistemas y redes recurrieron a consultores externos
+ para la implementación de un piloto de adopción técnica de DevOps que no
+ se popularizó de la forma esperada dentro de la misma área.
 \end_layout
 
 \begin_layout Standard

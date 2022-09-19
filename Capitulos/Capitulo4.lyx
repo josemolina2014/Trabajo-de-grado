@@ -1496,7 +1496,7 @@ La cultura es la segunda dimensión con mayor número de capacidades clasificada
 Producto y procesos con el 16.67% compuesto por 3 capacidades clasificadas
  en esta categoría, a nivel dimensional general refleja que el 75% (3 de
  4) de sus capacidades están clasificadas dentro de esta categoría y su
- promedio general se clasifica en la categoría oportunidad de mejora,en
+ promedio general se clasifica en la categoría oportunidad de mejora, en
  este nivel la priorización está enmarcada en iniciar la adopción de los
  mecanismos necesarios para recolectar eficientemente las retroalimentaciones
  de los usuarios finales (clientes) en todo el ciclo de vida del desarrollo
@@ -2006,7 +2006,8 @@ A nivel general CIAT obtuvo un resultado general de Oportunidad de Mejora
 \end_layout
 
 \begin_layout Standard
-Los principales aspectos claves a tratar son:
+Los aspectos claves para abordar al momento de iniciar la adopción DevOps
+ en la organización son:
 \end_layout
 
 \begin_layout Itemize
@@ -2249,7 +2250,7 @@ Cultura
 , potenciar el trabajo colaborativo entre los integrantes del equipo de
  trabajo (equipos multidisciplinarios que cubren representantes de desarrollador
 es, infraestructura, calidad, seguridad, entre otros) el objetivo es llegar
- a::
+ a:
 \end_layout
 
 \begin_deeper

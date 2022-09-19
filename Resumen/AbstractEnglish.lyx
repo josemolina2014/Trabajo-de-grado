@@ -135,12 +135,17 @@ ns and that, like any other company, requires agile and timely processes
 
 \begin_layout Standard
 One of the aspects to highlight is the proposal of an artifact for DevOps
- evaluation in an organization, which through a model of indirect questions
- designed for people who are not familiar with DevOps terminology, allows
- to evaluate the state of the company's processes and from a multidimensional
- point of view determine the state of maturity of a group of particular
- capabilities with the added benefit of relating an action plan from each
- evaluated practice.
+ assessment in an organization that through indirect questions designed
+ for the segment of people who participate in the software development life
+ cycle and are unfamiliar with DevOps terminology, can assess the state
+ of corporate software development practices from a multidimensional point
+ of view.
+ The proposed model evaluates dimensions such as culture, process management,
+ LEAN management, architecture and continuous delivery, with these elements
+ it was possible to determine the maturity status of a group of practices
+ that support better performance in the delivery of quality software products.
+ The proposed model was designed with the benefit of relating an action
+ plan from each response option of the evaluated aspects.
  
 \end_layout
 

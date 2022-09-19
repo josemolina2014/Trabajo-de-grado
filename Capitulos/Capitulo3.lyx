@@ -103,7 +103,7 @@ Adoptar una transformación digital en DevOps, es un proceso que no se puede
  Con estos elementos base identificados, la organización tiene criterios
  de decisión y análisis para definir la estrategia de adopción que más le
  convenga a la organización para lograr el objetivo de mejorar el rendimiento
- la entrega de software.
+ en la entrega de productos de software.
 \end_layout
 
 \begin_layout Standard
@@ -686,15 +686,13 @@ Plan de acción
 \begin_layout Standard
 El plan de acción presenta un conjunto de acciones concretas propuestas
  para abordar y mitigar cada una de las opciones de respuesta planteadas
- en el 
-\shape italic
-modelo de capacidades
-\shape default
- diseñado, su construcción se basó en la consolidación de diferentes fuentes
- de información especializadas en la capacidad abordada, con el fin de proponer
- el que se debe hacer por cada opción de respuesta bajo una estrategia de
- resaltar los elementos claves a considerar acorde al nivel de desarrollo
- de la capacidad representado por la escala de las opciones de respuesta.
+ en el modelo de capacidades diseñado, su construcción se basó en la consolidaci
+ón de diferentes fuentes de información especializadas en la capacidad abordada
+ con el fin de proponer recomendaciones necesarias para potenciar y llevar
+ la práctica evaluada al siguiente nivel de madurez apoyándose en la estrategia
+ de resaltar los elementos claves a considerar acorde al nivel de desarrollo
+ de la capacidad representado por la escala de madurez de las opciones de
+ respuesta de cada pregunta.
 \end_layout
 
 \begin_layout Standard
@@ -1478,20 +1476,20 @@ Presentación de resultados
 
 \begin_layout Standard
 Para la presentación de los datos, se creó un reporte gráfico estilo dashboard
- a través del cual se construyeron diferentes gráficas que resume y presenta
- las unidades de análisis obtenidas de los resultados de la encuesta y el
- 
+ en donde se construyeron diferentes gráficos y tablas que presentan resúmenes
+ y consolidación de datos a partir de las unidades de análisis obtenidas
+ de los resultados de la encuesta y del 
 \shape italic
 modelo de capacidades
 \shape default
 .
  El informe de resultados fue diseñado basado en una estrategia de buenas
- prácticas para el diseño de gráficos con el objetivo de presentar la informació
-n que vaya de lo general a lo específico, donde los elementos generales
- como la nota final, las calificaciones por dimensión se ubican en la parte
- superior y los elementos más específicos del modelo como detalle de nota
- por capacidad, agrupación de categorías se ubican en las zonas de mitad
- de página hacia a abajo.
+ prácticas para el diseño de gráficos que permite presentar la información
+ que vaya de lo general a lo específico, donde los elementos generales como
+ la nota final, las calificaciones por dimensión se ubican en la parte superior
+ del reporte y los elementos más específicos del modelo como detalle de
+ nota por capacidad, agrupación de categorías se ubican de la mitad de la
+ página hacia a abajo.
 \end_layout
 
 \begin_layout Standard
@@ -1539,7 +1537,7 @@ noprefix "false"
 
  muestra un ejemplo de algunos gráficos y los colores usados en el dashboard
  para presentar los resultados de la evaluación y la escala de calificación
- del caso práctico que será descrito en el siguiente capítulo
+ del caso práctico que será descrito en el siguiente capítulo.
 \end_layout
 
 \begin_layout Standard
@@ -1776,7 +1774,8 @@ La adopción DevOps en una compañía no se puede llevar a cabo siguiendo una
  hoja de ruta genérica, por el contrario, cada organización debe definir
  su propio proceso acorde a cómo funciona, opera y gestiona el ciclo de
  vida de las aplicaciones, identificando debilidades, cuellos de botella
- y demás elementos afecten la entrega de productos de software.
+ y prácticas corporativas que de alguna manera afecten la entrega de productos
+ de software.
  Para facilitar este tipo de evaluaciones, se diseñó un artefacto de medición
  de capacidades enfocado en el segmento de profesionales TI con nuevos o
  con pocos conocimientos de las prácticas DevOps.
