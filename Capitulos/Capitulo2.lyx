@@ -952,12 +952,12 @@ A continuación, se explican las tres fases principales en DevOps integración
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/OneDrive - Pontificia Universidad Javeriana Cali/Trabajo de Grado/Avances/Formato lyx/imagenes/DevOps en el ciclo de vida del desarrollo de software.png
+	filename ../imagenes/DevOps en el ciclo de vida del desarrollo de software.png
 	scale 60
 
 \end_inset
